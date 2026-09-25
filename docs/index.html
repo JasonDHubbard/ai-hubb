@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Edmonton Businesses for Sale — Jason Hubbard</title>
+<style>
+:root {
+  --bg: #f7f4ef;
+  --surface: #ffffff;
+  --ink: #1c1917;
+  --muted: #78716c;
+  --border: #e7e5e4;
+  --accent: #9a3412;
+  --accent-soft: #ffedd5;
+  --chip: #f5f5f4;
+  --chip-active: #9a3412;
+  --chip-active-text: #fff7ed;
+  --row-hover: #fffbeb;
+  --expand-bg: #fafaf9;
+  --shadow: 0 1px 2px rgba(28,25,23,.06), 0 4px 12px rgba(28,25,23,.04);
+  --radius: 10px;
+  --font: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+*, *::before, *::after { box-sizing: border-box; }
+html { font-size: 15px; }
+body {
+  margin: 0;
+  font-family: var(--font);
+  color: var(--ink);
+  background: var(--bg);
+  line-height: 1.45;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: var(--accent); }
+header.app {
+  background: linear-gradient(135deg, #292524 0%, #44403c 100%);
+  color: #fafaf9;
+  padding: 1.35rem 1.5rem 1.2rem;
+}
+header.app h1 {
+  margin: 0 0 .25rem;
+  font-size: 1.35rem;
+  font-weight: 650;
+  letter-spacing: -0.02em;
+}
+header.app p {
+  margin: 0;
+  color: #a8a29e;
+  font-size: .9rem;
+}
+.wrap { max-width: 1280px; margin: 0 auto; padding: 1rem 1.25rem 2.5rem; }
+
+/* Summary strip */
+.summary {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: .75rem;
+  margin: -0.5rem 0 1.1rem;
+}
+.stat {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: .85rem 1rem;
+  box-shadow: var(--shadow);
+}
+.stat .label { font-size: .72rem; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); font-weight: 600; }
+.stat .value { font-size: 1.25rem; font-weight: 650; margin-top: .15rem; letter-spacing: -0.02em; }
+.stat .hint { font-size: .75rem; color: var(--muted); margin-top: .1rem; }
+
+/* Panels */
+.panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1rem 1.1rem;
+  box-shadow: var(--shadow);
+  margin-bottom: 1rem;
+}
+.panel h2 {
+  margin: 0 0 .75rem;
+  font-size: .8rem;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  color: var(--muted);
+  font-weight: 650;
+}
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+@media (max-width: 800px) {
+  .grid-2 { grid-template-columns: 1fr; }
+}
+
+/* Price bands */
+.bands { display: flex; flex-wrap: wrap; gap: .5rem; }
+.band {
+  flex: 1 1 120px;
+  background: var(--chip);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: .55rem .7rem;
+  cursor: pointer;
+  transition: border-color .15s, background .15s;
+  text-align: left;
+  font: inherit;
+  color: inherit;
+}
+.band:hover { border-color: #d6d3d1; }
+.band.active {
+  background: var(--accent-soft);
+  border-color: #fdba74;
+  color: #7c2d12;
+}
+.band .bn { font-size: .78rem; color: var(--muted); font-weight: 600; }
+.band.active .bn { color: #9a3412; }
+.band .bc { font-size: 1.1rem; font-weight: 650; }
+.band .bar {
+  height: 4px;
+  background: #e7e5e4;
+  border-radius: 2px;
+  margin-top: .4rem;
+  overflow: hidden;
+}
+.band .bar > i {
+  display: block;
+  height: 100%;
+  background: #c2410c;
+  border-radius: 2px;
+}
+.band.active .bar > i { background: #9a3412; }
+
+/* Categories */
+.cats { display: flex; flex-wrap: wrap; gap: .4rem; }
+.cat-chip {
+  border: 1px solid var(--border);
+  background: var(--chip);
+  border-radius: 999px;
+  padding: .28rem .7rem;
+  font-size: .8rem;
+  cursor: pointer;
+  font: inherit;
+  color: inherit;
+}
+.cat-chip:hover { border-color: #d6d3d1; }
+.cat-chip.active {
+  background: var(--accent);
+  color: var(--chip-active-text);
+  border-color: var(--accent);
+}
+.cat-chip .n { opacity: .7; margin-left: .2rem; font-variant-numeric: tabular-nums; }
+
+/* Filters */
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .6rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.filters input[type="search"],
+.filters select {
+  font: inherit;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: .5rem .7rem;
+  background: var(--surface);
+  color: var(--ink);
+  min-height: 38px;
+}
+.filters input[type="search"] { flex: 1 1 220px; min-width: 180px; }
+.filters select { min-width: 160px; }
+.toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  font-size: .88rem;
+  color: var(--ink);
+  user-select: none;
+  cursor: pointer;
+  padding: .35rem .55rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+}
+.toggle input { accent-color: var(--accent); }
+.results-meta {
+  font-size: .82rem;
+  color: var(--muted);
+  margin-left: auto;
+}
+
+/* Table */
+.table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+  -webkit-overflow-scrolling: touch;
+}
+table.listings {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 980px;
+  font-size: .88rem;
+}
+table.listings th,
+table.listings td {
+  padding: .55rem .65rem;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.listings th {
+  position: sticky;
+  top: 0;
+  background: #fafaf9;
+  font-size: .72rem;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  color: var(--muted);
+  font-weight: 650;
+  white-space: nowrap;
+  z-index: 1;
+}
+table.listings th.sortable {
+  cursor: pointer;
+  user-select: none;
+}
+table.listings th.sortable:hover { color: var(--ink); }
+table.listings th .arrow { opacity: .35; margin-left: .15rem; font-size: .65rem; }
+table.listings th.sorted .arrow { opacity: 1; color: var(--accent); }
+table.listings tbody tr.main-row { cursor: pointer; }
+table.listings tbody tr.main-row:hover { background: var(--row-hover); }
+table.listings tbody tr.main-row.open { background: #fff7ed; }
+table.listings tbody tr.detail-row td {
+  background: var(--expand-bg);
+  padding: 0;
+  border-bottom: 1px solid #d6d3d1;
+}
+table.listings .name { font-weight: 600; max-width: 260px; }
+table.listings .muted { color: var(--muted); }
+table.listings .num { font-variant-numeric: tabular-nums; white-space: nowrap; }
+table.listings .status {
+  display: inline-block;
+  padding: .12rem .45rem;
+  border-radius: 999px;
+  background: #ecfdf5;
+  color: #065f46;
+  font-size: .75rem;
+  font-weight: 600;
+}
+table.listings a.link {
+  font-size: .8rem;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+table.listings a.link:hover { border-bottom-color: currentColor; }
+.detail {
+  padding: 1rem 1.15rem 1.15rem;
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 1rem 1.5rem;
+}
+@media (max-width: 700px) {
+  .detail { grid-template-columns: 1fr; }
+}
+.detail h3 {
+  margin: 0 0 .4rem;
+  font-size: .75rem;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  color: var(--muted);
+  font-weight: 650;
+}
+.detail .block { margin-bottom: .65rem; }
+.detail .block:last-child { margin-bottom: 0; }
+.detail p { margin: 0; white-space: pre-wrap; }
+.detail .kv {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  gap: .25rem .6rem;
+  font-size: .85rem;
+}
+.detail .kv dt { color: var(--muted); }
+.detail .kv dd { margin: 0; }
+.detail ul.urls { margin: 0; padding-left: 1.1rem; }
+.detail ul.urls li { margin: .2rem 0; word-break: break-all; }
+.empty {
+  text-align: center;
+  padding: 2rem;
+  color: var(--muted);
+}
+
+footer.foot {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+  font-size: .78rem;
+  color: var(--muted);
+  line-height: 1.5;
+}
+footer.foot code { font-family: var(--mono); font-size: .85em; }
+
+.stat.clickable {
+  cursor: pointer;
+  transition: border-color .15s, box-shadow .15s, transform .1s;
+}
+.stat.clickable:hover {
+  border-color: #fdba74;
+  box-shadow: 0 0 0 2px var(--accent-soft);
+}
+.stat.clickable:focus-visible {
+  outline: 2px solid #c2410c;
+  outline-offset: 2px;
+}
+.stat.clickable .hint-link {
+  color: #9a3412;
+  font-weight: 600;
+}
+#view-cashflow { display: none; }
+body.view-cashflow #view-main { display: none; }
+body.view-cashflow #view-cashflow { display: block; }
+.page-head {
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: .75rem 1.25rem;
+  margin: 0 0 1rem;
+}
+.page-head h2 { margin: 0; font-size: 1.35rem; letter-spacing: -0.02em; }
+.page-head .back {
+  font-size: .9rem; color: #9a3412; text-decoration: none; font-weight: 600;
+}
+.page-head .back:hover { text-decoration: underline; }
+.page-head .meta { color: var(--muted); font-size: .9rem; }
+.cf-cards { display: grid; gap: .75rem; }
+.cf-card {
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 1rem 1.1rem; box-shadow: var(--shadow);
+}
+.cf-card h3 { margin: 0 0 .35rem; font-size: 1.05rem; }
+.cf-card .row {
+  display: flex; flex-wrap: wrap; gap: .5rem 1.25rem; font-size: .9rem; margin: .35rem 0;
+}
+.cf-card .row strong { font-weight: 650; }
+.cf-card .muted { color: var(--muted); }
+.cf-card a.ext { color: #9a3412; font-weight: 600; text-decoration: none; }
+.cf-card a.ext:hover { text-decoration: underline; }
+
+</style>
+</head>
+<body>
+<header class="app">
+  <div class="wrap" style="padding-bottom:0;padding-top:0;">
+    <h1>Edmonton businesses for sale</h1>
+    <p>Jason Hubbard · asking under $301k CAD · Listed only</p>
+  </div>
+</header>
+
+<div class="wrap">
+  
+<div id="view-main">
+<div class="summary" id="summary"></div>
+
+  <div class="grid-2">
+    <div class="panel">
+      <h2>Price bands (asking CAD)</h2>
+      <div class="bands" id="bands"></div>
+    </div>
+    <div class="panel">
+      <h2>Categories</h2>
+      <div class="cats" id="cats"></div>
+    </div>
+  </div>
+
+  <div class="filters">
+    <input type="search" id="q" placeholder="Search name, summary, location, category…" autocomplete="off">
+    <select id="catFilter" aria-label="Category filter">
+      <option value="">All categories</option>
+    </select>
+    <select id="bandFilter" aria-label="Price band filter">
+      <option value="">All price bands</option>
+      <option value="under50">Under $50k</option>
+      <option value="50_100">$50–100k</option>
+      <option value="100_200">$100–200k</option>
+      <option value="200_301">$200–301k</option>
+    </select>
+    <label class="toggle"><input type="checkbox" id="hasFin"> Has financials</label>
+    <span class="results-meta" id="resultsMeta"></span>
+  </div>
+
+  <div class="table-wrap">
+    <table class="listings" id="table">
+      <thead>
+        <tr>
+          <th class="sortable" data-sort="name">Name <span class="arrow"></span></th>
+          <th class="sortable" data-sort="category">Category <span class="arrow"></span></th>
+          <th class="sortable sorted" data-sort="ask" data-dir="asc">Ask (CAD) <span class="arrow">▲</span></th>
+          <th>Cash flow / SDE</th>
+          <th>Revenue</th>
+          <th>Location</th>
+          <th>Status</th>
+          <th>Selling reason</th>
+          <th class="sortable" data-sort="updated">Updated <span class="arrow"></span></th>
+          <th>Link</th>
+        </tr>
+      </thead>
+      <tbody id="tbody"></tbody>
+    </table>
+  </div>
+
+  </div><!-- /view-main -->
+
+
+<div id="view-cashflow">
+  <div class="page-head">
+    <a class="back" href="#/" id="backHome">← All listings</a>
+    <h2>Businesses with cash flow / SDE</h2>
+    <span class="meta" id="cfMeta"></span>
+  </div>
+  <div class="cf-cards" id="cfList"></div>
+</div>
+
+<footer class="foot">
+    Data from <code>business-listings.json</code>.
+    Generated <span id="genAt"></span>.
+    Refresh by asking Business List Dashboarder to rebuild.
+  </footer>
+</div>
+
+<script>
+const LISTINGS = [{"businessName":"Established toy & trinket vending machine business","category":"Vending / route business","summary":"Turnkey route of 25 toy and trinket vending machines in existing high-traffic charity-sponsored locations; owner retiring. No location fees or commissions; approximately 70¢ profit per $1 sale.","createdDate":"2026-09-21","updatedDate":"2026-09-21","listingStatus":"Listed","listingUrls":["https://www.kijiji.ca/v-other-business-industrial/edmonton/established-vending-machine-business-for-sale/1741879859"],"listingDomainUrls":["https://www.kijiji.ca"],"askingCAD":18500,"grossRevenueCAD":null,"cashFlowSdeCAD":null,"established":null,"location":"Edmonton, AB T5K 2L9","brokerAgentInfo":"Tomas; owner; phone shown in listing","otherLocationComments":null,"employees":null,"squareFootageSqFt":null,"leaseMonthlyCAD":null,"leaseNotes":null,"inventoryIncluded":null,"inventoryValueCAD":null,"equipmentFixturesIncluded":"25 toy and trinket vending machines; company warranty included","equipmentFixturesValueCAD":null,"isFranchise":null,"franchiseName":null,"saleType":null,"propertyArrangement":null,"clientOrContractNotes":"Existing high-traffic locations; charity-sponsored locations; no commission or location fees","dataNotes":"Direct Kijiji listing states only a few hours every five weeks to restock/collect; revenue not stated.","sellingReason":null},{"businessName":"Hair salon — Victoria Trail NW","category":"Beauty / hair salon","summary":"Well-established hair salon in a busy retail plaza. Sale includes salon equipment, leasehold improvements, and business assets. Turn-key for an owner-operator or expansion buy.","createdDate":"2026-09-19","updatedDate":"2026-09-19","listingStatus":"Listed","listingUrls":["https://nidhikapoor.maxwellrealty.ca/listing-ereb/45110411-victoria-trail-nw-edmonton-ab-t5y-2b6/"],"listingDomainUrls":["https://nidhikapoor.maxwellrealty.ca"],"askingCAD":30000,"grossRevenueCAD":null,"cashFlowSdeCAD":null,"established":null,"location":"Victoria Trail NW, Edmonton, AB T5Y 2B6","brokerAgentInfo":"Listing office: Initia Property Management. Listing page hosted via MaxWell Polaris (4107 99 St NW, Edmonton, AB T6E 3N4; 780-318-3434; bestrealestateedmonton@gmail.com).","otherLocationComments":"Busy retail plaza on Victoria Trail.","employees":null,"squareFootageSqFt":650,"leaseMonthlyCAD":null,"leaseNotes":"Favourable lease terms noted on listing; details not published.","inventoryIncluded":null,"inventoryValueCAD":null,"equipmentFixturesIncluded":true,"equipmentFixturesValueCAD":null,"isFranchise":false,"franchiseName":null,"saleType":"Business assets / turnkey","propertyArrangement":"Leased","clientOrContractNotes":null,"dataNotes":"MLS® #45110411. Listed approx. 2026-06-21. Financials not disclosed on public page.","sellingReason":null},{"businessName":"Bridal fashion jewelry business with website","category":"Retail / fashion jewelry","summary":"Established fashion and bridal jewelry business with website. Asking $35,000 CAD. Confirm Edmonton location on detail page.","createdDate":"2026-09-20","updatedDate":"2026-09-20","listingStatus":"Listed","listingUrls":["https://canada.businessesforsale.com/canadian/bridal-fashion-jewelry-business-with-website.aspx"],"listingDomainUrls":["https://canada.businessesforsale.com"],"askingCAD":35000,"grossRevenueCAD":null,"cashFlowSdeCAD":null,"established":null,"location":"Edmonton area / Alberta (verify)","brokerAgentInfo":null,"otherLocationComments":"Appeared on Edmonton search results; verify exact location.","employees":null,"squareFootageSqFt":null,"leaseMonthlyCAD":null,"leaseNotes":null,"inventoryIncluded":null,"inventoryValueCAD":null,"equipmentFixturesIncluded":null,"equipmentFixturesValueCAD":null,"isFranchise":false,"franchiseName":null,"saleType":null,"propertyArrangement":null,"clientOrContractNotes":null,"dataNotes":"Imported from site scan 2026-09-20T00:00:00-06:00; source site: BusinessesForSale Canada.","sellingReason":null},{"businessName":"Franchise café — Edmonton (seller financing)","category":"Food / café franchise","summary":"Professionally built franchise café; can stay franchise or convert independent (franchisor approval). Seller financing; management will stay. Asking $37,500.","createdDate":"2026-09-20","updatedDate":"2026-09-20","listingStatus":"Listed","listingUrls":["https://dealstream.com/alberta/edmonton/leisure-and-hospitality-businesses-for-sale"],"listingDomainUrls":["https://dealstream.com"],"askingCAD":37500,"grossRevenueCAD":null,"cashFlowSdeCAD":null,"established":null,"location":"Edmonton, AB","brokerAgentInfo":null,"otherLocationComments":null,"employees":null,"squareFootageSqFt":null,"leaseMonthlyCAD":null,"leaseNotes":null,"inventoryIncluded":null,"inventoryValueCAD":null,"equipmentFixturesIncluded":null,"equipmentFixturesValueCAD":null,"isFranchise":true,"franchiseName":null,"saleType":"Franchise / optional independent conversion","propertyArrangement":null,"clientOrContractNotes":null,"dataNotes":"Imported from site scan 2026-09-20T00:00:00-06:00; source site: DealStream.","sellingReason":null},{"businessName":"Tanning salon — Leduc","category":"Beauty / tanning salon","summary":"Tanning salon in Leduc listed on Kijiji ~$40,000.","createdDate":"2026-09-20","updatedDate":"2026-09-20","listingStatus":"Listed","listingUrls":["https://www.kijiji.ca/v-other-business-industrial/edmonton/tanning-salon-leduc-ab/1741899826"],"listingDomainUrls":["https://www.kijiji.ca"],"askingCAD":40000,"grossRevenueCAD":null,"cashFlowSdeCAD":null,"established":null,"location":"Leduc, AB (Greater Edmonton)","brokerAgentInfo":null,"otherLocationComments":"Leduc (Edmonton metro)","employees":null,"squareFootageSqFt":null,"leaseMonthlyCAD":null,"leaseNotes":null,"inventoryIncluded":null,"inventoryValueCAD":null,"equipmentFixturesIncluded":null,"equipmentFixturesValueCAD":null,"isFranchise":false,"franchiseName":null,"saleType":null,"propertyArrangement":null,"clientOrContractNotes":null,"dataNotes":"Imported from site scan 2026-09-20T00:00:00-06:00; source site: Kijiji.","sellingReason":null},{"businessName":"Food truck — fully functional","category":"Food / food truck","summary":"Fully functional food truck listed on Kijiji ~$49,000.","createdDate":"2026-09-20","updatedDate":"2026-09-20","listingStatus":"Listed","listingUrls":["https://www.kijiji.ca/v-other-business-industrial/edmonton/food-truck-fully-functional/1738954707"],"listingDomainUrls":["https://www.kijiji.ca"],"askingCAD":49000,"grossRevenueCAD":null,"cashFlowSdeCAD":null,"established":null,"location":"Edmonton, AB","brokerAgentInfo":null,"otherLocationComments":null,"employees":null,"squareFootageSqFt":null,"leaseMonthlyCAD":null,"leaseNotes":null,"inventoryIncluded":null,"inventoryValueCAD":null,"equipmentFixturesIncluded":true,"equipmentFixturesValueCAD":null,"isFranchise":false,"franchiseName":null,"saleType":"Asset / vehicle business","propertyArrangement":null,"clientOrContractNotes":null,"dataNotes":"Imported from site scan 2026-09-20T00:00:00-06:00; source site: Kijiji.","sellingReason":null},{"businessName":"Moving & junk removal business — Edmonton","category":"Moving / junk removal","summary":"7-year moving and junk removal brand; contractor model, no owned vehicles/employees; storage unit only. Est. 2019.","createdDate":"2026-09-20","updatedDate":"2026-09-20","listingStatus":"Listed","listingUrls":["https://canada.businessesforsale.com/canadian/very-profitable-lean-moving-business-available-edmonton.aspx"],"listingDomainUrls":["https://canada.businessesforsale.com"],"askingCAD":52500,"grossRevenueCAD":null,"cashFlowSdeCAD":null,"established":2019,"location":"Edmonton, AB (home-based; all of Edmonton)","brokerAgentInfo":null,"otherLocationComments":"Serves all of Edmonton.","employees":0,"squareFootageSqFt":null,"leaseMonthlyCAD":null,"leaseNotes":"Home-based; storage unit for equipment.","inventoryIncluded":null,"inventoryValueCAD":null,"equipmentFixturesIncluded":true,"equipmentFixturesValueCAD":null,"isFranchise":false,"franchiseName":null,"saleType":"Business / asset","propertyArrangement":null,"clientOrContractNotes":null,"dataNotes":"Imported from site scan 2026-09-20T00:00:00-06:00; source site: BusinessesForSale Canada.","sellingReason":null},{"businessName":"Modern salon — west/central Edmonton","category":"Beauty / hair salon","summary":"2,400 sq ft modern salon; fixtures $30k and inventory $20k included. Lease up Oct; landlord open to renew. Team income covers lease/bills.","createdDate":"2026-09-20","updatedDate":"2026-09-20","listingStatus":"Listed","listingUrls":["https://canada.businessesforsale.com/canadian/modern-salon-in-edmonton.aspx"],"listingDomainUrls":["https://canada.businessesforsale.com"],"askingCAD":60000,"grossRevenueCAD":null,"cashFlowSdeCAD":null,"established":null,"location":"West/central Edmonton, AB (busy street, strip mall)","brokerAgentInfo":null,"otherLocationComments":"Busy street in west/central Edmonton, small strip mall.","employees":null,"squareFootageSqFt":2400,"leaseMonthlyCAD":null,"leaseNotes":"Lease up October; landlord aware and happy to renew. Listed rent figure $4,799/annum on page (verify).","inventoryIncluded":true,"inventoryValueCAD":null,"equipmentFixturesIncluded":true,"equipmentFixturesValueCAD":null,"isFranchise":false,"franchiseName":null,"saleType":"Turnkey / assets","propertyArrangement":null,"clientOrContractNotes":null,"dataNotes":"Imported from site scan 2026-09-20T00:00:00-06:00; source site: BusinessesForSale Canada.","sellingReason":"Owner expanding other business ventures"},{"businessName":"Nail salon — Stony Plain Rd supercentre","category":"Beauty / nail salon","summary":"Turnkey nail salon in a high-traffic supercentre. Includes 5 pedicure chairs, 4 manicure tables, waxing room, and supplies. Recently renovated.","createdDate":"2026-09-19","updatedDate":"2026-09-19","listingStatus":"Listed","listingUrls":["https://nidhikapoor.maxwellrealty.ca/listing-ereb/45615553-stony-plain-rd-edmonton-ab-t5s-2x6/"],"listingDomainUrls":["https://nidhikapoor.maxwellrealty.ca"],"askingCAD":68000,"grossRevenueCAD":null,"cashFlowSdeCAD":null,"established":null,"location":"Stony Plain Rd, Edmonton, AB T5S 2X6","brokerAgentInfo":"RE/MAX Real Estate. Listing page via MaxWell Polaris (4107 99 St NW, Edmonton, AB T6E 3N4; 780-318-3434; bestrealestateedmonton@gmail.com). Do not approach staff; inquire via agent only.","otherLocationComments":"Inside a busy supercentre; organic walk-in client traffic.","employees":null,"squareFootageSqFt":null,"leaseMonthlyCAD":null,"leaseNotes":null,"inventoryIncluded":null,"inventoryValueCAD":null,"equipmentFixturesIncluded":true,"equipmentFixturesValueCAD":null,"isFranchise":false,"franchiseName":null,"saleType":"Business assets / turnkey","propertyArrangement":"Leased","clientOrContractNotes":null,"dataNotes":"MLS® #45615553. Listed approx. 2026-09-11. Revenue and cash flow not disclosed.","sellingReason":null},{"businessName":"Lawn care business — St. Albert area","category":"Outdoor / lawn care","summary":"Eight-year turnkey lawn care company with enclosed trailer, equipment, and 150+ client properties mostly in St. Albert and surrounding area.","createdDate":"2026-09-19","updatedDate":"2026-09-19","listingStatus":"Listed","listingUrls":["https://www.kijiji.ca/v-buy-sell-other/edmonton/turn-key-lawn-care-business/1733856384"],"listingDomainUrls":["https://www.kijiji.ca"],"askingCAD":70000,"grossRevenueCAD":65000,"cashFlowSdeCAD":null,"established":2018,"location":"St. Albert, AB T8N 5G2 (clients mostly St. Albert and surrounding area)","brokerAgentInfo":"Private seller: Brenda Kozak (owner). Contact via Kijiji listing message.","otherLocationComments":"Client base concentrated in St. Albert and surrounding area.","employees":null,"squareFootageSqFt":null,"leaseMonthlyCAD":null,"leaseNotes":null,"inventoryIncluded":null,"inventoryValueCAD":null,"equipmentFixturesIncluded":true,"equipmentFixturesValueCAD":null,"isFranchise":false,"franchiseName":null,"saleType":"Turnkey owner sale","propertyArrangement":"Mobile / no storefront disclosed","clientOrContractNotes":"150+ residential properties on client list.","dataNotes":"Revenue described as average ~$65,000/season. Established year inferred as ~8 years before 2026 listing. Cash flow (SDE) not stated.","sellingReason":null},{"businessName":"Fresh juice and sandwich business — recreation centre","category":"Food / juice & sandwich","summary":"Turnkey juice/sandwich shop inside busy community recreation centre; short hours, low all-inclusive rent. Est. ~6 months; fixtures $30k and inventory $7k included.","createdDate":"2026-09-20","updatedDate":"2026-09-20","listingStatus":"Listed","listingUrls":["https://canada.businessesforsale.com/canadian/fresh-juice-and-sandwich-business.aspx"],"listingDomainUrls":["https://canada.businessesforsale.com"],"askingCAD":70000,"grossRevenueCAD":null,"cashFlowSdeCAD":null,"established":null,"location":"Near Edmonton, AB (community recreation centre)","brokerAgentInfo":"ref RDB-101; Listing ID 3903993","otherLocationComments":"Inside community recreation centre near Edmonton.","employees":1,"squareFootageSqFt":263.5,"leaseMonthlyCAD":900,"leaseNotes":"All-inclusive rent ~$10,800/year covering base, CAM, taxes, utilities. 2nd floor of rec centre.","inventoryIncluded":true,"inventoryValueCAD":null,"equipmentFixturesIncluded":true,"equipmentFixturesValueCAD":null,"isFranchise":false,"franchiseName":null,"saleType":"Turnkey business","propertyArrangement":null,"clientOrContractNotes":null,"dataNotes":"Imported from site scan 2026-09-20T00:00:00-06:00; source site: BusinessesForSale Canada.","sellingReason":"Owner pursuing another opportunity"},{"businessName":"Business listing — 11917 134 Ave NW","category":"Business (verify type)","summary":"Edmonton business listing at $75,000. Full category not confirmed.","createdDate":"2026-09-20","updatedDate":"2026-09-20","listingStatus":"Listed","listingUrls":["https://www.realtor.ca/ab/edmonton/businesses-for-sale"],"listingDomainUrls":["https://www.realtor.ca"],"askingCAD":75000,"grossRevenueCAD":null,"cashFlowSdeCAD":null,"established":null,"location":"11917 134 Ave NW, Edmonton, AB","brokerAgentInfo":null,"otherLocationComments":null,"employees":null,"squareFootageSqFt":null,"leaseMonthlyCAD":null,"leaseNotes":null,"inventoryIncluded":null,"inventoryValueCAD":null,"equipmentFixturesIncluded":null,"equipmentFixturesValueCAD":null,"isFranchise":null,"franchiseName":null,"saleType":null,"propertyArrangement":null,"clientOrContractNotes":null,"dataNotes":"Imported from site scan 2026-09-20T00:00:00-06:00; source site: REALTOR.ca.","sellingReason":null},{"businessName":"STOR-X franchise — Edmonton","category":"Home organizing franchise","summary":"Profitable STOR-X franchise; Canadian-made home organizing solutions. Asking $80,000.","createdDate":"2026-09-20","updatedDate":"2026-09-20","listingStatus":"Listed","listingUrls":["https://canada.businessesforsale.com/canadian/profitable-stor-x-franchise-edmonton-alberta.aspx"],"listingDomainUrls":["https://canada.businessesforsale.com"],"askingCAD":80000,"grossRevenueCAD":null,"cashFlowSdeCAD":null,"established":null,"location":"Edmonton, AB","brokerAgentInfo":null,"otherLocationComments":null,"employees":null,"squareFootageSqFt":null,"leaseMonthlyCAD":null,"leaseNotes":null,"inventoryIncluded":null,"inventoryValueCAD":null,"equipmentFixturesIncluded":null,"equipmentFixturesValueCAD":null,"isFranchise":true,"franchiseName":"STOR-X","saleType":"Franchise resale","propertyArrangement":null,"clientOrContractNotes":null,"dataNotes":"Imported from site scan 2026-09-20T00:00:00-06:00; source site: BusinessesForSale Canada.","sellingReason":null},{"businessName":"Nail salon — Parsons Rd Walmart","category":"Beauty / nail salon","summary":"Established turnkey nail salon inside a high-traffic Walmart. 4 pedicure spa chairs, 4 manicure stations, reception, retail display, laundry area. Sale includes equipment, furniture, fixtures, and related inventory.","createdDate":"2026-09-19","updatedDate":"2026-09-20","listingStatus":"Listed","listingUrls":["https://kevingrenier.maxwellrealty.ca/listing-ereb/44892943-parsons-rd-nw-edmonton-ab-t6n-0a9/","https://anilwalji.maxwellrealty.ca/listing-ereb/44892943-parsons-rd-nw-edmonton-ab-t6n-0a9/"],"listingDomainUrls":["https://anilwalji.maxwellrealty.ca","https://kevingrenier.maxwellrealty.ca"],"askingCAD":89900,"grossRevenueCAD":null,"cashFlowSdeCAD":null,"established":null,"location":"Parsons Rd NW, Edmonton, AB T6N 0A9","brokerAgentInfo":"Century 21 Masters. Agent contact on listing page: Kevin Grenier, MaxWell Polaris (4107 99 St NW, Edmonton, AB T6E 3N4; 1-780-893-0269; kevin@kevingrenier.com).","otherLocationComments":"Inside Walmart; strong walk-in traffic and ample parking.","employees":null,"squareFootageSqFt":null,"leaseMonthlyCAD":null,"leaseNotes":null,"inventoryIncluded":true,"inventoryValueCAD":null,"equipmentFixturesIncluded":true,"equipmentFixturesValueCAD":null,"isFranchise":false,"franchiseName":null,"saleType":"Business assets / turnkey","propertyArrangement":"Leased","clientOrContractNotes":null,"dataNotes":"MLS® #44892943. Listed approx. 2026-05-15. Revenue and cash flow not disclosed. Also mirrored on anilwalji.maxwellrealty.ca.","sellingReason":null},{"businessName":"Restaurant / commercial kitchen","category":"Food / restaurant / commercial kitchen","summary":"Fully equipped commercial kitchen with 20-seat dine-in plus takeout. Marketed for restaurant, catering, ghost kitchen, or meal-prep use. New 5-year lease with 5-year renewal option.","createdDate":"2026-09-19","updatedDate":"2026-09-19","listingStatus":"Listed","listingUrls":["https://www.kijiji.ca/v-other-business-industrial/edmonton/restaurant-priced-for-immediate-sale/1736475065"],"listingDomainUrls":["https://www.kijiji.ca"],"askingCAD":99000,"grossRevenueCAD":null,"cashFlowSdeCAD":null,"established":null,"location":"Edmonton, AB (exact address not published; high-traffic commercial area)","brokerAgentInfo":"Sanjay Sachdeva, Restaurant Business Specialist / Commercial Agent, Century 21 Signature Realty. Text 780-700-1700.","otherLocationComments":"Prime high-traffic Edmonton location; surrounded by retail and office businesses; ample customer and delivery parking.","employees":null,"squareFootageSqFt":null,"leaseMonthlyCAD":3000,"leaseNotes":"New 5-year lease + 5-year renewal option. Rent advertised at $3,000/month.","inventoryIncluded":null,"inventoryValueCAD":null,"equipmentFixturesIncluded":true,"equipmentFixturesValueCAD":null,"isFranchise":false,"franchiseName":null,"saleType":"Turnkey / immediate sale","propertyArrangement":"Leased","clientOrContractNotes":null,"dataNotes":"Revenue and cash flow not disclosed on Kijiji ad.","sellingReason":null},{"businessName":"Business listing — 11722 104 Avenue NW","category":"Business (verify type)","summary":"Edmonton business listing at $99,000 via MaxWell Polaris. Detail page not fully fetched (Cloudflare).","createdDate":"2026-09-20","updatedDate":"2026-09-20","listingStatus":"Listed","listingUrls":["https://www.realtor.ca/ab/edmonton/businesses-for-sale"],"listingDomainUrls":["https://www.realtor.ca"],"askingCAD":99000,"grossRevenueCAD":null,"cashFlowSdeCAD":null,"established":null,"location":"11722 104 Avenue NW, Edmonton, AB","brokerAgentInfo":"MaxWell Polaris","otherLocationComments":null,"employees":null,"squareFootageSqFt":null,"leaseMonthlyCAD":null,"leaseNotes":null,"inventoryIncluded":null,"inventoryValueCAD":null,"equipmentFixturesIncluded":null,"equipmentFixturesValueCAD":null,"isFranchise":null,"franchiseName":null,"saleType":null,"propertyArrangement":null,"clientOrContractNotes":null,"dataNotes":"Imported from site scan 2026-09-20T00:00:00-06:00; source site: REALTOR.ca.","sellingReason":null},{"businessName":"Senior care franchise — Edmonton & Grande Prairie territories","category":"Senior care / home care franchise","summary":"Non-medical home care franchise covering Edmonton and Grande Prairie territories; second year of operation.","createdDate":"2026-09-20","updatedDate":"2026-09-21","listingStatus":"Listed","listingUrls":["https://www.bizbuysell.com/canada-businesses-for-sale/2/","https://www.bizquest.com/businesses-for-sale-in-alberta/"],"listingDomainUrls":["https://www.bizbuysell.com","https://www.bizquest.com"],"askingCAD":99000,"grossRevenueCAD":null,"cashFlowSdeCAD":null,"established":null,"location":"Edmonton & Grande Prairie, AB","brokerAgentInfo":null,"otherLocationComments":"Two territories: Edmonton and Grande Prairie","employees":null,"squareFootageSqFt":null,"leaseMonthlyCAD":null,"leaseNotes":null,"inventoryIncluded":null,"inventoryValueCAD":null,"equipmentFixturesIncluded":null,"equipmentFixturesValueCAD":null,"isFranchise":true,"franchiseName":null,"saleType":"Franchise territory","propertyArrangement":null,"clientOrContractNotes":null,"dataNotes":"Imported from site scan 2026-09-20T00:00:00-06:00; source site: BizBuySell. | 2026-09-21 refresh: BizQuest Alberta results page independently shows a senior-care established territory priced at $99,000; location detail beyond Alberta was not displayed.","sellingReason":null},{"businessName":"Sadie's Pet Stop","category":"Retail / pet services","summary":"Turnkey pet-retail and grooming business in Lendrum Place shopping centre; equipment, fixtures and inventory included.","createdDate":"2026-09-21","updatedDate":"2026-09-21","listingStatus":"Listed","listingUrls":["https://kevingrenier.maxwellrealty.ca/listing-ereb/45388689-111-st-nw-edmonton-ab-t6h-3g1/","https://www.realtor.ca/real-estate/30113833/edmonton","https://www.hauptrealty.com/property-search/detail/83/45388689/111-st-nw-edmonton-ab-t6h-3g1/"],"listingDomainUrls":["https://kevingrenier.maxwellrealty.ca","https://www.realtor.ca","https://www.hauptrealty.com"],"askingCAD":100000,"grossRevenueCAD":null,"cashFlowSdeCAD":null,"established":null,"location":"Lendrum Place shopping centre, Edmonton, AB T6H 3G1","brokerAgentInfo":null,"otherLocationComments":null,"employees":null,"squareFootageSqFt":1476,"leaseMonthlyCAD":null,"leaseNotes":"Lease expiring August 31, 2027","inventoryIncluded":true,"inventoryValueCAD":null,"equipmentFixturesIncluded":true,"equipmentFixturesValueCAD":null,"isFranchise":null,"franchiseName":null,"saleType":"Business sale","propertyArrangement":"Leased premises","clientOrContractNotes":null,"dataNotes":"MLS 45388689; search snippets mark listing active. | Approximately 1,476 sq. ft.; public listing describes grooming stations, sinks, shelving, fixtures, equipment, inventory, POS system, and lease through August 31, 2027. Inventory value and financials not published.","sellingReason":null},{"businessName":"Women’s business magazine publisher","category":"Publishing / media","summary":"Established magazine publishing business focused on supporting and recognizing female business professionals. Multiple income streams; hosts biannual conferences. Turn-key with training and mentorship offered.","createdDate":"2026-09-20","updatedDate":"2026-09-21","listingStatus":"Listed","listingUrls":["https://www.sunbeltcanada.com/edmonton/posting/woman-in-business-focused-magazine-publisher/"],"listingDomainUrls":["https://www.sunbeltcanada.com"],"askingCAD":120000,"grossRevenueCAD":245000,"cashFlowSdeCAD":90000,"established":2001,"location":"Edmonton, AB (Central Alberta)","brokerAgentInfo":"Sunbelt Business Brokers Edmonton. Colleen Pushor, (780) 446-7353, colleen.pushor@sunbeltcanada.com. Office: Suite 241, 6005 Gateway Boulevard NW, Edmonton, AB T6H 2H3; (780) 471-4988; ish@SunbeltEdmonton.com. Business ID: EDMO0130.","otherLocationComments":null,"employees":null,"squareFootageSqFt":null,"leaseMonthlyCAD":null,"leaseNotes":null,"inventoryIncluded":null,"inventoryValueCAD":null,"equipmentFixturesIncluded":null,"equipmentFixturesValueCAD":null,"isFranchise":false,"franchiseName":null,"saleType":"Turnkey publishing business","propertyArrangement":"Not fully disclosed","clientOrContractNotes":null,"sellingReason":null,"dataNotes":"EBITDA also listed at $50,000 on Sunbelt page. Status shown as New. | 2026-09-21 refresh: Confirmed $120,000 ask, $245,000 gross revenue, $90,000 SDE, $50,000 EBITDA, established 2001, Edmonton/Central Alberta, status New; broker Colleen Pushor, (780) 446-7353, colleen.pushor@sunbeltcanada.com."},{"businessName":"Party bike business — Whyte Ave / Downtown Edmonton","category":"Leisure / party bike","summary":"15-person party bikes operating Whyte Ave and Downtown since 2017. EBITDA ~$80,000 noted in snippet.","createdDate":"2026-09-20","updatedDate":"2026-09-21","listingStatus":"Listed","listingUrls":["https://www.bizbuysell.com/canada-businesses-for-sale/2/","https://www.bizquest.com/businesses-for-sale-in-alberta/"],"listingDomainUrls":["https://www.bizbuysell.com","https://www.bizquest.com"],"askingCAD":120000,"grossRevenueCAD":null,"cashFlowSdeCAD":80000,"established":2017,"location":"Edmonton, AB (Whyte Ave & Downtown)","brokerAgentInfo":null,"otherLocationComments":"Operates Whyte Ave and Downtown Edmonton","employees":null,"squareFootageSqFt":null,"leaseMonthlyCAD":null,"leaseNotes":null,"inventoryIncluded":null,"inventoryValueCAD":null,"equipmentFixturesIncluded":true,"equipmentFixturesValueCAD":null,"isFranchise":false,"franchiseName":null,"saleType":null,"propertyArrangement":null,"clientOrContractNotes":null,"dataNotes":"Imported from site scan 2026-09-20T00:00:00-06:00; source site: BizBuySell. | 2026-09-21 refresh: BizQuest Alberta results page independently shows an established party bike business for sale at $120,000, operating for 7 years with an active liquor licence.","sellingReason":null},{"businessName":"Mediterranean restaurant — Whyte Avenue","category":"Food / restaurant","summary":"Turnkey Mediterranean restaurant (shawarma, salads, desserts) on Whyte Ave with large seating area and walk-in cooler. Menu can be changed. Lease renewable.","createdDate":"2026-09-19","updatedDate":"2026-09-19","listingStatus":"Listed","listingUrls":["https://kevingrenier.maxwellrealty.ca/listing-ereb/45264460-82-avenue-edmonton-ab-t6e-1z4/"],"listingDomainUrls":["https://kevingrenier.maxwellrealty.ca"],"askingCAD":124500,"grossRevenueCAD":null,"cashFlowSdeCAD":null,"established":null,"location":"82 Avenue (Whyte Ave district), Edmonton, AB T6E 1Z4","brokerAgentInfo":"Century 21 Masters. Agent contact on listing page: Kevin Grenier, MaxWell Polaris (4107 99 St NW, Edmonton, AB T6E 3N4; 1-780-893-0269; kevin@kevingrenier.com).","otherLocationComments":"Located on the Whyte Avenue district.","employees":null,"squareFootageSqFt":null,"leaseMonthlyCAD":4000,"leaseNotes":"Rent $4,000/month including all utilities; lease renewable.","inventoryIncluded":null,"inventoryValueCAD":null,"equipmentFixturesIncluded":true,"equipmentFixturesValueCAD":null,"isFranchise":false,"franchiseName":null,"saleType":"Turnkey restaurant","propertyArrangement":"Leased","clientOrContractNotes":null,"dataNotes":"MLS® #45264460. Listed approx. 2026-07-16. Year built noted as 2000 on MLS page (building, not business age). Revenue and cash flow not disclosed.","sellingReason":null},{"businessName":"Liquor store — asset sale","category":"Retail / liquor store","summary":"Turnkey liquor store asset sale (inventory and fixtures). Edmonton listing on BizBuySell Alberta results; proximity noted to major roads including 101 Ave, 75 Street, Wayne Gretzky Drive, Baseline Road, and Anthony Henday Drive.","createdDate":"2026-09-19","updatedDate":"2026-09-19","listingStatus":"Listed","listingUrls":["https://www.bizbuysell.com/alberta-canada-businesses-for-sale/2/"],"listingDomainUrls":["https://www.bizbuysell.com"],"askingCAD":125000,"grossRevenueCAD":null,"cashFlowSdeCAD":null,"established":null,"location":"Edmonton, AB (exact street address not published on search snippet)","brokerAgentInfo":"Listed via BizBuySell; broker/agent details behind listing login / inquiry form.","otherLocationComments":"Near major roads: 101 Ave, 75 Street, Wayne Gretzky Drive, Baseline Road, Anthony Henday Drive. Ample on-site parking noted.","employees":null,"squareFootageSqFt":null,"leaseMonthlyCAD":null,"leaseNotes":null,"inventoryIncluded":true,"inventoryValueCAD":null,"equipmentFixturesIncluded":true,"equipmentFixturesValueCAD":null,"isFranchise":false,"franchiseName":null,"saleType":"Asset sale","propertyArrangement":"Not fully disclosed (business assets)","clientOrContractNotes":null,"dataNotes":"Details from BizBuySell Alberta search results. Individual listing URL and financials not captured without broker inquiry. Confirm current status and full package with seller/broker.","sellingReason":null},{"businessName":"INS Market franchise — West Edmonton Mall","category":"Retail / convenience franchise","summary":"INS Market franchise inside WEM; high foot traffic; ~1,079 sq ft. MLS® E4442291.","createdDate":"2026-09-20","updatedDate":"2026-09-20","listingStatus":"Listed","listingUrls":["https://www.realtor.ca/real-estate/28466088/1758-8882-170-st-nw-edmonton-summerlea"],"listingDomainUrls":["https://www.realtor.ca"],"askingCAD":129000,"grossRevenueCAD":null,"cashFlowSdeCAD":null,"established":null,"location":"#1758 8882 170 St NW, Edmonton, AB T5T 4J2 (West Edmonton Mall / Summerlea)","brokerAgentInfo":null,"otherLocationComments":"Inside West Edmonton Mall","employees":null,"squareFootageSqFt":1079,"leaseMonthlyCAD":null,"leaseNotes":null,"inventoryIncluded":null,"inventoryValueCAD":null,"equipmentFixturesIncluded":null,"equipmentFixturesValueCAD":null,"isFranchise":true,"franchiseName":"INS Market","saleType":"Franchise / business","propertyArrangement":null,"clientOrContractNotes":null,"dataNotes":"Imported from site scan 2026-09-20T00:00:00-06:00; source site: REALTOR.ca.","sellingReason":null},{"businessName":"Nail salon — Ellerslie Rd SW","category":"Beauty / nail salon","summary":"Well-established staffed nail salon with 8 pedicure chairs, 9 manicure stations, and a private waxing room. Team of 8 full-time employees; turnkey transition.","createdDate":"2026-09-19","updatedDate":"2026-09-19","listingStatus":"Listed","listingUrls":["https://kevingrenier.maxwellrealty.ca/listing-ereb/45118026-ellerslie-rd-sw-edmonton-ab-t6w-1a4/"],"listingDomainUrls":["https://kevingrenier.maxwellrealty.ca"],"askingCAD":139900,"grossRevenueCAD":null,"cashFlowSdeCAD":null,"established":null,"location":"Ellerslie Rd SW, Edmonton, AB T6W 1A4","brokerAgentInfo":"RE/MAX Real Estate. Agent contact on listing page: Kevin Grenier, MaxWell Polaris (4107 99 St NW, Edmonton, AB T6E 3N4; 1-780-893-0269; kevin@kevingrenier.com).","otherLocationComments":null,"employees":8,"squareFootageSqFt":null,"leaseMonthlyCAD":null,"leaseNotes":null,"inventoryIncluded":null,"inventoryValueCAD":null,"equipmentFixturesIncluded":true,"equipmentFixturesValueCAD":null,"isFranchise":false,"franchiseName":null,"saleType":"Turnkey / staffed","propertyArrangement":"Leased","clientOrContractNotes":null,"dataNotes":"MLS® #45118026. Listed approx. 2026-05-01. Revenue and cash flow not disclosed.","sellingReason":null},{"businessName":"Hairland Beauty Supply & Salon","category":"Beauty / salon and retail","summary":"Turnkey two-level salon, barber, esthetics and retail beauty-products operation with multiple revenue streams.","createdDate":"2026-09-21","updatedDate":"2026-09-21","listingStatus":"Listed","listingUrls":["https://kevingrenier.maxwellrealty.ca/listing-ereb/45435437-97-st-nw-edmonton-ab-t5g-1z6/"],"listingDomainUrls":["https://kevingrenier.maxwellrealty.ca"],"askingCAD":139900,"grossRevenueCAD":null,"cashFlowSdeCAD":null,"established":null,"location":"12425 97 Street NW, Edmonton, AB T5G 1Z6","brokerAgentInfo":null,"otherLocationComments":null,"employees":null,"squareFootageSqFt":5000,"leaseMonthlyCAD":null,"leaseNotes":null,"inventoryIncluded":null,"inventoryValueCAD":null,"equipmentFixturesIncluded":true,"equipmentFixturesValueCAD":null,"isFranchise":null,"franchiseName":null,"saleType":"Business sale","propertyArrangement":"Commercial premises; arrangement not otherwise stated","clientOrContractNotes":null,"dataNotes":"MLS 45435437; search snippets report active City of Edmonton personal-service licence and active listing.","sellingReason":null},{"businessName":"Well-established paint and home blinds business","category":"Retail / home improvement services","summary":"Greater Edmonton paint, home-blinds, and related-accessories business serving homeowners and contractors for more than 29 years; inventory and custom-blinds equipment included.","createdDate":"2026-09-21","updatedDate":"2026-09-21","listingStatus":"Listed","listingUrls":["https://bridgebusinessbrokers.ca/businesses-for-sale/well-established-paint-and-home-blinds-business-for-sale/"],"listingDomainUrls":["https://bridgebusinessbrokers.ca"],"askingCAD":141500,"grossRevenueCAD":null,"cashFlowSdeCAD":null,"established":"29+ years","location":"Greater Edmonton Area, AB","brokerAgentInfo":"Lucas Hinecker, (825) 439-4884","otherLocationComments":null,"employees":null,"squareFootageSqFt":null,"leaseMonthlyCAD":null,"leaseNotes":null,"inventoryIncluded":true,"inventoryValueCAD":null,"equipmentFixturesIncluded":true,"equipmentFixturesValueCAD":null,"isFranchise":null,"franchiseName":null,"saleType":"Business sale","propertyArrangement":null,"clientOrContractNotes":"Serves homeowners and contractors; loyal customer base.","dataNotes":"Listing says comprehensive paint inventory and all necessary custom-blinds equipment are included, but gives no values.","sellingReason":null},{"businessName":"Edmonton liquor store — business only","category":"Retail / liquor store","summary":"Liquor store business-only opportunity at $155,000 + inventory.","createdDate":"2026-09-20","updatedDate":"2026-09-20","listingStatus":"Listed","listingUrls":["https://dealstream.com/alberta-businesses-for-sale"],"listingDomainUrls":["https://dealstream.com"],"askingCAD":155000,"grossRevenueCAD":null,"cashFlowSdeCAD":null,"established":null,"location":"Edmonton, AB (established commercial area)","brokerAgentInfo":null,"otherLocationComments":null,"employees":null,"squareFootageSqFt":null,"leaseMonthlyCAD":null,"leaseNotes":null,"inventoryIncluded":false,"inventoryValueCAD":null,"equipmentFixturesIncluded":null,"equipmentFixturesValueCAD":null,"isFranchise":false,"franchiseName":null,"saleType":"Business only + inventory","propertyArrangement":null,"clientOrContractNotes":null,"dataNotes":"Imported from site scan 2026-09-20T00:00:00-06:00; source site: DealStream.","sellingReason":null},{"businessName":"Landscaping & snow removal","category":"Outdoor / landscaping & snow removal","summary":"Founded 2020. Residential and commercial landscaping plus snow removal with recurring contracts, including multi-site commercial. Turnkey with equipment, contracts, and systems; lean mobile model.","createdDate":"2026-09-19","updatedDate":"2026-09-21","listingStatus":"Listed","listingUrls":["https://bridgebusinessbrokers.ca/businesses-for-sale/established-landscaping-snow-removal-business/"],"listingDomainUrls":["https://bridgebusinessbrokers.ca"],"askingCAD":167000,"grossRevenueCAD":null,"cashFlowSdeCAD":null,"established":2020,"location":"Edmonton, AB (and surrounding area)","brokerAgentInfo":"Bridge Business Brokers. Agent: Mubeen Azouz, (825) 461-4161. Office: #201, 17834 106 A Avenue, Edmonton, AB T5S 1V3; main line 587-760-1200 (open 7 days/week, by appointment).","otherLocationComments":"Serves Edmonton and surrounding area.","employees":null,"squareFootageSqFt":null,"leaseMonthlyCAD":null,"leaseNotes":null,"inventoryIncluded":null,"inventoryValueCAD":null,"equipmentFixturesIncluded":true,"equipmentFixturesValueCAD":null,"isFranchise":false,"franchiseName":null,"saleType":"Turnkey with contracts","propertyArrangement":"Mobile / low overhead","clientOrContractNotes":"Recurring residential and commercial contracts, including multi-site commercial agreement.","dataNotes":"Gross revenue and SDE not published on broker page. | 2026-09-21 refresh: Confirmed $167,000 ask, founded 2020, Edmonton and surrounding area, year-round residential/commercial service; agent Mubeen Azouz, (825) 461-4161.","sellingReason":null},{"businessName":"Business listing — 326 Saddleback Rd NW","category":"Business (verify type)","summary":"Edmonton business listing at $175,000 via MaxWell Challenge Realty. Full category not confirmed.","createdDate":"2026-09-20","updatedDate":"2026-09-20","listingStatus":"Listed","listingUrls":["https://www.realtor.ca/ab/edmonton/businesses-for-sale"],"listingDomainUrls":["https://www.realtor.ca"],"askingCAD":175000,"grossRevenueCAD":null,"cashFlowSdeCAD":null,"established":null,"location":"326 Saddleback Rd NW, Edmonton, AB","brokerAgentInfo":"MaxWell Challenge Realty","otherLocationComments":null,"employees":null,"squareFootageSqFt":null,"leaseMonthlyCAD":null,"leaseNotes":null,"inventoryIncluded":null,"inventoryValueCAD":null,"equipmentFixturesIncluded":null,"equipmentFixturesValueCAD":null,"isFranchise":null,"franchiseName":null,"saleType":null,"propertyArrangement":null,"clientOrContractNotes":null,"dataNotes":"Imported from site scan 2026-09-20T00:00:00-06:00; source site: REALTOR.ca.","sellingReason":null},{"businessName":"Pizza Italian Restaurant — Downtown Edmonton","category":"Food / Italian restaurant","summary":"Italian pizza restaurant opportunity in downtown Edmonton.","createdDate":"2026-09-21","updatedDate":"2026-09-21","listingStatus":"Listed","listingUrls":["https://www.bizquest.com/businesses-for-sale-in-alberta/"],"listingDomainUrls":["https://www.bizquest.com"],"askingCAD":179900,"grossRevenueCAD":null,"cashFlowSdeCAD":null,"established":null,"location":"Downtown Edmonton, AB","brokerAgentInfo":null,"otherLocationComments":null,"employees":null,"squareFootageSqFt":null,"leaseMonthlyCAD":null,"leaseNotes":null,"inventoryIncluded":null,"inventoryValueCAD":null,"equipmentFixturesIncluded":null,"equipmentFixturesValueCAD":null,"isFranchise":null,"franchiseName":null,"saleType":"Business sale","propertyArrangement":null,"clientOrContractNotes":null,"dataNotes":"BizQuest Alberta results page; individual listing URL and operating details were not exposed in rendered content.","sellingReason":null},{"businessName":"Tanning & lash studio franchise — central Edmonton","category":"Beauty / tanning & lash franchise","summary":"Tanning and lash studio franchise since ~2014/2019; SDE $59,749 for 8 months (full year higher). ~1,500 sq ft. Lease to June 2027 with renewal option.","createdDate":"2026-09-20","updatedDate":"2026-09-20","listingStatus":"Listed","listingUrls":["https://canada.businessesforsale.com/canadian/edmonton-cash-flowing-tanning-and-lash-studio-franchise.aspx"],"listingDomainUrls":["https://canada.businessesforsale.com"],"askingCAD":185000,"grossRevenueCAD":null,"cashFlowSdeCAD":59749,"established":2019,"location":"Central Edmonton, AB","brokerAgentInfo":null,"otherLocationComments":"Central prime Edmonton; excellent parking.","employees":null,"squareFootageSqFt":1500,"leaseMonthlyCAD":null,"leaseNotes":"Lease to June 2027 with option to renew; low rent noted (~$3,835/annum on page — verify).","inventoryIncluded":null,"inventoryValueCAD":null,"equipmentFixturesIncluded":true,"equipmentFixturesValueCAD":null,"isFranchise":true,"franchiseName":null,"saleType":"Franchise resale","propertyArrangement":null,"clientOrContractNotes":null,"dataNotes":"Imported from site scan 2026-09-20T00:00:00-06:00; source site: BusinessesForSale Canada.","sellingReason":null},{"businessName":"Gibbons Liquor Loft","category":"Retail / liquor store","summary":"Turnkey 1,260 SF liquor store in downtown Gibbons strip plaza. Includes coolers, POS, security, shelving. Supplies adjacent pub and restaurant accounts. Asking price plus inventory.","createdDate":"2026-09-20","updatedDate":"2026-09-20","listingStatus":"Listed","listingUrls":["https://www.edmontonhomesweb.com/listing/45389628-50-ave-gibbons-ab-t0a-1n0/"],"listingDomainUrls":["https://www.edmontonhomesweb.com"],"askingCAD":199000,"grossRevenueCAD":914000,"cashFlowSdeCAD":null,"established":null,"location":"4905-50 Avenue, Gibbons, AB T0A 1N0","brokerAgentInfo":"Listing contact on page: derek@edmontonhomesweb.com; #200 10835 124 Street NW, Edmonton, AB T5M 0H4; 780-220-4224. MLS® #45389628.","otherLocationComments":"High-traffic downtown strip plaza in Gibbons (Greater Edmonton area / ~35–40 min from Edmonton).","employees":null,"squareFootageSqFt":1260,"leaseMonthlyCAD":null,"leaseNotes":"Assumable lease; base rent about $18,717/year.","inventoryIncluded":false,"inventoryValueCAD":null,"equipmentFixturesIncluded":true,"equipmentFixturesValueCAD":null,"isFranchise":false,"franchiseName":null,"saleType":"Business + inventory separate (asking + inventory)","propertyArrangement":"Leased","clientOrContractNotes":"Supplies adjacent pub and restaurant accounts. Staff payroll noted around $178k+/yr with owner-operator upside.","sellingReason":"Retiring hands-off owners; reduced for a quick sale","dataNotes":"3-yr avg sales FY24–26 stated as ~$914k/yr. Inventory not included in $199,000 ask."},{"businessName":"Press'd Sandwich Kitchen franchise","category":"Food / sandwich franchise","summary":"Established Press’d Sandwich Kitchen franchise in North Edmonton near 127th Street. Equipment, furniture and fixtures included.","createdDate":"2026-09-21","updatedDate":"2026-09-21","listingStatus":"Listed","listingUrls":["https://kevingrenier.maxwellrealty.ca/listing-ereb/45215956-137-ave-nw-edmonton-ab-t5l-4y5/"],"listingDomainUrls":["https://kevingrenier.maxwellrealty.ca"],"askingCAD":199909,"grossRevenueCAD":null,"cashFlowSdeCAD":null,"established":null,"location":"North Edmonton near 127th Street, Edmonton, AB","brokerAgentInfo":null,"otherLocationComments":null,"employees":null,"squareFootageSqFt":null,"leaseMonthlyCAD":null,"leaseNotes":null,"inventoryIncluded":null,"inventoryValueCAD":null,"equipmentFixturesIncluded":true,"equipmentFixturesValueCAD":null,"isFranchise":true,"franchiseName":"Press'd Sandwich Kitchen","saleType":"Business sale","propertyArrangement":null,"clientOrContractNotes":null,"dataNotes":"MLS 45215956; search snippet reports 2025 revenue exceeded CAD 663,500 and net profit was CAD 50,573. These are not entered as exact gross revenue/SDE because the listing does not provide exact revenue or SDE; verify with broker.","sellingReason":null},{"businessName":"Online retail gift basket company","category":"Online retail / gift baskets","summary":"Online retail gift basket company serving the Edmonton market since 2013 (13 years at time of listing summary).","createdDate":"2026-09-19","updatedDate":"2026-09-19","listingStatus":"Listed","listingUrls":["https://www.bizbuysell.com/alberta-canada-businesses-for-sale/"],"listingDomainUrls":["https://www.bizbuysell.com"],"askingCAD":200000,"grossRevenueCAD":null,"cashFlowSdeCAD":null,"established":2013,"location":"Edmonton, AB","brokerAgentInfo":"Listed via BizBuySell; broker/agent details behind listing login / inquiry form.","otherLocationComments":null,"employees":null,"squareFootageSqFt":null,"leaseMonthlyCAD":null,"leaseNotes":null,"inventoryIncluded":null,"inventoryValueCAD":null,"equipmentFixturesIncluded":null,"equipmentFixturesValueCAD":null,"isFranchise":false,"franchiseName":null,"saleType":"Business sale","propertyArrangement":"Online / not fully disclosed","clientOrContractNotes":null,"dataNotes":"From BizBuySell Alberta search summary titled 'Well Established On-Line Retail Gift Basket Company - 13 Years'. Individual listing URL, revenue, and cash flow not captured without further inquiry.","sellingReason":null},{"businessName":"Fast food franchise — Edmonton south central","category":"Food / fast food franchise","summary":"Cash-flowing fast food franchise; sales $425,751; SDE $92,858. Rent ~$4,700/mo all-in. Brand disclosed after NDA. Est. 2021.","createdDate":"2026-09-20","updatedDate":"2026-09-20","listingStatus":"Listed","listingUrls":["https://canada.businessesforsale.com/canadian/edmonton-easy-to-run-fast-food-franchise.aspx"],"listingDomainUrls":["https://canada.businessesforsale.com"],"askingCAD":200000,"grossRevenueCAD":425751,"cashFlowSdeCAD":92858,"established":2021,"location":"Edmonton south central, AB","brokerAgentInfo":"Top Shelf Franchising","otherLocationComments":"Edmonton south central area","employees":null,"squareFootageSqFt":null,"leaseMonthlyCAD":4700,"leaseNotes":"Long-term lease; low all-in rent ~$4,700/mo.","inventoryIncluded":null,"inventoryValueCAD":null,"equipmentFixturesIncluded":true,"equipmentFixturesValueCAD":null,"isFranchise":true,"franchiseName":null,"saleType":"Franchise resale","propertyArrangement":null,"clientOrContractNotes":null,"dataNotes":"Imported from site scan 2026-09-20T00:00:00-06:00; source site: BusinessesForSale Canada.","sellingReason":"Owner moving back to India"},{"businessName":"Modern turnkey café — high-traffic retail corridor","category":"Food / café","summary":"Fully operational ~1,000 sq ft modern café with high-end buildout, prep kitchen (no hood fan required), branded equipment, and 3–4 trained staff. Immediate possession marketed. Summer farmers-market presence noted.","createdDate":"2026-09-19","updatedDate":"2026-09-21","listingStatus":"Listed","listingUrls":["https://canada.businessesforsale.com/canadian/modern-turnkey-cafe-hightraffic-retail-corridor.aspx","https://www.hedgestone.com/business-opportunity/69934/modern-turnkey-cafe-in-high-traffic-retail-corridor/"],"listingDomainUrls":["https://canada.businessesforsale.com","https://www.hedgestone.com"],"askingCAD":209000,"grossRevenueCAD":518000,"cashFlowSdeCAD":165760,"established":null,"location":"Edmonton, AB (exact address not published)","brokerAgentInfo":"HedgeStone Business Advisors (listing ID 69934). Contact via HedgeStone / BusinessesForSale inquiry forms on the listing pages.","otherLocationComments":"Prime high-foot-traffic retail corridor; adjacent to a busy gym (crossover clientele). Farmers market presence in summer months.","employees":"3-4","squareFootageSqFt":1000,"leaseMonthlyCAD":4130,"leaseNotes":"Approx. $4,130 CAD/month base + CAM; about 8 years remaining on lease (~$36,674 per annum also noted on one source).","inventoryIncluded":false,"inventoryValueCAD":null,"equipmentFixturesIncluded":true,"equipmentFixturesValueCAD":84000,"isFranchise":false,"franchiseName":null,"saleType":"Turnkey operating business","propertyArrangement":"Leased","clientOrContractNotes":null,"dataNotes":"BusinessesForSale presents asking price, revenue, and cash flow in CAD. HedgeStone page also showed '$209,000 USD' in places — treated as CAD per the Canadian listing mirror. Inventory not included per HedgeStone detail. Verify currency and financials with broker. | 2026-09-21 refresh: Confirmed $209,000 ask, $518,000 gross revenue, $165,760 cash flow, approximately 1,000 sq ft, lease about $4,130/month with 8 years remaining, 3–4 trained employees, approximately $84,000 equipment value included, inventory not included, seller financing may be available, reason other business interests.","sellingReason":"Other business interests"},{"businessName":"Busy tattoo & piercing shop","category":"Beauty / tattoo & piercing","summary":"Well-established tattoo and piercing parlor with loyal clientele, strong online presence, and experienced artists. Fully equipped; seller offers training and ongoing support.","createdDate":"2026-09-20","updatedDate":"2026-09-21","listingStatus":"Listed","listingUrls":["https://www.performancebusinessadvisory.ca/busy-tattoo-piercing-shop"],"listingDomainUrls":["https://www.performancebusinessadvisory.ca"],"askingCAD":215000,"grossRevenueCAD":345000,"cashFlowSdeCAD":105000,"established":null,"location":"Edmonton, AB (prime high foot-traffic neighbourhood; exact address confidential)","brokerAgentInfo":"Performance Business Advisory. 2nd Floor, 4715 - 91 Avenue NW, Edmonton, AB T6B 2M7; 780-756-2990. Reference: 2-5009PBB.","otherLocationComments":"Surrounded by trendy cafes, restaurants, and boutiques.","employees":null,"squareFootageSqFt":2000,"leaseMonthlyCAD":null,"leaseNotes":null,"inventoryIncluded":null,"inventoryValueCAD":null,"equipmentFixturesIncluded":true,"equipmentFixturesValueCAD":25000,"isFranchise":false,"franchiseName":null,"saleType":"Turnkey operating business","propertyArrangement":"Leased (inferred; confirm with broker)","clientOrContractNotes":null,"sellingReason":null,"dataNotes":"Profits listed as discretionary earnings $105,000. Location described as Edmonton-area high-traffic neighbourhood; confirm exact city with broker. | 2026-09-21 refresh: Confirmed $215,000 ask, $345,000 sales, $105,000 discretionary earnings, 2,000 sq ft, $25,000 FF&E, prime high-foot-traffic area, experienced artists, seller transition training; reference 2-5009PBB."},{"businessName":"Multi-business commercial — Strathcona Industrial Park","category":"Commercial / multi-business (restaurant, courier, U-Haul, lottery)","summary":"Corner commercial property with restaurant, courier, U-Haul dealership, lottery. ~2,012 sq ft; built 1990. MLS® E4440541.","createdDate":"2026-09-20","updatedDate":"2026-09-20","listingStatus":"Listed","listingUrls":["https://www.realtor.ca/real-estate/28422327/edmonton"],"listingDomainUrls":["https://www.realtor.ca"],"askingCAD":219000,"grossRevenueCAD":null,"cashFlowSdeCAD":null,"established":null,"location":"Strathcona Industrial Park, Edmonton, AB","brokerAgentInfo":null,"otherLocationComments":"Busy street; near Whitemud Freeway","employees":null,"squareFootageSqFt":2012,"leaseMonthlyCAD":null,"leaseNotes":null,"inventoryIncluded":null,"inventoryValueCAD":null,"equipmentFixturesIncluded":null,"equipmentFixturesValueCAD":null,"isFranchise":null,"franchiseName":null,"saleType":"Business / commercial property","propertyArrangement":null,"clientOrContractNotes":null,"dataNotes":"Imported from site scan 2026-09-20T00:00:00-06:00; source site: REALTOR.ca.","sellingReason":null},{"businessName":"Wok Box franchise — Ellerslie Road SW","category":"Food / quick-service franchise","summary":"Turnkey Wok Box business in a high-traffic plaza; potential to add up to two ghost kitchens. Financial statements require NDA.","createdDate":"2026-09-21","updatedDate":"2026-09-21","listingStatus":"Listed","listingUrls":["https://kevingrenier.maxwellrealty.ca/listing-ereb/45231284-ellerslie-rd-sw-edmonton-ab-t6x-0k6/"],"listingDomainUrls":["https://kevingrenier.maxwellrealty.ca"],"askingCAD":219900,"grossRevenueCAD":null,"cashFlowSdeCAD":null,"established":null,"location":"9228 Ellerslie Road SW, Edmonton, AB T6X 0K6","brokerAgentInfo":null,"otherLocationComments":null,"employees":null,"squareFootageSqFt":null,"leaseMonthlyCAD":null,"leaseNotes":null,"inventoryIncluded":null,"inventoryValueCAD":null,"equipmentFixturesIncluded":null,"equipmentFixturesValueCAD":null,"isFranchise":true,"franchiseName":"Wok Box","saleType":"Business sale","propertyArrangement":"Leased premises","clientOrContractNotes":"Financial statements available under NDA; potential for up to two ghost kitchens","dataNotes":"MLS 45231284; search snippets mark active.","sellingReason":null},{"businessName":"Home inspection franchise business","category":"Professional services / home inspection franchise","summary":"Established home-inspection franchise with Edmonton and surrounding-area territory, special inspection equipment, branded vehicles, website, franchisor training, and expansion potential.","createdDate":"2026-09-21","updatedDate":"2026-09-21","listingStatus":"Listed","listingUrls":["https://www.sunbeltcanada.com/edmonton/posting/home-inspection-franchise-business-for-sale-in-edmonton-ab/"],"listingDomainUrls":["https://www.sunbeltcanada.com"],"askingCAD":229997,"grossRevenueCAD":218000,"cashFlowSdeCAD":101000,"established":1994,"location":"Edmonton, AB; territory includes surrounding areas and large portions of northeastern Alberta","brokerAgentInfo":"Jeffrey Cullen, (780) 903-4256, jeffrey.cullen@sunbeltedmonton.com","otherLocationComments":"Territory covers Edmonton, surrounding areas, and large portions of northeastern Alberta.","employees":null,"squareFootageSqFt":null,"leaseMonthlyCAD":null,"leaseNotes":null,"inventoryIncluded":null,"inventoryValueCAD":null,"equipmentFixturesIncluded":true,"equipmentFixturesValueCAD":null,"isFranchise":true,"franchiseName":null,"saleType":"Business sale","propertyArrangement":null,"clientOrContractNotes":"Franchisor provides resources, processes, and training; satellite-office expansion is suggested.","dataNotes":"FF&E and inventory are listed as on request; branded vehicles and website are specifically mentioned as included assets.","sellingReason":"Failing health and retirement"},{"businessName":"Medical aesthetics clinic","category":"Health / medical aesthetics","summary":"Operating 13+ years. Noninvasive treatments including laser hair removal, advanced skin therapies, RF microneedling, electrolysis, spider vein treatments. Loyal client base, medical-grade equipment, trained staff, strong online reviews. Long-term lease; turnkey with transition support.","createdDate":"2026-09-20","updatedDate":"2026-09-21","listingStatus":"Listed","listingUrls":["https://bridgebusinessbrokers.ca/businesses-for-sale/reputable-medical-aesthetics-clinic-for-sale/"],"listingDomainUrls":["https://bridgebusinessbrokers.ca"],"askingCAD":230000,"grossRevenueCAD":null,"cashFlowSdeCAD":null,"established":2013,"location":"Edmonton, AB (centrally located facility; exact address via broker)","brokerAgentInfo":"Bridge Business Brokers. Agent: Mubeen Azouz, (825) 461-4161. Office: #201, 17834 106 A Avenue, Edmonton, AB T5S 1V3; 587-760-1200.","otherLocationComments":"Centrally located facility with long-term lease.","employees":null,"squareFootageSqFt":null,"leaseMonthlyCAD":null,"leaseNotes":null,"inventoryIncluded":null,"inventoryValueCAD":null,"equipmentFixturesIncluded":true,"equipmentFixturesValueCAD":null,"isFranchise":false,"franchiseName":null,"saleType":"Turnkey with staff","propertyArrangement":"Leased","clientOrContractNotes":null,"sellingReason":null,"dataNotes":"Established year inferred as ~13+ years before 2026. Gross revenue and SDE not published on public page. | 2026-09-21 refresh: Confirmed $230,000 ask, 13+ years operating, centrally located Edmonton facility, long-term lease, medical-grade equipment, trained staff, and transition support; agent Mubeen Azouz, (825) 461-4161."},{"businessName":"Business listing — 8278 175 St NW","category":"Business (verify type)","summary":"Edmonton business listing at $230,000 via RE/MAX Excellence. Full category not confirmed.","createdDate":"2026-09-20","updatedDate":"2026-09-20","listingStatus":"Listed","listingUrls":["https://www.realtor.ca/ab/edmonton/businesses-for-sale"],"listingDomainUrls":["https://www.realtor.ca"],"askingCAD":230000,"grossRevenueCAD":null,"cashFlowSdeCAD":null,"established":null,"location":"8278 175 St NW, Edmonton, AB","brokerAgentInfo":"RE/MAX Excellence","otherLocationComments":null,"employees":null,"squareFootageSqFt":null,"leaseMonthlyCAD":null,"leaseNotes":null,"inventoryIncluded":null,"inventoryValueCAD":null,"equipmentFixturesIncluded":null,"equipmentFixturesValueCAD":null,"isFranchise":null,"franchiseName":null,"saleType":null,"propertyArrangement":null,"clientOrContractNotes":null,"dataNotes":"Imported from site scan 2026-09-20T00:00:00-06:00; source site: REALTOR.ca.","sellingReason":null},{"businessName":"Distilling equipment and craft spirit brand","category":"Manufacturing / distillery assets","summary":"Opportunity to acquire distilling equipment plus an established liquor brand and exclusive recipes. Marketed as Edmonton-area distillery asset/brand package on DealStream.","createdDate":"2026-09-20","updatedDate":"2026-09-20","listingStatus":"Listed","listingUrls":["https://dealstream.com/alberta/edmonton-businesses-for-sale"],"listingDomainUrls":["https://dealstream.com"],"askingCAD":235000,"grossRevenueCAD":null,"cashFlowSdeCAD":null,"established":null,"location":"Edmonton, AB","brokerAgentInfo":"Listed via DealStream Edmonton businesses-for-sale directory; broker details behind inquiry.","otherLocationComments":null,"employees":null,"squareFootageSqFt":null,"leaseMonthlyCAD":null,"leaseNotes":null,"inventoryIncluded":null,"inventoryValueCAD":null,"equipmentFixturesIncluded":null,"equipmentFixturesValueCAD":null,"isFranchise":false,"franchiseName":null,"saleType":"Asset / brand sale","propertyArrangement":"Not fully disclosed","clientOrContractNotes":null,"sellingReason":null,"dataNotes":"DealStream showed ~$169,431 USD / $235,000 CAD. Confirm package contents, licensing, and whether premises are included with the broker. Individual listing URL may require DealStream login."},{"businessName":"Turnkey coffee shop — 10844 82 Avenue NW","category":"Food / coffee shop","summary":"Well-established turnkey coffee shop in a high-traffic area near the University of Alberta.","createdDate":"2026-09-21","updatedDate":"2026-09-21","listingStatus":"Listed","listingUrls":["https://nidhikapoor.maxwellrealty.ca/listing-ereb/45496455-whyte-ave-nw-edmonton-ab-t6e-2b3/"],"listingDomainUrls":["https://nidhikapoor.maxwellrealty.ca"],"askingCAD":239900,"grossRevenueCAD":null,"cashFlowSdeCAD":null,"established":null,"location":"10844 82 Avenue NW, Edmonton, AB T6E 2B3","brokerAgentInfo":null,"otherLocationComments":null,"employees":null,"squareFootageSqFt":1850,"leaseMonthlyCAD":null,"leaseNotes":null,"inventoryIncluded":null,"inventoryValueCAD":null,"equipmentFixturesIncluded":true,"equipmentFixturesValueCAD":null,"isFranchise":null,"franchiseName":null,"saleType":"Business sale","propertyArrangement":"Commercial premises; arrangement not otherwise stated","clientOrContractNotes":null,"dataNotes":"MLS 45496455; search snippets describe the listing as active.","sellingReason":null},{"businessName":"Edmonton-area HVAC service business","category":"HVAC / contracting","summary":"Established HVAC service business serving residential and commercial customers, including new construction, renovations, basement suites and custom projects.","createdDate":"2026-09-21","updatedDate":"2026-09-21","listingStatus":"Listed","listingUrls":["https://dealstream.com/alberta/edmonton-businesses-for-sale"],"listingDomainUrls":["https://dealstream.com"],"askingCAD":249000,"grossRevenueCAD":null,"cashFlowSdeCAD":81332,"established":2006,"location":"Edmonton area, AB","brokerAgentInfo":null,"otherLocationComments":null,"employees":null,"squareFootageSqFt":null,"leaseMonthlyCAD":null,"leaseNotes":null,"inventoryIncluded":null,"inventoryValueCAD":null,"equipmentFixturesIncluded":null,"equipmentFixturesValueCAD":null,"isFranchise":null,"franchiseName":null,"saleType":"Business sale","propertyArrangement":null,"clientOrContractNotes":null,"dataNotes":"DealStream search snippet reports approximately $81,332 cash flow; listing detail page did not render, so revenue and other terms remain unknown.","sellingReason":null},{"businessName":"Supplement King franchise — SW Edmonton","category":"Retail / supplements franchise","summary":"Turnkey Supplement King franchise location in southwest Edmonton.","createdDate":"2026-09-21","updatedDate":"2026-09-21","listingStatus":"Listed","listingUrls":["https://www.bizquest.com/businesses-for-sale-in-alberta/"],"listingDomainUrls":["https://www.bizquest.com"],"askingCAD":249000,"grossRevenueCAD":null,"cashFlowSdeCAD":null,"established":null,"location":"Southwest Edmonton, AB","brokerAgentInfo":null,"otherLocationComments":null,"employees":null,"squareFootageSqFt":null,"leaseMonthlyCAD":null,"leaseNotes":null,"inventoryIncluded":null,"inventoryValueCAD":null,"equipmentFixturesIncluded":null,"equipmentFixturesValueCAD":null,"isFranchise":true,"franchiseName":"Supplement King","saleType":"Business sale","propertyArrangement":null,"clientOrContractNotes":null,"dataNotes":"BizQuest Alberta results page; individual listing URL was not exposed in rendered content.","sellingReason":null},{"businessName":"Pet Planet franchise resale","category":"Retail / pet store (franchise)","summary":"Corporately owned Pet Planet location offered as franchise resale. Fixtures and inventory included. Buyer needs franchisor approval and liquid assets.","createdDate":"2026-09-19","updatedDate":"2026-09-21","listingStatus":"Listed","listingUrls":["https://www.bizbuysell.com/alberta-canada-businesses-for-sale/","https://canada.businessesforsale.com/canadian/pet-food-franchise-resale-in-edmonton.aspx"],"listingDomainUrls":["https://www.bizbuysell.com","https://canada.businessesforsale.com"],"askingCAD":250000,"grossRevenueCAD":null,"cashFlowSdeCAD":null,"established":1996,"location":"Edmonton, AB (exact address not published)","brokerAgentInfo":"Listed via BizBuySell / BusinessesForSale; broker details behind inquiry. Franchisor: Pet Planet (Western Canada).","otherLocationComments":"Small-footprint concept (~2,000 sq ft typical per franchise materials).","employees":null,"squareFootageSqFt":2000,"leaseMonthlyCAD":null,"leaseNotes":null,"inventoryIncluded":true,"inventoryValueCAD":80000,"equipmentFixturesIncluded":true,"equipmentFixturesValueCAD":150000,"isFranchise":true,"franchiseName":"Pet Planet","saleType":"Franchise resale","propertyArrangement":"Leased (typical; confirm on inquiry)","clientOrContractNotes":null,"dataNotes":"Asking $250,000 CAD with ~$150,000 FF&E and ~$80,000 inventory included. Brand founded 1996 (may not equal this site's open year). Franchisees reportedly need ~$150,000 liquid assets and franchisor approval. Gross revenue and SDE undisclosed on public franchise-resale page. Separate Edmonton pet-store listings at higher prices exist and were not included here. | 2026-09-21 refresh: Search snippets identify this as a separate $250,000 Pet Planet franchise resale, with approximately $80,000 inventory and approximately $150,000 fixtures; financial performance undisclosed.","sellingReason":"Franchise resale — corporately owned location offered to a new franchisee"},{"businessName":"West Edmonton Mall coffee shop franchise","category":"Food / coffee franchise","summary":"Existing West Edmonton Mall coffee shop franchise resale. Asking ~$250,000.","createdDate":"2026-09-20","updatedDate":"2026-09-21","listingStatus":"Listed","listingUrls":["https://canada.businessesforsale.com/canadian/existing-west-edmonton-mall-coffee-shop-franchise.aspx"],"listingDomainUrls":["https://canada.businessesforsale.com"],"askingCAD":250000,"grossRevenueCAD":null,"cashFlowSdeCAD":null,"established":null,"location":"West Edmonton Mall, Edmonton, AB","brokerAgentInfo":null,"otherLocationComments":"Inside West Edmonton Mall","employees":null,"squareFootageSqFt":null,"leaseMonthlyCAD":null,"leaseNotes":null,"inventoryIncluded":null,"inventoryValueCAD":null,"equipmentFixturesIncluded":null,"equipmentFixturesValueCAD":null,"isFranchise":true,"franchiseName":null,"saleType":"Franchise resale","propertyArrangement":null,"clientOrContractNotes":null,"dataNotes":"Imported from site scan 2026-09-20T00:00:00-06:00; source site: BusinessesForSale Canada. | 2026-09-21 refresh: Search snippet confirms $250,000 ask structured as $225,000 purchase price plus $25,000 franchise fee.","sellingReason":null},{"businessName":"Massage therapy clinic — Edmonton","category":"Health / massage clinic","summary":"Massage therapy clinic; asking ~$250,000 CAD; cash flow ~$43,195 CAD noted in search snippet.","createdDate":"2026-09-20","updatedDate":"2026-09-20","listingStatus":"Listed","listingUrls":["https://dealstream.com/alberta/edmonton/leisure-and-hospitality-businesses-for-sale"],"listingDomainUrls":["https://dealstream.com"],"askingCAD":250000,"grossRevenueCAD":null,"cashFlowSdeCAD":43195,"established":null,"location":"Edmonton, AB","brokerAgentInfo":null,"otherLocationComments":null,"employees":null,"squareFootageSqFt":null,"leaseMonthlyCAD":null,"leaseNotes":null,"inventoryIncluded":null,"inventoryValueCAD":null,"equipmentFixturesIncluded":true,"equipmentFixturesValueCAD":null,"isFranchise":false,"franchiseName":null,"saleType":null,"propertyArrangement":null,"clientOrContractNotes":null,"dataNotes":"Imported from site scan 2026-09-20T00:00:00-06:00; source site: DealStream.","sellingReason":null},{"businessName":"Liquor store — Stony Plain","category":"Retail / liquor store","summary":"20+ year liquor store in growing Stony Plain community. Do not approach staff. MLS® E4422467.","createdDate":"2026-09-20","updatedDate":"2026-09-20","listingStatus":"Listed","listingUrls":["https://www.realtor.ca/real-estate/27940761/0-na-stony-plain-old-townstpl"],"listingDomainUrls":["https://www.realtor.ca"],"askingCAD":250000,"grossRevenueCAD":null,"cashFlowSdeCAD":null,"established":null,"location":"Stony Plain, AB T7Z 1E7 (Old Town)","brokerAgentInfo":"REALTORS® Association of Edmonton","otherLocationComments":"Stony Plain (Greater Edmonton)","employees":null,"squareFootageSqFt":null,"leaseMonthlyCAD":null,"leaseNotes":null,"inventoryIncluded":null,"inventoryValueCAD":null,"equipmentFixturesIncluded":null,"equipmentFixturesValueCAD":null,"isFranchise":false,"franchiseName":null,"saleType":"Business","propertyArrangement":null,"clientOrContractNotes":null,"dataNotes":"Imported from site scan 2026-09-20T00:00:00-06:00; source site: REALTOR.ca.","sellingReason":null},{"businessName":"Established & profitable pet store franchise — Edmonton","category":"Retail / pet store franchise","summary":"Turnkey Edmonton pet-store franchise resale operating for more than seven years, with national franchise support and an owner-operator model.","createdDate":"2026-09-21","updatedDate":"2026-09-21","listingStatus":"Listed","listingUrls":["https://canada.businessesforsale.com/canadian/new-established-and-profitable-pet-store-edmonton.aspx","https://fr-ca.yescapo.com/business-for-sale/new-established-profitable-pet-store-edmonton-for-sale-243340-id/"],"listingDomainUrls":["https://canada.businessesforsale.com","https://fr-ca.yescapo.com"],"askingCAD":290000,"grossRevenueCAD":790000,"cashFlowSdeCAD":81000,"established":"7+ years; operating since 2019","location":"Edmonton, AB","brokerAgentInfo":null,"otherLocationComments":null,"employees":2,"squareFootageSqFt":null,"leaseMonthlyCAD":null,"leaseNotes":null,"inventoryIncluded":true,"inventoryValueCAD":90000,"equipmentFixturesIncluded":null,"equipmentFixturesValueCAD":null,"isFranchise":true,"franchiseName":null,"saleType":"Business resale","propertyArrangement":null,"clientOrContractNotes":null,"dataNotes":"Financial and operational details are from indexed search snippets because direct page access was blocked; exact franchise brand was not disclosed in the snippets.","sellingReason":null},{"businessName":"Downtown Edmonton donair shop","category":"Food / donair shop","summary":"Turnkey donair shop with strong customer traffic, positive reviews, loyal clientele and growth potential.","createdDate":"2026-09-21","updatedDate":"2026-09-21","listingStatus":"Listed","listingUrls":["https://nidhikapoor.maxwellrealty.ca/listing-ereb/45416232-jasper-avenue-edmonton-ab-t5j-0t4/","https://www.realtor.ca/real-estate/30131117/edmonton","https://www.maxwellrealty.ca/listing-ereb/45416869-jasper-avenue-edmonton-ab-t5j-0t4/"],"listingDomainUrls":["https://nidhikapoor.maxwellrealty.ca","https://www.realtor.ca","https://www.maxwellrealty.ca"],"askingCAD":299000,"grossRevenueCAD":null,"cashFlowSdeCAD":null,"established":null,"location":"10084 Jasper Avenue, Edmonton, AB T5J 0T4","brokerAgentInfo":null,"otherLocationComments":null,"employees":null,"squareFootageSqFt":null,"leaseMonthlyCAD":null,"leaseNotes":null,"inventoryIncluded":null,"inventoryValueCAD":null,"equipmentFixturesIncluded":true,"equipmentFixturesValueCAD":null,"isFranchise":null,"franchiseName":null,"saleType":"Business sale","propertyArrangement":"Leased premises; details not stated","clientOrContractNotes":null,"dataNotes":"MLS 45416232; search snippets mark active. | Public listing descriptions call it turnkey and cite strong customer traffic, excellent reviews, loyal clientele, proven profitability, and growth potential; no financial amounts published.","sellingReason":null},{"businessName":"Turnkey Pizza/Cafe near WEM","category":"Food / pizza and cafe","summary":"Turnkey pizza/cafe near West Edmonton Mall with modern build-out.","createdDate":"2026-09-21","updatedDate":"2026-09-21","listingStatus":"Listed","listingUrls":["https://www.bizquest.com/businesses-for-sale-in-alberta/"],"listingDomainUrls":["https://www.bizquest.com"],"askingCAD":299000,"grossRevenueCAD":null,"cashFlowSdeCAD":null,"established":null,"location":"Near West Edmonton Mall, Edmonton, AB","brokerAgentInfo":null,"otherLocationComments":null,"employees":null,"squareFootageSqFt":null,"leaseMonthlyCAD":null,"leaseNotes":null,"inventoryIncluded":null,"inventoryValueCAD":null,"equipmentFixturesIncluded":true,"equipmentFixturesValueCAD":null,"isFranchise":null,"franchiseName":null,"saleType":"Business sale","propertyArrangement":null,"clientOrContractNotes":null,"dataNotes":"BizQuest Alberta results page; individual listing URL and financial details were not exposed in rendered content.","sellingReason":null},{"businessName":"Prestigio Bakery & café — Clearwater Plaza","category":"Food / bakery & café","summary":"Turnkey bakery & café; equipment included; lease assumable. Second location in Leduc also listed. MLS via RE/MAX River City.","createdDate":"2026-09-20","updatedDate":"2026-09-20","listingStatus":"Listed","listingUrls":["https://www.realtor.ca/real-estate/29380484/15333-97-st-nw-edmonton"],"listingDomainUrls":["https://www.realtor.ca"],"askingCAD":300000,"grossRevenueCAD":null,"cashFlowSdeCAD":null,"established":null,"location":"15333 97 St NW, Edmonton, AB T5X 5V3 (Clearwater Plaza, North Edmonton)","brokerAgentInfo":"Matteo P. Saccomanno, RE/MAX River City; 780-266-1166","otherLocationComments":"Clearwater Plaza, busy north Edmonton road","employees":null,"squareFootageSqFt":null,"leaseMonthlyCAD":null,"leaseNotes":"Lease assumable","inventoryIncluded":null,"inventoryValueCAD":null,"equipmentFixturesIncluded":true,"equipmentFixturesValueCAD":null,"isFranchise":false,"franchiseName":null,"saleType":"Turnkey business","propertyArrangement":null,"clientOrContractNotes":null,"dataNotes":"Imported from site scan 2026-09-20T00:00:00-06:00; source site: REALTOR.ca.","sellingReason":null}];
+const GENERATED_AT = "2026-09-25T16:36:35-06:00";
+
+const CAD = new Intl.NumberFormat('en-CA', { style: 'currency', currency: 'CAD', maximumFractionDigits: 0 });
+const CAD_FULL = new Intl.NumberFormat('en-CA', { style: 'currency', currency: 'CAD', maximumFractionDigits: 0 });
+
+function esc(s) {
+  if (s == null || s === '') return '';
+  return String(s)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+function dash(v) {
+  if (v == null || v === '') return '<span class="muted">—</span>';
+  return esc(v);
+}
+function money(v) {
+  if (v == null || v === '') return '<span class="muted">—</span>';
+  return esc(CAD.format(v));
+}
+function bandOf(ask) {
+  if (ask == null) return null;
+  if (ask < 50000) return 'under50';
+  if (ask < 100000) return '50_100';
+  if (ask < 200000) return '100_200';
+  return '200_301';
+}
+const BAND_LABELS = {
+  under50: 'Under $50k',
+  '50_100': '$50–100k',
+  '100_200': '$100–200k',
+  '200_301': '$200–301k'
+};
+function domainOf(url) {
+  try { return new URL(url).hostname.replace(/^www\./, ''); }
+  catch { return url; }
+}
+
+function median(nums) {
+  if (!nums.length) return null;
+  const a = [...nums].sort((x,y) => x - y);
+  const m = Math.floor(a.length / 2);
+  return a.length % 2 ? a[m] : (a[m-1] + a[m]) / 2;
+}
+
+// Enrich
+LISTINGS.forEach((b, i) => { b._id = i; b._band = bandOf(b.askingCAD); });
+
+const state = {
+  q: '',
+  category: '',
+  band: '',
+  hasFin: false,
+  sort: 'ask',
+  dir: 'asc',
+  openId: null
+};
+
+function computeStats(rows) {
+  const asks = rows.map(r => r.askingCAD).filter(v => v != null);
+  const withAsk = asks.length;
+  const cf = rows.filter(r => r.cashFlowSdeCAD != null).length;
+  const rev = rows.filter(r => r.grossRevenueCAD != null).length;
+  const either = rows.filter(r => r.cashFlowSdeCAD != null || r.grossRevenueCAD != null).length;
+  const updated = rows.map(r => r.updatedDate).filter(Boolean);
+  const maxUp = updated.length ? updated.reduce((a,b) => a > b ? a : b) : null;
+  return {
+    total: rows.length,
+    withAsk,
+    min: asks.length ? Math.min(...asks) : null,
+    max: asks.length ? Math.max(...asks) : null,
+    med: median(asks),
+    cf, rev, either, maxUp
+  };
+}
+
+function renderSummary() {
+  const s = computeStats(LISTINGS);
+  document.getElementById('summary').innerHTML = `
+    <div class="stat"><div class="label">Listings</div><div class="value">${s.total}</div><div class="hint">all Listed</div></div>
+    <div class="stat"><div class="label">With asking price</div><div class="value">${s.withAsk}</div><div class="hint">of ${s.total}</div></div>
+    <div class="stat"><div class="label">Min ask</div><div class="value">${s.min != null ? esc(CAD.format(s.min)) : '—'}</div></div>
+    <div class="stat"><div class="label">Median ask</div><div class="value">${s.med != null ? esc(CAD.format(Math.round(s.med))) : '—'}</div></div>
+    <div class="stat"><div class="label">Max ask</div><div class="value">${s.max != null ? esc(CAD.format(s.max)) : '—'}</div></div>
+    <div class="stat clickable" id="statCashflow" role="link" tabindex="0" title="View businesses with cash flow / SDE" aria-label="View businesses with cash flow or SDE">
+      <div class="label">Cash flow / SDE</div>
+      <div class="value">${s.cf}</div>
+      <div class="hint hint-link">filled · view list →</div>
+    </div>
+    <div class="stat"><div class="label">Revenue filled</div><div class="value">${s.rev}</div><div class="hint">${s.either} with any financials</div></div>
+    <div class="stat"><div class="label">Last updated</div><div class="value" style="font-size:1.05rem">${s.maxUp ? esc(s.maxUp) : '—'}</div><div class="hint">max updatedDate</div></div>
+  `;
+}
+
+function renderBands() {
+  const counts = { under50:0, '50_100':0, '100_200':0, '200_301':0 };
+  LISTINGS.forEach(b => { if (b._band) counts[b._band]++; });
+  const maxC = Math.max(...Object.values(counts), 1);
+  const el = document.getElementById('bands');
+  el.innerHTML = Object.keys(BAND_LABELS).map(k => {
+    const active = state.band === k ? ' active' : '';
+    const pct = Math.round(100 * counts[k] / maxC);
+    return `<button type="button" class="band${active}" data-band="${k}">
+      <div class="bn">${BAND_LABELS[k]}</div>
+      <div class="bc">${counts[k]}</div>
+      <div class="bar"><i style="width:${pct}%"></i></div>
+    </button>`;
+  }).join('');
+  el.querySelectorAll('.band').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const b = btn.dataset.band;
+      state.band = state.band === b ? '' : b;
+      document.getElementById('bandFilter').value = state.band;
+      renderBands();
+      renderTable();
+    });
+  });
+}
+
+function topCategories(n = 8) {
+  const c = {};
+  LISTINGS.forEach(b => {
+    const k = b.category || 'Uncategorized';
+    c[k] = (c[k] || 0) + 1;
+  });
+  const sorted = Object.entries(c).sort((a,b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+  const top = sorted.slice(0, n);
+  const otherCount = sorted.slice(n).reduce((s, [,v]) => s + v, 0);
+  const otherNames = new Set(sorted.slice(n).map(([k]) => k));
+  return { top, otherCount, otherNames, all: sorted };
+}
+
+function renderCats() {
+  const { top, otherCount } = topCategories(8);
+  const el = document.getElementById('cats');
+  let html = top.map(([name, count]) => {
+    const active = state.category === name ? ' active' : '';
+    return `<button type="button" class="cat-chip${active}" data-cat="${esc(name)}">${esc(name)} <span class="n">${count}</span></button>`;
+  }).join('');
+  if (otherCount > 0) {
+    const active = state.category === '__other__' ? ' active' : '';
+    html += `<button type="button" class="cat-chip${active}" data-cat="__other__">Other <span class="n">${otherCount}</span></button>`;
+  }
+  el.innerHTML = html;
+  el.querySelectorAll('.cat-chip').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const c = btn.dataset.cat;
+      state.category = state.category === c ? '' : c;
+      // sync dropdown when it's a real category
+      const sel = document.getElementById('catFilter');
+      if (state.category && state.category !== '__other__') sel.value = state.category;
+      else sel.value = '';
+      renderCats();
+      renderTable();
+    });
+  });
+}
+
+function fillCatDropdown() {
+  const { all } = topCategories(999);
+  const sel = document.getElementById('catFilter');
+  all.forEach(([name, count]) => {
+    const opt = document.createElement('option');
+    opt.value = name;
+    opt.textContent = `${name} (${count})`;
+    sel.appendChild(opt);
+  });
+}
+
+function filtered() {
+  const q = state.q.trim().toLowerCase();
+  const { otherNames } = topCategories(8);
+  return LISTINGS.filter(b => {
+    if (state.hasFin && b.cashFlowSdeCAD == null && b.grossRevenueCAD == null) return false;
+    if (state.band && b._band !== state.band) return false;
+    if (state.category === '__other__') {
+      if (!otherNames.has(b.category || 'Uncategorized')) return false;
+    } else if (state.category && (b.category || 'Uncategorized') !== state.category) {
+      return false;
+    }
+    if (q) {
+      const hay = [
+        b.businessName, b.summary, b.location, b.category,
+        b.sellingReason, b.brokerAgentInfo
+      ].map(x => (x || '').toLowerCase()).join(' ');
+      if (!hay.includes(q)) return false;
+    }
+    return true;
+  });
+}
+
+function sortRows(rows) {
+  const { sort, dir } = state;
+  const mul = dir === 'asc' ? 1 : -1;
+  const keyFn = {
+    ask: r => r.askingCAD == null ? (dir === 'asc' ? Infinity : -Infinity) : r.askingCAD,
+    name: r => (r.businessName || '').toLowerCase(),
+    updated: r => r.updatedDate || '',
+    category: r => (r.category || '').toLowerCase()
+  }[sort] || (r => r.askingCAD);
+  return [...rows].sort((a, b) => {
+    const av = keyFn(a), bv = keyFn(b);
+    if (typeof av === 'number' && typeof bv === 'number') return (av - bv) * mul;
+    return String(av).localeCompare(String(bv), 'en-CA') * mul;
+  });
+}
+
+function detailHtml(b) {
+  const urls = (b.listingUrls || []).map(u =>
+    `<li><a data-ext href="${esc(u)}" title="${esc(u)}">${esc(u)}</a></li>`
+  ).join('') || '<li class="muted">—</li>';
+  const domains = (b.listingDomainUrls || []).map(u => esc(u)).join(', ') || '—';
+  return `<div class="detail">
+    <div>
+      <div class="block"><h3>Summary</h3><p>${dash(b.summary)}</p></div>
+      <div class="block"><h3>Data notes</h3><p>${dash(b.dataNotes)}</p></div>
+      <div class="block"><h3>Equipment / fixtures</h3><p>${dash(b.equipmentFixturesIncluded)}</p>
+        <p class="muted" style="margin-top:.25rem">Value: ${money(b.equipmentFixturesValueCAD)}</p></div>
+      <div class="block"><h3>Client / contract notes</h3><p>${dash(b.clientOrContractNotes)}</p></div>
+    </div>
+    <div>
+      <div class="block"><h3>Details</h3>
+        <dl class="kv">
+          <dt>Broker / agent</dt><dd>${dash(b.brokerAgentInfo)}</dd>
+          <dt>Lease (monthly)</dt><dd>${money(b.leaseMonthlyCAD)}</dd>
+          <dt>Lease notes</dt><dd>${dash(b.leaseNotes)}</dd>
+          <dt>Established</dt><dd>${dash(b.established)}</dd>
+          <dt>Employees</dt><dd>${dash(b.employees)}</dd>
+          <dt>Sq ft</dt><dd>${dash(b.squareFootageSqFt)}</dd>
+          <dt>Inventory</dt><dd>${dash(b.inventoryIncluded)}${b.inventoryValueCAD != null ? ' · ' + esc(CAD.format(b.inventoryValueCAD)) : ''}</dd>
+          <dt>Franchise</dt><dd>${b.isFranchise == null ? '<span class="muted">—</span>' : (b.isFranchise ? 'Yes' + (b.franchiseName ? ' · ' + esc(b.franchiseName) : '') : 'No')}</dd>
+          <dt>Sale type</dt><dd>${dash(b.saleType)}</dd>
+          <dt>Property</dt><dd>${dash(b.propertyArrangement)}</dd>
+          <dt>Other location</dt><dd>${dash(b.otherLocationComments)}</dd>
+          <dt>Created</dt><dd>${dash(b.createdDate)}</dd>
+          <dt>Domains</dt><dd>${domains}</dd>
+        </dl>
+      </div>
+      <div class="block"><h3>Listing URLs</h3><ul class="urls">${urls}</ul></div>
+    </div>
+  </div>`;
+}
+
+function renderTable() {
+  const rows = sortRows(filtered());
+  document.getElementById('resultsMeta').textContent =
+    `Showing ${rows.length} of ${LISTINGS.length}`;
+
+  // header arrows
+  document.querySelectorAll('th.sortable').forEach(th => {
+    const key = th.dataset.sort;
+    const arrow = th.querySelector('.arrow');
+    if (state.sort === key) {
+      th.classList.add('sorted');
+      arrow.textContent = state.dir === 'asc' ? '▲' : '▼';
+    } else {
+      th.classList.remove('sorted');
+      arrow.textContent = '';
+    }
+  });
+
+  const tbody = document.getElementById('tbody');
+  if (!rows.length) {
+    tbody.innerHTML = `<tr><td colspan="10" class="empty">No listings match these filters.</td></tr>`;
+    return;
+  }
+
+  let html = '';
+  for (const b of rows) {
+    const url = (b.listingUrls && b.listingUrls[0]) || null;
+    const linkCell = url
+      ? `<a class="link" data-ext href="${esc(url)}" title="${esc(url)}">Open ↗</a>`
+      : '<span class="muted">—</span>';
+    const open = state.openId === b._id;
+    html += `<tr class="main-row${open ? ' open' : ''}" data-id="${b._id}">
+      <td class="name">${esc(b.businessName || '—')}</td>
+      <td>${dash(b.category)}</td>
+      <td class="num">${money(b.askingCAD)}</td>
+      <td class="num">${money(b.cashFlowSdeCAD)}</td>
+      <td class="num">${money(b.grossRevenueCAD)}</td>
+      <td>${dash(b.location)}</td>
+      <td><span class="status">${esc(b.listingStatus || '—')}</span></td>
+      <td>${dash(b.sellingReason)}</td>
+      <td class="num">${dash(b.updatedDate)}</td>
+      <td>${linkCell}</td>
+    </tr>`;
+    if (open) {
+      html += `<tr class="detail-row"><td colspan="10">${detailHtml(b)}</td></tr>`;
+    }
+  }
+  tbody.innerHTML = html;
+  tbody.querySelectorAll('tr.main-row').forEach(tr => {
+    tr.addEventListener('click', (e) => {
+      if (e.target.closest('a')) return;
+      const id = Number(tr.dataset.id);
+      state.openId = state.openId === id ? null : id;
+      renderTable();
+    });
+  });
+}
+
+// Events
+document.getElementById('q').addEventListener('input', e => {
+  state.q = e.target.value;
+  renderTable();
+});
+document.getElementById('catFilter').addEventListener('change', e => {
+  state.category = e.target.value;
+  renderCats();
+  renderTable();
+});
+document.getElementById('bandFilter').addEventListener('change', e => {
+  state.band = e.target.value;
+  renderBands();
+  renderTable();
+});
+document.getElementById('hasFin').addEventListener('change', e => {
+  state.hasFin = e.target.checked;
+  renderTable();
+});
+document.querySelectorAll('th.sortable').forEach(th => {
+  th.addEventListener('click', () => {
+    const key = th.dataset.sort;
+    if (state.sort === key) state.dir = state.dir === 'asc' ? 'desc' : 'asc';
+    else {
+      state.sort = key;
+      state.dir = key === 'ask' ? 'asc' : 'asc';
+    }
+    renderTable();
+  });
+});
+
+document.getElementById('genAt').textContent = GENERATED_AT;
+
+
+function cashflowListings() {
+  return LISTINGS.filter(b => b.cashFlowSdeCAD != null)
+    .slice()
+    .sort((a, b) => (b.cashFlowSdeCAD ?? 0) - (a.cashFlowSdeCAD ?? 0));
+}
+
+function renderCashflowPage() {
+  const rows = LISTINGS.filter(b => b.cashFlowSdeCAD != null)
+    .slice()
+    .sort((a, b) => (b.cashFlowSdeCAD ?? 0) - (a.cashFlowSdeCAD ?? 0));
+  const meta = document.getElementById('cfMeta');
+  const list = document.getElementById('cfList');
+  if (meta) meta.textContent = `${rows.length} listing${rows.length === 1 ? '' : 's'}`;
+  if (!list) return;
+  if (!rows.length) {
+    list.innerHTML = `<div class="cf-card"><p class="muted">No listings currently publish cash flow / SDE.</p></div>`;
+    return;
+  }
+  list.innerHTML = rows.map(b => {
+    const url = (b.listingUrls && b.listingUrls[0]) || null;
+    const name = b.businessName || '—';
+    const ask = b.askingCAD;
+    const cf = b.cashFlowSdeCAD;
+    const rev = b.grossRevenueCAD;
+    const loc = b.location || '—';
+    const cat = b.category || '—';
+    const sum = b.summary || '';
+    const link = url
+      ? `<a class="ext" data-ext href="${esc(url)}" title="${esc(url)}">Open listing ↗</a>`
+      : '<span class="muted">No listing URL</span>';
+    return `<article class="cf-card">
+      <h3>${esc(name)}</h3>
+      <div class="row">
+        <span><strong>${money(cf)}</strong> <span class="muted">cash flow / SDE</span></span>
+        <span><strong>${money(ask)}</strong> <span class="muted">ask</span></span>
+        <span><strong>${money(rev)}</strong> <span class="muted">revenue</span></span>
+      </div>
+      <div class="row"><span>${esc(cat)}</span><span class="muted">${esc(loc)}</span></div>
+      <p class="muted" style="margin:.5rem 0 .65rem;font-size:.9rem;line-height:1.45">${esc(sum)}</p>
+      ${link}
+    </article>`;
+  }).join('');
+}
+
+
+function openExternal(url, e) {
+  if (e) { e.preventDefault(); e.stopPropagation(); }
+  if (!url) return;
+  const w = window.open(url, '_blank', 'noopener,noreferrer');
+  if (!w) {
+    // popup blocked — navigate same tab
+    window.location.href = url;
+  }
+}
+
+document.addEventListener('click', (e) => {
+  const a = e.target.closest('a[data-ext]');
+  if (!a) return;
+  openExternal(a.getAttribute('href'), e);
+});
+
+function applyRoute() {
+  const hash = (location.hash || '#/').replace(/^#/, '');
+  const isCf = hash === '/cashflow' || hash === 'cashflow';
+  document.body.classList.toggle('view-cashflow', isCf);
+  if (isCf) renderCashflowPage();
+  else window.scrollTo(0, 0);
+}
+
+function goCashflow(e) {
+  if (e) e.preventDefault();
+  location.hash = '#/cashflow';
+}
+
+function wireCashflowStat() {
+  const el = document.getElementById('statCashflow');
+  if (!el || el.dataset.wired) return;
+  el.dataset.wired = '1';
+  el.addEventListener('click', goCashflow);
+  el.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); goCashflow(); }
+  });
+}
+
+const _origRenderSummary = renderSummary;
+renderSummary = function() {
+  _origRenderSummary();
+  wireCashflowStat();
+};
+
+window.addEventListener('hashchange', applyRoute);
+
+// Init — default sort ask asc already in state
+renderSummary();
+fillCatDropdown();
+renderBands();
+renderCats();
+renderTable();
+applyRoute();
+</script>
+</body>
+</html>
