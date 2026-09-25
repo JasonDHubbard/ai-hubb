@@ -3,33 +3,41 @@ AI rules, skills, tools, and prompts collection
 
 ---
 
-## 📊 Edmonton Business Dashboard - Ready for Deployment
+## 📊 Edmonton Business Dashboard
 
-A self-contained dashboard of Edmonton-area businesses for sale has been prepared and is ready for GitHub Pages deployment.
+A self-contained dashboard displaying Edmonton-area businesses for sale is published in the `/docs` folder of this repository.
 
-**Status:** ⚠️ Manual repository creation required (GitHub permissions limitation)
+**Live Dashboard:** https://jasondhubbard.github.io/ai-hubb/ *(requires GitHub Pages to be enabled)*
 
-### Quick Deploy
+### Dashboard Location
 
-1. **Create repository:** https://github.com/new
-   - Name: `edmonton-business-dashboard`
-   - Public, no initialization
+- **Dashboard:** [docs/index.html](docs/index.html)
+- **Documentation:** [docs/README.md](docs/README.md)
 
-2. **Deploy files:**
-   ```bash
-   cd /tmp/edmonton-business-dashboard
-   ./deploy.sh
-   ```
+### Enable GitHub Pages
 
-3. **Enable Pages:** https://github.com/JasonDHubbard/edmonton-business-dashboard/settings/pages
-   - Branch: `main`, Folder: `/` (root)
+To activate the live dashboard site:
 
-4. **Access:** https://jasondhubbard.github.io/edmonton-business-dashboard/
+1. Go to repository **Settings** → **Pages**
+2. Configure source:
+   - **Source:** Deploy from a branch
+   - **Branch:** `main`
+   - **Folder:** `/docs`
+3. Click **Save**
 
-### Files Prepared
+The dashboard will be available at https://jasondhubbard.github.io/ai-hubb/ within 2-3 minutes.
 
-- `/tmp/edmonton-business-dashboard/` - Complete repository ready to push
-- `/workspace/DASHBOARD_SETUP_SUMMARY.md` - Full deployment guide
-- Dashboard: 54 Edmonton businesses (asking under $301k CAD)
+### Dashboard Details
 
-See [DASHBOARD_SETUP_SUMMARY.md](DASHBOARD_SETUP_SUMMARY.md) for complete instructions.
+- Self-contained HTML (no build required)
+- Displays Edmonton businesses for sale
+- Data source: Google Drive (maintained by Business Finder)
+- To update: Replace `docs/index.html` with new dashboard from Business List Dashboarder
+
+### Alternative: GitHub Actions Deployment
+
+A workflow has been added at `.github/workflows/pages.yml` that can deploy the dashboard using GitHub Actions. To use it:
+
+1. Go to **Settings** → **Pages**
+2. Set source to **GitHub Actions**
+3. The workflow will automatically deploy on push to `main`
