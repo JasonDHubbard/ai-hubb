@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>US Recessions, Political Parties &amp; Global Causes (1857–2020)</title>
+<meta name="description" content="Interactive tables and charts of the 34 NBER-dated US recessions (1857–2020): president and party at start and end, causes, global recession overlap and stock drawdowns.">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <p class="sub" id="retrieved"></p>
+    <h1 id="title">US recessions and presidential administrations</h1>
+    <p class="sub">Tables and charts for exploring possible correlations between US recessions and (1) the president's political party and (2) other domestic and global causes.</p>
+    <div class="verdict">
+      <div class="box">
+        <h3>Claim checked</h3>
+        <p id="claim"></p>
+        <p><span id="verdictBadge" class="badge"></span></p>
+        <p id="claimReason" class="sub"></p>
+      </div>
+      <div class="box">
+        <h3>Scope</h3>
+        <p id="scopeText"></p>
+      </div>
+    </div>
+    <div class="caution"><strong>Correlation is not causation.</strong> <span id="causationNote"></span></div>
+  </div>
+</header>
+<nav class="toc"><div class="wrap">
+  <a href="#stats">Key stats</a><a href="#party">Political parties</a><a href="#causes">Global &amp; other causes</a><a href="#table">All recessions</a><a href="#method">Methodology &amp; sources</a>
+</div></nav>
+<main class="wrap">
+  <section id="stats">
+    <h2>Key stats</h2>
+    <div class="cards" id="statCards"></div>
+  </section>
+
+  <section id="party">
+    <h2>1. Recessions and political parties</h2>
+    <p class="sub">Party refers to the president in office (see methodology for how start/end presidents are assigned). <span class="legend-inline"><span class="dem">■ Democratic</span><span class="rep">■ Republican</span></span></p>
+    <div class="grid">
+      <div class="panel"><h3>Recessions by party: in office at start vs. at end</h3><div class="chart"><canvas id="chPartyStartEnd"></canvas></div><p class="note">Counts of the 34 recessions by the party of the president in office in the start month and in the trough (end) month.</p></div>
+      <div class="panel"><h3>Average and median duration by party at start</h3><div class="chart"><canvas id="chDurByParty"></canvas></div><p class="note">NBER peak-to-trough length in months, grouped by the party in office when the recession started.</p></div>
+      <div class="panel"><h3>Total recession-months by party</h3><div class="chart"><canvas id="chMonthsByParty"></canvas></div><p class="note">“By start party” credits each recession's whole duration to the party in office at its start. “Month-by-month” credits each recession month to the party of the president in office on the 1st of that month (derived from the inauguration dates in the file).</p></div>
+      <div class="panel"><h3>Normalised: exposure-adjusted rates</h3><div class="chart"><canvas id="chNormalised"></canvas></div><p class="note" id="normNote"></p></div>
+      <div class="panel"><h3>When in the term did recessions start?</h3><div class="chart"><canvas id="chTenure"></canvas></div><p class="note">Bucketed by the president's complete months in office at the recession start month (Year 1 = 0–11 months, Year 2 = 12–23, …). Year 5+ only applies to presidents who served beyond one 4-year term.</p></div>
+      <div class="panel"><h3>Preceding president's party vs. start party</h3><div class="chart"><canvas id="chPreceding"></canvas></div><p class="note">“Preceding president” is the administration immediately before the president in office at the start (not necessarily the one in office in the prior recession).</p></div>
+      <div class="panel wide"><h3>Timeline: recession start year vs. duration</h3><div class="chart"><canvas id="chTimeline"></canvas></div><p class="note">Each point is a recession, plotted at its start month and coloured by the party in office at the start. Hover for details.</p></div>
+      <div class="panel"><h3>Start party × end party</h3><div class="scroll" id="tblFlip"></div><p class="note">Diagonal cells: started and ended under the same party. Off-diagonal cells: the presidency changed party during the recession.</p></div>
+      <div class="panel"><h3>Recessions that began under one party and ended under the other</h3><div class="scroll" id="tblFlipList"></div></div>
+      <div class="panel wide"><h3>Party summary table</h3><div class="scroll" id="tblPartySummary"></div></div>
+    </div>
+  </section>
+
+  <section id="causes">
+    <h2>2. Recessions and global / other causes</h2>
+    <p class="sub">The file lists 2–4 brief “possible causes” per recession plus a World Bank global-recession overlap flag. Cause categories below are <strong>derived by keyword matching</strong> on the cause text (method and rules shown at the bottom of this section); one recession can carry several categories.</p>
+    <div class="grid">
+      <div class="panel wide"><h3>Cause-category frequency, split by party at start</h3><div class="chart tall"><canvas id="chTags"></canvas></div><p class="note">Number of recessions tagged with each category (not number of cause strings).</p></div>
+      <div class="panel wide"><h3>Cause category × party (and global overlap)</h3><div class="scroll" id="tblTagParty"></div><p class="note">Percentages are of each party's recessions (11 Democratic-start, 23 Republican-start). “Global overlap” = share of tagged recessions flagged as overlapping a World Bank global recession, among those with a non-null flag.</p></div>
+      <div class="panel"><h3>World Bank global-recession overlap</h3><div class="chart"><canvas id="chGlobal"></canvas></div><p class="note">Overlap flag is null for the four earliest recessions (1857–1870); these are shown as “n/a” and not counted as “no”.</p></div>
+      <div class="panel"><h3>Global overlap vs. not: duration and stock drawdown</h3><div class="scroll" id="tblGlobal"></div><p class="note">Averages computed only over recessions where the value is present (n shown). Drawdowns are separate index peak-to-trough moves and may extend outside the recession.</p></div>
+      <div class="panel"><h3>Global overlap × party at start</h3><div class="chart"><canvas id="chGlobalParty"></canvas></div></div>
+      <div class="panel"><h3>Cause evidence strength by party at start</h3><div class="chart"><canvas id="chEvidence"></canvas></div><p class="note">How specific the file's sources are about the listed causes (high / medium / low).</p></div>
+      <div class="panel wide"><h3>Stock-market drawdown vs. recession duration</h3><div class="chart"><canvas id="chDrawdown"></canvas></div><p class="note" id="drawdownNote"></p></div>
+      <div class="panel wide"><h3>Other countries in recession at the same time</h3><div id="otherCountries"></div></div>
+      <div class="panel wide"><h3>How cause categories were derived</h3><div class="scroll" id="tblTagRules"></div></div>
+    </div>
+  </section>
+
+  <section id="table">
+    <h2>3. All recessions (sortable, filterable)</h2>
+    <div class="filters">
+      <label>Search<input type="search" id="fSearch" placeholder="name, president, cause…"></label>
+      <label>Party at start<select id="fStart"><option value="">All</option><option>Democratic</option><option>Republican</option></select></label>
+      <label>Party at end<select id="fEnd"><option value="">All</option><option>Democratic</option><option>Republican</option></select></label>
+      <label>Era<select id="fEra"><option value="">All</option></select></label>
+      <label>Global overlap<select id="fGlobal"><option value="">All</option><option value="true">Yes</option><option value="false">No</option><option value="null">n/a</option></select></label>
+      <label>Cause category<select id="fTag"><option value="">All</option></select></label>
+      <label style="flex-direction:row;align-items:center;gap:.35rem"><input type="checkbox" id="fFlip"> Party changed during recession</label>
+    </div>
+    <p class="count" id="rowCount"></p>
+    <div class="scroll panel" style="padding:0"><table id="fullTable"></table></div>
+  </section>
+
+  <section id="method">
+    <h2>4. Methodology and sources</h2>
+    <div class="grid">
+      <div class="panel"><h3>Methodology (from the data file)</h3><dl class="method" id="methodList"></dl></div>
+      <div class="panel"><h3>Calculations on this page</h3><ul id="calcNotes"></ul></div>
+      <div class="panel wide"><h3>Sources</h3><ol class="sources" id="sourceList"></ol></div>
+    </div>
+  </section>
+</main>
+<footer class="wrap">Data: <a href="data/recessions.json">data/recessions.json</a> · Charts: Chart.js · Static site, no tracking.</footer>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script src="data/recessions.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
