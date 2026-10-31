@@ -96,13 +96,12 @@
     document.title = D.title;
     el("title").textContent = D.title;
     el("retrieved").textContent = "Data retrieved " + D.retrieved_on;
-    el("claim").innerHTML = "“" + esc(D.claim_review.claim) + "”";
-    var b = el("verdictBadge");
-    b.textContent = D.claim_review.supported ? "SUPPORTED" : "NOT SUPPORTED";
-    b.className = "badge " + (D.claim_review.supported ? "true" : "false");
-    el("claimReason").textContent = D.claim_review.reason;
+    var G = D.reader_guidance;
+    if (G && G.statements && G.statements.length) {
+      el("guidanceHeading").textContent = G.heading || "Reading this data";
+      el("guidanceList").innerHTML = G.statements.map(function (s) { return "<li>" + esc(s) + "</li>"; }).join("");
+    } else { el("readerGuidance").style.display = "none"; }
     el("scopeText").innerHTML = esc(D.scope.recession_count + " NBER-dated recessions, " + D.scope.period_start + " to " + D.scope.period_end + ". " + D.scope.standard + " " + D.scope.earlier_than_1857 + " " + D.scope.recessions_since_2020);
-    el("causationNote").textContent = D.methodology.causes + " " + D.claim_review.reason.split(". ").slice(-1)[0];
 
     // ---------- exposure (months in office per party) ----------
     var admins = {}, list = [];

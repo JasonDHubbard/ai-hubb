@@ -1,6 +1,6 @@
 # US recessions, political parties & global causes (1857–2020)
 
-Static dashboard of the 34 NBER-dated US recessions (1857–2020). It shows the president and party in office at the start and end of each recession, how far into the term each one began, the preceding administration, exposure-adjusted rates per party (based on years in office), listed causes grouped into keyword-derived categories, World Bank global-recession overlap, and stock-index drawdowns. Everything comes from `data/recessions.json`, and the methodology and every source link are shown on the page. Correlation is not causation: these charts are a way to explore the patterns, and they don't show who or what caused a recession.
+Static dashboard of the 34 NBER-dated US recessions (1857–2020). It shows the president and party in office at the start and end of each recession, how far into the term each one began, the preceding administration, exposure-adjusted rates per party (based on years in office), listed causes grouped into keyword-derived categories, World Bank global-recession overlap, and stock-index drawdowns. Everything comes from `data/recessions.json`, and the methodology and every source link are shown on the page. The "Reading this data" section at the top of the page (from `reader_guidance` in the JSON) explains that correlations here don't show causation and are only a starting point for further research.
 
 ## Files
 - `index.html`: the page

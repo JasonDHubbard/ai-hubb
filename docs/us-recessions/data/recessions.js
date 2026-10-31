@@ -2,10 +2,13 @@
 window.RECESSION_DATA = {
   "title": "US recessions and presidential administrations: NBER chronology (1857–2020)",
   "retrieved_on": "2026-10-31",
-  "claim_review": {
-    "claim": "Every recession in US history happened under a Republican president.",
-    "supported": false,
-    "reason": "Several NBER recessions began under Democratic presidents; some also started and ended under a Democrat. Correlation with president in office is not evidence of presidential causation."
+  "reader_guidance": {
+    "heading": "Reading this data",
+    "statements": [
+      "Several NBER recessions began under Democratic presidents; some also started and ended under a Democrat.",
+      "On its own, a correlation between a recession's start month (the month it is considered to have begun) and the party in power does not indicate causation.",
+      "Any apparent correlations should serve only as a starting point for further research."
+    ]
   },
   "scope": {
     "period_start": "1857-07",
