@@ -207,7 +207,7 @@ table.listings col.col-money { width: 7rem; }
 table.listings col.col-loc { width: 14%; }
 table.listings col.col-reason { width: auto; }
 table.listings col.col-status { width: 5.5rem; }
-table.listings col.col-updated { width: 6.5rem; }
+table.listings col.col-age { width: 5.5rem; }
 table.listings th,
 table.listings td {
   padding: .55rem .65rem;
@@ -432,7 +432,7 @@ body.view-cashflow #view-cashflow { display: block; }
         <col class="col-loc">
         <col class="col-reason">
         <col class="col-status">
-        <col class="col-updated">
+        <col class="col-age">
       </colgroup>
       <thead>
         <tr>
@@ -444,7 +444,7 @@ body.view-cashflow #view-cashflow { display: block; }
           <th>Location</th>
           <th>Selling reason</th>
           <th>Status</th>
-          <th class="sortable" data-sort="updated">Updated <span class="arrow"></span></th>
+          <th class="sortable" data-sort="age">Age (Days) <span class="arrow"></span></th>
         </tr>
       </thead>
       <tbody id="tbody"><tr><td colspan="9" class="empty">Loading listings…</td></tr></tbody>
@@ -503,6 +503,18 @@ function revenue(b){
 function money(v) {
   if (v == null || v === '') return '<span class="muted">—</span>';
   return esc(CAD.format(v));
+}
+/** Whole days from createdDate to local today (inclusive of start day as 0). */
+function ageDays(createdDate) {
+  if (!createdDate) return null;
+  const m = String(createdDate).match(/^(\d{4})-(\d{2})-(\d{2})/);
+  if (!m) return null;
+  const created = new Date(+m[1], +m[2] - 1, +m[3]);
+  if (isNaN(created.getTime())) return null;
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+  created.setHours(0, 0, 0, 0);
+  return Math.max(0, Math.round((today - created) / 86400000));
 }
 function bandOf(ask) {
   if (ask == null) return null;
@@ -657,7 +669,7 @@ function sortRows(rows) {
   const keyFn = {
     ask: r => r.askingCAD == null ? (dir === 'asc' ? Infinity : -Infinity) : r.askingCAD,
     name: r => (r.businessName || '').toLowerCase(),
-    updated: r => r.updatedDate || '',
+    age: r => { const v = ageDays(r.createdDate); return v == null ? (dir === 'asc' ? Infinity : -Infinity) : v; },
     category: r => (r.category || '').toLowerCase(),
     revenue: r => { const v = revSortVal(r); return v == null ? (dir === 'asc' ? Infinity : -Infinity) : v; }
   }[sort] || (r => r.askingCAD);
@@ -744,6 +756,11 @@ function renderTable() {
       ? `<a data-ext href="${esc(url)}" title="${esc(url)}">${name}</a>`
       : name;
     const open = state.openId === b._id;
+    const age = ageDays(b.createdDate);
+    const ageCell = age == null
+      ? '<span class="muted">—</span>'
+      : String(age);
+    const ageTitle = b.createdDate ? ` title="Created ${esc(b.createdDate)}"` : '';
     html += `<tr class="main-row${open ? ' open' : ''}" data-id="${b._id}">
       <td class="name">${nameCell}</td>
       <td>${dash(b.category)}</td>
@@ -753,7 +770,7 @@ function renderTable() {
       <td>${dash(b.location)}</td>
       <td>${dash(b.sellingReason)}</td>
       <td><span class="status ${statusClass(b.listingStatus)}">${esc(b.listingStatus || '—')}</span></td>
-      <td class="num">${dash(b.updatedDate)}</td>
+      <td class="num"${ageTitle}>${ageCell}</td>
     </tr>`;
     if (open) {
       html += `<tr class="detail-row"><td colspan="9">${detailHtml(b)}</td></tr>`;
