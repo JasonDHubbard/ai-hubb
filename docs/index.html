@@ -52,23 +52,7 @@ header.app p {
 }
 .wrap { max-width: 1280px; margin: 0 auto; padding: 1rem 1.25rem 2.5rem; }
 
-/* Summary strip */
-.summary {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-  gap: .75rem;
-  margin: -0.5rem 0 1.1rem;
-}
-.stat {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: .85rem 1rem;
-  box-shadow: var(--shadow);
-}
-.stat .label { font-size: .72rem; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); font-weight: 600; }
-.stat .value { font-size: 1.25rem; font-weight: 650; margin-top: .15rem; letter-spacing: -0.02em; }
-.stat .hint { font-size: .75rem; color: var(--muted); margin-top: .1rem; }
+header.app p.updated { margin-top: .35rem; color: #d6d3d1; font-size: .82rem; }
 
 /* Panels */
 .panel {
@@ -96,43 +80,31 @@ header.app p {
   .grid-2 { grid-template-columns: 1fr; }
 }
 
-/* Price bands */
-.bands { display: flex; flex-wrap: wrap; gap: .5rem; }
-.band {
+/* Data quality */
+.dq-grid { display: flex; flex-wrap: wrap; gap: .5rem; }
+.dq {
   flex: 1 1 120px;
   background: var(--chip);
   border: 1px solid var(--border);
   border-radius: 8px;
   padding: .55rem .7rem;
-  cursor: pointer;
-  transition: border-color .15s, background .15s;
-  text-align: left;
-  font: inherit;
-  color: inherit;
 }
-.band:hover { border-color: #d6d3d1; }
-.band.active {
-  background: var(--accent-soft);
-  border-color: #fdba74;
-  color: #7c2d12;
-}
-.band .bn { font-size: .78rem; color: var(--muted); font-weight: 600; }
-.band.active .bn { color: #9a3412; }
-.band .bc { font-size: 1.1rem; font-weight: 650; }
-.band .bar {
+.dq .bn { font-size: .78rem; color: var(--muted); font-weight: 600; }
+.dq .bc { font-size: 1.1rem; font-weight: 650; }
+.dq .hint { font-size: .75rem; color: var(--muted); }
+.dq .bar {
   height: 4px;
   background: #e7e5e4;
   border-radius: 2px;
   margin-top: .4rem;
   overflow: hidden;
 }
-.band .bar > i {
+.dq .bar > i {
   display: block;
   height: 100%;
   background: #c2410c;
   border-radius: 2px;
 }
-.band.active .bar > i { background: #9a3412; }
 
 /* Categories */
 .cats { display: flex; flex-wrap: wrap; gap: .4rem; }
@@ -307,19 +279,19 @@ footer.foot {
 }
 footer.foot code { font-family: var(--mono); font-size: .85em; }
 
-.stat.clickable {
+.dq.clickable {
   cursor: pointer;
   transition: border-color .15s, box-shadow .15s, transform .1s;
 }
-.stat.clickable:hover {
+.dq.clickable:hover {
   border-color: #fdba74;
   box-shadow: 0 0 0 2px var(--accent-soft);
 }
-.stat.clickable:focus-visible {
+.dq.clickable:focus-visible {
   outline: 2px solid #c2410c;
   outline-offset: 2px;
 }
-.stat.clickable .hint-link {
+.dq.clickable .hint-link {
   color: #9a3412;
   font-weight: 600;
 }
@@ -361,18 +333,17 @@ body.view-cashflow #view-cashflow { display: block; }
   <div class="wrap" style="padding-bottom:0;padding-top:0;">
     <h1>Edmonton businesses for sale</h1>
     <p>Jason Hubbard · asking under $301k CAD · filter by status (Listed by default)</p>
+    <p class="updated">Last updated <span id="lastUpdated">—</span></p>
   </div>
 </header>
 
 <div class="wrap">
   
 <div id="view-main">
-<div class="summary" id="summary"></div>
-
   <div class="grid-2">
     <div class="panel">
-      <h2>Price bands (asking CAD)</h2>
-      <div class="bands" id="bands"></div>
+      <h2>Data quality</h2>
+      <div class="dq-grid" id="dataQuality"></div>
     </div>
     <div class="panel">
       <h2>Categories</h2>
@@ -483,22 +454,9 @@ function bandOf(ask) {
   if (ask < 200000) return '100_200';
   return '200_301';
 }
-const BAND_LABELS = {
-  under50: 'Under $50k',
-  '50_100': '$50–100k',
-  '100_200': '$100–200k',
-  '200_301': '$200–301k'
-};
 function domainOf(url) {
   try { return new URL(url).hostname.replace(/^www\./, ''); }
   catch { return url; }
-}
-
-function median(nums) {
-  if (!nums.length) return null;
-  const a = [...nums].sort((x,y) => x - y);
-  const m = Math.floor(a.length / 2);
-  return a.length % 2 ? a[m] : (a[m-1] + a[m]) / 2;
 }
 
 function enrichListings() {
@@ -518,21 +476,19 @@ const state = {
 };
 
 function computeStats(rows) {
-  const asks = rows.map(r => r.askingCAD).filter(v => v != null);
-  const withAsk = asks.length;
-  const cf = rows.filter(r => r.cashFlowSdeCAD != null).length;
-  const rev = rows.filter(hasRev).length;
-  const either = rows.filter(r => r.cashFlowSdeCAD != null || hasRev(r)).length;
-  const updated = rows.map(r => r.updatedDate).filter(Boolean);
-  const maxUp = updated.length ? updated.reduce((a,b) => a > b ? a : b) : null;
   return {
     total: rows.length,
-    withAsk,
-    min: asks.length ? Math.min(...asks) : null,
-    max: asks.length ? Math.max(...asks) : null,
-    med: median(asks),
-    cf, rev, either, maxUp
+    withAsk: rows.filter(r => r.askingCAD != null).length,
+    cf: rows.filter(r => r.cashFlowSdeCAD != null).length,
+    rev: rows.filter(hasRev).length,
+    either: rows.filter(r => r.cashFlowSdeCAD != null || hasRev(r)).length
   };
+}
+
+function renderLastUpdated() {
+  const updated = LISTINGS.map(r => r.updatedDate).filter(Boolean);
+  const maxUp = updated.length ? updated.reduce((a,b) => a > b ? a : b) : null;
+  document.getElementById('lastUpdated').textContent = maxUp || '—';
 }
 
 function statusHint() {
@@ -544,45 +500,21 @@ function rowsForSummary() {
 }
 function renderSummary() {
   const s = computeStats(rowsForSummary());
-  document.getElementById('summary').innerHTML = `
-    <div class="stat"><div class="label">Listings</div><div class="value">${s.total}</div><div class="hint">${esc(statusHint())}</div></div>
-    <div class="stat"><div class="label">With asking price</div><div class="value">${s.withAsk}</div><div class="hint">of ${s.total}</div></div>
-    <div class="stat"><div class="label">Min ask</div><div class="value">${s.min != null ? esc(CAD.format(s.min)) : '—'}</div></div>
-    <div class="stat"><div class="label">Median ask</div><div class="value">${s.med != null ? esc(CAD.format(Math.round(s.med))) : '—'}</div></div>
-    <div class="stat"><div class="label">Max ask</div><div class="value">${s.max != null ? esc(CAD.format(s.max)) : '—'}</div></div>
-    <div class="stat clickable" id="statCashflow" role="link" tabindex="0" title="View businesses with cash flow / SDE" aria-label="View businesses with cash flow or SDE">
-      <div class="label">Cash flow / SDE</div>
-      <div class="value">${s.cf}</div>
-      <div class="hint hint-link">filled · view list →</div>
-    </div>
-    <div class="stat"><div class="label">Revenue filled</div><div class="value">${s.rev}</div><div class="hint">${s.either} with any financials</div></div>
-    <div class="stat"><div class="label">Last updated</div><div class="value" style="font-size:1.05rem">${s.maxUp ? esc(s.maxUp) : '—'}</div><div class="hint">max updatedDate</div></div>
-  `;
-}
-
-function renderBands() {
-  const counts = { under50:0, '50_100':0, '100_200':0, '200_301':0 };
-  rowsForSummary().forEach(b => { if (b._band) counts[b._band]++; });
-  const maxC = Math.max(...Object.values(counts), 1);
-  const el = document.getElementById('bands');
-  el.innerHTML = Object.keys(BAND_LABELS).map(k => {
-    const active = state.band === k ? ' active' : '';
-    const pct = Math.round(100 * counts[k] / maxC);
-    return `<button type="button" class="band${active}" data-band="${k}">
-      <div class="bn">${BAND_LABELS[k]}</div>
-      <div class="bc">${counts[k]}</div>
-      <div class="bar"><i style="width:${pct}%"></i></div>
-    </button>`;
-  }).join('');
-  el.querySelectorAll('.band').forEach(btn => {
-    btn.addEventListener('click', () => {
-      const b = btn.dataset.band;
-      state.band = state.band === b ? '' : b;
-      document.getElementById('bandFilter').value = state.band;
-      renderBands();
-      renderTable();
-    });
-  });
+  const pct = n => s.total ? Math.round(100 * n / s.total) : 0;
+  const tile = (label, n, hint, attrs = 'class="dq"') => `
+    <div ${attrs}>
+      <div class="bn">${label}</div>
+      <div class="bc">${n}</div>
+      <div class="hint">${hint}</div>
+      <div class="bar"><i style="width:${pct(n)}%"></i></div>
+    </div>`;
+  document.getElementById('dataQuality').innerHTML =
+    tile('Listings', s.total, esc(statusHint())) +
+    tile('With asking price', s.withAsk, `${pct(s.withAsk)}% of ${s.total}`) +
+    tile('With cash flow / SDE', s.cf,
+      `<span class="hint-link">${pct(s.cf)}% · view list →</span>`,
+      'class="dq clickable" id="statCashflow" role="link" tabindex="0" title="View businesses with cash flow / SDE"') +
+    tile('With revenue', s.rev, `${pct(s.rev)}% · ${s.either} with any financials`);
 }
 
 function topCategories(n = 8) {
@@ -793,13 +725,11 @@ document.getElementById('catFilter').addEventListener('change', e => {
 });
 document.getElementById('bandFilter').addEventListener('change', e => {
   state.band = e.target.value;
-  renderBands();
   renderTable();
 });
 document.getElementById('statusFilter').addEventListener('change', e => {
   state.status = e.target.value;
   renderSummary();
-  renderBands();
   renderCats();
   fillCatDropdown();
   renderTable();
@@ -926,9 +856,9 @@ function startApp() {
   enrichListings();
   document.getElementById('genAt').textContent = GENERATED_AT;
   // Init — default sort ask asc already in state
+  renderLastUpdated();
   renderSummary();
   fillCatDropdown();
-  renderBands();
   renderCats();
   renderTable();
   applyRoute();
