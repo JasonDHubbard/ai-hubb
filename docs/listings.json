@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05 09:13 PM CST",
+  "generatedAt": "2026-11-05 11:40 PM CST",
   "capCAD": 301000,
   "businesses": [
     {
@@ -14,6 +14,9 @@
       ],
       "listingDomainUrls": [
         "https://www.kijiji.ca"
+      ],
+      "listingSiteNames": [
+        "Kijiji"
       ],
       "askingCAD": 18500,
       "grossRevenueCAD": null,
@@ -52,6 +55,9 @@
       ],
       "listingDomainUrls": [
         "https://canada.businessesforsale.com"
+      ],
+      "listingSiteNames": [
+        "BusinessesForSale.com"
       ],
       "askingCAD": 18995,
       "grossRevenueCAD": null,
@@ -92,6 +98,9 @@
       "listingDomainUrls": [
         "https://canada.businessesforsale.com"
       ],
+      "listingSiteNames": [
+        "BusinessesForSale.com"
+      ],
       "askingCAD": 19999,
       "grossRevenueCAD": 20000,
       "grossRevenueLowCAD": null,
@@ -129,6 +138,9 @@
       ],
       "listingDomainUrls": [
         "https://canada.businessesforsale.com"
+      ],
+      "listingSiteNames": [
+        "BusinessesForSale.com"
       ],
       "askingCAD": 20000,
       "grossRevenueCAD": 53500,
@@ -168,6 +180,9 @@
       "listingDomainUrls": [
         "https://www.kijiji.ca"
       ],
+      "listingSiteNames": [
+        "Kijiji"
+      ],
       "askingCAD": 20000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -206,6 +221,9 @@
       "listingDomainUrls": [
         "https://www.kijiji.ca"
       ],
+      "listingSiteNames": [
+        "Kijiji"
+      ],
       "askingCAD": 21000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -243,6 +261,9 @@
       ],
       "listingDomainUrls": [
         "https://www.kijiji.ca"
+      ],
+      "listingSiteNames": [
+        "Kijiji"
       ],
       "askingCAD": 25000,
       "grossRevenueCAD": null,
@@ -284,6 +305,10 @@
         "https://www.kijiji.ca",
         "https://www.realtor.ca"
       ],
+      "listingSiteNames": [
+        "Kijiji",
+        "Realtor.ca"
+      ],
       "askingCAD": 30000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -321,6 +346,9 @@
       ],
       "listingDomainUrls": [
         "https://www.kijiji.ca"
+      ],
+      "listingSiteNames": [
+        "Kijiji"
       ],
       "askingCAD": 30000,
       "grossRevenueCAD": 24000,
@@ -360,6 +388,9 @@
       "listingDomainUrls": [
         "https://nidhikapoor.maxwellrealty.ca"
       ],
+      "listingSiteNames": [
+        "MaxWell Realty"
+      ],
       "askingCAD": 30000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -397,6 +428,9 @@
       ],
       "listingDomainUrls": [
         "https://canada.businessesforsale.com"
+      ],
+      "listingSiteNames": [
+        "BusinessesForSale.com"
       ],
       "askingCAD": 35000,
       "grossRevenueCAD": null,
@@ -438,6 +472,10 @@
         "https://www.realtor.ca",
         "https://www.maxwellrealty.ca"
       ],
+      "listingSiteNames": [
+        "Realtor.ca",
+        "MaxWell Realty"
+      ],
       "askingCAD": 35000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -475,6 +513,9 @@
       ],
       "listingDomainUrls": [
         "https://www.kijiji.ca"
+      ],
+      "listingSiteNames": [
+        "Kijiji"
       ],
       "askingCAD": 39000,
       "grossRevenueCAD": null,
@@ -514,6 +555,9 @@
       "listingDomainUrls": [
         "https://bizlistings.ca"
       ],
+      "listingSiteNames": [
+        "BizListings.ca"
+      ],
       "askingCAD": 39900,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -551,6 +595,9 @@
       ],
       "listingDomainUrls": [
         "https://www.kijiji.ca"
+      ],
+      "listingSiteNames": [
+        "Kijiji"
       ],
       "askingCAD": 40000,
       "grossRevenueCAD": null,
@@ -590,6 +637,9 @@
       "listingDomainUrls": [
         "https://canada.businessesforsale.com"
       ],
+      "listingSiteNames": [
+        "BusinessesForSale.com"
+      ],
       "askingCAD": 45000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -627,6 +677,9 @@
       ],
       "listingDomainUrls": [
         "https://www.kijiji.ca"
+      ],
+      "listingSiteNames": [
+        "Kijiji"
       ],
       "askingCAD": 45000,
       "grossRevenueCAD": null,
@@ -666,6 +719,9 @@
       "listingDomainUrls": [
         "https://canada.businessesforsale.com"
       ],
+      "listingSiteNames": [
+        "BusinessesForSale.com"
+      ],
       "askingCAD": 49900,
       "grossRevenueCAD": 450000,
       "grossRevenueLowCAD": null,
@@ -703,6 +759,9 @@
       ],
       "listingDomainUrls": [
         "https://canada.businessesforsale.com"
+      ],
+      "listingSiteNames": [
+        "BusinessesForSale.com"
       ],
       "askingCAD": 50000,
       "grossRevenueCAD": null,
@@ -742,6 +801,9 @@
       "listingDomainUrls": [
         "https://www.kijiji.ca"
       ],
+      "listingSiteNames": [
+        "Kijiji"
+      ],
       "askingCAD": 50000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -779,6 +841,9 @@
       ],
       "listingDomainUrls": [
         "https://canada.businessesforsale.com"
+      ],
+      "listingSiteNames": [
+        "BusinessesForSale.com"
       ],
       "askingCAD": 52500,
       "grossRevenueCAD": null,
@@ -818,6 +883,9 @@
       "listingDomainUrls": [
         "https://www.kijiji.ca"
       ],
+      "listingSiteNames": [
+        "Kijiji"
+      ],
       "askingCAD": 58000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -855,6 +923,9 @@
       ],
       "listingDomainUrls": [
         "https://www.kijiji.ca"
+      ],
+      "listingSiteNames": [
+        "Kijiji"
       ],
       "askingCAD": 60000,
       "grossRevenueCAD": 120000,
@@ -897,6 +968,10 @@
         "https://canada.businessesforsale.com",
         "https://www.bizbuysell.com"
       ],
+      "listingSiteNames": [
+        "BusinessesForSale.com",
+        "BizBuySell"
+      ],
       "askingCAD": 60000,
       "grossRevenueCAD": 500000,
       "grossRevenueLowCAD": null,
@@ -934,6 +1009,9 @@
       ],
       "listingDomainUrls": [
         "https://canada.businessesforsale.com"
+      ],
+      "listingSiteNames": [
+        "BusinessesForSale.com"
       ],
       "askingCAD": 60000,
       "grossRevenueCAD": null,
@@ -977,6 +1055,11 @@
         "https://www.realtor.ca",
         "https://www.kijiji.ca"
       ],
+      "listingSiteNames": [
+        "MaxWell Realty",
+        "Realtor.ca",
+        "Kijiji"
+      ],
       "askingCAD": 60000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -1015,6 +1098,9 @@
       "listingDomainUrls": [
         "https://www.kijiji.ca"
       ],
+      "listingSiteNames": [
+        "Kijiji"
+      ],
       "askingCAD": 67000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -1052,6 +1138,9 @@
       ],
       "listingDomainUrls": [
         "https://dealstream.com"
+      ],
+      "listingSiteNames": [
+        "DealStream"
       ],
       "askingCAD": 68000,
       "grossRevenueCAD": null,
@@ -1093,6 +1182,10 @@
         "https://www.kijiji.ca",
         "https://www.realtor.ca"
       ],
+      "listingSiteNames": [
+        "Kijiji",
+        "Realtor.ca"
+      ],
       "askingCAD": 69000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -1130,6 +1223,9 @@
       ],
       "listingDomainUrls": [
         "https://www.realtor.ca"
+      ],
+      "listingSiteNames": [
+        "Realtor.ca"
       ],
       "askingCAD": 69998,
       "grossRevenueCAD": null,
@@ -1169,6 +1265,9 @@
       "listingDomainUrls": [
         "https://canada.businessesforsale.com"
       ],
+      "listingSiteNames": [
+        "BusinessesForSale.com"
+      ],
       "askingCAD": 70000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -1207,6 +1306,9 @@
       "listingDomainUrls": [
         "https://www.kijiji.ca"
       ],
+      "listingSiteNames": [
+        "Kijiji"
+      ],
       "askingCAD": 70000,
       "grossRevenueCAD": 65000,
       "grossRevenueLowCAD": null,
@@ -1244,6 +1346,9 @@
       ],
       "listingDomainUrls": [
         "https://canada.businessesforsale.com"
+      ],
+      "listingSiteNames": [
+        "BusinessesForSale.com"
       ],
       "askingCAD": 70000,
       "grossRevenueCAD": 224751,
@@ -1285,6 +1390,10 @@
         "https://www.kijiji.ca",
         "https://www.jameshan.ca"
       ],
+      "listingSiteNames": [
+        "Kijiji",
+        "James Han (realtor site)"
+      ],
       "askingCAD": 75000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -1322,6 +1431,9 @@
       ],
       "listingDomainUrls": [
         "https://www.realtor.ca"
+      ],
+      "listingSiteNames": [
+        "Realtor.ca"
       ],
       "askingCAD": 75000,
       "grossRevenueCAD": null,
@@ -1361,6 +1473,9 @@
       "listingDomainUrls": [
         "https://www.realtor.ca"
       ],
+      "listingSiteNames": [
+        "Realtor.ca"
+      ],
       "askingCAD": 75000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -1399,6 +1514,9 @@
       "listingDomainUrls": [
         "https://canada.businessesforsale.com"
       ],
+      "listingSiteNames": [
+        "BusinessesForSale.com"
+      ],
       "askingCAD": 75000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -1436,6 +1554,9 @@
       ],
       "listingDomainUrls": [
         "https://www.kijiji.ca"
+      ],
+      "listingSiteNames": [
+        "Kijiji"
       ],
       "askingCAD": 79000,
       "grossRevenueCAD": null,
@@ -1477,6 +1598,10 @@
         "https://www.realtor.ca",
         "https://www.maxwellrealty.ca"
       ],
+      "listingSiteNames": [
+        "Realtor.ca",
+        "MaxWell Realty"
+      ],
       "askingCAD": 79000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -1514,6 +1639,9 @@
       ],
       "listingDomainUrls": [
         "https://www.kijiji.ca"
+      ],
+      "listingSiteNames": [
+        "Kijiji"
       ],
       "askingCAD": 79000,
       "grossRevenueCAD": null,
@@ -1557,6 +1685,10 @@
         "https://kaltoor.maxwellrealty.ca",
         "https://www.maxwellrealty.ca"
       ],
+      "listingSiteNames": [
+        "Realtor.ca",
+        "MaxWell Realty"
+      ],
       "askingCAD": 79999,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -1594,6 +1726,9 @@
       ],
       "listingDomainUrls": [
         "https://www.kijiji.ca"
+      ],
+      "listingSiteNames": [
+        "Kijiji"
       ],
       "askingCAD": 80000,
       "grossRevenueCAD": null,
@@ -1636,6 +1771,10 @@
         "https://www.realtor.ca",
         "https://www.paullamba.com"
       ],
+      "listingSiteNames": [
+        "Realtor.ca",
+        "Paul Lamba (realtor site)"
+      ],
       "askingCAD": 80000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -1676,6 +1815,10 @@
         "https://www.realtor.ca",
         "https://www.maxwellrealty.ca"
       ],
+      "listingSiteNames": [
+        "Realtor.ca",
+        "MaxWell Realty"
+      ],
       "askingCAD": 80000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -1714,6 +1857,9 @@
       "listingDomainUrls": [
         "https://canada.businessesforsale.com"
       ],
+      "listingSiteNames": [
+        "BusinessesForSale.com"
+      ],
       "askingCAD": 80000,
       "grossRevenueCAD": 400000,
       "grossRevenueLowCAD": null,
@@ -1751,6 +1897,9 @@
       ],
       "listingDomainUrls": [
         "https://www.realtor.ca"
+      ],
+      "listingSiteNames": [
+        "Realtor.ca"
       ],
       "askingCAD": 85000,
       "grossRevenueCAD": null,
@@ -1794,6 +1943,10 @@
         "https://kevingrenier.maxwellrealty.ca",
         "https://www.realtor.ca"
       ],
+      "listingSiteNames": [
+        "MaxWell Realty",
+        "Realtor.ca"
+      ],
       "askingCAD": 89900,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -1832,6 +1985,9 @@
       "listingDomainUrls": [
         "https://www.kijiji.ca"
       ],
+      "listingSiteNames": [
+        "Kijiji"
+      ],
       "askingCAD": 89999,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -1869,6 +2025,9 @@
       ],
       "listingDomainUrls": [
         "https://canada.businessesforsale.com"
+      ],
+      "listingSiteNames": [
+        "BusinessesForSale.com"
       ],
       "askingCAD": 90000,
       "grossRevenueCAD": null,
@@ -1910,6 +2069,10 @@
         "https://www.realtor.ca",
         "https://www.maxwellrealty.ca"
       ],
+      "listingSiteNames": [
+        "Realtor.ca",
+        "MaxWell Realty"
+      ],
       "askingCAD": 90000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -1948,6 +2111,9 @@
       "listingDomainUrls": [
         "https://www.kijiji.ca"
       ],
+      "listingSiteNames": [
+        "Kijiji"
+      ],
       "askingCAD": 90000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -1985,6 +2151,9 @@
       ],
       "listingDomainUrls": [
         "https://canada.businessesforsale.com"
+      ],
+      "listingSiteNames": [
+        "BusinessesForSale.com"
       ],
       "askingCAD": 94700,
       "grossRevenueCAD": null,
@@ -2027,6 +2196,10 @@
         "https://www.realtor.ca",
         "https://www.kijiji.ca"
       ],
+      "listingSiteNames": [
+        "Realtor.ca",
+        "Kijiji"
+      ],
       "askingCAD": 99000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -2064,6 +2237,9 @@
       ],
       "listingDomainUrls": [
         "https://www.realtor.ca"
+      ],
+      "listingSiteNames": [
+        "Realtor.ca"
       ],
       "askingCAD": 99000,
       "grossRevenueCAD": null,
@@ -2103,6 +2279,9 @@
       "listingDomainUrls": [
         "https://www.kijiji.ca"
       ],
+      "listingSiteNames": [
+        "Kijiji"
+      ],
       "askingCAD": 99000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -2141,6 +2320,9 @@
       "listingDomainUrls": [
         "https://www.realtor.ca"
       ],
+      "listingSiteNames": [
+        "Realtor.ca"
+      ],
       "askingCAD": 99000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -2178,6 +2360,9 @@
       ],
       "listingDomainUrls": [
         "https://www.kijiji.ca"
+      ],
+      "listingSiteNames": [
+        "Kijiji"
       ],
       "askingCAD": 99000,
       "grossRevenueCAD": null,
@@ -2219,6 +2404,10 @@
       "listingDomainUrls": [
         "https://www.bizbuysell.com",
         "https://www.bizquest.com"
+      ],
+      "listingSiteNames": [
+        "BizBuySell",
+        "BizQuest"
       ],
       "askingCAD": 99000,
       "grossRevenueCAD": null,
@@ -2263,6 +2452,10 @@
         "https://www.maxwellrealty.ca",
         "https://toptchir.maxwellrealty.ca"
       ],
+      "listingSiteNames": [
+        "Realtor.ca",
+        "MaxWell Realty"
+      ],
       "askingCAD": 99000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -2304,6 +2497,10 @@
         "https://www.maxwellrealty.ca",
         "https://www.realtor.ca"
       ],
+      "listingSiteNames": [
+        "MaxWell Realty",
+        "Realtor.ca"
+      ],
       "askingCAD": 99000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -2342,6 +2539,9 @@
       ],
       "listingDomainUrls": [
         "https://commercialexcel.ca"
+      ],
+      "listingSiteNames": [
+        "Commercial Excel"
       ],
       "askingCAD": 99900,
       "grossRevenueCAD": null,
@@ -2383,6 +2583,10 @@
         "https://www.kijiji.ca",
         "https://www.realtor.ca"
       ],
+      "listingSiteNames": [
+        "Kijiji",
+        "Realtor.ca"
+      ],
       "askingCAD": 99999,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -2420,6 +2624,9 @@
       ],
       "listingDomainUrls": [
         "https://www.kijiji.ca"
+      ],
+      "listingSiteNames": [
+        "Kijiji"
       ],
       "askingCAD": 99999,
       "grossRevenueCAD": null,
@@ -2463,6 +2670,11 @@
         "https://www.realtor.ca",
         "https://www.hauptrealty.com"
       ],
+      "listingSiteNames": [
+        "MaxWell Realty",
+        "Realtor.ca",
+        "Haupt Realty"
+      ],
       "askingCAD": 100000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -2504,6 +2716,11 @@
         "https://www.kijiji.ca",
         "https://www.realtor.ca",
         "https://www.maxwellrealty.ca"
+      ],
+      "listingSiteNames": [
+        "Kijiji",
+        "Realtor.ca",
+        "MaxWell Realty"
       ],
       "askingCAD": 119900,
       "grossRevenueCAD": null,
@@ -2550,6 +2767,12 @@
         "https://canada.businessesforsale.com",
         "https://dealstream.com"
       ],
+      "listingSiteNames": [
+        "BizBuySell",
+        "BizQuest",
+        "BusinessesForSale.com",
+        "DealStream"
+      ],
       "askingCAD": 120000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -2587,6 +2810,9 @@
       ],
       "listingDomainUrls": [
         "https://www.realtor.ca"
+      ],
+      "listingSiteNames": [
+        "Realtor.ca"
       ],
       "askingCAD": 120000,
       "grossRevenueCAD": null,
@@ -2628,6 +2854,10 @@
         "https://www.sunbeltcanada.com",
         "https://canada.businessesforsale.com"
       ],
+      "listingSiteNames": [
+        "Sunbelt Canada",
+        "BusinessesForSale.com"
+      ],
       "askingCAD": 120000,
       "grossRevenueCAD": 245000,
       "grossRevenueLowCAD": null,
@@ -2667,6 +2897,10 @@
       "listingDomainUrls": [
         "https://kevingrenier.maxwellrealty.ca",
         "https://www.realtor.ca"
+      ],
+      "listingSiteNames": [
+        "MaxWell Realty",
+        "Realtor.ca"
       ],
       "askingCAD": 124500,
       "grossRevenueCAD": null,
@@ -2712,6 +2946,11 @@
         "https://www.maxwellrealty.ca",
         "https://www.realtor.ca"
       ],
+      "listingSiteNames": [
+        "Kijiji",
+        "MaxWell Realty",
+        "Realtor.ca"
+      ],
       "askingCAD": 124900,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -2749,6 +2988,9 @@
       ],
       "listingDomainUrls": [
         "https://www.kijiji.ca"
+      ],
+      "listingSiteNames": [
+        "Kijiji"
       ],
       "askingCAD": 125000,
       "grossRevenueCAD": null,
@@ -2788,6 +3030,9 @@
       "listingDomainUrls": [
         "https://www.bizbuysell.com"
       ],
+      "listingSiteNames": [
+        "BizBuySell"
+      ],
       "askingCAD": 125000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -2825,6 +3070,9 @@
       ],
       "listingDomainUrls": [
         "https://canada.businessesforsale.com"
+      ],
+      "listingSiteNames": [
+        "BusinessesForSale.com"
       ],
       "askingCAD": 125000,
       "grossRevenueCAD": null,
@@ -2864,6 +3112,9 @@
       "listingDomainUrls": [
         "https://canada.businessesforsale.com"
       ],
+      "listingSiteNames": [
+        "BusinessesForSale.com"
+      ],
       "askingCAD": 125000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -2901,6 +3152,9 @@
       ],
       "listingDomainUrls": [
         "https://canada.businessesforsale.com"
+      ],
+      "listingSiteNames": [
+        "BusinessesForSale.com"
       ],
       "askingCAD": 125000,
       "grossRevenueCAD": 626425,
@@ -2940,6 +3194,9 @@
       "listingDomainUrls": [
         "https://www.kijiji.ca"
       ],
+      "listingSiteNames": [
+        "Kijiji"
+      ],
       "askingCAD": 125000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -2977,6 +3234,9 @@
       ],
       "listingDomainUrls": [
         "https://www.realtor.ca"
+      ],
+      "listingSiteNames": [
+        "Realtor.ca"
       ],
       "askingCAD": 129000,
       "grossRevenueCAD": null,
@@ -3016,6 +3276,9 @@
       "listingDomainUrls": [
         "https://dealstream.com"
       ],
+      "listingSiteNames": [
+        "DealStream"
+      ],
       "askingCAD": 129997,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -3053,6 +3316,9 @@
       ],
       "listingDomainUrls": [
         "https://canada.businessesforsale.com"
+      ],
+      "listingSiteNames": [
+        "BusinessesForSale.com"
       ],
       "askingCAD": 135000,
       "grossRevenueCAD": null,
@@ -3093,6 +3359,9 @@
       "listingDomainUrls": [
         "https://canada.businessesforsale.com"
       ],
+      "listingSiteNames": [
+        "BusinessesForSale.com"
+      ],
       "askingCAD": 135000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -3130,6 +3399,9 @@
       ],
       "listingDomainUrls": [
         "https://www.realtor.ca"
+      ],
+      "listingSiteNames": [
+        "Realtor.ca"
       ],
       "askingCAD": 139000,
       "grossRevenueCAD": null,
@@ -3169,6 +3441,9 @@
       "listingDomainUrls": [
         "https://www.kijiji.ca"
       ],
+      "listingSiteNames": [
+        "Kijiji"
+      ],
       "askingCAD": 139000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -3206,6 +3481,9 @@
       ],
       "listingDomainUrls": [
         "https://www.kijiji.ca"
+      ],
+      "listingSiteNames": [
+        "Kijiji"
       ],
       "askingCAD": 139000,
       "grossRevenueCAD": null,
@@ -3247,6 +3525,10 @@
         "https://kevingrenier.maxwellrealty.ca",
         "https://www.realtor.ca"
       ],
+      "listingSiteNames": [
+        "MaxWell Realty",
+        "Realtor.ca"
+      ],
       "askingCAD": 139900,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -3284,6 +3566,9 @@
       ],
       "listingDomainUrls": [
         "https://kevingrenier.maxwellrealty.ca"
+      ],
+      "listingSiteNames": [
+        "MaxWell Realty"
       ],
       "askingCAD": 139900,
       "grossRevenueCAD": null,
@@ -3323,6 +3608,9 @@
       "listingDomainUrls": [
         "https://bridgebusinessbrokers.ca"
       ],
+      "listingSiteNames": [
+        "Bridge Business Brokers"
+      ],
       "askingCAD": 141500,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -3360,6 +3648,9 @@
       ],
       "listingDomainUrls": [
         "https://www.kijiji.ca"
+      ],
+      "listingSiteNames": [
+        "Kijiji"
       ],
       "askingCAD": 149000,
       "grossRevenueCAD": null,
@@ -3399,6 +3690,9 @@
       "listingDomainUrls": [
         "https://www.kijiji.ca"
       ],
+      "listingSiteNames": [
+        "Kijiji"
+      ],
       "askingCAD": 149000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -3436,6 +3730,9 @@
       ],
       "listingDomainUrls": [
         "https://www.kijiji.ca"
+      ],
+      "listingSiteNames": [
+        "Kijiji"
       ],
       "askingCAD": 149000,
       "grossRevenueCAD": null,
@@ -3475,6 +3772,9 @@
       "listingDomainUrls": [
         "https://www.realtor.ca"
       ],
+      "listingSiteNames": [
+        "Realtor.ca"
+      ],
       "askingCAD": 149000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -3513,6 +3813,9 @@
       "listingDomainUrls": [
         "https://www.kijiji.ca"
       ],
+      "listingSiteNames": [
+        "Kijiji"
+      ],
       "askingCAD": 149000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -3550,6 +3853,9 @@
       ],
       "listingDomainUrls": [
         "https://www.realtor.ca"
+      ],
+      "listingSiteNames": [
+        "Realtor.ca"
       ],
       "askingCAD": 149900,
       "grossRevenueCAD": null,
@@ -3591,6 +3897,10 @@
         "https://www.bizquest.com",
         "https://www.bizbuysell.com"
       ],
+      "listingSiteNames": [
+        "BizQuest",
+        "BizBuySell"
+      ],
       "askingCAD": 149900,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -3631,6 +3941,10 @@
         "https://canada.businessesforsale.com",
         "https://dealstream.com"
       ],
+      "listingSiteNames": [
+        "BusinessesForSale.com",
+        "DealStream"
+      ],
       "askingCAD": 150000,
       "grossRevenueCAD": 400000,
       "grossRevenueLowCAD": null,
@@ -3668,6 +3982,9 @@
       ],
       "listingDomainUrls": [
         "https://www.realtor.ca"
+      ],
+      "listingSiteNames": [
+        "Realtor.ca"
       ],
       "askingCAD": 150000,
       "grossRevenueCAD": null,
@@ -3707,6 +4024,9 @@
       "listingDomainUrls": [
         "https://www.kijiji.ca"
       ],
+      "listingSiteNames": [
+        "Kijiji"
+      ],
       "askingCAD": 150000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -3744,6 +4064,9 @@
       ],
       "listingDomainUrls": [
         "https://dealstream.com"
+      ],
+      "listingSiteNames": [
+        "DealStream"
       ],
       "askingCAD": 150000,
       "grossRevenueCAD": null,
@@ -3783,6 +4106,9 @@
       "listingDomainUrls": [
         "https://www.kijiji.ca"
       ],
+      "listingSiteNames": [
+        "Kijiji"
+      ],
       "askingCAD": 150000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -3820,6 +4146,9 @@
       ],
       "listingDomainUrls": [
         "https://dealstream.com"
+      ],
+      "listingSiteNames": [
+        "DealStream"
       ],
       "askingCAD": 155000,
       "grossRevenueCAD": null,
@@ -3859,6 +4188,9 @@
       "listingDomainUrls": [
         "https://canada.businessesforsale.com"
       ],
+      "listingSiteNames": [
+        "BusinessesForSale.com"
+      ],
       "askingCAD": 157000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -3896,6 +4228,9 @@
       ],
       "listingDomainUrls": [
         "https://canada.businessesforsale.com"
+      ],
+      "listingSiteNames": [
+        "BusinessesForSale.com"
       ],
       "askingCAD": 157000,
       "grossRevenueCAD": null,
@@ -3939,6 +4274,9 @@
         "https://www.maxwellrealty.ca",
         "https://riverside.maxwellrealty.ca"
       ],
+      "listingSiteNames": [
+        "MaxWell Realty"
+      ],
       "askingCAD": 160000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -3979,6 +4317,10 @@
         "https://bridgebusinessbrokers.ca",
         "https://canada.businessesforsale.com"
       ],
+      "listingSiteNames": [
+        "Bridge Business Brokers",
+        "BusinessesForSale.com"
+      ],
       "askingCAD": 167000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": 100000,
@@ -4016,6 +4358,9 @@
       ],
       "listingDomainUrls": [
         "https://www.realtor.ca"
+      ],
+      "listingSiteNames": [
+        "Realtor.ca"
       ],
       "askingCAD": 168800,
       "grossRevenueCAD": null,
@@ -4059,6 +4404,11 @@
         "https://www.realtor.ca",
         "https://www.hauptrealty.com"
       ],
+      "listingSiteNames": [
+        "Kijiji",
+        "Realtor.ca",
+        "Haupt Realty"
+      ],
       "askingCAD": 170000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -4096,6 +4446,9 @@
       ],
       "listingDomainUrls": [
         "https://www.realtor.ca"
+      ],
+      "listingSiteNames": [
+        "Realtor.ca"
       ],
       "askingCAD": 175000,
       "grossRevenueCAD": null,
@@ -4136,6 +4489,9 @@
       "listingDomainUrls": [
         "https://www.kijiji.ca"
       ],
+      "listingSiteNames": [
+        "Kijiji"
+      ],
       "askingCAD": 175000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -4173,6 +4529,9 @@
       ],
       "listingDomainUrls": [
         "https://www.realtor.ca"
+      ],
+      "listingSiteNames": [
+        "Realtor.ca"
       ],
       "askingCAD": 175000,
       "grossRevenueCAD": null,
@@ -4212,6 +4571,9 @@
       "listingDomainUrls": [
         "https://canada.businessesforsale.com"
       ],
+      "listingSiteNames": [
+        "BusinessesForSale.com"
+      ],
       "askingCAD": 175000,
       "grossRevenueCAD": 348148,
       "grossRevenueLowCAD": null,
@@ -4249,6 +4611,9 @@
       ],
       "listingDomainUrls": [
         "https://www.kijiji.ca"
+      ],
+      "listingSiteNames": [
+        "Kijiji"
       ],
       "askingCAD": 179000,
       "grossRevenueCAD": null,
@@ -4290,6 +4655,10 @@
         "https://www.bizquest.com",
         "https://www.bizbuysell.com"
       ],
+      "listingSiteNames": [
+        "BizQuest",
+        "BizBuySell"
+      ],
       "askingCAD": 179900,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -4327,6 +4696,9 @@
       ],
       "listingDomainUrls": [
         "https://www.realtor.ca"
+      ],
+      "listingSiteNames": [
+        "Realtor.ca"
       ],
       "askingCAD": 180000,
       "grossRevenueCAD": null,
@@ -4366,6 +4738,9 @@
       "listingDomainUrls": [
         "https://canada.businessesforsale.com"
       ],
+      "listingSiteNames": [
+        "BusinessesForSale.com"
+      ],
       "askingCAD": 180000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": 500000,
@@ -4403,6 +4778,9 @@
       ],
       "listingDomainUrls": [
         "https://canada.businessesforsale.com"
+      ],
+      "listingSiteNames": [
+        "BusinessesForSale.com"
       ],
       "askingCAD": 185000,
       "grossRevenueCAD": null,
@@ -4442,6 +4820,9 @@
       "listingDomainUrls": [
         "https://canada.businessesforsale.com"
       ],
+      "listingSiteNames": [
+        "BusinessesForSale.com"
+      ],
       "askingCAD": 189000,
       "grossRevenueCAD": 240000,
       "grossRevenueLowCAD": 240000,
@@ -4479,6 +4860,9 @@
       ],
       "listingDomainUrls": [
         "https://canada.businessesforsale.com"
+      ],
+      "listingSiteNames": [
+        "BusinessesForSale.com"
       ],
       "askingCAD": 189997,
       "grossRevenueCAD": 335000,
@@ -4521,6 +4905,10 @@
         "https://canada.businessesforsale.com",
         "https://fr-ca.yescapo.com"
       ],
+      "listingSiteNames": [
+        "BusinessesForSale.com",
+        "Yescapo"
+      ],
       "askingCAD": 190000,
       "grossRevenueCAD": 790000,
       "grossRevenueLowCAD": null,
@@ -4558,6 +4946,9 @@
       ],
       "listingDomainUrls": [
         "https://www.realtor.ca"
+      ],
+      "listingSiteNames": [
+        "Realtor.ca"
       ],
       "askingCAD": 194700,
       "grossRevenueCAD": null,
@@ -4597,6 +4988,9 @@
       "listingDomainUrls": [
         "https://www.kijiji.ca"
       ],
+      "listingSiteNames": [
+        "Kijiji"
+      ],
       "askingCAD": 198000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -4634,6 +5028,9 @@
       ],
       "listingDomainUrls": [
         "https://www.realtor.ca"
+      ],
+      "listingSiteNames": [
+        "Realtor.ca"
       ],
       "askingCAD": 199000,
       "grossRevenueCAD": null,
@@ -4673,6 +5070,9 @@
       "listingDomainUrls": [
         "https://www.kijiji.ca"
       ],
+      "listingSiteNames": [
+        "Kijiji"
+      ],
       "askingCAD": 199000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -4710,6 +5110,9 @@
       ],
       "listingDomainUrls": [
         "https://www.edmontonhomesweb.com"
+      ],
+      "listingSiteNames": [
+        "Edmonton Homes Web"
       ],
       "askingCAD": 199000,
       "grossRevenueCAD": 914000,
@@ -4749,6 +5152,9 @@
       "listingDomainUrls": [
         "https://www.realtor.ca"
       ],
+      "listingSiteNames": [
+        "Realtor.ca"
+      ],
       "askingCAD": 199000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -4787,6 +5193,9 @@
       "listingDomainUrls": [
         "https://www.realtor.ca"
       ],
+      "listingSiteNames": [
+        "Realtor.ca"
+      ],
       "askingCAD": 199000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -4824,6 +5233,9 @@
       ],
       "listingDomainUrls": [
         "https://www.realtor.ca"
+      ],
+      "listingSiteNames": [
+        "Realtor.ca"
       ],
       "askingCAD": 199000,
       "grossRevenueCAD": null,
@@ -4865,6 +5277,10 @@
         "https://www.realtor.ca",
         "https://www.kijiji.ca"
       ],
+      "listingSiteNames": [
+        "Realtor.ca",
+        "Kijiji"
+      ],
       "askingCAD": 199900,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -4903,6 +5319,9 @@
       "listingDomainUrls": [
         "https://www.realtor.ca"
       ],
+      "listingSiteNames": [
+        "Realtor.ca"
+      ],
       "askingCAD": 199900,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -4940,6 +5359,9 @@
       ],
       "listingDomainUrls": [
         "https://kevingrenier.maxwellrealty.ca"
+      ],
+      "listingSiteNames": [
+        "MaxWell Realty"
       ],
       "askingCAD": 199909,
       "grossRevenueCAD": null,
@@ -4981,6 +5403,10 @@
         "https://canada.businessesforsale.com",
         "https://dealstream.com"
       ],
+      "listingSiteNames": [
+        "BusinessesForSale.com",
+        "DealStream"
+      ],
       "askingCAD": 199997,
       "grossRevenueCAD": 350000,
       "grossRevenueLowCAD": null,
@@ -5019,6 +5445,9 @@
       "listingDomainUrls": [
         "https://www.sunbeltcanada.com"
       ],
+      "listingSiteNames": [
+        "Sunbelt Canada"
+      ],
       "askingCAD": 199997,
       "grossRevenueCAD": 950000,
       "grossRevenueLowCAD": null,
@@ -5056,6 +5485,9 @@
       ],
       "listingDomainUrls": [
         "https://canada.businessesforsale.com"
+      ],
+      "listingSiteNames": [
+        "BusinessesForSale.com"
       ],
       "askingCAD": 199997,
       "grossRevenueCAD": 115000,
@@ -5096,6 +5528,9 @@
       "listingDomainUrls": [
         "https://canada.businessesforsale.com"
       ],
+      "listingSiteNames": [
+        "BusinessesForSale.com"
+      ],
       "askingCAD": 200000,
       "grossRevenueCAD": 425751,
       "grossRevenueLowCAD": null,
@@ -5133,6 +5568,9 @@
       ],
       "listingDomainUrls": [
         "https://www.realtor.ca"
+      ],
+      "listingSiteNames": [
+        "Realtor.ca"
       ],
       "askingCAD": 200000,
       "grossRevenueCAD": null,
@@ -5172,6 +5610,9 @@
       "listingDomainUrls": [
         "https://www.bizbuysell.com"
       ],
+      "listingSiteNames": [
+        "BizBuySell"
+      ],
       "askingCAD": 200000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -5209,6 +5650,9 @@
       ],
       "listingDomainUrls": [
         "https://canada.businessesforsale.com"
+      ],
+      "listingSiteNames": [
+        "BusinessesForSale.com"
       ],
       "askingCAD": 200000,
       "grossRevenueCAD": null,
@@ -5250,6 +5694,10 @@
         "https://canada.businessesforsale.com",
         "https://www.hedgestone.com"
       ],
+      "listingSiteNames": [
+        "BusinessesForSale.com",
+        "HedgeStone Business Advisors"
+      ],
       "askingCAD": 209000,
       "grossRevenueCAD": 518000,
       "grossRevenueLowCAD": null,
@@ -5288,6 +5736,9 @@
       "listingDomainUrls": [
         "https://canada.businessesforsale.com"
       ],
+      "listingSiteNames": [
+        "BusinessesForSale.com"
+      ],
       "askingCAD": 210000,
       "grossRevenueCAD": 867000,
       "grossRevenueLowCAD": null,
@@ -5325,6 +5776,9 @@
       ],
       "listingDomainUrls": [
         "https://www.performancebusinessadvisory.ca"
+      ],
+      "listingSiteNames": [
+        "Performance Business Advisory"
       ],
       "askingCAD": 215000,
       "grossRevenueCAD": 345000,
@@ -5366,6 +5820,10 @@
         "https://www.maxwellrealty.ca",
         "https://www.hauptrealty.com"
       ],
+      "listingSiteNames": [
+        "MaxWell Realty",
+        "Haupt Realty"
+      ],
       "askingCAD": 215000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -5403,6 +5861,9 @@
       ],
       "listingDomainUrls": [
         "https://canada.businessesforsale.com"
+      ],
+      "listingSiteNames": [
+        "BusinessesForSale.com"
       ],
       "askingCAD": 219000,
       "grossRevenueCAD": 515298,
@@ -5442,6 +5903,9 @@
       "listingDomainUrls": [
         "https://www.realtor.ca"
       ],
+      "listingSiteNames": [
+        "Realtor.ca"
+      ],
       "askingCAD": 219000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -5479,6 +5943,9 @@
       ],
       "listingDomainUrls": [
         "https://www.realtor.ca"
+      ],
+      "listingSiteNames": [
+        "Realtor.ca"
       ],
       "askingCAD": 219000,
       "grossRevenueCAD": 930000,
@@ -5518,6 +5985,9 @@
       "listingDomainUrls": [
         "https://www.realtor.ca"
       ],
+      "listingSiteNames": [
+        "Realtor.ca"
+      ],
       "askingCAD": 219900,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -5555,6 +6025,9 @@
       ],
       "listingDomainUrls": [
         "https://kevingrenier.maxwellrealty.ca"
+      ],
+      "listingSiteNames": [
+        "MaxWell Realty"
       ],
       "askingCAD": 219900,
       "grossRevenueCAD": null,
@@ -5594,6 +6067,9 @@
       "listingDomainUrls": [
         "https://canada.businessesforsale.com"
       ],
+      "listingSiteNames": [
+        "BusinessesForSale.com"
+      ],
       "askingCAD": 220000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -5631,6 +6107,9 @@
       ],
       "listingDomainUrls": [
         "https://www.realtor.ca"
+      ],
+      "listingSiteNames": [
+        "Realtor.ca"
       ],
       "askingCAD": 220000,
       "grossRevenueCAD": null,
@@ -5676,6 +6155,11 @@
         "https://www.kijiji.ca",
         "https://www.realtor.ca"
       ],
+      "listingSiteNames": [
+        "MaxWell Realty",
+        "Kijiji",
+        "Realtor.ca"
+      ],
       "askingCAD": 225000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -5714,6 +6198,9 @@
       "listingDomainUrls": [
         "https://www.realtor.ca"
       ],
+      "listingSiteNames": [
+        "Realtor.ca"
+      ],
       "askingCAD": 225000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -5751,6 +6238,9 @@
       ],
       "listingDomainUrls": [
         "https://www.kijiji.ca"
+      ],
+      "listingSiteNames": [
+        "Kijiji"
       ],
       "askingCAD": 229000,
       "grossRevenueCAD": null,
@@ -5794,6 +6284,11 @@
         "https://www.bizbuysell.com",
         "https://www.realtor.ca"
       ],
+      "listingSiteNames": [
+        "BizQuest",
+        "BizBuySell",
+        "Realtor.ca"
+      ],
       "askingCAD": 229000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -5831,6 +6326,9 @@
       ],
       "listingDomainUrls": [
         "https://www.realtor.ca"
+      ],
+      "listingSiteNames": [
+        "Realtor.ca"
       ],
       "askingCAD": 229900,
       "grossRevenueCAD": null,
@@ -5873,6 +6371,11 @@
         "https://www.sunbeltcanada.com",
         "https://canada.businessesforsale.com",
         "https://dealstream.com"
+      ],
+      "listingSiteNames": [
+        "Sunbelt Canada",
+        "BusinessesForSale.com",
+        "DealStream"
       ],
       "askingCAD": 229997,
       "grossRevenueCAD": 218000,
@@ -5918,6 +6421,11 @@
         "https://www.kijiji.ca",
         "https://kevingrenier.maxwellrealty.ca"
       ],
+      "listingSiteNames": [
+        "Realtor.ca",
+        "Kijiji",
+        "MaxWell Realty"
+      ],
       "askingCAD": 230000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -5957,6 +6465,10 @@
       "listingDomainUrls": [
         "https://bridgebusinessbrokers.ca",
         "https://canada.businessesforsale.com"
+      ],
+      "listingSiteNames": [
+        "Bridge Business Brokers",
+        "BusinessesForSale.com"
       ],
       "askingCAD": 230000,
       "grossRevenueCAD": null,
@@ -5999,6 +6511,10 @@
         "https://dealstream.com",
         "https://canada.businessesforsale.com"
       ],
+      "listingSiteNames": [
+        "DealStream",
+        "BusinessesForSale.com"
+      ],
       "askingCAD": 235000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -6036,6 +6552,9 @@
       ],
       "listingDomainUrls": [
         "https://dealstream.com"
+      ],
+      "listingSiteNames": [
+        "DealStream"
       ],
       "askingCAD": 235000,
       "grossRevenueCAD": 563000,
@@ -6075,6 +6594,9 @@
       "listingDomainUrls": [
         "https://canada.businessesforsale.com"
       ],
+      "listingSiteNames": [
+        "BusinessesForSale.com"
+      ],
       "askingCAD": 236000,
       "grossRevenueCAD": 240000,
       "grossRevenueLowCAD": 200000,
@@ -6112,6 +6634,9 @@
       ],
       "listingDomainUrls": [
         "https://helixma.com"
+      ],
+      "listingSiteNames": [
+        "Helix Mergers & Acquisitions"
       ],
       "askingCAD": 239000,
       "grossRevenueCAD": 307333,
@@ -6153,6 +6678,10 @@
         "https://nidhikapoor.maxwellrealty.ca",
         "https://www.realtor.ca"
       ],
+      "listingSiteNames": [
+        "MaxWell Realty",
+        "Realtor.ca"
+      ],
       "askingCAD": 239900,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -6190,6 +6719,9 @@
       ],
       "listingDomainUrls": [
         "https://www.realtor.ca"
+      ],
+      "listingSiteNames": [
+        "Realtor.ca"
       ],
       "askingCAD": 239990,
       "grossRevenueCAD": null,
@@ -6231,6 +6763,10 @@
         "https://www.realtor.ca",
         "https://www.kijiji.ca"
       ],
+      "listingSiteNames": [
+        "Realtor.ca",
+        "Kijiji"
+      ],
       "askingCAD": 240000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -6268,6 +6804,9 @@
       ],
       "listingDomainUrls": [
         "https://www.kijiji.ca"
+      ],
+      "listingSiteNames": [
+        "Kijiji"
       ],
       "askingCAD": 249000,
       "grossRevenueCAD": null,
@@ -6308,6 +6847,10 @@
       "listingDomainUrls": [
         "https://www.kijiji.ca",
         "https://dealstream.com"
+      ],
+      "listingSiteNames": [
+        "Kijiji",
+        "DealStream"
       ],
       "askingCAD": 249000,
       "grossRevenueCAD": null,
@@ -6350,6 +6893,10 @@
         "https://dealstream.com",
         "https://canada.businessesforsale.com"
       ],
+      "listingSiteNames": [
+        "DealStream",
+        "BusinessesForSale.com"
+      ],
       "askingCAD": 249000,
       "grossRevenueCAD": 332772,
       "grossRevenueLowCAD": null,
@@ -6390,6 +6937,10 @@
         "https://canada.businessesforsale.com",
         "https://dealstream.com"
       ],
+      "listingSiteNames": [
+        "BusinessesForSale.com",
+        "DealStream"
+      ],
       "askingCAD": 249000,
       "grossRevenueCAD": 233914,
       "grossRevenueLowCAD": null,
@@ -6429,6 +6980,9 @@
       "listingDomainUrls": [
         "https://www.kijiji.ca"
       ],
+      "listingSiteNames": [
+        "Kijiji"
+      ],
       "askingCAD": 249000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -6466,6 +7020,9 @@
       ],
       "listingDomainUrls": [
         "https://www.kijiji.ca"
+      ],
+      "listingSiteNames": [
+        "Kijiji"
       ],
       "askingCAD": 249000,
       "grossRevenueCAD": null,
@@ -6505,6 +7062,9 @@
       "listingDomainUrls": [
         "https://www.realtor.ca"
       ],
+      "listingSiteNames": [
+        "Realtor.ca"
+      ],
       "askingCAD": 249000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -6542,6 +7102,9 @@
       ],
       "listingDomainUrls": [
         "https://www.realtor.ca"
+      ],
+      "listingSiteNames": [
+        "Realtor.ca"
       ],
       "askingCAD": 249000,
       "grossRevenueCAD": null,
@@ -6581,6 +7144,9 @@
       "listingDomainUrls": [
         "https://www.kijiji.ca"
       ],
+      "listingSiteNames": [
+        "Kijiji"
+      ],
       "askingCAD": 249000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -6618,6 +7184,9 @@
       ],
       "listingDomainUrls": [
         "https://www.kijiji.ca"
+      ],
+      "listingSiteNames": [
+        "Kijiji"
       ],
       "askingCAD": 249900,
       "grossRevenueCAD": null,
@@ -6657,6 +7226,9 @@
       "listingDomainUrls": [
         "https://www.kijiji.ca"
       ],
+      "listingSiteNames": [
+        "Kijiji"
+      ],
       "askingCAD": 250000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": 800000,
@@ -6694,6 +7266,9 @@
       ],
       "listingDomainUrls": [
         "https://dealstream.com"
+      ],
+      "listingSiteNames": [
+        "DealStream"
       ],
       "askingCAD": 250000,
       "grossRevenueCAD": null,
@@ -6733,6 +7308,9 @@
       "listingDomainUrls": [
         "https://www.kijiji.ca"
       ],
+      "listingSiteNames": [
+        "Kijiji"
+      ],
       "askingCAD": 250000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -6770,6 +7348,9 @@
       ],
       "listingDomainUrls": [
         "https://canada.businessesforsale.com"
+      ],
+      "listingSiteNames": [
+        "BusinessesForSale.com"
       ],
       "askingCAD": 250000,
       "grossRevenueCAD": null,
@@ -6809,6 +7390,9 @@
       "listingDomainUrls": [
         "https://www.realtor.ca"
       ],
+      "listingSiteNames": [
+        "Realtor.ca"
+      ],
       "askingCAD": 250000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -6847,6 +7431,9 @@
       "listingDomainUrls": [
         "https://dealstream.com"
       ],
+      "listingSiteNames": [
+        "DealStream"
+      ],
       "askingCAD": 250000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": 500000,
@@ -6884,6 +7471,9 @@
       ],
       "listingDomainUrls": [
         "https://dealstream.com"
+      ],
+      "listingSiteNames": [
+        "DealStream"
       ],
       "askingCAD": 250000,
       "grossRevenueCAD": null,
@@ -6925,6 +7515,10 @@
         "https://www.bizbuysell.com",
         "https://canada.businessesforsale.com"
       ],
+      "listingSiteNames": [
+        "BizBuySell",
+        "BusinessesForSale.com"
+      ],
       "askingCAD": 250000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -6962,6 +7556,9 @@
       ],
       "listingDomainUrls": [
         "https://canada.businessesforsale.com"
+      ],
+      "listingSiteNames": [
+        "BusinessesForSale.com"
       ],
       "askingCAD": 250000,
       "grossRevenueCAD": 881242,
@@ -7003,6 +7600,10 @@
         "https://www.maxwellrealty.ca",
         "https://www.realtor.ca"
       ],
+      "listingSiteNames": [
+        "MaxWell Realty",
+        "Realtor.ca"
+      ],
       "askingCAD": 259999,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -7041,6 +7642,9 @@
       "listingDomainUrls": [
         "https://www.kijiji.ca"
       ],
+      "listingSiteNames": [
+        "Kijiji"
+      ],
       "askingCAD": 265000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -7078,6 +7682,9 @@
       ],
       "listingDomainUrls": [
         "https://www.kijiji.ca"
+      ],
+      "listingSiteNames": [
+        "Kijiji"
       ],
       "askingCAD": 279000,
       "grossRevenueCAD": null,
@@ -7123,6 +7730,10 @@
         "https://challenge.maxwellrealty.ca",
         "https://www.realtor.ca"
       ],
+      "listingSiteNames": [
+        "MaxWell Realty",
+        "Realtor.ca"
+      ],
       "askingCAD": 279000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -7160,6 +7771,9 @@
       ],
       "listingDomainUrls": [
         "https://www.realtor.ca"
+      ],
+      "listingSiteNames": [
+        "Realtor.ca"
       ],
       "askingCAD": 285000,
       "grossRevenueCAD": null,
@@ -7199,6 +7813,9 @@
       "listingDomainUrls": [
         "https://canada.businessesforsale.com"
       ],
+      "listingSiteNames": [
+        "BusinessesForSale.com"
+      ],
       "askingCAD": 289000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -7237,6 +7854,9 @@
       ],
       "listingDomainUrls": [
         "https://www.realtor.ca"
+      ],
+      "listingSiteNames": [
+        "Realtor.ca"
       ],
       "askingCAD": 289900,
       "grossRevenueCAD": null,
@@ -7280,6 +7900,10 @@
         "https://www.realtor.ca",
         "https://www.maxwellrealty.ca"
       ],
+      "listingSiteNames": [
+        "Realtor.ca",
+        "MaxWell Realty"
+      ],
       "askingCAD": 295000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -7317,6 +7941,9 @@
       ],
       "listingDomainUrls": [
         "https://www.kijiji.ca"
+      ],
+      "listingSiteNames": [
+        "Kijiji"
       ],
       "askingCAD": 295000,
       "grossRevenueCAD": null,
@@ -7360,6 +7987,10 @@
         "https://www.realtor.ca",
         "https://www.maxwellrealty.ca"
       ],
+      "listingSiteNames": [
+        "MaxWell Realty",
+        "Realtor.ca"
+      ],
       "askingCAD": 299000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -7399,6 +8030,10 @@
       "listingDomainUrls": [
         "https://www.bizquest.com",
         "https://www.loopnet.com"
+      ],
+      "listingSiteNames": [
+        "BizQuest",
+        "LoopNet"
       ],
       "askingCAD": 299000,
       "grossRevenueCAD": null,
@@ -7442,6 +8077,10 @@
         "https://www.maxwellrealty.ca",
         "https://salhaji.maxwellrealty.ca"
       ],
+      "listingSiteNames": [
+        "Realtor.ca",
+        "MaxWell Realty"
+      ],
       "askingCAD": 299000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -7483,6 +8122,10 @@
         "https://www.realtor.ca",
         "https://www.maxwellrealty.ca"
       ],
+      "listingSiteNames": [
+        "Realtor.ca",
+        "MaxWell Realty"
+      ],
       "askingCAD": 299900,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -7520,6 +8163,9 @@
       ],
       "listingDomainUrls": [
         "https://www.realtor.ca"
+      ],
+      "listingSiteNames": [
+        "Realtor.ca"
       ],
       "askingCAD": 299900,
       "grossRevenueCAD": null,
@@ -7559,6 +8205,9 @@
       "listingDomainUrls": [
         "https://www.realtor.ca"
       ],
+      "listingSiteNames": [
+        "Realtor.ca"
+      ],
       "askingCAD": 299900,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -7597,6 +8246,9 @@
       "listingDomainUrls": [
         "https://www.realtor.ca"
       ],
+      "listingSiteNames": [
+        "Realtor.ca"
+      ],
       "askingCAD": 299900,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -7634,6 +8286,9 @@
       ],
       "listingDomainUrls": [
         "https://dealstream.com"
+      ],
+      "listingSiteNames": [
+        "DealStream"
       ],
       "askingCAD": 299997,
       "grossRevenueCAD": 720000,
@@ -7675,6 +8330,10 @@
         "https://canada.businessesforsale.com",
         "https://dealstream.com"
       ],
+      "listingSiteNames": [
+        "BusinessesForSale.com",
+        "DealStream"
+      ],
       "askingCAD": 299997,
       "grossRevenueCAD": 615000,
       "grossRevenueLowCAD": null,
@@ -7715,6 +8374,9 @@
         "https://riverside.maxwellrealty.ca",
         "https://www.maxwellrealty.ca"
       ],
+      "listingSiteNames": [
+        "MaxWell Realty"
+      ],
       "askingCAD": 300000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -7752,6 +8414,9 @@
       ],
       "listingDomainUrls": [
         "https://www.realtor.ca"
+      ],
+      "listingSiteNames": [
+        "Realtor.ca"
       ],
       "askingCAD": 300000,
       "grossRevenueCAD": null,
@@ -7791,6 +8456,9 @@
       "listingDomainUrls": [
         "https://www.kijiji.ca"
       ],
+      "listingSiteNames": [
+        "Kijiji"
+      ],
       "askingCAD": null,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -7828,6 +8496,9 @@
       ],
       "listingDomainUrls": [
         "https://www.kijiji.ca"
+      ],
+      "listingSiteNames": [
+        "Kijiji"
       ],
       "askingCAD": null,
       "grossRevenueCAD": null,
@@ -7867,6 +8538,9 @@
       "listingDomainUrls": [
         "https://canada.businessesforsale.com"
       ],
+      "listingSiteNames": [
+        "BusinessesForSale.com"
+      ],
       "askingCAD": null,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": 250000,
@@ -7904,6 +8578,9 @@
       ],
       "listingDomainUrls": [
         "https://www.kijiji.ca"
+      ],
+      "listingSiteNames": [
+        "Kijiji"
       ],
       "askingCAD": null,
       "grossRevenueCAD": null,
@@ -7943,6 +8620,9 @@
       "listingDomainUrls": [
         "https://www.kijiji.ca"
       ],
+      "listingSiteNames": [
+        "Kijiji"
+      ],
       "askingCAD": null,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -7980,6 +8660,9 @@
       ],
       "listingDomainUrls": [
         "https://dealstream.com"
+      ],
+      "listingSiteNames": [
+        "DealStream"
       ],
       "askingCAD": null,
       "grossRevenueCAD": null,
@@ -8019,6 +8702,9 @@
       "listingDomainUrls": [
         "https://canada.businessesforsale.com"
       ],
+      "listingSiteNames": [
+        "BusinessesForSale.com"
+      ],
       "askingCAD": null,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -8057,6 +8743,9 @@
       "listingDomainUrls": [
         "https://www.kijiji.ca"
       ],
+      "listingSiteNames": [
+        "Kijiji"
+      ],
       "askingCAD": null,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -8094,6 +8783,9 @@
       ],
       "listingDomainUrls": [
         "https://www.kijiji.ca"
+      ],
+      "listingSiteNames": [
+        "Kijiji"
       ],
       "askingCAD": null,
       "grossRevenueCAD": null,
@@ -8135,6 +8827,10 @@
         "https://www.kijiji.ca",
         "https://www.jameshan.ca"
       ],
+      "listingSiteNames": [
+        "Kijiji",
+        "James Han (realtor site)"
+      ],
       "askingCAD": null,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -8175,6 +8871,10 @@
         "https://www.kijiji.ca",
         "https://dealstream.com"
       ],
+      "listingSiteNames": [
+        "Kijiji",
+        "DealStream"
+      ],
       "askingCAD": null,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -8212,6 +8912,9 @@
       ],
       "listingDomainUrls": [
         "https://dealstream.com"
+      ],
+      "listingSiteNames": [
+        "DealStream"
       ],
       "askingCAD": null,
       "grossRevenueCAD": null,
@@ -8251,6 +8954,9 @@
       "listingDomainUrls": [
         "https://www.kijiji.ca"
       ],
+      "listingSiteNames": [
+        "Kijiji"
+      ],
       "askingCAD": null,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -8288,6 +8994,9 @@
       ],
       "listingDomainUrls": [
         "https://www.kijiji.ca"
+      ],
+      "listingSiteNames": [
+        "Kijiji"
       ],
       "askingCAD": null,
       "grossRevenueCAD": null,
@@ -8327,6 +9036,9 @@
       "listingDomainUrls": [
         "https://www.kijiji.ca"
       ],
+      "listingSiteNames": [
+        "Kijiji"
+      ],
       "askingCAD": null,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
@@ -8364,6 +9076,9 @@
       ],
       "listingDomainUrls": [
         "https://www.kijiji.ca"
+      ],
+      "listingSiteNames": [
+        "Kijiji"
       ],
       "askingCAD": null,
       "grossRevenueCAD": null,
