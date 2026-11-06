@@ -71,10 +71,29 @@ header.app p.updated { margin-top: .35rem; color: #d6d3d1; font-size: .82rem; }
   color: var(--muted);
   font-weight: 650;
 }
+details.panel > summary {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+details.panel > summary::-webkit-details-marker { display: none; }
+details.panel > summary::after {
+  content: '▸';
+  color: var(--muted);
+  font-size: .9rem;
+  transition: transform .15s;
+}
+details.panel[open] > summary::after { transform: rotate(90deg); }
+details.panel > summary h2 { margin: 0; }
+details.panel[open] > summary { margin-bottom: .75rem; }
+details.panel > summary:focus-visible { outline: 2px solid #c2410c; outline-offset: 4px; border-radius: 4px; }
 .grid-2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
+  align-items: start;
 }
 @media (max-width: 800px) {
   .grid-2 { grid-template-columns: 1fr; }
@@ -341,14 +360,14 @@ body.view-cashflow #view-cashflow { display: block; }
   
 <div id="view-main">
   <div class="grid-2">
-    <div class="panel">
-      <h2>Data quality</h2>
+    <details class="panel">
+      <summary><h2>Data quality</h2></summary>
       <div class="dq-grid" id="dataQuality"></div>
-    </div>
-    <div class="panel">
-      <h2>Categories</h2>
+    </details>
+    <details class="panel">
+      <summary><h2>Categories</h2></summary>
       <div class="cats" id="cats"></div>
-    </div>
+    </details>
   </div>
 
   <div class="filters">
