@@ -197,9 +197,17 @@ details.panel > summary:focus-visible { outline: 2px solid #c2410c; outline-offs
 table.listings {
   width: 100%;
   border-collapse: collapse;
+  table-layout: fixed;
   min-width: 980px;
   font-size: .88rem;
 }
+table.listings col.col-name { width: 18%; }
+table.listings col.col-cat { width: 14%; }
+table.listings col.col-money { width: 7rem; }
+table.listings col.col-loc { width: 14%; }
+table.listings col.col-reason { width: auto; }
+table.listings col.col-status { width: 5.5rem; }
+table.listings col.col-updated { width: 6.5rem; }
 table.listings th,
 table.listings td {
   padding: .55rem .65rem;
@@ -218,6 +226,19 @@ table.listings th {
   font-weight: 650;
   white-space: nowrap;
   z-index: 1;
+}
+table.listings th.money,
+table.listings td.money {
+  text-align: left;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  padding-left: .55rem;
+  padding-right: .55rem;
+}
+table.listings th.money {
+  white-space: normal;
+  line-height: 1.2;
+  vertical-align: bottom;
 }
 table.listings th.sortable {
   cursor: pointer;
@@ -245,7 +266,11 @@ table.listings .name a:hover {
   border-bottom-color: currentColor;
 }
 table.listings .muted { color: var(--muted); }
-table.listings .num { font-variant-numeric: tabular-nums; white-space: nowrap; }
+table.listings .num {
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  text-align: right;
+}
 table.listings .status {
   display: inline-block;
   padding: .12rem .45rem;
@@ -398,13 +423,24 @@ body.view-cashflow #view-cashflow { display: block; }
 
   <div class="table-wrap">
     <table class="listings" id="table">
+      <colgroup>
+        <col class="col-name">
+        <col class="col-cat">
+        <col class="col-money">
+        <col class="col-money">
+        <col class="col-money">
+        <col class="col-loc">
+        <col class="col-reason">
+        <col class="col-status">
+        <col class="col-updated">
+      </colgroup>
       <thead>
         <tr>
           <th class="sortable" data-sort="name">Name <span class="arrow"></span></th>
           <th class="sortable" data-sort="category">Category <span class="arrow"></span></th>
-          <th class="sortable sorted" data-sort="ask" data-dir="asc">Ask (CAD) <span class="arrow">▲</span></th>
-          <th class="sortable" data-sort="revenue">Revenue <span class="arrow"></span></th>
-          <th>Cash flow / SDE</th>
+          <th class="sortable money sorted" data-sort="ask" data-dir="asc">Ask (CAD) <span class="arrow">▲</span></th>
+          <th class="sortable money" data-sort="revenue">Revenue <span class="arrow"></span></th>
+          <th class="money">Cash flow / SDE</th>
           <th>Location</th>
           <th>Selling reason</th>
           <th>Status</th>
@@ -711,9 +747,9 @@ function renderTable() {
     html += `<tr class="main-row${open ? ' open' : ''}" data-id="${b._id}">
       <td class="name">${nameCell}</td>
       <td>${dash(b.category)}</td>
-      <td class="num">${money(b.askingCAD)}</td>
-      <td class="num">${revenue(b)}</td>
-      <td class="num">${money(b.cashFlowSdeCAD)}</td>
+      <td class="money">${money(b.askingCAD)}</td>
+      <td class="money">${revenue(b)}</td>
+      <td class="money">${money(b.cashFlowSdeCAD)}</td>
       <td>${dash(b.location)}</td>
       <td>${dash(b.sellingReason)}</td>
       <td><span class="status ${statusClass(b.listingStatus)}">${esc(b.listingStatus || '—')}</span></td>
