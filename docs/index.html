@@ -234,7 +234,16 @@ table.listings tbody tr.detail-row td {
   padding: 0;
   border-bottom: 1px solid #d6d3d1;
 }
-table.listings .name { font-weight: 600; max-width: 260px; }
+table.listings .name { font-weight: 600; max-width: 280px; }
+table.listings .name a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+table.listings .name a:hover {
+  color: var(--accent);
+  border-bottom-color: currentColor;
+}
 table.listings .muted { color: var(--muted); }
 table.listings .num { font-variant-numeric: tabular-nums; white-space: nowrap; }
 table.listings .status {
@@ -246,12 +255,6 @@ table.listings .status {
   font-size: .75rem;
   font-weight: 600;
 }
-table.listings a.link {
-  font-size: .8rem;
-  text-decoration: none;
-  border-bottom: 1px solid transparent;
-}
-table.listings a.link:hover { border-bottom-color: currentColor; }
 .detail {
   padding: 1rem 1.15rem 1.15rem;
   display: grid;
@@ -400,16 +403,15 @@ body.view-cashflow #view-cashflow { display: block; }
           <th class="sortable" data-sort="name">Name <span class="arrow"></span></th>
           <th class="sortable" data-sort="category">Category <span class="arrow"></span></th>
           <th class="sortable sorted" data-sort="ask" data-dir="asc">Ask (CAD) <span class="arrow">▲</span></th>
-          <th>Cash flow / SDE</th>
           <th class="sortable" data-sort="revenue">Revenue <span class="arrow"></span></th>
+          <th>Cash flow / SDE</th>
           <th>Location</th>
-          <th>Status</th>
           <th>Selling reason</th>
+          <th>Status</th>
           <th class="sortable" data-sort="updated">Updated <span class="arrow"></span></th>
-          <th>Link</th>
         </tr>
       </thead>
-      <tbody id="tbody"><tr><td colspan="10" class="empty">Loading listings…</td></tr></tbody>
+      <tbody id="tbody"><tr><td colspan="9" class="empty">Loading listings…</td></tr></tbody>
     </table>
   </div>
 
@@ -530,10 +532,10 @@ function renderSummary() {
   document.getElementById('dataQuality').innerHTML =
     tile('Listings', s.total, esc(statusHint())) +
     tile('With asking price', s.withAsk, `${pct(s.withAsk)}% of ${s.total}`) +
+    tile('With revenue', s.rev, `${pct(s.rev)}% · ${s.either} with any financials`) +
     tile('With cash flow / SDE', s.cf,
       `<span class="hint-link">${pct(s.cf)}% · view list →</span>`,
-      'class="dq clickable" id="statCashflow" role="link" tabindex="0" title="View businesses with cash flow / SDE"') +
-    tile('With revenue', s.rev, `${pct(s.rev)}% · ${s.either} with any financials`);
+      'class="dq clickable" id="statCashflow" role="link" tabindex="0" title="View businesses with cash flow / SDE"');
 }
 
 function topCategories(n = 8) {
@@ -694,31 +696,31 @@ function renderTable() {
 
   const tbody = document.getElementById('tbody');
   if (!rows.length) {
-    tbody.innerHTML = `<tr><td colspan="10" class="empty">No listings match these filters.</td></tr>`;
+    tbody.innerHTML = `<tr><td colspan="9" class="empty">No listings match these filters.</td></tr>`;
     return;
   }
 
   let html = '';
   for (const b of rows) {
     const url = (b.listingUrls && b.listingUrls[0]) || null;
-    const linkCell = url
-      ? `<a class="link" data-ext href="${esc(url)}" title="${esc(url)}">Open ↗</a>`
-      : '<span class="muted">—</span>';
+    const name = esc(b.businessName || '—');
+    const nameCell = url
+      ? `<a data-ext href="${esc(url)}" title="${esc(url)}">${name}</a>`
+      : name;
     const open = state.openId === b._id;
     html += `<tr class="main-row${open ? ' open' : ''}" data-id="${b._id}">
-      <td class="name">${esc(b.businessName || '—')}</td>
+      <td class="name">${nameCell}</td>
       <td>${dash(b.category)}</td>
       <td class="num">${money(b.askingCAD)}</td>
-      <td class="num">${money(b.cashFlowSdeCAD)}</td>
       <td class="num">${revenue(b)}</td>
+      <td class="num">${money(b.cashFlowSdeCAD)}</td>
       <td>${dash(b.location)}</td>
-      <td><span class="status ${statusClass(b.listingStatus)}">${esc(b.listingStatus || '—')}</span></td>
       <td>${dash(b.sellingReason)}</td>
+      <td><span class="status ${statusClass(b.listingStatus)}">${esc(b.listingStatus || '—')}</span></td>
       <td class="num">${dash(b.updatedDate)}</td>
-      <td>${linkCell}</td>
     </tr>`;
     if (open) {
-      html += `<tr class="detail-row"><td colspan="10">${detailHtml(b)}</td></tr>`;
+      html += `<tr class="detail-row"><td colspan="9">${detailHtml(b)}</td></tr>`;
     }
   }
   tbody.innerHTML = html;
@@ -865,7 +867,7 @@ window.addEventListener('hashchange', applyRoute);
 function showLoadError(msg) {
   const tbody = document.getElementById('tbody');
   if (tbody) {
-    tbody.innerHTML = '<tr><td colspan="10" class="empty">' + esc(msg) + '</td></tr>';
+    tbody.innerHTML = '<tr><td colspan="9" class="empty">' + esc(msg) + '</td></tr>';
   }
   const gen = document.getElementById('genAt');
   if (gen) gen.textContent = 'load failed';
