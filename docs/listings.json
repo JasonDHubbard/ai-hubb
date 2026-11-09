@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05 11:40 PM CST",
+  "generatedAt": "2026-11-09 9:37 AM CST",
   "capCAD": 301000,
   "businesses": [
     {
@@ -48,10 +48,11 @@
       "category": "Professional services / digital marketing franchise",
       "summary": "New home-based Eazi-Agency digital marketing/technology franchise opportunity in Edmonton (not a resale of an existing operating business). Investment from CAD $18,995 listed ask; monthly option from ~$895/month mentioned in marketing copy. AI-powered digital marketing services with franchisor systems and training.",
       "createdDate": "2026-10-19",
-      "updatedDate": "2026-10-19",
+      "updatedDate": "2026-11-09",
       "listingStatus": "Listed",
       "listingUrls": [
-        "https://canada.businessesforsale.com/canadian/flexible-digital-services-franchise-in-edmonton-for-sale.aspx"
+        "https://canada.businessesforsale.com/canadian/flexible-digital-services-franchise-in-edmonton-for-sale.aspx",
+        "https://canada.businessesforsale.com/canadian/supported-digital-solutions-franchise-in-alberta-for-sale.aspx"
       ],
       "listingDomainUrls": [
         "https://canada.businessesforsale.com"
@@ -81,7 +82,7 @@
       "saleType": "New franchise / startup opportunity",
       "propertyArrangement": "Home-based",
       "clientOrContractNotes": null,
-      "dataNotes": "BFS explicitly states this is a new franchise opportunity rather than sale of an existing operating business. Revenue/cash flow undisclosed. Also listed under franchise opportunities as eazi-agency?location=Edmonton.",
+      "dataNotes": "BFS explicitly states this is a new franchise opportunity rather than sale of an existing operating business. Revenue/cash flow undisclosed. Also listed under franchise opportunities as eazi-agency?location=Edmonton. | 2026-11-09: added BFS URL for Alberta-wide Supported Digital Solutions Franchise (listing 4011339, $18,995)",
       "sellingReason": null
     },
     {
@@ -588,10 +589,11 @@
       "category": "Beauty / tanning salon",
       "summary": "Tanning salon in Leduc listed on Kijiji ~$40,000.",
       "createdDate": "2026-09-20",
-      "updatedDate": "2026-10-03",
-      "listingStatus": "Delisted",
+      "updatedDate": "2026-11-09",
+      "listingStatus": "Listed",
       "listingUrls": [
-        "https://www.kijiji.ca/v-other-business-industrial/edmonton/tanning-salon-leduc-ab/1741899826"
+        "https://www.kijiji.ca/v-other-business-industrial/edmonton/tanning-salon-leduc-ab/1741899826",
+        "https://www.kijiji.ca/v-other-business-industrial/edmonton/tanning-salon-for-sale-40k/1745817301"
       ],
       "listingDomainUrls": [
         "https://www.kijiji.ca"
@@ -601,7 +603,7 @@
       ],
       "askingCAD": 40000,
       "grossRevenueCAD": null,
-      "grossRevenueLowCAD": null,
+      "grossRevenueLowCAD": 120000,
       "grossRevenueHighCAD": null,
       "cashFlowSdeCAD": null,
       "established": null,
@@ -618,11 +620,11 @@
       "equipmentFixturesValueCAD": null,
       "isFranchise": false,
       "franchiseName": null,
-      "saleType": null,
+      "saleType": "Asset sale",
       "propertyArrangement": null,
       "clientOrContractNotes": null,
-      "dataNotes": "Imported from site scan 2026-09-20T00:00:00-06:00; source site: Kijiji. | 2026-10-03 check: Kijiji ad URL returns 307 to a category search and no longer shows the ad. | Link check 2026-10-03: page gone/removed (Business Finder).",
-      "sellingReason": null
+      "dataNotes": "Imported from site scan 2026-09-20T00:00:00-06:00; source site: Kijiji. | 2026-10-03 check: Kijiji ad URL returns 307 to a category search and no longer shows the ad. | Link check 2026-10-03: page gone/removed (Business Finder). | 2026-11-09: restored Listed — new Kijiji ad 1745817301 ACTIVE at $40,000 (Leduc T9E 6V4, asset sale, 6 tanning beds + VersaSpa Pro spray booth, annual revenue $120K+, islandglowtan.com); previous ad 1741899826 was gone",
+      "sellingReason": "Owner is moving on after 6 years; life changed (per Kijiji ad)"
     },
     {
       "businessName": "Kids education franchise — Edmonton territories",
@@ -1380,7 +1382,7 @@
       "category": "Food / bubble tea & quick-service",
       "summary": "Established bubble tea restaurant with hot food (wings, fries, dry ribs, spring rolls), hot drinks, slushes, ice cream and smoothies, next to a busy Walmart Supercentre in South Edmonton. About 1,504 sq ft. Two machines make fresh tapioca pearls, so surplus boba can also be sold wholesale. Long-term lease to Nov 30, 2031.",
       "createdDate": "2026-10-19",
-      "updatedDate": "2026-10-19",
+      "updatedDate": "2026-11-09",
       "listingStatus": "Listed",
       "listingUrls": [
         "https://www.kijiji.ca/v-other-business-industrial/edmonton/bubble-tea-with-hot-foods-restaurant/1744663079",
@@ -1416,7 +1418,7 @@
       "saleType": "Business sale",
       "propertyArrangement": null,
       "clientOrContractNotes": null,
-      "dataNotes": "Price of $75,000 is from the JamesHan.ca listing page; the Kijiji ad (posted 2026-10-11) shows no price. Equipment includes a quick-fry oven with about $22,000 new value plus two boba-pearl machines. Revenue and cash flow are given only to serious buyers. | 2026-10-26: dead URL(s) https://www.kijiji.ca/v-other-business-industrial/edmonton/bubble-tea-with-hot-foods-restaurant/1744663079; still active elsewhere | 2026-11-02: Kijiji ad 1744663079 removed; JamesHan.ca page still live at $75,000, status left Listed.",
+      "dataNotes": "Price of $75,000 is from the JamesHan.ca listing page; the Kijiji ad (posted 2026-10-11) shows no price. Equipment includes a quick-fry oven with about $22,000 new value plus two boba-pearl machines. Revenue and cash flow are given only to serious buyers. | 2026-10-26: dead URL(s) https://www.kijiji.ca/v-other-business-industrial/edmonton/bubble-tea-with-hot-foods-restaurant/1744663079; still active elsewhere | 2026-11-02: Kijiji ad 1744663079 removed; JamesHan.ca page still live at $75,000, status left Listed. | 2026-11-09: Kijiji ad 1744663079 redirected as removed; James Han page shops-bubble-tea-hot-food-drinks.htm still live at $75,000 — left Listed",
       "sellingReason": null
     },
     {
@@ -1547,8 +1549,8 @@
       "category": "Beauty / hair salon & spa",
       "summary": "Fully operating hair salon and spa: haircuts, colouring, keratin, Botox, waxing, threading, makeup, hairdos, hair spa. Low rent $2,700 + GST/month.",
       "createdDate": "2026-10-05",
-      "updatedDate": "2026-10-05",
-      "listingStatus": "Listed",
+      "updatedDate": "2026-11-09",
+      "listingStatus": "Delisted",
       "listingUrls": [
         "https://www.kijiji.ca/v-other-business-industrial/edmonton/for-sale-hair-salon-spa/1742825391"
       ],
@@ -1580,7 +1582,7 @@
       "saleType": "Business sale",
       "propertyArrangement": null,
       "clientOrContractNotes": null,
-      "dataNotes": "Kijiji ad by Century 21 broker; ad location shows placeholder 'Edmonton, AB T6X' so exact address not published. Revenue/cash flow not disclosed. Distinct from existing Victoria Trail ($30k, delisted) and west/central ($60k) salons.",
+      "dataNotes": "Kijiji ad by Century 21 broker; ad location shows placeholder 'Edmonton, AB T6X' so exact address not published. Revenue/cash flow not disclosed. Distinct from existing Victoria Trail ($30k, delisted) and west/central ($60k) salons. | 2026-11-09: Delisted — Kijiji ad status EXPIRED (only listing URL)",
       "sellingReason": null
     },
     {
@@ -1632,8 +1634,8 @@
       "category": "Food / café & wine bar",
       "summary": "Boutique wine & cheese café in downtown Edmonton: artisanal cheese, wine, beer and espresso service, brick-walled interior, patio seating. Turnkey; marketed as profitable with loyal clientele.",
       "createdDate": "2026-10-05",
-      "updatedDate": "2026-10-05",
-      "listingStatus": "Listed",
+      "updatedDate": "2026-11-09",
+      "listingStatus": "Delisted",
       "listingUrls": [
         "https://www.kijiji.ca/v-other-business-industrial/edmonton/for-sale-wine-cheese-cafe-downtown-edmonton/1738539690"
       ],
@@ -1665,7 +1667,7 @@
       "saleType": "Business sale",
       "propertyArrangement": null,
       "clientOrContractNotes": null,
-      "dataNotes": "Kijiji ad by Century 21 broker; ad location shows placeholder 'Edmonton, AB T6X' so exact address not published. Revenue/cash flow not disclosed. Liquor licence transfer terms not stated.",
+      "dataNotes": "Kijiji ad by Century 21 broker; ad location shows placeholder 'Edmonton, AB T6X' so exact address not published. Revenue/cash flow not disclosed. Liquor licence transfer terms not stated. | 2026-11-09: Delisted — Kijiji ad status EXPIRED (only listing URL)",
       "sellingReason": null
     },
     {
@@ -1805,7 +1807,7 @@
       "category": "Services / tailoring",
       "summary": "Established, turnkey tailoring business in the Albany Market Square outdoor shopping centre (anchors: Walmart and Movati). 600 sq. ft. with a large workroom and two change rooms. All sewing machinery, equipment, and materials included.",
       "createdDate": "2026-10-05",
-      "updatedDate": "2026-11-02",
+      "updatedDate": "2026-11-09",
       "listingStatus": "Listed",
       "listingUrls": [
         "https://www.realtor.ca/real-estate/29624524/12778-12778-167-ave-nw-edmonton",
@@ -1819,7 +1821,7 @@
         "Realtor.ca",
         "MaxWell Realty"
       ],
-      "askingCAD": 80000,
+      "askingCAD": 65000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
       "grossRevenueHighCAD": null,
@@ -1841,7 +1843,7 @@
       "saleType": "Business sale (turnkey)",
       "propertyArrangement": "Leased (Cameron Development Corporation-managed centre)",
       "clientOrContractNotes": null,
-      "dataNotes": "Realtor.ca MLS® 44727357 (EREB). Materials included (counted as inventory). No financials. | 2026-10-19: Delisted — Realtor.ca listing page 404 (removed) (WebFetch) | 2026-11-02: restored Listed — MaxWell IDX MLS 44727357 Status Active at $80,000.",
+      "dataNotes": "Realtor.ca MLS® 44727357 (EREB). Materials included (counted as inventory). No financials. | 2026-10-19: Delisted — Realtor.ca listing page 404 (removed) (WebFetch) | 2026-11-02: restored Listed — MaxWell IDX MLS 44727357 Status Active at $80,000. | 2026-11-09: enriched — askingCAD 80000->65000; Realtor.ca 29624524 and MaxWell MLS 44727357 now show $65,000",
       "sellingReason": null
     },
     {
@@ -2059,8 +2061,8 @@
       "category": "Food / pizza takeout",
       "summary": "Turnkey pizza and takeout business in a high-exposure St. Albert corridor near St. Albert Trail and Hebert Road. Well-equipped kitchen and strong signage. The buyer can continue the operation or introduce a new concept. Business sale only.",
       "createdDate": "2026-10-05",
-      "updatedDate": "2026-11-02",
-      "listingStatus": "Listed",
+      "updatedDate": "2026-11-09",
+      "listingStatus": "Delisted",
       "listingUrls": [
         "https://www.realtor.ca/real-estate/30305054/1-hebert-rd-st-albert-sturgeon-county-ab-t8n-2e7-canada-rural-sturgeon-county",
         "https://www.maxwellrealty.ca/listing-ereb/45646360-hebert-rd-st-albert-rural-sturgeon-county-ab-t8n-2e7/"
@@ -2095,7 +2097,7 @@
       "saleType": "Business sale only",
       "propertyArrangement": "Leased premises; real estate not included",
       "clientOrContractNotes": null,
-      "dataNotes": "Realtor.ca MLS® 45646360 (EREB). Card address shows '1 Hebert Rd ... Sturgeon County', which looks like a placeholder; the description says St. Albert. 14 days on Realtor.ca. | 2026-10-19: Delisted — Realtor.ca listing page 404 (removed) (WebFetch) | 2026-11-02: restored Listed — MaxWell IDX MLS 45646360 Status Active at $90,000.",
+      "dataNotes": "Realtor.ca MLS® 45646360 (EREB). Card address shows '1 Hebert Rd ... Sturgeon County', which looks like a placeholder; the description says St. Albert. 14 days on Realtor.ca. | 2026-10-19: Delisted — Realtor.ca listing page 404 (removed) (WebFetch) | 2026-11-02: restored Listed — MaxWell IDX MLS 45646360 Status Active at $90,000. | 2026-11-09: Delisted — MaxWell IDX MLS 45646360 Listing Not Found and Realtor.ca 30305054 404",
       "sellingReason": null
     },
     {
@@ -2705,8 +2707,8 @@
       "category": "Food / sushi quick-service restaurant",
       "summary": "Fast-casual sushi restaurant with dine-in, takeout and established UberEats/DoorDash sales. Sale includes the fully equipped commercial kitchen, walk-in freezer and cooler, POS system, and dining tables and chairs. Training available.",
       "createdDate": "2026-10-19",
-      "updatedDate": "2026-10-19",
-      "listingStatus": "Listed",
+      "updatedDate": "2026-11-09",
+      "listingStatus": "Delisted",
       "listingUrls": [
         "https://www.kijiji.ca/v-commercial-office-space-for-sale/edmonton/16946-107-ave-nw-edmonton-alberta/1744751006",
         "https://www.realtor.ca/real-estate/30383696/16946-107-ave-nw-edmonton",
@@ -2744,7 +2746,7 @@
       "saleType": "Business sale",
       "propertyArrangement": "Leased premises; real estate not included",
       "clientOrContractNotes": "Training available to buyer.",
-      "dataNotes": "REALTOR.ca DDF feed ad on Kijiji (MLS 45746072, posted 2026-10-13). Agent not shown in the feed text. Described as profitable, but no revenue or cash-flow figures given.",
+      "dataNotes": "REALTOR.ca DDF feed ad on Kijiji (MLS 45746072, posted 2026-10-13). Agent not shown in the feed text. Described as profitable, but no revenue or cash-flow figures given. | 2026-11-09: Delisted — Kijiji ad 1744751006 redirected as removed; MaxWell IDX MLS 45746072 Listing Not Found; Realtor.ca 30383696 404",
       "sellingReason": null
     },
     {
@@ -2752,7 +2754,7 @@
       "category": "Leisure / party bike",
       "summary": "15-person party bikes operating Whyte Ave and Downtown since 2017. EBITDA ~$80,000 noted in snippet.",
       "createdDate": "2026-09-20",
-      "updatedDate": "2026-10-26",
+      "updatedDate": "2026-11-09",
       "listingStatus": "Listed",
       "listingUrls": [
         "https://www.bizbuysell.com/canada-businesses-for-sale/2/",
@@ -2795,7 +2797,7 @@
       "saleType": null,
       "propertyArrangement": "Leased",
       "clientOrContractNotes": null,
-      "dataNotes": "Imported from site scan 2026-09-20T00:00:00-06:00; source site: BizBuySell. | 2026-09-21 refresh: BizQuest Alberta results page independently shows an established party bike business for sale at $120,000, operating for 7 years with an active liquor licence. | BFS now shows Asking Price $250,000 (was $120,000 in index). Same Whyte Ave / Downtown 15-person bike tour operation since 2017. Add BFS URL; prior BizBuySell/BizQuest generic search URLs remain. | 2026-10-05: BizBuySell Edmonton now shows $120,000 (EBITDA $80,000) while the BFS mirror still shows $250,000. Last week the record moved from $120k to $250k because of BFS. I did not change askingCAD; the two mirrors disagree, so confirm with the seller. BFS shows 14 employees, absentee ownership, and a long-term lease off Whyte Ave. | 2026-10-19: 2026-10-19: BizQuest Alberta card still shows 'Established Party Bike Business' at CAD 120,000 while this record holds CAD 250,000 — unresolved cross-site price conflict; left askingCAD unchanged pending a direct listing URL. | 2026-10-26: DealStream lists it by name as \"Urban Pedal Tours Edmonton\": est. 2017, Edmonton-only, award-winning, up to 15 riders per tour in Old Strathcona and downtown. Listed Sep 8, 2025, renewed Jun 8, 2026. Asking price on request, so it does not resolve the $120k vs $250k conflict. | 2026-10-26: DealStream names the business (Urban Pedal Tours Edmonton). Same operation; still live. | 2026-10-26: price change seen on re-check | 2026-10-26: dead URL(s) https://canada.businessesforsale.com/canadian/party-bike-experience-in-edmonton.aspx; still active elsewhere | 2026-11-02: BFS URL still 404; DealStream (DataDome-blocked this week) Edmonton leisure category snippet still shows \"Urban Pedal Tours Edmonton\"; left Listed.",
+      "dataNotes": "Imported from site scan 2026-09-20T00:00:00-06:00; source site: BizBuySell. | 2026-09-21 refresh: BizQuest Alberta results page independently shows an established party bike business for sale at $120,000, operating for 7 years with an active liquor licence. | BFS now shows Asking Price $250,000 (was $120,000 in index). Same Whyte Ave / Downtown 15-person bike tour operation since 2017. Add BFS URL; prior BizBuySell/BizQuest generic search URLs remain. | 2026-10-05: BizBuySell Edmonton now shows $120,000 (EBITDA $80,000) while the BFS mirror still shows $250,000. Last week the record moved from $120k to $250k because of BFS. I did not change askingCAD; the two mirrors disagree, so confirm with the seller. BFS shows 14 employees, absentee ownership, and a long-term lease off Whyte Ave. | 2026-10-19: 2026-10-19: BizQuest Alberta card still shows 'Established Party Bike Business' at CAD 120,000 while this record holds CAD 250,000 — unresolved cross-site price conflict; left askingCAD unchanged pending a direct listing URL. | 2026-10-26: DealStream lists it by name as \"Urban Pedal Tours Edmonton\": est. 2017, Edmonton-only, award-winning, up to 15 riders per tour in Old Strathcona and downtown. Listed Sep 8, 2025, renewed Jun 8, 2026. Asking price on request, so it does not resolve the $120k vs $250k conflict. | 2026-10-26: DealStream names the business (Urban Pedal Tours Edmonton). Same operation; still live. | 2026-10-26: price change seen on re-check | 2026-10-26: dead URL(s) https://canada.businessesforsale.com/canadian/party-bike-experience-in-edmonton.aspx; still active elsewhere | 2026-11-02: BFS URL still 404; DealStream (DataDome-blocked this week) Edmonton leisure category snippet still shows \"Urban Pedal Tours Edmonton\"; left Listed. | 2026-11-09: BusinessesForSale party-bike-experience-in-edmonton.aspx returns 404; BizBuySell, BizQuest and DealStream URLs blocked (403) so status left Listed",
       "sellingReason": null
     },
     {
@@ -2803,16 +2805,19 @@
       "category": "Services / tailoring & dry cleaning",
       "summary": "Established, profitable tailor shop in Beaumont, operating about 18 years with loyal repeat customers. Services include alterations, tailoring, dry cleaning, and apparel care. 992 sq. ft. in a high-visibility retail location. Fully equipped and turnkey.",
       "createdDate": "2026-10-05",
-      "updatedDate": "2026-10-26",
-      "listingStatus": "Delisted",
+      "updatedDate": "2026-11-09",
+      "listingStatus": "Listed",
       "listingUrls": [
-        "https://www.realtor.ca/real-estate/29944791/beaumont"
+        "https://www.realtor.ca/real-estate/29944791/beaumont",
+        "https://www.maxwellrealty.ca/listing-ereb/45126494-50-avenue-beaumont-ab-t4x-1k5/"
       ],
       "listingDomainUrls": [
-        "https://www.realtor.ca"
+        "https://www.realtor.ca",
+        "https://www.maxwellrealty.ca"
       ],
       "listingSiteNames": [
-        "Realtor.ca"
+        "Realtor.ca",
+        "MaxWell Realty"
       ],
       "askingCAD": 120000,
       "grossRevenueCAD": null,
@@ -2836,7 +2841,7 @@
       "saleType": "Business sale (turnkey)",
       "propertyArrangement": "Leased premises; real estate not included",
       "clientOrContractNotes": null,
-      "dataNotes": "Realtor.ca MLS® 45126494 (EREB). 'Profitable' claimed; no figures. | 2026-10-26: Delisted — Realtor.ca listing page 404 via WebFetch (re-tried, removed)",
+      "dataNotes": "Realtor.ca MLS® 45126494 (EREB). 'Profitable' claimed; no figures. | 2026-10-26: Delisted — Realtor.ca listing page 404 via WebFetch (re-tried, removed) | 2026-11-09: restored Listed — Realtor.ca 29944791 live at $120,000 (MLS 45126494) and MaxWell IDX ListingStatus Active at $120,000; agent Charles K. Ho, Century 21 Masters",
       "sellingReason": null
     },
     {
@@ -2844,19 +2849,22 @@
       "category": "Publishing / media",
       "summary": "Established magazine publishing business focused on supporting and recognizing female business professionals. Multiple income streams; hosts biannual conferences. Turn-key with training and mentorship offered.",
       "createdDate": "2026-09-20",
-      "updatedDate": "2026-09-28",
+      "updatedDate": "2026-11-09",
       "listingStatus": "Listed",
       "listingUrls": [
         "https://www.sunbeltcanada.com/edmonton/posting/woman-in-business-focused-magazine-publisher/",
-        "https://canada.businessesforsale.com/canadian/women-in-business-marketing-agency.aspx"
+        "https://canada.businessesforsale.com/canadian/women-in-business-marketing-agency.aspx",
+        "https://bizlistings.ca/listing/sunbelt-canada/women-in-business-marketing-agency-a0269d"
       ],
       "listingDomainUrls": [
         "https://www.sunbeltcanada.com",
-        "https://canada.businessesforsale.com"
+        "https://canada.businessesforsale.com",
+        "https://bizlistings.ca"
       ],
       "listingSiteNames": [
         "Sunbelt Canada",
-        "BusinessesForSale.com"
+        "BusinessesForSale.com",
+        "BizListings.ca"
       ],
       "askingCAD": 120000,
       "grossRevenueCAD": 245000,
@@ -2880,7 +2888,7 @@
       "saleType": "Turnkey publishing business",
       "propertyArrangement": "Not fully disclosed",
       "clientOrContractNotes": null,
-      "dataNotes": "EBITDA also listed at $50,000 on Sunbelt page. Status shown as New. | 2026-09-21 refresh: Confirmed $120,000 ask, $245,000 gross revenue, $90,000 SDE, $50,000 EBITDA, established 2001, Edmonton/Central Alberta, status New; broker Colleen Pushor, (780) 446-7353, colleen.pushor@sunbeltcanada.com. | Sunbelt women's magazine / media business also listed on BFS as Women In Business Marketing Agency at $120,000 (rev $245k / CF $90k consistent). | Confirmed still Listed on Sunbelt 2026-09-28 at $120k / $245k rev / $90k SDE.",
+      "dataNotes": "EBITDA also listed at $50,000 on Sunbelt page. Status shown as New. | 2026-09-21 refresh: Confirmed $120,000 ask, $245,000 gross revenue, $90,000 SDE, $50,000 EBITDA, established 2001, Edmonton/Central Alberta, status New; broker Colleen Pushor, (780) 446-7353, colleen.pushor@sunbeltcanada.com. | Sunbelt women's magazine / media business also listed on BFS as Women In Business Marketing Agency at $120,000 (rev $245k / CF $90k consistent). | Confirmed still Listed on Sunbelt 2026-09-28 at $120k / $245k rev / $90k SDE. | 2026-11-09: Sunbelt Edmonton posting still live at $120,000 (revenue $245,000, SDE $90,000). BizListings.ca BL-C1407 also shows $120,000 / $245,000 / $90,000.",
       "sellingReason": null
     },
     {
@@ -2981,8 +2989,8 @@
       "category": "Retail / convenience & tobacco",
       "summary": "Established convenience and cigar store in a busy neighbourhood with loyal regulars. Turnkey with shelving, fixtures and equipment. A recently set-up kitchen area (oven, fridge, hot-food case, cooler, freezer) gives room to add fresh and hot food.",
       "createdDate": "2026-11-02",
-      "updatedDate": "2026-11-02",
-      "listingStatus": "Listed",
+      "updatedDate": "2026-11-09",
+      "listingStatus": "Delisted",
       "listingUrls": [
         "https://www.kijiji.ca/v-other-business-industrial/edmonton/convenience-store-for-sale-urgently-need-to-go/1745354281"
       ],
@@ -3014,7 +3022,7 @@
       "saleType": "Business sale",
       "propertyArrangement": "Leased",
       "clientOrContractNotes": null,
-      "dataNotes": "Kijiji ad 1745354281, posted 2026-10-26. The $125,000 includes inventory. The ad says Northwest Edmonton, but the map area is T6C (southeast). Exact location shared later.",
+      "dataNotes": "Kijiji ad 1745354281, posted 2026-10-26. The $125,000 includes inventory. The ad says Northwest Edmonton, but the map area is T6C (southeast). Exact location shared later. | 2026-11-09: Delisted — Kijiji ad 1745354281 redirected as removed (only listing URL)",
       "sellingReason": null
     },
     {
@@ -3145,7 +3153,7 @@
       "category": "Retail / pet store (franchise)",
       "summary": "Corporate pet retail franchise store in North Edmonton being offered to a franchise partner below typical new-build cost. Price reduced to $125k including inventory. Last-year sales $626,425; average ticket $64 vs system average $43. ~$100k down range to qualify.",
       "createdDate": "2026-09-28",
-      "updatedDate": "2026-10-05",
+      "updatedDate": "2026-11-09",
       "listingStatus": "Listed",
       "listingUrls": [
         "https://canada.businessesforsale.com/canadian/north-edmonton-pet-retail-franchise-location.aspx"
@@ -3156,7 +3164,7 @@
       "listingSiteNames": [
         "BusinessesForSale.com"
       ],
-      "askingCAD": 125000,
+      "askingCAD": 175000,
       "grossRevenueCAD": 626425,
       "grossRevenueLowCAD": null,
       "grossRevenueHighCAD": null,
@@ -3178,7 +3186,7 @@
       "saleType": "Franchise resale (corporate store)",
       "propertyArrangement": null,
       "clientOrContractNotes": null,
-      "dataNotes": "Cash flow listed as $50K–$100K range on search card. Franchisor/brand not named publicly. Distinct from Pet Planet $250k, West Edmonton $210k specialty, south-of-Edmonton $285k, and $290k profitable pet store listings. | 2026-10-05: BFS: est. 2022, cash flow range $50K–$100K, ask still $125,000.",
+      "dataNotes": "Cash flow listed as $50K–$100K range on search card. Franchisor/brand not named publicly. Distinct from Pet Planet $250k, West Edmonton $210k specialty, south-of-Edmonton $285k, and $290k profitable pet store listings. | 2026-10-05: BFS: est. 2022, cash flow range $50K–$100K, ask still $125,000. | 2026-11-09: enriched — askingCAD 125000->175000; BusinessesForSale page now shows $175,000 (price reduced for this location, includes inventory)",
       "sellingReason": "Corporate store being sold to the right-fit franchisee"
     },
     {
@@ -3268,16 +3276,19 @@
       "category": "Health / medical clinic",
       "summary": "Medical practice in the Edmonton area for a physician to take over an existing client base (panel about 1,000). Anchor tenant, busy street, long history; space to grow. Suits a physician, nurse and front staff; pitched as a roll-up candidate in a fast-growing area.",
       "createdDate": "2026-10-26",
-      "updatedDate": "2026-10-26",
+      "updatedDate": "2026-11-09",
       "listingStatus": "Listed",
       "listingUrls": [
-        "https://dealstream.com/d/biz-sale/medical-practices/g6dtx1"
+        "https://dealstream.com/d/biz-sale/medical-practices/g6dtx1",
+        "https://bizlistings.ca/listing/sunbelt-canada/medical-clinic-business-for-sale-in-edmonton-ab-47daea"
       ],
       "listingDomainUrls": [
-        "https://dealstream.com"
+        "https://dealstream.com",
+        "https://bizlistings.ca"
       ],
       "listingSiteNames": [
-        "DealStream"
+        "DealStream",
+        "BizListings.ca"
       ],
       "askingCAD": 129997,
       "grossRevenueCAD": null,
@@ -3301,7 +3312,7 @@
       "saleType": "Practice / business sale",
       "propertyArrangement": null,
       "clientOrContractNotes": null,
-      "dataNotes": "DealStream listed Aug 7, 2025; ask CAD 129,997 (no USD conversion shown). Cash flow and sales on request. Distinct from the 30+-year single-GP clinic at $199,997/$299,997 (i=108 / i=167): different ask, panel size and selling reason. | 2026-11-02: status re-check blocked (DealStream DataDome 403 to curl, WebFetch and mirror), left Listed.",
+      "dataNotes": "DealStream listed Aug 7, 2025; ask CAD 129,997 (no USD conversion shown). Cash flow and sales on request. Distinct from the 30+-year single-GP clinic at $199,997/$299,997 (i=108 / i=167): different ask, panel size and selling reason. | 2026-11-02: status re-check blocked (DealStream DataDome 403 to curl, WebFetch and mirror), left Listed. | 2026-11-09: BizListings.ca BL-0843A (Sunbelt Canada source, status Live) shows the same clinic: ask $129,997, revenue and SDE not disclosed, ~1,000 patient panel, reason: owner wants to focus on other business. Adds BizListings mirror; confirms still advertised.",
       "sellingReason": "Owner wants to focus on other business."
     },
     {
@@ -3723,8 +3734,8 @@
       "category": "Food / food court restaurant",
       "summary": "Restaurant in a busy food court serving burgers, sandwiches, wraps, milkshakes and specialty coffee. Marketed as an affordable entry for an owner-operator or family. Low rent $3,000 + GST/month.",
       "createdDate": "2026-10-05",
-      "updatedDate": "2026-10-05",
-      "listingStatus": "Listed",
+      "updatedDate": "2026-11-09",
+      "listingStatus": "Delisted",
       "listingUrls": [
         "https://www.kijiji.ca/v-other-business-industrial/edmonton/for-sale-restaurant-in-food-court/1742868693"
       ],
@@ -3756,7 +3767,7 @@
       "saleType": "Business sale",
       "propertyArrangement": null,
       "clientOrContractNotes": null,
-      "dataNotes": "Kijiji ad by Century 21 broker; ad location shows placeholder 'Edmonton, AB T6X' so exact address not published. Revenue/cash flow not disclosed.",
+      "dataNotes": "Kijiji ad by Century 21 broker; ad location shows placeholder 'Edmonton, AB T6X' so exact address not published. Revenue/cash flow not disclosed. | 2026-11-09: Delisted — Kijiji ad status EXPIRED (only listing URL)",
       "sellingReason": null
     },
     {
@@ -3931,19 +3942,22 @@
       "category": "Retail / florist",
       "summary": "Edmonton-area florist serving high-end clients: weddings, holidays, funerals, corporate events, walk-ins and wedding rentals. Preferred vendor for event planners and venues, with online ordering, delivery, and a large social following. Has won best-florist awards. 14 years established, 3 staff.",
       "createdDate": "2026-10-05",
-      "updatedDate": "2026-10-26",
+      "updatedDate": "2026-11-09",
       "listingStatus": "Listed",
       "listingUrls": [
         "https://canada.businessesforsale.com/canadian/flower-shop-business-in-edmonton-area-alberta.aspx",
-        "https://dealstream.com/d/biz-sale/florists/tw19sv"
+        "https://dealstream.com/d/biz-sale/florists/tw19sv",
+        "https://bizlistings.ca/listing/sunbelt-canada/premier-flower-shop-for-sale-in-metro-edmonton-ab-ca12f6"
       ],
       "listingDomainUrls": [
         "https://canada.businessesforsale.com",
-        "https://dealstream.com"
+        "https://dealstream.com",
+        "https://bizlistings.ca"
       ],
       "listingSiteNames": [
         "BusinessesForSale.com",
-        "DealStream"
+        "DealStream",
+        "BizListings.ca"
       ],
       "askingCAD": 150000,
       "grossRevenueCAD": 400000,
@@ -3967,7 +3981,7 @@
       "saleType": "Operating business",
       "propertyArrangement": null,
       "clientOrContractNotes": null,
-      "dataNotes": "BFS shows revenue $88,000 and cash flow $88,000, which look like placeholders; verify. The headline mentions \"Prime Commercial Condo Ownership\", so property may be owned or offered separately; confirm whether real estate is included at $150k. Older listing ID; confirm availability. | 2026-10-26: DealStream mirror (listed Aug 22, 2024, still live) shows ask $150,000, cash flow $88,000, sales $400,000, seller financing yes, management will stay, Real Estate: No. This replaces the BFS $88k revenue placeholder. DealStream text says \"complete with the property too!\" but the Real Estate field says No, so confirm. | 2026-10-26: Same Sunbelt-style flower shop ($150k). DealStream gives sales of $400k (fixes the placeholder revenue) and seller financing.",
+      "dataNotes": "BFS shows revenue $88,000 and cash flow $88,000, which look like placeholders; verify. The headline mentions \"Prime Commercial Condo Ownership\", so property may be owned or offered separately; confirm whether real estate is included at $150k. Older listing ID; confirm availability. | 2026-10-26: DealStream mirror (listed Aug 22, 2024, still live) shows ask $150,000, cash flow $88,000, sales $400,000, seller financing yes, management will stay, Real Estate: No. This replaces the BFS $88k revenue placeholder. DealStream text says \"complete with the property too!\" but the Real Estate field says No, so confirm. | 2026-10-26: Same Sunbelt-style flower shop ($150k). DealStream gives sales of $400k (fixes the placeholder revenue) and seller financing. | 2026-11-09: BizListings.ca BL-FF78E (Sunbelt Canada source, Live) 'Premier Flower shop for sale in Metro Edmonton': ask $150,000, revenue $400,000, SDE $88,000, transaction type Business + real estate with stated real estate value $350,000 and 1,200 sq ft building — suggests the building may be offered with the $150k ask; DealStream said Real Estate: No. Verify with broker.",
       "sellingReason": null
     },
     {
@@ -4016,8 +4030,8 @@
       "category": "Retail / liquor store",
       "summary": "Operating ~1,920–1,950 sq ft liquor store in Sherwood Park commercial area with residential traffic. Shelving, coolers, fixtures, POS and supplier relationships in place. Inventory and final structure negotiable.",
       "createdDate": "2026-09-28",
-      "updatedDate": "2026-10-26",
-      "listingStatus": "Delisted",
+      "updatedDate": "2026-11-09",
+      "listingStatus": "Listed",
       "listingUrls": [
         "https://www.kijiji.ca/v-other-business-industrial/edmonton/established-liquor-store-for-sale-turnkey-business/1742320852"
       ],
@@ -4049,7 +4063,7 @@
       "saleType": "Turnkey business sale",
       "propertyArrangement": null,
       "clientOrContractNotes": null,
-      "dataNotes": "Listing shows $150,000 ask but also says contact for asking price/financials — treat $150k as posted Kijiji price pending confirmation. Inventory separate/negotiable. | 2026-10-26: Delisted — Kijiji ad page shows ad status EXPIRED",
+      "dataNotes": "Listing shows $150,000 ask but also says contact for asking price/financials — treat $150k as posted Kijiji price pending confirmation. Inventory separate/negotiable. | 2026-10-26: Delisted — Kijiji ad page shows ad status EXPIRED | 2026-11-09: restored Listed — Kijiji ad 1742320852 now status ACTIVE at $150,000",
       "sellingReason": null
     },
     {
@@ -4098,8 +4112,8 @@
       "category": "Food / restaurant",
       "summary": "Well-established, fully equipped Southside restaurant: 2,600+ sq ft, 90+ seats. Price includes all kitchen fixtures/equipment (hood, walk-in cooler and freezer, woks, dishwasher, fryers, grills, tables, chairs).",
       "createdDate": "2026-10-05",
-      "updatedDate": "2026-10-05",
-      "listingStatus": "Listed",
+      "updatedDate": "2026-11-09",
+      "listingStatus": "Delisted",
       "listingUrls": [
         "https://www.kijiji.ca/v-buy-sell-other/edmonton/southside-edmonton-restaurant-for-sale/1743250367"
       ],
@@ -4131,7 +4145,7 @@
       "saleType": "Turnkey business sale",
       "propertyArrangement": null,
       "clientOrContractNotes": null,
-      "dataNotes": "Same broker as existing 'Downtown Chinatown restaurant' ($159k, 1,860 sq ft, 50 seats) but a different restaurant (Southside, 2,600 sq ft, 90+ seats).",
+      "dataNotes": "Same broker as existing 'Downtown Chinatown restaurant' ($159k, 1,860 sq ft, 50 seats) but a different restaurant (Southside, 2,600 sq ft, 90+ seats). | 2026-11-09: Delisted — Kijiji ad status EXPIRED (only listing URL)",
       "sellingReason": null
     },
     {
@@ -4480,8 +4494,8 @@
       "category": "Hospitality / bar, pub & restaurant",
       "summary": "Established pub and live-music venue in operation since 2008 in NE Edmonton. 4,800 sq ft, 151 capacity inside plus a deck for 25-28 (the city is rebuilding the deck next spring). Stage, sound board and equipment, VLTs, kitchen with walk-in cooler, pizza oven, flat-top grill, flame-broil grill and deep fryer. Interior and washroom renovations 2021, exterior 2023.",
       "createdDate": "2026-10-19",
-      "updatedDate": "2026-10-19",
-      "listingStatus": "Listed",
+      "updatedDate": "2026-11-09",
+      "listingStatus": "Delisted",
       "listingUrls": [
         "https://www.kijiji.ca/v-other-business-industrial/edmonton/bar-pub-restaurant-for-sale/1743106488",
         "https://www.kijiji.ca/v-buy-sell-other/edmonton/bar-pub-restaurant-for-sale/1743106644"
@@ -4514,7 +4528,7 @@
       "saleType": "Business sale",
       "propertyArrangement": null,
       "clientOrContractNotes": null,
-      "dataNotes": "Two near-identical owner ads on Kijiji (1743106488 and 1743106644, posted ~2026-09-06). The ad text has an older 'Asking price $225,000' paragraph and a newer '$175000. Priced to sell.' askingCAD uses $175,000. No financials or lease terms.",
+      "dataNotes": "Two near-identical owner ads on Kijiji (1743106488 and 1743106644, posted ~2026-09-06). The ad text has an older 'Asking price $225,000' paragraph and a newer '$175000. Priced to sell.' askingCAD uses $175,000. No financials or lease terms. | 2026-11-09: Delisted — both Kijiji ads 1743106488 and 1743106644 status EXPIRED (only listing URLs)",
       "sellingReason": null
     },
     {
@@ -5393,19 +5407,22 @@
       "category": "Food / quick-service restaurant",
       "summary": "Profitable quick-service restaurant brand in metro Edmonton operating 30+ years. Strong lunch/clientele reputation; turnkey; food management experience required.",
       "createdDate": "2026-09-28",
-      "updatedDate": "2026-10-26",
+      "updatedDate": "2026-11-09",
       "listingStatus": "Listed",
       "listingUrls": [
         "https://canada.businessesforsale.com/canadian/fast-food-restaurant-business-edmonton-ab.aspx",
-        "https://dealstream.com/d/biz-sale/fast-food/rppdby"
+        "https://dealstream.com/d/biz-sale/fast-food/rppdby",
+        "https://bizlistings.ca/listing/sunbelt-canada/fast-food-restaurant-business-for-sale-edmonton-ab-5f63af"
       ],
       "listingDomainUrls": [
         "https://canada.businessesforsale.com",
-        "https://dealstream.com"
+        "https://dealstream.com",
+        "https://bizlistings.ca"
       ],
       "listingSiteNames": [
         "BusinessesForSale.com",
-        "DealStream"
+        "DealStream",
+        "BizListings.ca"
       ],
       "askingCAD": 199997,
       "grossRevenueCAD": 350000,
@@ -5429,7 +5446,7 @@
       "saleType": "Business sale",
       "propertyArrangement": null,
       "clientOrContractNotes": null,
-      "dataNotes": "Distinct from Top Shelf 'easy to run fast food franchise' at $200k (different rev/SDE: $425,751 / $92,858). | 2026-10-26: DealStream mirror (listed Feb 23, 2026) matches: $199,997 ask, $75,000 cash flow, $350,000 sales; broker-represented; management will stay. | 2026-10-26: DealStream mirror of the same listing; figures match.",
+      "dataNotes": "Distinct from Top Shelf 'easy to run fast food franchise' at $200k (different rev/SDE: $425,751 / $92,858). | 2026-10-26: DealStream mirror (listed Feb 23, 2026) matches: $199,997 ask, $75,000 cash flow, $350,000 sales; broker-represented; management will stay. | 2026-10-26: DealStream mirror of the same listing; figures match. | 2026-11-09: BizListings.ca BL-16FD6 (Sunbelt Canada source, Live): ask $199,997, revenue $350,000, SDE $75,000 (2.7x), reason sellers want to start a new business; figures match.",
       "sellingReason": "Sellers want to start a new business."
     },
     {
@@ -6137,55 +6154,6 @@
       "sellingReason": null
     },
     {
-      "businessName": "Massage clinic — Unity Square (111 Street)",
-      "category": "Health / massage clinic",
-      "summary": "Newly started massage clinic (business only) on the main floor of a high-rise residential building at Unity Square, downtown Edmonton. About 1,200 sq. ft. with 4 massage rooms, steam bath, reception, and kitchen. Onsite parking. Offered as business only or business with the building.",
-      "createdDate": "2026-09-28",
-      "updatedDate": "2026-11-02",
-      "listingStatus": "Listed",
-      "listingUrls": [
-        "https://nidhikapoor.maxwellrealty.ca/listing-ereb/45426371-108-111-street-edmonton-ab-t5k-0c6/",
-        "https://www.maxwellrealty.ca/listing-ereb/45426371-108-111-street-edmonton-ab-t5k-0c6/",
-        "https://www.kijiji.ca/v-commercial-office-space-for-sale/edmonton/108-10303-111-street-nw-edmonton-alberta/1745111277",
-        "https://www.realtor.ca/real-estate/30138739/108-10303-111-street-nw-edmonton"
-      ],
-      "listingDomainUrls": [
-        "https://nidhikapoor.maxwellrealty.ca",
-        "https://www.maxwellrealty.ca",
-        "https://www.kijiji.ca",
-        "https://www.realtor.ca"
-      ],
-      "listingSiteNames": [
-        "MaxWell Realty",
-        "Kijiji",
-        "Realtor.ca"
-      ],
-      "askingCAD": 225000,
-      "grossRevenueCAD": null,
-      "grossRevenueLowCAD": null,
-      "grossRevenueHighCAD": null,
-      "cashFlowSdeCAD": null,
-      "established": null,
-      "location": "108, 10303 111 Street NW, Edmonton, AB T5K 0C6 (Unity Square)",
-      "brokerAgentInfo": "Listing page via MaxWell Polaris / Nidhi Kapoor agent site.",
-      "otherLocationComments": null,
-      "employees": null,
-      "squareFootageSqFt": 1200,
-      "leaseMonthlyCAD": null,
-      "leaseNotes": null,
-      "inventoryIncluded": null,
-      "inventoryValueCAD": null,
-      "equipmentFixturesIncluded": true,
-      "equipmentFixturesValueCAD": null,
-      "isFranchise": false,
-      "franchiseName": null,
-      "saleType": "Business only (option noted for business with building)",
-      "propertyArrangement": "Business only, or business with building per listing copy; confirm with agent",
-      "clientOrContractNotes": null,
-      "dataNotes": "MLS® #45426371. Year built noted 2008 on page. Distinct from DealStream 'Massage therapy clinic — Edmonton' at CAD 250,000 (different ask/source). No published revenue/SDE. Not in existing-index. | 2026-10-19: 2026-10-19: MaxWell MLS 45426371 still Active; asking price reduced from CAD 299,000 to CAD 249,000. | 2026-10-26: Kijiji DDF ad 1745111277 (2026-10-21) still shows $249,000 (MLS 45426371). Adds the full address (10303 111 St NW), 1,200 sq ft with 4 massage rooms, steam bath, reception and kitchen, and onsite parking. Offered as business only or business plus the building; $249k is the business-only figure. | 2026-10-26: Kijiji/Realtor.ca DDF URLs added; full address and 1,200 sq ft filled. | 2026-11-02: asking price changed $249,000 -> $225,000 (MaxWell MLS 45426371 and Kijiji ad both now $225,000).",
-      "sellingReason": null
-    },
-    {
       "businessName": "Specialty pet retail franchise with grooming & self-wash — NW Edmonton",
       "category": "Retail / pet store (franchise)",
       "summary": "Well-established specialty pet retail franchise in NW Edmonton, operating 10+ years, with a full-service grooming studio and an in-store self-wash. About 2,250 sq. ft. The ask includes about $150,000 of equipment, about $80,000 of inventory, training, and franchise licensing. Lease runs through 2043 with options. The franchisor requires $60k–$75k unencumbered funds. NDA required. Do not approach staff.",
@@ -6272,7 +6240,7 @@
       "category": "Food / pizza and cafe",
       "summary": "Turnkey pizza/cafe near West Edmonton Mall with modern build-out.",
       "createdDate": "2026-09-21",
-      "updatedDate": "2026-10-26",
+      "updatedDate": "2026-11-09",
       "listingStatus": "Listed",
       "listingUrls": [
         "https://www.bizquest.com/businesses-for-sale-in-alberta/",
@@ -6289,7 +6257,7 @@
         "BizBuySell",
         "Realtor.ca"
       ],
-      "askingCAD": 229000,
+      "askingCAD": 299000,
       "grossRevenueCAD": null,
       "grossRevenueLowCAD": null,
       "grossRevenueHighCAD": null,
@@ -6311,7 +6279,7 @@
       "saleType": "Business sale",
       "propertyArrangement": null,
       "clientOrContractNotes": null,
-      "dataNotes": "BizQuest Alberta results page; individual listing URL and financial details were not exposed in rendered content. | 2026-10-03 check: BizQuest returned Access Denied (403); status left Listed. | 2026-10-05: Also on BizBuySell Edmonton at $299,000: 2,082 sq ft, modern build-out, busy arterial near WEM. | 2026-10-05: PROBABLE match: Realtor.ca MLS 45026761 is a CAD 299k turnkey West Edmonton restaurant asset (previously pizza and fried chicken, fully fixtured kitchen), same ask and area as BizQuest 'Turnkey Pizza/Cafe near WEM'. Verify before merging. | 2026-10-19: 2026-10-19: Still listed on BizQuest Alberta page at CAD 299,000. | 2026-10-26: price change seen on re-check | 2026-11-02: status re-check blocked (BizBuySell/BizQuest Akamai 403), left Listed; only search snippets available.",
+      "dataNotes": "BizQuest Alberta results page; individual listing URL and financial details were not exposed in rendered content. | 2026-10-03 check: BizQuest returned Access Denied (403); status left Listed. | 2026-10-05: Also on BizBuySell Edmonton at $299,000: 2,082 sq ft, modern build-out, busy arterial near WEM. | 2026-10-05: PROBABLE match: Realtor.ca MLS 45026761 is a CAD 299k turnkey West Edmonton restaurant asset (previously pizza and fried chicken, fully fixtured kitchen), same ask and area as BizQuest 'Turnkey Pizza/Cafe near WEM'. Verify before merging. | 2026-10-19: 2026-10-19: Still listed on BizQuest Alberta page at CAD 299,000. | 2026-10-26: price change seen on re-check | 2026-11-02: status re-check blocked (BizBuySell/BizQuest Akamai 403), left Listed; only search snippets available. | 2026-11-09: enriched — askingCAD 229000->299000; Realtor.ca 29864421 now shows $299,000 (MLS 45026761)",
       "sellingReason": null
     },
     {
@@ -6319,8 +6287,8 @@
       "category": "Food / quick-service franchise (noodles)",
       "summary": "Well-established Oodle Noodle franchise in Fort Saskatchewan's Southfort retail district. Modern dining area, commercial kitchen, and dine-in, takeout, and third-party delivery. Leased premises. Financials and lease details come after an NDA. The sale is subject to landlord and franchisor approval. Do not approach staff.",
       "createdDate": "2026-10-05",
-      "updatedDate": "2026-10-05",
-      "listingStatus": "Listed",
+      "updatedDate": "2026-11-09",
+      "listingStatus": "Delisted",
       "listingUrls": [
         "https://www.realtor.ca/real-estate/30123350/110-9382-southfort-dr-fort-saskatchewan-ab-t8l-0c5-canada-fort-saskatchewan"
       ],
@@ -6352,7 +6320,7 @@
       "saleType": "Franchise resale (landlord + franchisor approval)",
       "propertyArrangement": "Leased premises; real estate not included",
       "clientOrContractNotes": null,
-      "dataNotes": "Realtor.ca MLS® 45386354 (EREB). Financials under NDA.",
+      "dataNotes": "Realtor.ca MLS® 45386354 (EREB). Financials under NDA. | 2026-11-09: Delisted — MaxWell IDX MLS 45386354 Listing Not Found and Realtor.ca 30123350 404",
       "sellingReason": null
     },
     {
@@ -6360,22 +6328,25 @@
       "category": "Professional services / home inspection franchise",
       "summary": "Established home-inspection franchise with Edmonton and surrounding-area territory, special inspection equipment, branded vehicles, website, franchisor training, and expansion potential.",
       "createdDate": "2026-09-21",
-      "updatedDate": "2026-10-26",
+      "updatedDate": "2026-11-09",
       "listingStatus": "Listed",
       "listingUrls": [
         "https://www.sunbeltcanada.com/edmonton/posting/home-inspection-franchise-business-for-sale-in-edmonton-ab/",
         "https://canada.businessesforsale.com/canadian/home-inspection-franchise-business-in-edmonton-ab.aspx",
-        "https://dealstream.com/d/biz-sale/other-real-estate/ahhbh1"
+        "https://dealstream.com/d/biz-sale/other-real-estate/ahhbh1",
+        "https://bizlistings.ca/listing/sunbelt-canada/home-inspection-franchise-business-for-sale-in-edm-be020d"
       ],
       "listingDomainUrls": [
         "https://www.sunbeltcanada.com",
         "https://canada.businessesforsale.com",
-        "https://dealstream.com"
+        "https://dealstream.com",
+        "https://bizlistings.ca"
       ],
       "listingSiteNames": [
         "Sunbelt Canada",
         "BusinessesForSale.com",
-        "DealStream"
+        "DealStream",
+        "BizListings.ca"
       ],
       "askingCAD": 229997,
       "grossRevenueCAD": 218000,
@@ -6399,7 +6370,7 @@
       "saleType": "Business sale",
       "propertyArrangement": null,
       "clientOrContractNotes": "Franchisor provides resources, processes, and training; satellite-office expansion is suggested.",
-      "dataNotes": "FF&E and inventory are listed as on request; branded vehicles and website are specifically mentioned as included assets. | Confirmed still listed 2026-09-28; selling reason newly captured from Sunbelt page. | 2026-10-05: Same Sunbelt home-inspection franchise also on BFS: $229,997 ask, $218,000 revenue, $101,000 cash flow. Adds a BFS mirror URL. | 2026-10-26: DealStream mirror (listed May 31, 2024) shows the same home-inspection franchise (est. 1994; failing health and retirement) at ask $99,997, cash flow $83,000, sales $164,000. Sunbelt/BFS show $229,997 / $101,000 / $218,000. The DealStream copy is probably an older version; askingCAD left unchanged. Confirm with the broker. | 2026-10-26: DealStream mirror shows an older or lower price ($99,997). The discrepancy is noted only.",
+      "dataNotes": "FF&E and inventory are listed as on request; branded vehicles and website are specifically mentioned as included assets. | Confirmed still listed 2026-09-28; selling reason newly captured from Sunbelt page. | 2026-10-05: Same Sunbelt home-inspection franchise also on BFS: $229,997 ask, $218,000 revenue, $101,000 cash flow. Adds a BFS mirror URL. | 2026-10-26: DealStream mirror (listed May 31, 2024) shows the same home-inspection franchise (est. 1994; failing health and retirement) at ask $99,997, cash flow $83,000, sales $164,000. Sunbelt/BFS show $229,997 / $101,000 / $218,000. The DealStream copy is probably an older version; askingCAD left unchanged. Confirm with the broker. | 2026-10-26: DealStream mirror shows an older or lower price ($99,997). The discrepancy is noted only. | 2026-11-09: Sunbelt Edmonton page still shows $229,997 / revenue $218,000 / SDE $101,000. BizListings.ca BL-94CFB (Sunbelt Canada source, Live) shows $99,997 / revenue $164,000 / SDE $83,000, same as the older DealStream mirror; conflict persists. Sunbelt's own page is treated as primary.",
       "sellingReason": "Failing health and retirement"
     },
     {
@@ -6407,7 +6378,7 @@
       "category": "Business (verify type)",
       "summary": "Turnkey coffee shop near West Edmonton Mall with strong social media, loyal clientele, affordable lease, parking, and future LRT proximity. Equipped including draft beer taps; liquor license would need new-owner application. Modern trendy interior; operate as-is or rebrand.",
       "createdDate": "2026-09-20",
-      "updatedDate": "2026-10-05",
+      "updatedDate": "2026-11-09",
       "listingStatus": "Listed",
       "listingUrls": [
         "https://www.realtor.ca/ab/edmonton/businesses-for-sale",
@@ -6448,7 +6419,7 @@
       "saleType": "Business / leasehold sale",
       "propertyArrangement": "Listing type shows Business with Property; verify real-estate inclusion with agent",
       "clientOrContractNotes": null,
-      "dataNotes": "Imported from site scan 2026-09-20T00:00:00-06:00; source site: REALTOR.ca. | Previously untyped 'Business listing'; Kijiji/MLS detail confirms coffee shop. MLS® #44931307 referenced on Kijiji. | MLS® #44931307. Distinct from Whyte Ave coffee shop (MLS 45496455, CAD 239,900) already in index. No published revenue/SDE. Not in existing-index. | 2026-10-05: EREB MLS 44931307 still CAD 230k (David Nam, RE/MAX Excellence). A second Pillar 9 listing (MLS A2274224, same address and copy) shows CAD 260k, 1,848 sf, 303 days. Ask kept at CAD 230k (current EREB price). | 2026-10-19: 2026-10-19: MaxWell MLS 44931307 still Active at CAD 230,000; Realtor.ca 29787821 still live. | 2026-10-19: dead URL(s) https://www.kijiji.ca/v-commercial-office-space-for-sale/edmonton/8278-175-st-nw-edmonton-alberta/1735747053; still active elsewhere | 2026-10-26: dead URL(s) https://www.kijiji.ca/v-commercial-office-space-for-sale/edmonton/8278-175-st-nw-edmonton-alberta/1735747053; still active elsewhere | 2026-11-02: Kijiji ad removed; MaxWell MLS 44931307 Active $230,000 and Pillar 9 MLS A2274224 Active $260,000.",
+      "dataNotes": "Imported from site scan 2026-09-20T00:00:00-06:00; source site: REALTOR.ca. | Previously untyped 'Business listing'; Kijiji/MLS detail confirms coffee shop. MLS® #44931307 referenced on Kijiji. | MLS® #44931307. Distinct from Whyte Ave coffee shop (MLS 45496455, CAD 239,900) already in index. No published revenue/SDE. Not in existing-index. | 2026-10-05: EREB MLS 44931307 still CAD 230k (David Nam, RE/MAX Excellence). A second Pillar 9 listing (MLS A2274224, same address and copy) shows CAD 260k, 1,848 sf, 303 days. Ask kept at CAD 230k (current EREB price). | 2026-10-19: 2026-10-19: MaxWell MLS 44931307 still Active at CAD 230,000; Realtor.ca 29787821 still live. | 2026-10-19: dead URL(s) https://www.kijiji.ca/v-commercial-office-space-for-sale/edmonton/8278-175-st-nw-edmonton-alberta/1735747053; still active elsewhere | 2026-10-26: dead URL(s) https://www.kijiji.ca/v-commercial-office-space-for-sale/edmonton/8278-175-st-nw-edmonton-alberta/1735747053; still active elsewhere | 2026-11-02: Kijiji ad removed; MaxWell MLS 44931307 Active $230,000 and Pillar 9 MLS A2274224 Active $260,000. | 2026-11-09: Kijiji ad 1735747053 redirected as removed; MaxWell IDX MLS 44931307 page still live — left Listed",
       "sellingReason": null
     },
     {
@@ -6797,8 +6768,8 @@
       "category": "Food / restaurant & party hall",
       "summary": "Spacious 75-seat dine-in restaurant with an additional party hall option in the Ellerslie area, South Edmonton. Fully equipped; cuisine can change with landlord approval. Price reduced $100,000 (from $349,000) for quick sale; motivated seller.",
       "createdDate": "2026-10-05",
-      "updatedDate": "2026-10-05",
-      "listingStatus": "Listed",
+      "updatedDate": "2026-11-09",
+      "listingStatus": "Delisted",
       "listingUrls": [
         "https://www.kijiji.ca/v-other-business-industrial/edmonton/for-sale-restaurant-in-ellerslie-sw-edmonton/1733048255"
       ],
@@ -6830,7 +6801,7 @@
       "saleType": "Business / leasehold sale",
       "propertyArrangement": null,
       "clientOrContractNotes": null,
-      "dataNotes": "Kijiji ad by Century 21 broker; ad location shows placeholder 'Edmonton, AB T6X' so exact address not published. Revenue/cash flow not disclosed. Original ask $349,000, now $249,000.",
+      "dataNotes": "Kijiji ad by Century 21 broker; ad location shows placeholder 'Edmonton, AB T6X' so exact address not published. Revenue/cash flow not disclosed. Original ask $349,000, now $249,000. | 2026-11-09: Delisted — Kijiji ad status EXPIRED (only listing URL)",
       "sellingReason": null
     },
     {
@@ -6971,8 +6942,8 @@
       "category": "Food / donair & pita QSR",
       "summary": "Almost brand-new restaurant in a high-traffic Windermere (South Edmonton) plaza near Canadian Tire, Carl's Jr., Papa Johns, Denny's, Popeyes. 15-seat dine-in; spacious commercial kitchen; currently donair, pitas, poutines. Cuisine change needs landlord approval.",
       "createdDate": "2026-10-05",
-      "updatedDate": "2026-11-02",
-      "listingStatus": "Listed",
+      "updatedDate": "2026-11-09",
+      "listingStatus": "Delisted",
       "listingUrls": [
         "https://www.kijiji.ca/v-other-business-industrial/edmonton/best-restaurant-deal-in-windermere-edmonton/1736733531",
         "https://www.kijiji.ca/v-other-business-industrial/edmonton/for-sale-restaurant-in-windermere-edmonton/1732435176"
@@ -7005,7 +6976,7 @@
       "saleType": "Business sale",
       "propertyArrangement": null,
       "clientOrContractNotes": null,
-      "dataNotes": "Kijiji ad by Century 21 broker; ad location shows placeholder 'Edmonton, AB T6X' so exact address not published. Revenue/cash flow not disclosed. Distinct from the $199k Ellerslie donair & poutine ad (different area/price). | 2026-10-19: Delisted — Kijiji ad page shows ad status EXPIRED | 2026-11-02: restored Listed — Kijiji ad 1732435176 (Century 21 Commercial Signature Realty, Sanjay Sachdeva 780-700-1700) ACTIVE: same near-new Windermere donair/pita restaurant, 15 seats, \"reduced from $349,000 to $249,000\"; ask $269,000 -> $249,000.",
+      "dataNotes": "Kijiji ad by Century 21 broker; ad location shows placeholder 'Edmonton, AB T6X' so exact address not published. Revenue/cash flow not disclosed. Distinct from the $199k Ellerslie donair & poutine ad (different area/price). | 2026-10-19: Delisted — Kijiji ad page shows ad status EXPIRED | 2026-11-02: restored Listed — Kijiji ad 1732435176 (Century 21 Commercial Signature Realty, Sanjay Sachdeva 780-700-1700) ACTIVE: same near-new Windermere donair/pita restaurant, 15 seats, \"reduced from $349,000 to $249,000\"; ask $269,000 -> $249,000. | 2026-11-09: Delisted — Kijiji ad status EXPIRED (only listing URL)",
       "sellingReason": "Owner health reasons"
     },
     {
@@ -7091,25 +7062,28 @@
       "sellingReason": null
     },
     {
-      "businessName": "Turnkey commercial business — Kingsway Avenue NW",
-      "category": "Retail / commercial (verify type)",
+      "businessName": "Ricky's All Day Grill — Kingsway Avenue NW, Edmonton (franchise resale)",
+      "category": "Restaurant / fast-food franchise resale",
       "summary": "Established turnkey commercial asset on Kingsway Avenue NW, Edmonton; ~2,938 sq. ft. Listing cites year-over-year gross sales increase of 7.1% in 2025, high net-to-gross efficiency (>97%), and 30,000+ guests in the year. Exact trade name not stated on the public Realtor.ca description.",
       "createdDate": "2026-09-28",
-      "updatedDate": "2026-09-28",
+      "updatedDate": "2026-11-09",
       "listingStatus": "Listed",
       "listingUrls": [
-        "https://www.realtor.ca/real-estate/30236894/edmonton"
+        "https://www.realtor.ca/real-estate/30236894/edmonton",
+        "https://canada.businessesforsale.com/canadian/ricky-s-all-day-grill-edmonton.aspx"
       ],
       "listingDomainUrls": [
-        "https://www.realtor.ca"
+        "https://www.realtor.ca",
+        "https://canada.businessesforsale.com"
       ],
       "listingSiteNames": [
-        "Realtor.ca"
+        "Realtor.ca",
+        "BusinessesForSale.com"
       ],
       "askingCAD": 249000,
       "grossRevenueCAD": null,
-      "grossRevenueLowCAD": null,
-      "grossRevenueHighCAD": null,
+      "grossRevenueLowCAD": 500000,
+      "grossRevenueHighCAD": 1000000,
       "cashFlowSdeCAD": null,
       "established": null,
       "location": "Kingsway Avenue NW, Edmonton, AB (exact civic via broker)",
@@ -7117,18 +7091,18 @@
       "otherLocationComments": null,
       "employees": null,
       "squareFootageSqFt": 2938,
-      "leaseMonthlyCAD": null,
-      "leaseNotes": null,
+      "leaseMonthlyCAD": 13558.52,
+      "leaseNotes": "$13,558.52/month including CAM & GST",
       "inventoryIncluded": null,
       "inventoryValueCAD": null,
-      "equipmentFixturesIncluded": null,
+      "equipmentFixturesIncluded": true,
       "equipmentFixturesValueCAD": null,
-      "isFranchise": null,
+      "isFranchise": true,
       "franchiseName": null,
-      "saleType": "Business / commercial asset sale",
-      "propertyArrangement": "Confirm lease vs owned with broker",
+      "saleType": "Franchise resale",
+      "propertyArrangement": "Lease",
       "clientOrContractNotes": null,
-      "dataNotes": "MLS® #A2342852. Secondary web mentions suggested a Shefield & Sons franchise nearby Kingsway — not confirmed on the Realtor.ca public remarks, so franchise fields left null. No absolute revenue/SDE dollars published (only growth %). Not in existing-index.",
+      "dataNotes": "MLS® #A2342852. Secondary web mentions suggested a Shefield & Sons franchise nearby Kingsway — not confirmed on the Realtor.ca public remarks, so franchise fields left null. No absolute revenue/SDE dollars published (only growth %). Not in existing-index. | 2026-11-09: identified as Ricky's All Day Grill franchise resale via BusinessesForSale listing 4019183 (RE/MAX Mountain View); ask still $249,000; revenue band $500K–$1M; cash flow band $250K–$500K; lease $13,558.52/month including CAM & GST",
       "sellingReason": null
     },
     {
@@ -7136,8 +7110,8 @@
       "category": "Food / pub & kitchen",
       "summary": "Modern upscale neighbourhood pub & kitchen in a fast-growing SW Edmonton community. Built new in 2023; ~100 seats plus patio; chef-designed menu; pool tables and large-screen TVs; modern leasehold improvements; turnkey.",
       "createdDate": "2026-10-05",
-      "updatedDate": "2026-10-05",
-      "listingStatus": "Listed",
+      "updatedDate": "2026-11-09",
+      "listingStatus": "Delisted",
       "listingUrls": [
         "https://www.kijiji.ca/v-other-business-industrial/edmonton/upscale-pub-kitchen-for-sale/1741007577"
       ],
@@ -7169,7 +7143,7 @@
       "saleType": "Business sale",
       "propertyArrangement": null,
       "clientOrContractNotes": null,
-      "dataNotes": "Kijiji ad by Century 21 broker; ad location shows placeholder 'Edmonton, AB T6X' so exact address not published. Revenue/cash flow not disclosed.",
+      "dataNotes": "Kijiji ad by Century 21 broker; ad location shows placeholder 'Edmonton, AB T6X' so exact address not published. Revenue/cash flow not disclosed. | 2026-11-09: Delisted — Kijiji ad status EXPIRED (only listing URL)",
       "sellingReason": null
     },
     {
@@ -7300,8 +7274,8 @@
       "category": "Restaurant / Japanese",
       "summary": "Established West Edmonton Japanese restaurant known for fresh sushi and a signature hot-rock grilling experience, with an extensive menu, attractive décor and a loyal customer following.",
       "createdDate": "2026-11-02",
-      "updatedDate": "2026-11-02",
-      "listingStatus": "Listed",
+      "updatedDate": "2026-11-09",
+      "listingStatus": "Delisted",
       "listingUrls": [
         "https://www.kijiji.ca/v-other-business-industrial/edmonton/popular-west-end-japanese-restaurant/1745544411"
       ],
@@ -7333,7 +7307,7 @@
       "saleType": "Business sale",
       "propertyArrangement": null,
       "clientOrContractNotes": null,
-      "dataNotes": "Kijiji ad 1745544411, posted 2026-10-31. No financials or lease details.",
+      "dataNotes": "Kijiji ad 1745544411, posted 2026-10-31. No financials or lease details. | 2026-11-09: Delisted — Kijiji ad 1745544411 redirected as removed (only listing URL)",
       "sellingReason": null
     },
     {
@@ -8238,8 +8212,8 @@
       "category": "Retail / florist & gift shop",
       "summary": "Established Morinville florist and gift shop with an online ordering platform. Revenue comes from everyday florals, weddings, sympathy work, giftware, and specialty products. About 1,442 sq. ft. with a showroom, design area, and walk-in cooler. The sale includes a 2025 Chevrolet Trailblazer delivery vehicle and substantial inventory and fixtures.",
       "createdDate": "2026-10-05",
-      "updatedDate": "2026-10-05",
-      "listingStatus": "Listed",
+      "updatedDate": "2026-11-09",
+      "listingStatus": "Delisted",
       "listingUrls": [
         "https://www.realtor.ca/real-estate/30064229/9918-104-street-morinville"
       ],
@@ -8271,7 +8245,7 @@
       "saleType": "Business sale (includes delivery vehicle + inventory)",
       "propertyArrangement": "Not stated (retail space; real estate inclusion not mentioned)",
       "clientOrContractNotes": null,
-      "dataNotes": "Realtor.ca MLS® 45283403 (EREB). Inventory value not stated. No financials published.",
+      "dataNotes": "Realtor.ca MLS® 45283403 (EREB). Inventory value not stated. No financials published. | 2026-11-09: Delisted — MaxWell IDX MLS 45283403 Listing Not Found and Realtor.ca 30064229 404",
       "sellingReason": null
     },
     {
@@ -8320,19 +8294,22 @@
       "category": "Health / medical clinic",
       "summary": "Appointment-only family medical clinic open Mon–Fri for 30+ years, currently managed by one GP with room for a second doctor. Growth via walk-ins/weekends possible. Buyer sought is a physician to take over the practice.",
       "createdDate": "2026-09-28",
-      "updatedDate": "2026-10-26",
+      "updatedDate": "2026-11-09",
       "listingStatus": "Listed",
       "listingUrls": [
         "https://canada.businessesforsale.com/canadian/medical-clinic-business-in-edmonton-ab.aspx",
-        "https://dealstream.com/d/biz-sale/medical-practices/88j0fe"
+        "https://dealstream.com/d/biz-sale/medical-practices/88j0fe",
+        "https://bizlistings.ca/listing/sunbelt-canada/medical-clinic-business-for-sale-in-edmonton-ab-fa930a"
       ],
       "listingDomainUrls": [
         "https://canada.businessesforsale.com",
-        "https://dealstream.com"
+        "https://dealstream.com",
+        "https://bizlistings.ca"
       ],
       "listingSiteNames": [
         "BusinessesForSale.com",
-        "DealStream"
+        "DealStream",
+        "BizListings.ca"
       ],
       "askingCAD": 299997,
       "grossRevenueCAD": 615000,
@@ -8356,7 +8333,7 @@
       "saleType": "Practice / business sale",
       "propertyArrangement": null,
       "clientOrContractNotes": null,
-      "dataNotes": "Cash flow figure of $450k on search card is unusually high vs ask — verify with seller package (may reflect billings vs seller benefit). Buyer profile: physician. | 2026-10-26: DealStream mirror (listed Jun 15, 2026) matches: $299,997 ask, $450,000 cash flow, $615,000 sales; retirement; broker-represented; management will stay. NOTE: the description is word-for-word the same as Sunbelt clinic i=108 ($199,997). Possibly the same clinic at two prices; review. | 2026-10-26: DealStream mirror; same figures. Flags a possible duplicate with i=108.",
+      "dataNotes": "Cash flow figure of $450k on search card is unusually high vs ask — verify with seller package (may reflect billings vs seller benefit). Buyer profile: physician. | 2026-10-26: DealStream mirror (listed Jun 15, 2026) matches: $299,997 ask, $450,000 cash flow, $615,000 sales; retirement; broker-represented; management will stay. NOTE: the description is word-for-word the same as Sunbelt clinic i=108 ($199,997). Possibly the same clinic at two prices; review. | 2026-10-26: DealStream mirror; same figures. Flags a possible duplicate with i=108. | 2026-11-09: BizListings.ca BL-4A226 (Sunbelt Canada source, Live) matches: ask $299,997, revenue $615,000, SDE $450,000, reason retirement.",
       "sellingReason": "Retirement"
     },
     {
@@ -8694,8 +8671,8 @@
       "category": "Retail / nutrition & wellness",
       "summary": "Turnkey Herc Nutrition nutrition and wellness retail business in Edmonton. Established location pitched for owner-operator or investor in health/fitness retail; detailed asking price and financials not published on public card.",
       "createdDate": "2026-09-28",
-      "updatedDate": "2026-10-05",
-      "listingStatus": "Listed",
+      "updatedDate": "2026-11-09",
+      "listingStatus": "Delisted",
       "listingUrls": [
         "https://canada.businessesforsale.com/canadian/herc-s-nutrition-edmonton.aspx"
       ],
@@ -8727,7 +8704,7 @@
       "saleType": "Business sale",
       "propertyArrangement": "Leased",
       "clientOrContractNotes": null,
-      "dataNotes": "Search card shows asking price band $100K–$250K CAD (exact ask undisclosed). Included because band is likely under $301k cap; confirm exact ask before pursuit. | 2026-10-05: BFS (listing ID 3999553) shows asking as a range of $100K–$250K, with revenue and cash flow on request. askingCAD left null because no exact figure is published.",
+      "dataNotes": "Search card shows asking price band $100K–$250K CAD (exact ask undisclosed). Included because band is likely under $301k cap; confirm exact ask before pursuit. | 2026-10-05: BFS (listing ID 3999553) shows asking as a range of $100K–$250K, with revenue and cash flow on request. askingCAD left null because no exact figure is published. | 2026-11-09: Delisted — BusinessesForSale page herc-s-nutrition-edmonton.aspx returns 404 (only listing URL)",
       "sellingReason": null
     },
     {
@@ -8735,8 +8712,8 @@
       "category": "Healthcare / pharmacy",
       "summary": "Established independent community pharmacy offering prescription dispensing, medication management, vaccinations, compounding and pharmacist-led services. It sits inside a medical clinic anchored by two full-time physicians, which brings steady referrals and prescription activity. Loyal recurring customers, experienced staff and established systems. The owner will help with the transition.",
       "createdDate": "2026-10-26",
-      "updatedDate": "2026-10-26",
-      "listingStatus": "Listed",
+      "updatedDate": "2026-11-09",
+      "listingStatus": "Delisted",
       "listingUrls": [
         "https://www.kijiji.ca/v-buy-sell-other/edmonton/pharmacy-for-sale/1744618914"
       ],
@@ -8768,7 +8745,7 @@
       "saleType": "Business sale",
       "propertyArrangement": "Located within a medical clinic (lease terms not stated)",
       "clientOrContractNotes": "Steady patient referrals from the two full-time physicians in the host clinic; compounding adds revenue.",
-      "dataNotes": "Kijiji ad 1744618914 (posted 2026-10-10). No price or financials, so under-cap status is unconfirmed. Distinct from i178 (medical clinic with built-out pharmacy space, 1 FT + 1 PT physician, sold with real estate) and i180 (St. Albert retail pharmacy).",
+      "dataNotes": "Kijiji ad 1744618914 (posted 2026-10-10). No price or financials, so under-cap status is unconfirmed. Distinct from i178 (medical clinic with built-out pharmacy space, 1 FT + 1 PT physician, sold with real estate) and i180 (St. Albert retail pharmacy). | 2026-11-09: Delisted — Kijiji ad 1744618914 redirected as removed (only listing URL)",
       "sellingReason": "Ownership is pursuing a relocation opportunity."
     },
     {
@@ -8776,8 +8753,8 @@
       "category": "Automotive / used car dealership",
       "summary": "Established ~5-year licensed used-car dealership business and secure vehicle yard; website included; approximately 10 vehicles and trucks included. Turnkey.",
       "createdDate": "2026-10-05",
-      "updatedDate": "2026-10-05",
-      "listingStatus": "Listed",
+      "updatedDate": "2026-11-09",
+      "listingStatus": "Delisted",
       "listingUrls": [
         "https://www.kijiji.ca/v-other-business-industrial/edmonton/a-5-years-old-used-car-lot-for-sale/1743073114"
       ],
@@ -8809,7 +8786,7 @@
       "saleType": "Business sale",
       "propertyArrangement": null,
       "clientOrContractNotes": null,
-      "dataNotes": "Price not published (contact). Inventory/financial details on request. Verify that ask is under $301k.",
+      "dataNotes": "Price not published (contact). Inventory/financial details on request. Verify that ask is under $301k. | 2026-11-09: Delisted — Kijiji ad status EXPIRED (only listing URL)",
       "sellingReason": null
     },
     {
@@ -8817,7 +8794,7 @@
       "category": "Retail / liquor store",
       "summary": "Established liquor store in a busy shopping plaza surrounded by an established residential community, in Northwest Edmonton. About 850 sq ft with low rent. Per the broker, financial statements show about $71,000 a year in positive cash flow, with potential for about $89,000 a year in owner/family-member compensation for a hands-on owner.",
       "createdDate": "2026-10-26",
-      "updatedDate": "2026-10-26",
+      "updatedDate": "2026-11-09",
       "listingStatus": "Listed",
       "listingUrls": [
         "https://www.kijiji.ca/v-other-business-industrial/edmonton/busy-liquor-store-for-sale-in-edmonton/1745237697",
@@ -8853,7 +8830,7 @@
       "saleType": "Business sale",
       "propertyArrangement": "Leased premises in a shopping plaza",
       "clientOrContractNotes": null,
-      "dataNotes": "Kijiji ad 1745237697 (posted 2026-10-24) links to jameshan.ca/liquor-store-northwest.htm. Price on JamesHan is 'Contact', so askingCAD is null and under-cap status is unconfirmed. cashFlowSdeCAD is the broker's 'approximately $71,000 in positive annual cash flow' (basis not defined). The ~$89k owner-compensation figure is a stated potential, not entered. Not the same as the existing liquor-store records (i60 $125k BizBuySell, i82 $155k DealStream, i110 south Edmonton, i163 15508 93a Ave): different size/lease/broker details. | 2026-11-02: Kijiji ad 1745237697 removed; JamesHan.ca page still live (price: contact).",
+      "dataNotes": "Kijiji ad 1745237697 (posted 2026-10-24) links to jameshan.ca/liquor-store-northwest.htm. Price on JamesHan is 'Contact', so askingCAD is null and under-cap status is unconfirmed. cashFlowSdeCAD is the broker's 'approximately $71,000 in positive annual cash flow' (basis not defined). The ~$89k owner-compensation figure is a stated potential, not entered. Not the same as the existing liquor-store records (i60 $125k BizBuySell, i82 $155k DealStream, i110 south Edmonton, i163 15508 93a Ave): different size/lease/broker details. | 2026-11-02: Kijiji ad 1745237697 removed; JamesHan.ca page still live (price: contact). | 2026-11-09: Kijiji ad 1745237697 redirected as removed; James Han page liquor-store-northwest.htm still live (price Contact) — left Listed",
       "sellingReason": null
     },
     {
@@ -9103,6 +9080,712 @@
       "propertyArrangement": null,
       "clientOrContractNotes": null,
       "dataNotes": "askingCAD null — price not listed publicly; include as plausible under-cap pending inquiry. Distinct from Camrose $120k massage clinic (out of metro scope) and DealStream massage listing.",
+      "sellingReason": null
+    },
+    {
+      "businessName": "Gift, household & hookah store — 132 Ave NW (Golden Rose), North Edmonton",
+      "category": "Retail / gifts & household goods",
+      "summary": "Large store in North Side (Golden Rose) selling accessories, household items and gifts incl. kitchenware, hookahs, fish tanks and decorations, pots, wall art and crystal items. Large additional inventory in a second storage room; security cameras throughout. Owner-posted Kijiji ad, asking $190,000.",
+      "createdDate": "2026-11-09",
+      "updatedDate": "2026-11-09",
+      "listingStatus": "Listed",
+      "listingUrls": [
+        "https://www.kijiji.ca/v-other-business-industrial/edmonton/business-for-sale/1745757990"
+      ],
+      "listingDomainUrls": [
+        "https://www.kijiji.ca"
+      ],
+      "listingSiteNames": [
+        "Kijiji"
+      ],
+      "askingCAD": 190000,
+      "grossRevenueCAD": null,
+      "grossRevenueLowCAD": null,
+      "grossRevenueHighCAD": null,
+      "cashFlowSdeCAD": null,
+      "established": null,
+      "location": "132 Ave NW, Edmonton, AB T5E 0X8",
+      "brokerAgentInfo": "Owner (Kijiji FSBO); contact via Kijiji",
+      "otherLocationComments": null,
+      "employees": null,
+      "squareFootageSqFt": null,
+      "leaseMonthlyCAD": null,
+      "leaseNotes": null,
+      "inventoryIncluded": true,
+      "inventoryValueCAD": null,
+      "equipmentFixturesIncluded": null,
+      "equipmentFixturesValueCAD": null,
+      "isFranchise": null,
+      "franchiseName": null,
+      "saleType": "Business sale (owner)",
+      "propertyArrangement": null,
+      "clientOrContractNotes": null,
+      "dataNotes": "Kijiji ad 1745757990, ACTIVE, activated 2026-11-05. No revenue/SDE/lease stated. Inventory value not stated.",
+      "sellingReason": "Selling due to travel"
+    },
+    {
+      "businessName": "Auto detailing & exterior care business (mobile van + rental garage) — Edmonton",
+      "category": "Automotive services / mobile detailing",
+      "summary": "Turnkey auto detailing & exterior care business: mobile detailing van, access to a fully equipped rental garage, 500+ client records and repeat customers, ~ $35,000 of equipment, one contract-basis employee, licensed and insured; training offered. Advertised as a 'stress sale'.",
+      "createdDate": "2026-11-09",
+      "updatedDate": "2026-11-09",
+      "listingStatus": "Listed",
+      "listingUrls": [
+        "https://www.kijiji.ca/v-other-business-industrial/edmonton/auto-detailing-care-business-for-sale/1745865735"
+      ],
+      "listingDomainUrls": [
+        "https://www.kijiji.ca"
+      ],
+      "listingSiteNames": [
+        "Kijiji"
+      ],
+      "askingCAD": 67000,
+      "grossRevenueCAD": null,
+      "grossRevenueLowCAD": null,
+      "grossRevenueHighCAD": null,
+      "cashFlowSdeCAD": null,
+      "established": null,
+      "location": "114 Ave NW, Edmonton, AB T5G 2Y6",
+      "brokerAgentInfo": "Owner (Kijiji FSBO); contact via Kijiji",
+      "otherLocationComments": null,
+      "employees": null,
+      "squareFootageSqFt": null,
+      "leaseMonthlyCAD": null,
+      "leaseNotes": null,
+      "inventoryIncluded": null,
+      "inventoryValueCAD": null,
+      "equipmentFixturesIncluded": true,
+      "equipmentFixturesValueCAD": 35000,
+      "isFranchise": null,
+      "franchiseName": null,
+      "saleType": "Business sale (owner)",
+      "propertyArrangement": null,
+      "clientOrContractNotes": "500+ client records; 1 contract employee included",
+      "dataNotes": "Kijiji ad 1745865735, ACTIVE, activated 2026-11-07. Equipment value approx $35,000 per ad. Revenue/SDE not stated. Whether van is owned vs. included in the $35K not stated.",
+      "sellingReason": "Due to other commitments (stress sale)"
+    },
+    {
+      "businessName": "Turnkey tea café — 97 St NW, Edmonton (Texas Tea Cafe branding)",
+      "category": "Food & beverage / café",
+      "summary": "Owner-posted 'E-2 turnkey business for sale' ad: 'everything runs on auto', 4.8 stars on Google, established product/branding; seller negotiable. Ad links www.texasteacafe.com. Little else disclosed.",
+      "createdDate": "2026-11-09",
+      "updatedDate": "2026-11-09",
+      "listingStatus": "Listed",
+      "listingUrls": [
+        "https://www.kijiji.ca/v-other-business-industrial/edmonton/e-2-turnkey-business-for-sale/1745108637"
+      ],
+      "listingDomainUrls": [
+        "https://www.kijiji.ca"
+      ],
+      "listingSiteNames": [
+        "Kijiji"
+      ],
+      "askingCAD": 175000,
+      "grossRevenueCAD": null,
+      "grossRevenueLowCAD": null,
+      "grossRevenueHighCAD": null,
+      "cashFlowSdeCAD": null,
+      "established": null,
+      "location": "97 St NW, Edmonton, AB T5H 4B5",
+      "brokerAgentInfo": "Owner (Kijiji FSBO); phone partly masked in ad",
+      "otherLocationComments": null,
+      "employees": null,
+      "squareFootageSqFt": null,
+      "leaseMonthlyCAD": null,
+      "leaseNotes": null,
+      "inventoryIncluded": null,
+      "inventoryValueCAD": null,
+      "equipmentFixturesIncluded": null,
+      "equipmentFixturesValueCAD": null,
+      "isFranchise": null,
+      "franchiseName": null,
+      "saleType": "Business sale (owner)",
+      "propertyArrangement": null,
+      "clientOrContractNotes": null,
+      "dataNotes": "Kijiji ad 1745108637, ACTIVE, activated 2026-10-21. Business type inferred from website URL in ad (texasteacafe.com); ad itself says only 'turnkey business'. Verify with seller. No financials/lease given.",
+      "sellingReason": null
+    },
+    {
+      "businessName": "BBQ restaurant sub-franchise — Galaxyland Food Court, West Edmonton Mall",
+      "category": "Restaurant / BBQ (franchise)",
+      "summary": "Newly renovated BBQ restaurant in Galaxyland Food Court, West Edmonton Mall; all brand-new stainless equipment (Cookshack smoker, fryers, freezers, coolers). Sub-franchise with 6% royalty; can run Halal or non-Halal; ~4.5 years left on lease with renewal. Ask includes franchise fee and installed equipment.",
+      "createdDate": "2026-11-09",
+      "updatedDate": "2026-11-09",
+      "listingStatus": "Listed",
+      "listingUrls": [
+        "https://www.kijiji.ca/v-other-business-industrial/edmonton/restaurant-for-sale-fast-food/1745791269"
+      ],
+      "listingDomainUrls": [
+        "https://www.kijiji.ca"
+      ],
+      "listingSiteNames": [
+        "Kijiji"
+      ],
+      "askingCAD": 90000,
+      "grossRevenueCAD": null,
+      "grossRevenueLowCAD": null,
+      "grossRevenueHighCAD": null,
+      "cashFlowSdeCAD": null,
+      "established": null,
+      "location": "West Edmonton Mall, 1775-8882 170 St NW, Edmonton, AB T5T 3J7",
+      "brokerAgentInfo": "Kijiji seller (dealer-type ad); email canadainc288@gmail.com; phone 587-936-5849 per ad",
+      "otherLocationComments": null,
+      "employees": null,
+      "squareFootageSqFt": null,
+      "leaseMonthlyCAD": null,
+      "leaseNotes": "~4 years 6 months remaining with renewal option; franchise transfer, lease renewal subject to approvals",
+      "inventoryIncluded": null,
+      "inventoryValueCAD": null,
+      "equipmentFixturesIncluded": true,
+      "equipmentFixturesValueCAD": null,
+      "isFranchise": true,
+      "franchiseName": null,
+      "saleType": "Sub-franchise / business sale",
+      "propertyArrangement": "Lease (mall food court)",
+      "clientOrContractNotes": null,
+      "dataNotes": "Kijiji ad 1745791269, ACTIVE, activated 2026-11-05. Franchise brand not named. Revenue/SDE not stated. Royalty 6%.",
+      "sellingReason": null
+    },
+    {
+      "businessName": "Convenience / Filipino & Oriental variety store (Jace-Jed) — 177 St NW, Edmonton",
+      "category": "Retail / convenience & specialty grocery",
+      "summary": "Established Jace-Jed Filipino and Oriental variety store, described as turnkey with loyal customer base and good foot traffic. 'Rush sale'.",
+      "createdDate": "2026-11-09",
+      "updatedDate": "2026-11-09",
+      "listingStatus": "Listed",
+      "listingUrls": [
+        "https://www.kijiji.ca/v-commercial-office-space-for-sale/edmonton/rush-sale-convenience-store-great-location/1745695734"
+      ],
+      "listingDomainUrls": [
+        "https://www.kijiji.ca"
+      ],
+      "listingSiteNames": [
+        "Kijiji"
+      ],
+      "askingCAD": 40000,
+      "grossRevenueCAD": null,
+      "grossRevenueLowCAD": null,
+      "grossRevenueHighCAD": null,
+      "cashFlowSdeCAD": null,
+      "established": null,
+      "location": "177 St NW, Edmonton, AB T5T 4K3",
+      "brokerAgentInfo": "Owner (Kijiji FSBO); contact via Kijiji",
+      "otherLocationComments": null,
+      "employees": null,
+      "squareFootageSqFt": null,
+      "leaseMonthlyCAD": null,
+      "leaseNotes": null,
+      "inventoryIncluded": null,
+      "inventoryValueCAD": null,
+      "equipmentFixturesIncluded": null,
+      "equipmentFixturesValueCAD": null,
+      "isFranchise": null,
+      "franchiseName": null,
+      "saleType": "Business sale (owner)",
+      "propertyArrangement": null,
+      "clientOrContractNotes": null,
+      "dataNotes": "Kijiji ad 1745695734, ACTIVE, activated 2026-11-03 (filed under commercial/office-space-for-sale). Whether inventory/lease included not stated; no financials.",
+      "sellingReason": null
+    },
+    {
+      "businessName": "Restaurant — Leduc (9 years operating, 50 seats)",
+      "category": "Restaurant",
+      "summary": "Restaurant operating nine years in Leduc, 1,470 sq ft, 50 seats, full commercial kitchen with equipment in working order, lease $3,906/month incl. CAM, eligible to apply for a liquor licence; currently limited hours; may change cuisine except pizza.",
+      "createdDate": "2026-11-09",
+      "updatedDate": "2026-11-09",
+      "listingStatus": "Listed",
+      "listingUrls": [
+        "https://www.kijiji.ca/v-commercial-office-space-for-sale/edmonton/leduc-restaurant-for-sale/1745737870"
+      ],
+      "listingDomainUrls": [
+        "https://www.kijiji.ca"
+      ],
+      "listingSiteNames": [
+        "Kijiji"
+      ],
+      "askingCAD": 115000,
+      "grossRevenueCAD": null,
+      "grossRevenueLowCAD": null,
+      "grossRevenueHighCAD": null,
+      "cashFlowSdeCAD": null,
+      "established": "~2017 (nine years operating per ad)",
+      "location": "Leduc, AB T9E 0B9",
+      "brokerAgentInfo": "Owner (Kijiji FSBO); contact via Kijiji",
+      "otherLocationComments": null,
+      "employees": null,
+      "squareFootageSqFt": 1470,
+      "leaseMonthlyCAD": 3906,
+      "leaseNotes": "$3,906/month including common area maintenance",
+      "inventoryIncluded": null,
+      "inventoryValueCAD": null,
+      "equipmentFixturesIncluded": true,
+      "equipmentFixturesValueCAD": null,
+      "isFranchise": null,
+      "franchiseName": null,
+      "saleType": "Business sale (owner)",
+      "propertyArrangement": "Lease",
+      "clientOrContractNotes": null,
+      "dataNotes": "Kijiji ad 1745737870, ACTIVE, activated 2026-11-04. Cuisine and name not stated. Established year derived from 'past nine years'.",
+      "sellingReason": null
+    },
+    {
+      "businessName": "Turnkey barbershop (confidential) — Northeast Edmonton",
+      "category": "Personal services / barbershop",
+      "summary": "Confidential asset sale of a turnkey barbershop in a fast-growing NE Edmonton community, built 2024 with high-end finish: 4 barber stations plus shampoo station, reception, retail wall, waiting area; sale includes furniture, fixtures, equipment and inventory. Leased ±994 SF; ~2 minutes to Anthony Henday. Name/location released under NDA.",
+      "createdDate": "2026-11-09",
+      "updatedDate": "2026-11-09",
+      "listingStatus": "Listed",
+      "listingUrls": [
+        "https://www.kijiji.ca/v-commercial-office-space-for-sale/edmonton/0-confidential-street-edmonton-alberta/1745899742",
+        "https://www.realtor.ca/real-estate/30490473/0-confidential-street-edmonton"
+      ],
+      "listingDomainUrls": [
+        "https://www.kijiji.ca",
+        "https://www.realtor.ca"
+      ],
+      "listingSiteNames": [
+        "Kijiji",
+        "Realtor.ca"
+      ],
+      "askingCAD": 150000,
+      "grossRevenueCAD": null,
+      "grossRevenueLowCAD": null,
+      "grossRevenueHighCAD": null,
+      "cashFlowSdeCAD": null,
+      "established": null,
+      "location": "Northeast Edmonton, AB (address placeholder 'Confidential Street', postal T5Y 6A9)",
+      "brokerAgentInfo": "Commercial listing agent; MLS 45947809",
+      "otherLocationComments": null,
+      "employees": null,
+      "squareFootageSqFt": 994,
+      "leaseMonthlyCAD": 3920,
+      "leaseNotes": "Base rent $35.00 PSF stepping to $36.00 PSF in 2027 + ~$12.32 PSF additional rent; ~ $3,920/month + GST; lease to Spring 2029 with one 5-year renewal; assignment subject to landlord consent",
+      "inventoryIncluded": true,
+      "inventoryValueCAD": null,
+      "equipmentFixturesIncluded": true,
+      "equipmentFixturesValueCAD": null,
+      "isFranchise": null,
+      "franchiseName": null,
+      "saleType": "Asset sale (GST extra if applicable)",
+      "propertyArrangement": "Lease",
+      "clientOrContractNotes": null,
+      "dataNotes": "Kijiji ad 1745899742, ACTIVE, activated 2026-11-08; mirrors Realtor.ca 30490473 (URL from ad link, not fetched). No revenue/SDE stated.",
+      "sellingReason": null
+    },
+    {
+      "businessName": "Naturopathic & IV therapy clinic — Edmonton (turnkey)",
+      "category": "Healthcare / naturopathic & IV clinic",
+      "summary": "Established naturopathic and integrative medicine clinic in Edmonton: four treatment offices, two IV therapy suites, 3 naturopathic doctors, 1 acupuncturist, nursing and admin staff; 7,000+ patient files; IV therapy is main income driver. Real estate available at $450,000, or business can be acquired alone with a lease in place.",
+      "createdDate": "2026-11-09",
+      "updatedDate": "2026-11-09",
+      "listingStatus": "Listed",
+      "listingUrls": [
+        "https://canada.businessesforsale.com/canadian/high-revenue-naturopathic-and-iv-clinic-in-edmonton.aspx"
+      ],
+      "listingDomainUrls": [
+        "https://canada.businessesforsale.com"
+      ],
+      "listingSiteNames": [
+        "BusinessesForSale.com"
+      ],
+      "askingCAD": null,
+      "grossRevenueCAD": 1200000,
+      "grossRevenueLowCAD": null,
+      "grossRevenueHighCAD": null,
+      "cashFlowSdeCAD": 450000,
+      "established": null,
+      "location": "Edmonton, AB",
+      "brokerAgentInfo": "Listed on BFS (broker not shown in extract)",
+      "otherLocationComments": null,
+      "employees": null,
+      "squareFootageSqFt": null,
+      "leaseMonthlyCAD": null,
+      "leaseNotes": null,
+      "inventoryIncluded": true,
+      "inventoryValueCAD": null,
+      "equipmentFixturesIncluded": true,
+      "equipmentFixturesValueCAD": null,
+      "isFranchise": null,
+      "franchiseName": null,
+      "saleType": "Business sale (real estate available separately)",
+      "propertyArrangement": "Real estate available at $450,000 or lease in place",
+      "clientOrContractNotes": null,
+      "dataNotes": "BFS listing ID 4002632. Business-only asking price NOT published (BFS shows 'Real Property Price $1M–$5M' and lease price undisclosed; description says real estate $450,000). $450K figure stated as EBITDA in ad (stored as cash flow/SDE field). Kept as no-ask record; real estate bundle may exceed cap.",
+      "sellingReason": null
+    },
+    {
+      "businessName": "Seasonal toy / novelty confectionery product manufacturer — Edmonton",
+      "category": "Manufacturing / consumer products",
+      "summary": "Manufacturer of a proprietary seasonal novelty confectionery impulse toy product sold to national distribution with several high-profile retail chains; trademark protection in place; suited for a roll-up buyer. Owner works ~40 hours/week.",
+      "createdDate": "2026-11-09",
+      "updatedDate": "2026-11-09",
+      "listingStatus": "Listed",
+      "listingUrls": [
+        "https://canada.businessesforsale.com/canadian/manufacturing-toy-product-for-sale-alberta-canada.aspx"
+      ],
+      "listingDomainUrls": [
+        "https://canada.businessesforsale.com"
+      ],
+      "listingSiteNames": [
+        "BusinessesForSale.com"
+      ],
+      "askingCAD": null,
+      "grossRevenueCAD": 156000,
+      "grossRevenueLowCAD": null,
+      "grossRevenueHighCAD": null,
+      "cashFlowSdeCAD": 13800,
+      "established": "2018",
+      "location": "Edmonton, AB",
+      "brokerAgentInfo": "Sunbelt Business Brokers (BFS seller ref EDMONAB001-54384)",
+      "otherLocationComments": null,
+      "employees": "1 full-time, 1 part-time",
+      "squareFootageSqFt": null,
+      "leaseMonthlyCAD": null,
+      "leaseNotes": null,
+      "inventoryIncluded": null,
+      "inventoryValueCAD": null,
+      "equipmentFixturesIncluded": true,
+      "equipmentFixturesValueCAD": null,
+      "isFranchise": null,
+      "franchiseName": null,
+      "saleType": "Business sale (broker); owner financing available",
+      "propertyArrangement": null,
+      "clientOrContractNotes": null,
+      "dataNotes": "BFS listing ID 4013664. Asking price 'On request' (not published).",
+      "sellingReason": "Health issues preclude ability to grow"
+    },
+    {
+      "businessName": "Small animal veterinary practice — Fort Saskatchewan (39 years)",
+      "category": "Veterinary / professional services",
+      "summary": "Busy, well-equipped small animal practice in city centre Fort Saskatchewan, est. 39 years, one-person practice that could grow to 1.5–2; 1,040 sq ft leased bay of a 3-bay strip mall; owner retiring and willing to provide transition/mentoring. 'Quick sale'.",
+      "createdDate": "2026-11-09",
+      "updatedDate": "2026-11-09",
+      "listingStatus": "Listed",
+      "listingUrls": [
+        "https://canada.businessesforsale.com/canadian/established-small-animal-practice-near-edmonton-alberta.aspx"
+      ],
+      "listingDomainUrls": [
+        "https://canada.businessesforsale.com"
+      ],
+      "listingSiteNames": [
+        "BusinessesForSale.com"
+      ],
+      "askingCAD": null,
+      "grossRevenueCAD": null,
+      "grossRevenueLowCAD": null,
+      "grossRevenueHighCAD": null,
+      "cashFlowSdeCAD": null,
+      "established": "~1987 (39 years per ad)",
+      "location": "Fort Saskatchewan, AB",
+      "brokerAgentInfo": null,
+      "otherLocationComments": null,
+      "employees": "4",
+      "squareFootageSqFt": 1040,
+      "leaseMonthlyCAD": 2200,
+      "leaseNotes": "Lease expires April 30, 2029; $2,200/month (about $26,400/yr) with common area costs included",
+      "inventoryIncluded": null,
+      "inventoryValueCAD": null,
+      "equipmentFixturesIncluded": null,
+      "equipmentFixturesValueCAD": null,
+      "isFranchise": null,
+      "franchiseName": null,
+      "saleType": "Business sale",
+      "propertyArrangement": "Lease",
+      "clientOrContractNotes": null,
+      "dataNotes": "BFS listing ID 3925309. Ask, revenue and cash flow 'On request'. Seller direct listing (no broker named).",
+      "sellingReason": "Retirement"
+    },
+    {
+      "businessName": "Sandwich shop — 142 Street NW (Edmonton)",
+      "category": "Restaurant / café",
+      "summary": "Established sandwich shop with a strong social media following and customer base; open Monday to Friday 9 AM–3 PM, closed weekends and statutory holidays. Business sale only.",
+      "createdDate": "2026-11-09",
+      "updatedDate": "2026-11-09",
+      "listingStatus": "Listed",
+      "listingUrls": [
+        "https://www.maxwellrealty.ca/listing-ereb/45811039-142-st-nw-edmonton-ab-t6v-1h8/"
+      ],
+      "listingDomainUrls": [
+        "https://www.maxwellrealty.ca"
+      ],
+      "listingSiteNames": [
+        "MaxWell Realty"
+      ],
+      "askingCAD": 195900,
+      "grossRevenueCAD": null,
+      "grossRevenueLowCAD": null,
+      "grossRevenueHighCAD": null,
+      "cashFlowSdeCAD": null,
+      "established": null,
+      "location": "142 St NW, Edmonton, AB T6V 1H8",
+      "brokerAgentInfo": "Lynne Gullion, Real Broker (via MaxWell Realty MLS IDX)",
+      "otherLocationComments": null,
+      "employees": null,
+      "squareFootageSqFt": null,
+      "leaseMonthlyCAD": null,
+      "leaseNotes": null,
+      "inventoryIncluded": null,
+      "inventoryValueCAD": null,
+      "equipmentFixturesIncluded": null,
+      "equipmentFixturesValueCAD": null,
+      "isFranchise": null,
+      "franchiseName": null,
+      "saleType": "Business sale",
+      "propertyArrangement": "Business sale only (no real estate)",
+      "clientOrContractNotes": null,
+      "dataNotes": "MLS 45811039, MaxWell IDX status Active, listed 2026-10-16, $195,900. Financials, lease, employees and selling reason not published.",
+      "sellingReason": null
+    },
+    {
+      "businessName": "Turkish restaurant — Whyte Avenue / U of A area (82 Avenue)",
+      "category": "Restaurant",
+      "summary": "Turkey restaurant business on Whyte Ave in the U of A area; 2,840 sq ft high-visibility storefront with commercial kitchen equipment, fixtures and furnishings; mainly an asset sale.",
+      "createdDate": "2026-11-09",
+      "updatedDate": "2026-11-09",
+      "listingStatus": "Listed",
+      "listingUrls": [
+        "https://www.maxwellrealty.ca/listing-ereb/45850182-82-avenue-edmonton-ab-t6e-2b3/"
+      ],
+      "listingDomainUrls": [
+        "https://www.maxwellrealty.ca"
+      ],
+      "listingSiteNames": [
+        "MaxWell Realty"
+      ],
+      "askingCAD": 120000,
+      "grossRevenueCAD": null,
+      "grossRevenueLowCAD": null,
+      "grossRevenueHighCAD": null,
+      "cashFlowSdeCAD": null,
+      "established": null,
+      "location": "82 Avenue, Edmonton, AB T6E 2B3 (Whyte Ave / U of A area)",
+      "brokerAgentInfo": "Danelle Kaspers, Mozaic Realty Group (via MaxWell Realty MLS IDX)",
+      "otherLocationComments": null,
+      "employees": null,
+      "squareFootageSqFt": 2840,
+      "leaseMonthlyCAD": null,
+      "leaseNotes": null,
+      "inventoryIncluded": null,
+      "inventoryValueCAD": null,
+      "equipmentFixturesIncluded": true,
+      "equipmentFixturesValueCAD": null,
+      "isFranchise": null,
+      "franchiseName": null,
+      "saleType": "Asset sale (mainly)",
+      "propertyArrangement": "Leased premises (asking price reflects FF&E, leasehold improvements and other assets)",
+      "clientOrContractNotes": null,
+      "dataNotes": "MLS 45850182, MaxWell IDX Active, listed 2026-10-24. MLS price field shows $0; the $120,000 ask is stated in the listing remarks. No financial statements or sales information will be provided per listing. Same postal code as delisted record 'Turnkey coffee shop — 10844 82 Avenue NW' (T6E 2B3) but different MLS and concept (possible same premises, new operator).",
+      "sellingReason": null
+    },
+    {
+      "businessName": "Franchise bubble tea business — Baseline Rd, Sherwood Park",
+      "category": "Food & beverage / bubble tea franchise",
+      "summary": "Existing franchise bubble tea business in Sherwood Park; recently renovated premises; mainly an asset sale. Buyer may continue the franchise or operate a different business subject to landlord approval; seller offers free training if continuing.",
+      "createdDate": "2026-11-09",
+      "updatedDate": "2026-11-09",
+      "listingStatus": "Listed",
+      "listingUrls": [
+        "https://www.maxwellrealty.ca/listing-ereb/45948616-baseline-rd-sherwood-park-ab-t8h-1s8/"
+      ],
+      "listingDomainUrls": [
+        "https://www.maxwellrealty.ca"
+      ],
+      "listingSiteNames": [
+        "MaxWell Realty"
+      ],
+      "askingCAD": 149000,
+      "grossRevenueCAD": null,
+      "grossRevenueLowCAD": null,
+      "grossRevenueHighCAD": null,
+      "cashFlowSdeCAD": null,
+      "established": null,
+      "location": "Baseline Rd, Sherwood Park, AB T8H 1S8",
+      "brokerAgentInfo": "Shaneil Kumar, Mozaic Realty Group (via MaxWell Realty MLS IDX)",
+      "otherLocationComments": null,
+      "employees": null,
+      "squareFootageSqFt": null,
+      "leaseMonthlyCAD": null,
+      "leaseNotes": null,
+      "inventoryIncluded": null,
+      "inventoryValueCAD": null,
+      "equipmentFixturesIncluded": true,
+      "equipmentFixturesValueCAD": null,
+      "isFranchise": true,
+      "franchiseName": null,
+      "saleType": "Asset sale (mainly)",
+      "propertyArrangement": "Leased premises (landlord approval required)",
+      "clientOrContractNotes": null,
+      "dataNotes": "MLS 45948616, MaxWell IDX Active, listed 2026-11-07. MLS price field $0; $149,000 (negotiable) stated in remarks. Franchise brand not named. No financials provided per listing.",
+      "sellingReason": null
+    },
+    {
+      "businessName": "Turnkey restaurant — 104 Street, south Edmonton",
+      "category": "Restaurant",
+      "summary": "Fully renovated turnkey restaurant (~1,248 sq ft, about 50 seats) in south Edmonton with commercial kitchen, hood fan and exhaust; mainly an asset sale; very affordable rent and free customer parking per listing.",
+      "createdDate": "2026-11-09",
+      "updatedDate": "2026-11-09",
+      "listingStatus": "Listed",
+      "listingUrls": [
+        "https://www.maxwellrealty.ca/listing-ereb/45945748-104-street-edmonton-ab-t6h-2k2/"
+      ],
+      "listingDomainUrls": [
+        "https://www.maxwellrealty.ca"
+      ],
+      "listingSiteNames": [
+        "MaxWell Realty"
+      ],
+      "askingCAD": 158000,
+      "grossRevenueCAD": null,
+      "grossRevenueLowCAD": null,
+      "grossRevenueHighCAD": null,
+      "cashFlowSdeCAD": null,
+      "established": null,
+      "location": "104 Street, Edmonton, AB T6H 2K2 (south Edmonton)",
+      "brokerAgentInfo": "Joe Badin, Mozaic Realty Group (via MaxWell Realty MLS IDX)",
+      "otherLocationComments": null,
+      "employees": null,
+      "squareFootageSqFt": 1248,
+      "leaseMonthlyCAD": null,
+      "leaseNotes": null,
+      "inventoryIncluded": null,
+      "inventoryValueCAD": null,
+      "equipmentFixturesIncluded": true,
+      "equipmentFixturesValueCAD": null,
+      "isFranchise": null,
+      "franchiseName": null,
+      "saleType": "Asset sale (mainly)",
+      "propertyArrangement": "Leased premises (rent described as very affordable; amount not published)",
+      "clientOrContractNotes": null,
+      "dataNotes": "MLS 45945748, MaxWell IDX Active, listed 2026-11-06. MLS price field $0; $158,000 stated in remarks. No financial statements or sales information provided per listing.",
+      "sellingReason": null
+    },
+    {
+      "businessName": "Beverage & café business — 127 Street NW (north Edmonton)",
+      "category": "Café / beverage (possible franchise)",
+      "summary": "Turnkey beverage and café business in north Edmonton with claw machines included in assets; recently renovated; mainly an asset sale. Buyer may continue the existing franchise or operate a different business subject to landlord approval.",
+      "createdDate": "2026-11-09",
+      "updatedDate": "2026-11-09",
+      "listingStatus": "Listed",
+      "listingUrls": [
+        "https://www.maxwellrealty.ca/listing-ereb/45737398-127-street-nw-edmonton-ab-t6v-1k4/"
+      ],
+      "listingDomainUrls": [
+        "https://www.maxwellrealty.ca"
+      ],
+      "listingSiteNames": [
+        "MaxWell Realty"
+      ],
+      "askingCAD": 189000,
+      "grossRevenueCAD": null,
+      "grossRevenueLowCAD": null,
+      "grossRevenueHighCAD": null,
+      "cashFlowSdeCAD": null,
+      "established": null,
+      "location": "127 Street NW, Edmonton, AB T6V 1K4 (north Edmonton)",
+      "brokerAgentInfo": "Jaclyn Horne, Mozaic Realty Group (via MaxWell Realty MLS IDX)",
+      "otherLocationComments": null,
+      "employees": null,
+      "squareFootageSqFt": null,
+      "leaseMonthlyCAD": null,
+      "leaseNotes": null,
+      "inventoryIncluded": null,
+      "inventoryValueCAD": null,
+      "equipmentFixturesIncluded": true,
+      "equipmentFixturesValueCAD": null,
+      "isFranchise": true,
+      "franchiseName": null,
+      "saleType": "Asset sale (mainly)",
+      "propertyArrangement": "Leased premises (landlord approval required)",
+      "clientOrContractNotes": null,
+      "dataNotes": "MLS 45737398, MaxWell IDX Active, listed 2026-10-07, $189,000 negotiable in remarks (MLS price field $0). Franchise brand not named. No financials provided per listing.",
+      "sellingReason": null
+    },
+    {
+      "businessName": "Large-format printing & commercial graphics company — Edmonton",
+      "category": "Printing / signage / commercial graphics",
+      "summary": "Established (25+ years) large-format printing and commercial graphics operation: signage, vehicle graphics and wraps, decals, banners; UV gel printing and cutting equipment; revenue largely referral-driven with significant trucking/transportation fleet clients; high-visibility location on a major city thoroughfare.",
+      "createdDate": "2026-11-09",
+      "updatedDate": "2026-11-09",
+      "listingStatus": "Listed",
+      "listingUrls": [
+        "https://www.performancebusinessadvisory.ca/printing-commercial-graphics-company-edmonton"
+      ],
+      "listingDomainUrls": [
+        "https://www.performancebusinessadvisory.ca"
+      ],
+      "listingSiteNames": [
+        "Performance Business Advisory"
+      ],
+      "askingCAD": null,
+      "grossRevenueCAD": null,
+      "grossRevenueLowCAD": null,
+      "grossRevenueHighCAD": null,
+      "cashFlowSdeCAD": null,
+      "established": null,
+      "location": "Edmonton, AB (per listing URL; exact address not published)",
+      "brokerAgentInfo": "Dwight Lester, Performance Business Advisory (780) 756-2990, info@performancebb.ca",
+      "otherLocationComments": null,
+      "employees": null,
+      "squareFootageSqFt": null,
+      "leaseMonthlyCAD": null,
+      "leaseNotes": null,
+      "inventoryIncluded": null,
+      "inventoryValueCAD": null,
+      "equipmentFixturesIncluded": null,
+      "equipmentFixturesValueCAD": null,
+      "isFranchise": null,
+      "franchiseName": null,
+      "saleType": "Business sale",
+      "propertyArrangement": null,
+      "clientOrContractNotes": "Significant revenue from trucking and transportation industry clients, including several large regional and northern fleets.",
+      "dataNotes": "Performance Business Advisory page lists no price, revenue or cash flow (contact broker). Edmonton location inferred from URL slug and description ('major city thoroughfare'); page also says clients across Alberta. Ask unpublished so included per rules; could exceed $301k — verify with broker.",
+      "sellingReason": null
+    },
+    {
+      "businessName": "Loaded Pierogi restaurant — 55 Avenue NW, SE Edmonton (Whitemud Dr & 50 St)",
+      "category": "Restaurant / quick-service",
+      "summary": "Existing restaurant ('Loaded Pierogi') near Whitemud Drive and 50 Street in southeast Edmonton with a comfort-food menu and multiple service options.",
+      "createdDate": "2026-11-09",
+      "updatedDate": "2026-11-09",
+      "listingStatus": "Listed",
+      "listingUrls": [
+        "https://www.maxwellrealty.ca/listing-ereb/45869233-55-avenue-nw-edmonton-ab-t6b-3v1/",
+        "https://www.kijiji.ca/v-commercial-office-space-for-sale/edmonton/loaded-pierogi-for-sale-edmonton-alberta/1745718954",
+        "https://www.realtor.ca/real-estate/30451597/loaded-pierogi-for-sale-edmonton"
+      ],
+      "listingDomainUrls": [
+        "https://www.maxwellrealty.ca",
+        "https://www.kijiji.ca",
+        "https://www.realtor.ca"
+      ],
+      "listingSiteNames": [
+        "MaxWell Realty",
+        "Kijiji",
+        "Realtor.ca"
+      ],
+      "askingCAD": 130000,
+      "grossRevenueCAD": null,
+      "grossRevenueLowCAD": null,
+      "grossRevenueHighCAD": null,
+      "cashFlowSdeCAD": null,
+      "established": null,
+      "location": "55 Avenue NW, Edmonton, AB T6B 3V1 (southeast Edmonton, near Whitemud Dr & 50 St)",
+      "brokerAgentInfo": "Ian Choi, Royal LePage Arteam Realty (via MaxWell Realty MLS IDX); also syndicated to Kijiji ad 1745718954 / Realtor.ca 30451597",
+      "otherLocationComments": null,
+      "employees": null,
+      "squareFootageSqFt": null,
+      "leaseMonthlyCAD": null,
+      "leaseNotes": null,
+      "inventoryIncluded": null,
+      "inventoryValueCAD": null,
+      "equipmentFixturesIncluded": null,
+      "equipmentFixturesValueCAD": null,
+      "isFranchise": null,
+      "franchiseName": null,
+      "saleType": "Business sale",
+      "propertyArrangement": null,
+      "clientOrContractNotes": null,
+      "dataNotes": "MLS 45869233, MaxWell IDX status Active at $130,000, listed 2026-10-27 (MLS type 'Business with Property'; whether real estate is included is not stated). Also Kijiji ad 1745718954 ACTIVE (activated 2026-11-04) and Realtor.ca 30451597. No published revenue, cash flow, lease or selling reason.",
       "sellingReason": null
     }
   ]
