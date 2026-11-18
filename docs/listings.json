@@ -1,10 +1,11 @@
 {
-  "generatedAt": "2026-11-16 8:16 AM CST",
+  "generatedAt": "2026-11-18 5:43 PM CST",
   "capCAD": 301000,
   "businesses": [
     {
       "businessName": "Established toy & trinket vending machine business",
-      "category": "Vending / route business",
+      "category": "Professional & Business Services",
+      "categoryDetail": "Vending / route business",
       "summary": "Turnkey route of 25 toy and trinket vending machines in existing high-traffic charity-sponsored locations; owner retiring. No location fees or commissions; approximately 70¢ profit per $1 sale.",
       "createdDate": "2026-09-21",
       "updatedDate": "2026-10-26",
@@ -45,7 +46,8 @@
     },
     {
       "businessName": "Eazi-Agency digital services franchise — Edmonton (startup)",
-      "category": "Professional services / digital marketing franchise",
+      "category": "Professional & Business Services",
+      "categoryDetail": "Professional services / digital marketing franchise",
       "summary": "New home-based Eazi-Agency digital marketing/technology franchise opportunity in Edmonton (not a resale of an existing operating business). Investment from CAD $18,995 listed ask; monthly option from ~$895/month mentioned in marketing copy. AI-powered digital marketing services with franchisor systems and training.",
       "createdDate": "2026-10-19",
       "updatedDate": "2026-11-09",
@@ -87,7 +89,8 @@
     },
     {
       "businessName": "Silk floral rental business (Rent a Rose)",
-      "category": "Retail / event floral rental",
+      "category": "Retail",
+      "categoryDetail": "Retail / event floral rental",
       "summary": "Home-based premium faux flower rental business with Shopify order site (rentarose.ca). Pre-made bridal/bridesmaid bouquets, boutonnieres, centrepieces, funeral sprays, and arch florals for five-day rentals. Priced for quick sale with ~$90k physical assets included.",
       "createdDate": "2026-09-28",
       "updatedDate": "2026-11-16",
@@ -129,7 +132,8 @@
     },
     {
       "businessName": "Drive Hockey player/puck-tracking regional distributor — Greater Edmonton",
-      "category": "Sports technology / services (home-based)",
+      "category": "Entertainment & Leisure",
+      "categoryDetail": "Sports technology / services (home-based)",
       "summary": "Regional distribution office for Drive Hockey's sensor + AI player/puck tracking and analytics service for amateur hockey teams and leagues across Alberta. Serves 1,000+ teams in the regional market; services billed ~$250+/hr plus recurring annual income from team tracking systems. Can be run part-time by a non-technical owner; full training and ongoing support. Priced for quick sale.",
       "createdDate": "2026-10-26",
       "updatedDate": "2026-10-26",
@@ -170,7 +174,8 @@
     },
     {
       "businessName": "Hair salon & barber — 118 Ave NW",
-      "category": "Beauty / hair salon & barber",
+      "category": "Beauty",
+      "categoryDetail": "Beauty / hair salon & barber",
       "summary": "Hair salon and barber offering men's and women's haircuts plus manicures.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-10-05",
@@ -211,7 +216,8 @@
     },
     {
       "businessName": "Turnkey mobile slush cart business — Edmonton",
-      "category": "Food / mobile slush / events",
+      "category": "Food",
+      "categoryDetail": "Food / mobile slush / events",
       "summary": "Fully operational mobile slush business for weddings, corporate events, festivals and private parties. Includes commercial 3-tank VEVOR machine, custom cart, branding, Instagram (1,850+ followers), supplier contacts, recipes, and training.",
       "createdDate": "2026-09-28",
       "updatedDate": "2026-09-28",
@@ -252,7 +258,8 @@
     },
     {
       "businessName": "Seasonal RV-industry mobile service business — Edmonton",
-      "category": "Services / RV industry (mobile, seasonal)",
+      "category": "Professional & Business Services",
+      "categoryDetail": "Services / RV industry (mobile, seasonal)",
       "summary": "Turnkey seasonal mobile service business serving the RV industry, created in 2026 to test the concept. Sale includes equipment, customer database, supplies inventory, brand, website, social media, marketing materials and training. No storefront or lease; buyer needs a pickup truck or van.",
       "createdDate": "2026-10-19",
       "updatedDate": "2026-10-19",
@@ -293,7 +300,8 @@
     },
     {
       "businessName": "Bento Sushi franchise — Leduc grocery store",
-      "category": "Food / sushi franchise",
+      "category": "Food",
+      "categoryDetail": "Food / sushi franchise",
       "summary": "Turnkey Bento Sushi counter inside a high-volume Leduc grocery store. Simple owner-operator model with franchisor training and operational support. Inventory not included.",
       "createdDate": "2026-09-28",
       "updatedDate": "2026-10-05",
@@ -337,7 +345,8 @@
     },
     {
       "businessName": "Condo document review business — Edmonton",
-      "category": "Professional services / condo document review",
+      "category": "Professional & Business Services",
+      "categoryDetail": "Professional services / condo document review",
       "summary": "Remote, low-overhead condo document review service with established processes. ~4–6 reviews/month at $300 each (~$24k+ annual gross). Transition support offered.",
       "createdDate": "2026-09-28",
       "updatedDate": "2026-10-19",
@@ -378,7 +387,8 @@
     },
     {
       "businessName": "Hair salon — Victoria Trail NW",
-      "category": "Beauty / hair salon",
+      "category": "Beauty",
+      "categoryDetail": "Beauty / hair salon",
       "summary": "Well-established hair salon in a busy retail plaza. Sale includes salon equipment, leasehold improvements, and business assets. Turn-key for an owner-operator or expansion buy.",
       "createdDate": "2026-09-19",
       "updatedDate": "2026-10-03",
@@ -419,7 +429,8 @@
     },
     {
       "businessName": "Bridal fashion jewelry business with website",
-      "category": "Retail / fashion jewelry",
+      "category": "Retail",
+      "categoryDetail": "Retail / fashion jewelry",
       "summary": "Established fashion and bridal jewelry business with website. Asking $35,000 CAD. Confirm Edmonton location on detail page.",
       "createdDate": "2026-09-20",
       "updatedDate": "2026-09-20",
@@ -460,7 +471,8 @@
     },
     {
       "businessName": "Newly established liquor store — Sherwood Park strip mall",
-      "category": "Retail / liquor store",
+      "category": "Retail",
+      "categoryDetail": "Retail / liquor store",
       "summary": "Liquor store opened in 2023 in a mixed-use strip mall in Sherwood Park. 1,010 sq. ft. Low rent of $1,935/month including water. The listing cites growth potential and easy management.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-11-02",
@@ -504,7 +516,8 @@
     },
     {
       "businessName": "Food truck — fully functional",
-      "category": "Food / food truck",
+      "category": "Food",
+      "categoryDetail": "Food / food truck",
       "summary": "Fully functional food truck (1982 GMC van conversion) with hood/fire suppression, deep fryer, grill, 2-burner stove, warming table, coolers/freezer, sinks. Health/city permits passed 5 years. Propane, manual transmission; ~280,000 km; engine replaced ~3 years ago.",
       "createdDate": "2026-09-20",
       "updatedDate": "2026-11-02",
@@ -545,7 +558,8 @@
     },
     {
       "businessName": "A Buyer's Choice Handyman Services — Edmonton franchise territory (new)",
-      "category": "Home services / handyman franchise (startup)",
+      "category": "Home & Property Services",
+      "categoryDetail": "Home services / handyman franchise (startup)",
       "summary": "New A Buyer's Choice Handyman Services franchise for Edmonton. Franchise fee CAD $39,900, plus startup costs and working capital. Owner can do the work or coordinate contractors.",
       "createdDate": "2026-10-26",
       "updatedDate": "2026-10-26",
@@ -586,7 +600,8 @@
     },
     {
       "businessName": "Tanning salon — Leduc",
-      "category": "Beauty / tanning salon",
+      "category": "Beauty",
+      "categoryDetail": "Beauty / tanning salon",
       "summary": "Tanning salon in Leduc listed on Kijiji ~$40,000.",
       "createdDate": "2026-09-20",
       "updatedDate": "2026-11-09",
@@ -628,7 +643,8 @@
     },
     {
       "businessName": "Kids education franchise — Edmonton territories",
-      "category": "Education / kids franchise",
+      "category": "Education & Childcare",
+      "categoryDetail": "Education / kids franchise",
       "summary": "Low-cost kids education franchise with Edmonton territories available. Mobile/flexible model with schools, camps, events, birthdays revenue streams. 25+ years as franchisor; 45+ countries. Cost to get started ~$45,000.",
       "createdDate": "2026-09-28",
       "updatedDate": "2026-10-26",
@@ -669,7 +685,8 @@
     },
     {
       "businessName": "Tow truck business — Edmonton",
-      "category": "Towing / roadside",
+      "category": "Automotive",
+      "categoryDetail": "Towing / roadside",
       "summary": "Operating Edmonton tow business with known name and daily-working tilt-deck truck (Cat engine). Training available. Partner relocated; motivated but no rush.",
       "createdDate": "2026-09-28",
       "updatedDate": "2026-10-03",
@@ -710,7 +727,8 @@
     },
     {
       "businessName": "Boutique fitness studio — SW Edmonton (Windermere area)",
-      "category": "Fitness / boutique studio",
+      "category": "Fitness",
+      "categoryDetail": "Fitness / boutique studio",
       "summary": "Five-year boutique fitness studio in SW Edmonton affluent catchment with recurring memberships, hybrid strength/kickboxing/kettlebell programming plus 1:1 coaching. Turnkey sale includes equipment, brand/web/social, member database, booking/CRM, SOPs, and 60–90 days paid transition support.",
       "createdDate": "2026-09-28",
       "updatedDate": "2026-10-03",
@@ -751,7 +769,8 @@
     },
     {
       "businessName": "Barbershop — Edmonton (quick sale)",
-      "category": "Personal services / barbershop",
+      "category": "Beauty",
+      "categoryDetail": "Personal services / barbershop",
       "summary": "Barbershop for sale in Edmonton, pitched to an experienced barber, entrepreneur or shop owner looking to expand. Leased premises. Very little detail published.",
       "createdDate": "2026-11-02",
       "updatedDate": "2026-11-02",
@@ -792,7 +811,8 @@
     },
     {
       "businessName": "Epoxy & concrete polishing business — Edmonton",
-      "category": "Construction services / epoxy flooring",
+      "category": "Construction & Trades",
+      "categoryDetail": "Construction services / epoxy flooring",
       "summary": "Epoxy flooring and concrete polishing business with residential and commercial project history. Includes 2025 dual-axle enclosed trailer, Klindex grinding/polishing machines, Hilti and Metabo grinders, industrial dust vacuums, consumables, website and Google business page.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-10-19",
@@ -833,7 +853,8 @@
     },
     {
       "businessName": "Moving & junk removal business — Edmonton",
-      "category": "Moving / junk removal",
+      "category": "Transportation & Logistics",
+      "categoryDetail": "Moving / junk removal",
       "summary": "7-year moving and junk removal brand; contractor model, no owned vehicles/employees; storage unit only. Est. 2019.",
       "createdDate": "2026-09-20",
       "updatedDate": "2026-09-20",
@@ -874,7 +895,8 @@
     },
     {
       "businessName": "Trucking business with 2020 Cascadia — Edmonton",
-      "category": "Transportation / trucking",
+      "category": "Transportation & Logistics",
+      "categoryDetail": "Transportation / trucking",
       "summary": "Running one-truck trucking company with regular clients and dedicated loads; includes a 2020 Freightliner Cascadia plus chains, boomers and four new tarps. Immediate sale.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-10-19",
@@ -915,7 +937,8 @@
     },
     {
       "businessName": "Courier business — Edmonton",
-      "category": "Courier / delivery",
+      "category": "Transportation & Logistics",
+      "categoryDetail": "Courier / delivery",
       "summary": "Established courier with repeat clients and systems in place. Currently billing over $10k/month with zero advertising; previously generated over $250k annually. Owner transition support available.",
       "createdDate": "2026-09-28",
       "updatedDate": "2026-09-28",
@@ -956,7 +979,8 @@
     },
     {
       "businessName": "Franchise painting company — Edmonton territory (resale)",
-      "category": "Home services / painting franchise",
+      "category": "Home & Property Services",
+      "categoryDetail": "Home services / painting franchise",
       "summary": "Franchise resale of a residential interior/exterior painting business established 2022. Home-based and low overhead, with an exclusive territory, recurring and referral-based revenue, and a loyal customer base. Work is done by about 8 subcontractors; the owner handles estimates, project coordination and customer relationships (about 40–50 hrs/week). Growth room in new construction and senior living. $500 inventory included.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-11-02",
@@ -1001,7 +1025,8 @@
     },
     {
       "businessName": "Modern salon — west/central Edmonton",
-      "category": "Beauty / hair salon",
+      "category": "Beauty",
+      "categoryDetail": "Beauty / hair salon",
       "summary": "2,400 sq ft modern salon; fixtures $30k and inventory $20k included. Lease up Oct; landlord open to renew. Team income covers lease/bills.",
       "createdDate": "2026-09-20",
       "updatedDate": "2026-10-03",
@@ -1042,7 +1067,8 @@
     },
     {
       "businessName": "Nail salon — Stony Plain Rd supercentre",
-      "category": "Beauty / nail salon",
+      "category": "Beauty",
+      "categoryDetail": "Beauty / nail salon",
       "summary": "Turnkey nail salon in a high-traffic supercentre. Includes 5 pedicure chairs, 4 manicure tables, waxing room, and supplies. Recently renovated.",
       "createdDate": "2026-09-19",
       "updatedDate": "2026-10-26",
@@ -1089,7 +1115,8 @@
     },
     {
       "businessName": "Video game e-commerce store",
-      "category": "Online retail / video games",
+      "category": "Retail",
+      "categoryDetail": "Online retail / video games",
       "summary": "Turnkey custom-built video game e-commerce storefront (not Shopify) with SEO-oriented catalog, current customer base, ~1,000 physical games inventory, and 90 minutes training. Growing organically.",
       "createdDate": "2026-09-28",
       "updatedDate": "2026-10-05",
@@ -1130,7 +1157,8 @@
     },
     {
       "businessName": "E-bike / e-motorcycle exclusive dealer territory — Edmonton",
-      "category": "Retail / e-mobility dealer (startup territory)",
+      "category": "Retail",
+      "categoryDetail": "Retail / e-mobility dealer (startup territory)",
       "summary": "Exclusive dealer territory for electric bikes and electric motorcycles, listed for Edmonton. No franchise fees or royalties; supplier relationships, direct warehouse fulfilment, training and support. Revenue streams include retail, rentals, fleet sales and events; can run full-time or alongside an existing business.",
       "createdDate": "2026-10-26",
       "updatedDate": "2026-10-26",
@@ -1171,7 +1199,8 @@
     },
     {
       "businessName": "Frilly Lilly franchise beauty spa — Leduc",
-      "category": "Beauty / spa franchise (waxing, nails, facials, lash & brow)",
+      "category": "Beauty",
+      "categoryDetail": "Beauty / spa franchise (waxing, nails, facials, lash & brow)",
       "summary": "Local Frilly Lilly franchise offering waxing, nails, facials, lash and brow services. Loyal clientele and repeat customers. Current owner has run it for almost 3 years.",
       "createdDate": "2026-10-19",
       "updatedDate": "2026-10-19",
@@ -1215,7 +1244,8 @@
     },
     {
       "businessName": "Japanese ramen & bubble tea restaurant — north Edmonton (T5E)",
-      "category": "Food / ramen & bubble tea",
+      "category": "Food",
+      "categoryDetail": "Food / ramen & bubble tea",
       "summary": "Well-established restaurant serving Japanese ramen and bubble tea, with a simple, easy-to-run menu. The listing says sales are growing and rent is reasonable. High-traffic route.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-10-05",
@@ -1256,7 +1286,8 @@
     },
     {
       "businessName": "Fresh juice and sandwich business — recreation centre",
-      "category": "Food / juice & sandwich",
+      "category": "Food",
+      "categoryDetail": "Food / juice & sandwich",
       "summary": "Turnkey juice/sandwich shop inside busy community recreation centre; short hours, low all-inclusive rent. Est. ~6 months; fixtures $30k and inventory $7k included.",
       "createdDate": "2026-09-20",
       "updatedDate": "2026-10-03",
@@ -1297,7 +1328,8 @@
     },
     {
       "businessName": "Lawn care business — St. Albert area",
-      "category": "Outdoor / lawn care",
+      "category": "Home & Property Services",
+      "categoryDetail": "Outdoor / lawn care",
       "summary": "Eight-year turnkey lawn care company with enclosed trailer, equipment, and 150+ client properties mostly in St. Albert and surrounding area.",
       "createdDate": "2026-09-19",
       "updatedDate": "2026-10-03",
@@ -1338,7 +1370,8 @@
     },
     {
       "businessName": "Low-cost tanning & lifestyle franchise — Edmonton (existing location)",
-      "category": "Beauty / tanning franchise",
+      "category": "Beauty",
+      "categoryDetail": "Beauty / tanning franchise",
       "summary": "Existing Edmonton tanning and lifestyle franchise location with lash studio inside. Staff and manager willing to stay. Seller discretionary earnings ~$39,813 per last year's financials. ~$60k down indicated to qualify.",
       "createdDate": "2026-09-28",
       "updatedDate": "2026-11-02",
@@ -1379,7 +1412,8 @@
     },
     {
       "businessName": "Bubble tea & hot food restaurant — South Edmonton (beside Walmart)",
-      "category": "Food / bubble tea & quick-service",
+      "category": "Food",
+      "categoryDetail": "Food / bubble tea & quick-service",
       "summary": "Established bubble tea restaurant with hot food (wings, fries, dry ribs, spring rolls), hot drinks, slushes, ice cream and smoothies, next to a busy Walmart Supercentre in South Edmonton. About 1,504 sq ft. Two machines make fresh tapioca pearls, so surplus boba can also be sold wholesale. Long-term lease to Nov 30, 2031.",
       "createdDate": "2026-10-19",
       "updatedDate": "2026-11-09",
@@ -1423,7 +1457,8 @@
     },
     {
       "businessName": "Business listing — 11917 134 Ave NW",
-      "category": "Business (verify type)",
+      "category": "Other",
+      "categoryDetail": "Business (verify type)",
       "summary": "Edmonton business listing at $75,000. Full category not confirmed.",
       "createdDate": "2026-09-20",
       "updatedDate": "2026-10-03",
@@ -1464,7 +1499,8 @@
     },
     {
       "businessName": "Restaurant equipment & assets (new lease) — Devon",
-      "category": "Food / restaurant asset sale",
+      "category": "Food",
+      "categoryDetail": "Food / restaurant asset sale",
       "summary": "Turnkey restaurant asset sale: equipment and assets in an approx. 2,000 SF restaurant, including exhaust hoods, cooking line, tandoor oven, fryer, coolers and freezers, prep tables, and smallwares. Sold as-is. The buyer signs a new 5-year lease at $15/SF base plus $12/SF operating costs.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-10-05",
@@ -1505,7 +1541,8 @@
     },
     {
       "businessName": "Turnkey bubble tea shop — Parsons Rd near Ellerslie, South Edmonton",
-      "category": "Food & beverage / bubble tea",
+      "category": "Food",
+      "categoryDetail": "Food & beverage / bubble tea",
       "summary": "Small (360 sq ft) bubble tea business established 2013 in a plaza on Parsons Road near Ellerslie Road (south/southwest Edmonton). Loyal customer base and simple operations; 1 employee; owner-operated. Asset sale of business assets, equipment and inventory; owner provides hands-on training. Plaza neighbours include a Taekwondo studio and daycare; new major development expected nearby next year.",
       "createdDate": "2026-10-26",
       "updatedDate": "2026-10-26",
@@ -1546,7 +1583,8 @@
     },
     {
       "businessName": "Hair salon & spa — Edmonton ($79k)",
-      "category": "Beauty / hair salon & spa",
+      "category": "Beauty",
+      "categoryDetail": "Beauty / hair salon & spa",
       "summary": "Fully operating hair salon and spa: haircuts, colouring, keratin, Botox, waxing, threading, makeup, hairdos, hair spa. Low rent $2,700 + GST/month.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-11-09",
@@ -1587,7 +1625,8 @@
     },
     {
       "businessName": "Trendy Tailor's & Dry Cleaning — 6015 199 Street NW",
-      "category": "Services / tailoring & dry cleaning",
+      "category": "Home & Property Services",
+      "categoryDetail": "Services / tailoring & dry cleaning",
       "summary": "Well-established garment care business offering tailoring, alterations, and dry cleaning. The listing cites consistent revenue and repeat clientele. About 1,100 sq. ft.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-11-16",
@@ -1631,7 +1670,8 @@
     },
     {
       "businessName": "Wine & cheese café — Downtown Edmonton",
-      "category": "Food / café & wine bar",
+      "category": "Food",
+      "categoryDetail": "Food / café & wine bar",
       "summary": "Boutique wine & cheese café in downtown Edmonton: artisanal cheese, wine, beer and espresso service, brick-walled interior, patio seating. Turnkey; marketed as profitable with loyal clientele.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-11-09",
@@ -1672,7 +1712,8 @@
     },
     {
       "businessName": "Vietnamese restaurant — 17820 107 Ave NW (West Edmonton retail hub)",
-      "category": "Food / Vietnamese restaurant",
+      "category": "Food",
+      "categoryDetail": "Food / Vietnamese restaurant",
       "summary": "Long-standing, profitable Vietnamese restaurant in a busy West Edmonton retail hub (Wilson Industrial / 107 Ave). Listing cites strong annual revenues, high profit margins, and a loyal regular customer base. Fully equipped commercial kitchen and turnkey setup for immediate takeover; excellent exposure, strong foot traffic, and favourable lease terms noted. No dollar financials published beyond asking price.",
       "createdDate": "2026-10-19",
       "updatedDate": "2026-10-26",
@@ -1718,7 +1759,8 @@
     },
     {
       "businessName": "Bin rental & junk removal business — Edmonton",
-      "category": "Waste / bin rental & junk removal",
+      "category": "Home & Property Services",
+      "categoryDetail": "Waste / bin rental & junk removal",
       "summary": "Established Edmonton-area bin rental/junk removal operation with bins, roll-off trailer, truck, customer base, phone, Facebook, branding, and email. Years of repeat customers.",
       "createdDate": "2026-09-28",
       "updatedDate": "2026-09-28",
@@ -1759,7 +1801,8 @@
     },
     {
       "businessName": "Confidential donair / Mediterranean restaurant asset — NE Edmonton (137 Ave)",
-      "category": "Food / donair / Mediterranean restaurant (asset sale)",
+      "category": "Food",
+      "categoryDetail": "Food / donair / Mediterranean restaurant (asset sale)",
       "summary": "Confidential restaurant asset sale with lease takeover (NDA required for business name/exact location). ~1,088 sq. ft. configured for fast-food, donair, and Mediterranean use with counter, commercial kitchen, and seating for ~16. Extensive equipment package (oven, walk-in fridge/freezer, gyro machines, grill, fryers, etc.). Lease runs to February 28, 2031 with common parking. Purchaser may introduce own name/menu/concept. Dual-listed on Realtor.ca.",
       "createdDate": "2026-09-28",
       "updatedDate": "2026-09-28",
@@ -1804,7 +1847,8 @@
     },
     {
       "businessName": "Five Star Tailors — Albany Market Square (NW Edmonton)",
-      "category": "Services / tailoring",
+      "category": "Home & Property Services",
+      "categoryDetail": "Services / tailoring",
       "summary": "Established, turnkey tailoring business in the Albany Market Square outdoor shopping centre (anchors: Walmart and Movati). 600 sq. ft. with a large workroom and two change rooms. All sewing machinery, equipment, and materials included.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-11-09",
@@ -1848,7 +1892,8 @@
     },
     {
       "businessName": "STOR-X franchise — Edmonton",
-      "category": "Home organizing franchise",
+      "category": "Home & Property Services",
+      "categoryDetail": "Home organizing franchise",
       "summary": "Profitable STOR-X franchise; Canadian-made home organizing solutions. Asking $80,000.",
       "createdDate": "2026-09-20",
       "updatedDate": "2026-10-05",
@@ -1889,7 +1934,8 @@
     },
     {
       "businessName": "Cannabis retail store — 50 St. Thomas Street, St. Albert",
-      "category": "Retail / cannabis store",
+      "category": "Retail",
+      "categoryDetail": "Retail / cannabis store",
       "summary": "Fully equipped cannabis store of 1,000+ sq. ft. on the main floor of a mixed-use building in a high-traffic St. Albert area. Brand-new 5-year lease plus a 5-year option for the new owner. The bay itself is also for sale separately and can be bought together. The buyer orders product and obtains a permit.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-10-05",
@@ -1930,7 +1976,8 @@
     },
     {
       "businessName": "Nail salon — Parsons Rd Walmart",
-      "category": "Beauty / nail salon",
+      "category": "Beauty",
+      "categoryDetail": "Beauty / nail salon",
       "summary": "Established turnkey nail salon inside a high-traffic Walmart. 4 pedicure spa chairs, 4 manicure stations, reception, retail display, laundry area. Sale includes equipment, furniture, fixtures, and related inventory.",
       "createdDate": "2026-09-19",
       "updatedDate": "2026-10-26",
@@ -1976,7 +2023,8 @@
     },
     {
       "businessName": "Donair & burger business — 89 Ave NW (owner sale)",
-      "category": "Food / donair & burger",
+      "category": "Food",
+      "categoryDetail": "Food / donair & burger",
       "summary": "Priced-to-sell donair & burger business; low rent; high-traffic, visible location surrounded by residential communities. Can introduce any cuisine. Quick sale.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-10-19",
@@ -2017,7 +2065,8 @@
     },
     {
       "businessName": "Pet grooming and retail store",
-      "category": "Pet services / grooming & retail",
+      "category": "Pet Services",
+      "categoryDetail": "Pet services / grooming & retail",
       "summary": "Busy pet grooming salon with small retail attached. ~1,200 sq ft; 5 years remaining on lease with renewal option. Includes 5 grooming tables, 2 dog tubs, 1 cat tub, dryers, accessories, and inventory.",
       "createdDate": "2026-09-28",
       "updatedDate": "2026-10-26",
@@ -2058,7 +2107,8 @@
     },
     {
       "businessName": "Pizza & takeout business — St. Albert Trail / Hebert Road",
-      "category": "Food / pizza takeout",
+      "category": "Food",
+      "categoryDetail": "Food / pizza takeout",
       "summary": "Turnkey pizza and takeout business in a high-exposure St. Albert corridor near St. Albert Trail and Hebert Road. Well-equipped kitchen and strong signage. The buyer can continue the operation or introduce a new concept. Business sale only.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-11-16",
@@ -2102,7 +2152,8 @@
     },
     {
       "businessName": "Xamereey Somali restaurant — 97 Street NW, Edmonton",
-      "category": "Restaurant / Somali & African cuisine",
+      "category": "Food",
+      "categoryDetail": "Restaurant / Somali & African cuisine",
       "summary": "Established Somali restaurant serving Banaadiri and African cuisine, suited to an owner-operator. Room to grow dine-in, takeout, delivery, catering and events. The lease includes two one-bedroom suites that can house staff or be rented out.",
       "createdDate": "2026-11-02",
       "updatedDate": "2026-11-02",
@@ -2143,7 +2194,8 @@
     },
     {
       "businessName": "Established turnkey retail / convenience store — Edmonton",
-      "category": "Retail / convenience store",
+      "category": "Retail",
+      "categoryDetail": "Retail / convenience store",
       "summary": "Established neighbourhood convenience store sold turnkey, with lottery, ATM, and Bitcoin services on top of everyday essentials. Owner-operated, with 2 employees.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-10-26",
@@ -2184,7 +2236,8 @@
     },
     {
       "businessName": "Donair & shawarma restaurant — 11722 104 Avenue NW",
-      "category": "Business (verify type)",
+      "category": "Other",
+      "categoryDetail": "Business (verify type)",
       "summary": "Established owner-operated donair and shawarma restaurant in busy Oliver retail plaza. Dining area, commercial kitchen, street-front visibility, take-out/delivery traffic, favourable lease. Do not approach staff; training available.",
       "createdDate": "2026-09-20",
       "updatedDate": "2026-10-05",
@@ -2229,7 +2282,8 @@
     },
     {
       "businessName": "Japanese ramen restaurant (franchise or convert) — downtown by LRT",
-      "category": "Food / ramen restaurant",
+      "category": "Food",
+      "categoryDetail": "Food / ramen restaurant",
       "summary": "Japanese ramen restaurant in prime downtown Edmonton, right next to a major LRT station, with a modern, high-quality interior build-out. The buyer can continue under the existing franchise system (subject to franchisor approval) or convert to an independent concept.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-11-02",
@@ -2270,7 +2324,8 @@
     },
     {
       "businessName": "Liquor store — busy residential plaza, central Edmonton (~900 sq ft)",
-      "category": "Retail / liquor store",
+      "category": "Retail",
+      "categoryDetail": "Retail / liquor store",
       "summary": "About 900 sq ft liquor store in a busy plaza 'in the heart of the city', surrounded by hundreds of townhouses and homes within walking distance. It has a back door for deliveries, a washroom and a small kitchen/storage area. Plenty of plaza parking. Reasonable rent, and the lease includes renewal options.",
       "createdDate": "2026-10-26",
       "updatedDate": "2026-10-26",
@@ -2311,7 +2366,8 @@
     },
     {
       "businessName": "Quick-service restaurant space with patio — St. Albert Trail",
-      "category": "Food / quick-service restaurant asset sale",
+      "category": "Food",
+      "categoryDetail": "Food / quick-service restaurant asset sale",
       "summary": "Brand-free quick-service restaurant space with a patio in a newer commercial plaza on St. Albert Trail. Offered as an asset sale with a functional kitchen, prep area, refrigeration, fryers, and POS. Originally improved in 2013. No franchise attached.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-10-26",
@@ -2352,7 +2408,8 @@
     },
     {
       "businessName": "Restaurant / commercial kitchen",
-      "category": "Food / restaurant / commercial kitchen",
+      "category": "Food",
+      "categoryDetail": "Food / restaurant / commercial kitchen",
       "summary": "Fully equipped commercial kitchen with 20-seat dine-in plus takeout. Marketed for restaurant, catering, ghost kitchen, or meal-prep use. New 5-year lease with 5-year renewal option.",
       "createdDate": "2026-09-19",
       "updatedDate": "2026-10-19",
@@ -2393,7 +2450,8 @@
     },
     {
       "businessName": "Senior care franchise — Edmonton & Grande Prairie territories",
-      "category": "Senior care / home care franchise",
+      "category": "Health & Wellness",
+      "categoryDetail": "Senior care / home care franchise",
       "summary": "Non-medical home care franchise covering Edmonton and Grande Prairie territories; second year of operation.",
       "createdDate": "2026-09-20",
       "updatedDate": "2026-10-19",
@@ -2438,7 +2496,8 @@
     },
     {
       "businessName": "TRD Barbershop & Salon — 13445 97 Street NW (Glengarry)",
-      "category": "Beauty / barbershop & salon",
+      "category": "Beauty",
+      "categoryDetail": "Beauty / barbershop & salon",
       "summary": "Turnkey barbershop and salon of about 992 sq ft on 97 Street with 8 styling/barber chairs, men's and women's areas, a private room, washing stations and reception. 4.7 stars from 107 Google reviews. Five-year lease to Feb 2031 at $4,200/month.",
       "createdDate": "2026-10-26",
       "updatedDate": "2026-10-26",
@@ -2485,7 +2544,8 @@
     },
     {
       "businessName": "Tanning & wellness studio — Mill Woods Town Centre (2953 66 St NW)",
-      "category": "Personal services / tanning & wellness",
+      "category": "Beauty",
+      "categoryDetail": "Personal services / tanning & wellness",
       "summary": "Equipped tanning and wellness studio in Mill Woods, about 1,094 sq ft with seven private treatment rooms: two stand-up and two lay-down tanning units, a spray-tan booth, red-light therapy and an enclosed sauna. Sale includes equipment, furniture, POS, computers and security equipment.",
       "createdDate": "2026-11-02",
       "updatedDate": "2026-11-02",
@@ -2530,7 +2590,8 @@
     },
     {
       "businessName": "Dream Escape — escape room & board-game retail, Leduc",
-      "category": "Entertainment / escape room & gaming retail",
+      "category": "Entertainment & Leisure",
+      "categoryDetail": "Entertainment / escape room & gaming retail",
       "summary": "Established (8 years) turnkey escape room and gaming lounge in Leduc's Gateway Centre: four themed escape rooms, board-game retail, regular in-store gaming events, 4,341 sq ft leased.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-10-05",
@@ -2572,7 +2633,8 @@
     },
     {
       "businessName": "Bakery, café & pizzeria — Old Town Beverly",
-      "category": "Food / bakery café pizza",
+      "category": "Food",
+      "categoryDetail": "Food / bakery café pizza",
       "summary": "Fully equipped 1,730 sq ft family-run bakery, café and pizzeria operating ~1.5 years in Old Town Beverly. Turnkey food-service facility suitable for owner-operator or brand expansion.",
       "createdDate": "2026-09-28",
       "updatedDate": "2026-10-19",
@@ -2616,7 +2678,8 @@
     },
     {
       "businessName": "Indian-cuisine food trailer business — Nisku",
-      "category": "Food / food trailer",
+      "category": "Food",
+      "categoryDetail": "Food / food trailer",
       "summary": "Turnkey 4-season insulated food trailer set up for Indian cuisine, with established location and repeat customers; location agreement may transfer. Runs 5 days/week now. Festival/catering contacts provided. Full commercial kitchen, 9-ft hood and fire suppression.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-10-05",
@@ -2657,7 +2720,8 @@
     },
     {
       "businessName": "Sadie's Pet Stop",
-      "category": "Retail / pet services",
+      "category": "Pet Services",
+      "categoryDetail": "Retail / pet services",
       "summary": "Turnkey pet-retail and grooming business in Lendrum Place shopping centre; equipment, fixtures and inventory included.",
       "createdDate": "2026-09-21",
       "updatedDate": "2026-10-05",
@@ -2704,7 +2768,8 @@
     },
     {
       "businessName": "Fast-food sushi restaurant — 16946 107 Ave NW",
-      "category": "Food / sushi quick-service restaurant",
+      "category": "Food",
+      "categoryDetail": "Food / sushi quick-service restaurant",
       "summary": "Fast-casual sushi restaurant with dine-in, takeout and established UberEats/DoorDash sales. Sale includes the fully equipped commercial kitchen, walk-in freezer and cooler, POS system, and dining tables and chairs. Training available.",
       "createdDate": "2026-10-19",
       "updatedDate": "2026-11-09",
@@ -2751,7 +2816,8 @@
     },
     {
       "businessName": "Party bike business — Whyte Ave / Downtown Edmonton",
-      "category": "Leisure / party bike",
+      "category": "Entertainment & Leisure",
+      "categoryDetail": "Leisure / party bike",
       "summary": "15-person party bikes operating Whyte Ave and Downtown since 2017. EBITDA ~$80,000 noted in snippet.",
       "createdDate": "2026-09-20",
       "updatedDate": "2026-11-09",
@@ -2802,7 +2868,8 @@
     },
     {
       "businessName": "Tailor & dry-cleaning shop — Beaumont (~18 years)",
-      "category": "Services / tailoring & dry cleaning",
+      "category": "Home & Property Services",
+      "categoryDetail": "Services / tailoring & dry cleaning",
       "summary": "Established, profitable tailor shop in Beaumont, operating about 18 years with loyal repeat customers. Services include alterations, tailoring, dry cleaning, and apparel care. 992 sq. ft. in a high-visibility retail location. Fully equipped and turnkey.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-11-09",
@@ -2846,7 +2913,8 @@
     },
     {
       "businessName": "Women’s business magazine publisher",
-      "category": "Publishing / media",
+      "category": "Professional & Business Services",
+      "categoryDetail": "Publishing / media",
       "summary": "Established magazine publishing business focused on supporting and recognizing female business professionals. Multiple income streams; hosts biannual conferences. Turn-key with training and mentorship offered.",
       "createdDate": "2026-09-20",
       "updatedDate": "2026-11-09",
@@ -2893,7 +2961,8 @@
     },
     {
       "businessName": "Mediterranean restaurant — Whyte Avenue",
-      "category": "Food / restaurant",
+      "category": "Food",
+      "categoryDetail": "Food / restaurant",
       "summary": "Turnkey Mediterranean restaurant (shawarma, salads, desserts) on Whyte Ave with large seating area and walk-in cooler. Menu can be changed. Lease renewable.",
       "createdDate": "2026-09-19",
       "updatedDate": "2026-11-02",
@@ -2937,7 +3006,8 @@
     },
     {
       "businessName": "Pizza business — 3050 106 St NW (near Century Park)",
-      "category": "Food / pizza",
+      "category": "Food",
+      "categoryDetail": "Food / pizza",
       "summary": "Profitable turnkey pizza business with low rent (~CAD 1,700/month plus CAM), near Century Park LRT, schools, and a church. Currently operates 4 PM–12 AM with upside noted for lunch, school orders, and catering. Fully equipped kitchen; landlord approval required to introduce a franchise or new brand/concept.",
       "createdDate": "2026-09-28",
       "updatedDate": "2026-10-26",
@@ -2986,7 +3056,8 @@
     },
     {
       "businessName": "Convenience & cigar store — Northwest Edmonton",
-      "category": "Retail / convenience & tobacco",
+      "category": "Retail",
+      "categoryDetail": "Retail / convenience & tobacco",
       "summary": "Established convenience and cigar store in a busy neighbourhood with loyal regulars. Turnkey with shelving, fixtures and equipment. A recently set-up kitchen area (oven, fridge, hot-food case, cooler, freezer) gives room to add fresh and hot food.",
       "createdDate": "2026-11-02",
       "updatedDate": "2026-11-09",
@@ -3027,7 +3098,8 @@
     },
     {
       "businessName": "Liquor store — asset sale",
-      "category": "Retail / liquor store",
+      "category": "Retail",
+      "categoryDetail": "Retail / liquor store",
       "summary": "Turnkey liquor store asset sale (inventory and fixtures). Edmonton listing on BizBuySell Alberta results; proximity noted to major roads including 101 Ave, 75 Street, Wayne Gretzky Drive, Baseline Road, and Anthony Henday Drive.",
       "createdDate": "2026-09-19",
       "updatedDate": "2026-10-03",
@@ -3068,7 +3140,8 @@
     },
     {
       "businessName": "Micro fitness gym concept — Edmonton territory",
-      "category": "Fitness / micro gym franchise",
+      "category": "Fitness",
+      "categoryDetail": "Fitness / micro gym franchise",
       "summary": "Micro fitness gym concept (~1,500 sq ft) expanding into Alberta with Edmonton territory / multi-unit options. Private stations booked online with trainer coverage. Listing states ~$99k plus franchise fee; search card shows $125,000; ~$50k down indicated.",
       "createdDate": "2026-09-28",
       "updatedDate": "2026-09-28",
@@ -3109,7 +3182,8 @@
     },
     {
       "businessName": "Minuteman Press digital print & design — St. Albert",
-      "category": "B2B services / print & marketing franchise",
+      "category": "Professional & Business Services",
+      "categoryDetail": "B2B services / print & marketing franchise",
       "summary": "Established B2B print, marketing and design business (Minuteman Press franchise) in St. Albert / Greater Edmonton, with long-term repeat clients, multiple revenue streams, normal business hours, and low inventory and overhead. Includes two weeks of franchisor training plus onsite support.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-10-05",
@@ -3150,7 +3224,8 @@
     },
     {
       "businessName": "North Edmonton pet retail franchise location",
-      "category": "Retail / pet store (franchise)",
+      "category": "Pet Services",
+      "categoryDetail": "Retail / pet store (franchise)",
       "summary": "Corporate pet retail franchise store in North Edmonton being offered to a franchise partner below typical new-build cost. Price reduced to $125k including inventory. Last-year sales $626,425; average ticket $64 vs system average $43. ~$100k down range to qualify.",
       "createdDate": "2026-09-28",
       "updatedDate": "2026-11-09",
@@ -3191,7 +3266,8 @@
     },
     {
       "businessName": "Roll-off bin business assets + active client list — Edmonton",
-      "category": "Waste / roll-off bin rental (asset sale)",
+      "category": "Home & Property Services",
+      "categoryDetail": "Waste / roll-off bin rental (asset sale)",
       "summary": "Asset sale of a roll-off bin operation with an active client list: 26 cable-lift bins (8, 10, 14 and 20 yd), a 2008 Fabrox triple-axle cable roll-off trailer, and a 2003 F550 with a cable roll-off system that needs work. About 60–70% of bins are on client sites year-round, serving builders and residential customers.",
       "createdDate": "2026-11-02",
       "updatedDate": "2026-11-02",
@@ -3232,7 +3308,8 @@
     },
     {
       "businessName": "INS Market franchise — West Edmonton Mall",
-      "category": "Retail / convenience franchise",
+      "category": "Retail",
+      "categoryDetail": "Retail / convenience franchise",
       "summary": "INS Market franchise inside WEM; high foot traffic; ~1,079 sq ft. MLS® E4442291.",
       "createdDate": "2026-09-20",
       "updatedDate": "2026-10-03",
@@ -3273,7 +3350,8 @@
     },
     {
       "businessName": "Medical clinic — Edmonton area (~1,000-patient panel)",
-      "category": "Health / medical clinic",
+      "category": "Health & Wellness",
+      "categoryDetail": "Health / medical clinic",
       "summary": "Medical practice in the Edmonton area for a physician to take over an existing client base (panel about 1,000). Anchor tenant, busy street, long history; space to grow. Suits a physician, nurse and front staff; pitched as a roll-up candidate in a fast-growing area.",
       "createdDate": "2026-10-26",
       "updatedDate": "2026-11-09",
@@ -3317,7 +3395,8 @@
     },
     {
       "businessName": "Infinity Mart convenience store franchise — downtown Edmonton",
-      "category": "Retail / convenience franchise",
+      "category": "Retail",
+      "categoryDetail": "Retail / convenience franchise",
       "summary": "Infinity Mart franchise opportunity at Jasper Avenue & 101 Street downtown Edmonton. Lottery approved; ~1,769 sq ft; 5+5 year lease; ~90-day possession. In-house financing options for qualified candidates. Training $2,500 / 2 weeks.",
       "createdDate": "2026-09-28",
       "updatedDate": "2026-11-02",
@@ -3358,7 +3437,8 @@
     },
     {
       "businessName": "Turnkey fishing & tackle retailer — Stony Plain",
-      "category": "Retail / fishing & outdoor specialty",
+      "category": "Retail",
+      "categoryDetail": "Retail / fishing & outdoor specialty",
       "summary": "Family-run specialty fishing and tackle store, the only dedicated tackle shop in the Tri-region (Stony Plain/Spruce Grove/Parkland). Developed from 2020 and selling at retail since 2022. Has a Shopify e-commerce site and is an AlbertaRELM hunting/fishing licence issuer. Last fiscal year revenue rose 13.5%, gross margin went from 39.9% to 44.4%, and operating income turned positive for the first time. About $24k of consigned Canadian Vendor Program stock is also in store.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-10-26",
@@ -3400,7 +3480,8 @@
     },
     {
       "businessName": "Chinese quick-service restaurant — Whyte Avenue near 109 St",
-      "category": "Food / Chinese quick-service restaurant",
+      "category": "Food",
+      "categoryDetail": "Food / Chinese quick-service restaurant",
       "summary": "Well-established Chinese QSR on Whyte Avenue just steps from 109 Street. About 1,500 sq. ft. with a fully equipped commercial kitchen, including a walk-in cooler and a 12-ft canopy. The listing says it is operating successfully with stable revenue, a favourable lease, and renewal options. The buyer can keep the concept or rebrand.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-11-16",
@@ -3441,7 +3522,8 @@
     },
     {
       "businessName": "Downtown Chinatown restaurant — turnkey",
-      "category": "Food / Vietnamese restaurant",
+      "category": "Food",
+      "categoryDetail": "Food / Vietnamese restaurant",
       "summary": "Fully equipped ~1,860+ sq ft, 50-seat downtown Chinatown restaurant. Includes commercial hood, walk-in cooler/freezer, woks, fryers, grills and dining fixtures. Motivated sale; suitable for various concepts.",
       "createdDate": "2026-09-28",
       "updatedDate": "2026-11-02",
@@ -3482,7 +3564,8 @@
     },
     {
       "businessName": "Turnkey salon & spa — Mill Woods / SE Edmonton",
-      "category": "Beauty / hair salon & spa",
+      "category": "Beauty",
+      "categoryDetail": "Beauty / hair salon & spa",
       "summary": "Fully set-up salon and spa in Mill Woods / Southeast Edmonton with 5 chairs, manicure and pedicure, plus a massage and laser setup. Turnkey.",
       "createdDate": "2026-10-19",
       "updatedDate": "2026-11-16",
@@ -3523,7 +3606,8 @@
     },
     {
       "businessName": "Hairland Beauty Supply & Salon",
-      "category": "Beauty / salon and retail",
+      "category": "Beauty",
+      "categoryDetail": "Beauty / salon and retail",
       "summary": "Turnkey two-level salon, barber, esthetics and retail beauty-products operation with multiple revenue streams.",
       "createdDate": "2026-09-21",
       "updatedDate": "2026-10-19",
@@ -3567,7 +3651,8 @@
     },
     {
       "businessName": "Nail salon — Ellerslie Rd SW",
-      "category": "Beauty / nail salon",
+      "category": "Beauty",
+      "categoryDetail": "Beauty / nail salon",
       "summary": "Well-established staffed nail salon with 8 pedicure chairs, 9 manicure stations, and a private waxing room. Team of 8 full-time employees; turnkey transition.",
       "createdDate": "2026-09-19",
       "updatedDate": "2026-10-03",
@@ -3608,7 +3693,8 @@
     },
     {
       "businessName": "Well-established paint and home blinds business",
-      "category": "Retail / home improvement services",
+      "category": "Retail",
+      "categoryDetail": "Retail / home improvement services",
       "summary": "Greater Edmonton paint, home-blinds, and related-accessories business serving homeowners and contractors for more than 29 years; inventory and custom-blinds equipment included.",
       "createdDate": "2026-09-21",
       "updatedDate": "2026-09-28",
@@ -3649,7 +3735,8 @@
     },
     {
       "businessName": "25-seat restaurant — Laurel, SE Edmonton (low rent)",
-      "category": "Restaurant / open concept",
+      "category": "Food",
+      "categoryDetail": "Restaurant / open concept",
       "summary": "Fully equipped restaurant with about 25 seats in Laurel, Southeast Edmonton. Pitched for Chinese, Filipino, sushi, Thai, Vietnamese or donair/fried-chicken concepts.",
       "createdDate": "2026-11-02",
       "updatedDate": "2026-11-16",
@@ -3690,7 +3777,8 @@
     },
     {
       "businessName": "Downtown Edmonton diner (café conversion potential)",
-      "category": "Food / diner",
+      "category": "Food",
+      "categoryDetail": "Food / diner",
       "summary": "Fully equipped restaurant in downtown Edmonton currently operating as a classic diner; layout suits conversion to café, coffee shop, breakfast spot or specialty food concept.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-10-19",
@@ -3731,7 +3819,8 @@
     },
     {
       "businessName": "Food court restaurant — burgers, sandwiches & coffee (Edmonton)",
-      "category": "Food / food court restaurant",
+      "category": "Food",
+      "categoryDetail": "Food / food court restaurant",
       "summary": "Restaurant in a busy food court serving burgers, sandwiches, wraps, milkshakes and specialty coffee. Marketed as an affordable entry for an owner-operator or family. Low rent $3,000 + GST/month.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-11-09",
@@ -3772,7 +3861,8 @@
     },
     {
       "businessName": "Fully equipped restaurant — Stony Plain Rd & 156 Street",
-      "category": "Food / restaurant (donair/shawarma-ready)",
+      "category": "Food",
+      "categoryDetail": "Food / restaurant (donair/shawarma-ready)",
       "summary": "Fully equipped, renovated restaurant of 1,900+ sq. ft. off Stony Plain Road and 156 Street, steps from the future LRT. Large kitchen with make-up air and a walk-in cooler and freezer. Low rent, a good lease term, and a 5-year option. Suited to donair or shawarma. The seller will train.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-10-05",
@@ -3813,7 +3903,8 @@
     },
     {
       "businessName": "Restaurant & grocery store combo — Edmonton",
-      "category": "Food / restaurant & grocery",
+      "category": "Food",
+      "categoryDetail": "Food / restaurant & grocery",
       "summary": "Fully fixtured restaurant and grocery store combination; operated ~10 years under previous ownership. Continue concept or convert (café, wine bar, specialty grocery, bakery, take-out).",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-10-19",
@@ -3854,7 +3945,8 @@
     },
     {
       "businessName": "Oodle Noodle franchise — 50 Street, Leduc",
-      "category": "Food / quick-service franchise (noodles)",
+      "category": "Food",
+      "categoryDetail": "Food / quick-service franchise (noodles)",
       "summary": "Established Oodle Noodle franchise on 50 Street in Leduc, operating about 13 years, with a 4.3-star Google rating. About 20 seats and a large, fully equipped kitchen. Full training and franchise support provided.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-10-19",
@@ -3895,7 +3987,8 @@
     },
     {
       "businessName": "Supplement King franchise — SW Edmonton",
-      "category": "Retail / supplements franchise",
+      "category": "Health & Wellness",
+      "categoryDetail": "Retail / supplements franchise",
       "summary": "Turnkey Supplement King franchise location in southwest Edmonton.",
       "createdDate": "2026-09-21",
       "updatedDate": "2026-10-26",
@@ -3939,7 +4032,8 @@
     },
     {
       "businessName": "Award-winning flower shop — Edmonton area",
-      "category": "Retail / florist",
+      "category": "Retail",
+      "categoryDetail": "Retail / florist",
       "summary": "Edmonton-area florist serving high-end clients: weddings, holidays, funerals, corporate events, walk-ins and wedding rentals. Preferred vendor for event planners and venues, with online ordering, delivery, and a large social following. Has won best-florist awards. 14 years established, 3 staff.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-11-09",
@@ -3986,7 +4080,8 @@
     },
     {
       "businessName": "Bubble tea franchise — southwest Edmonton",
-      "category": "Food / bubble tea franchise",
+      "category": "Food",
+      "categoryDetail": "Food / bubble tea franchise",
       "summary": "Well-known franchise bubble tea business in a high-traffic SW Edmonton neighbourhood. Simple menu, modern open design, serving bubble tea and snacks. The listing says sales are increasing. 1,151 sq. ft. with very reasonable rent.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-10-05",
@@ -4027,7 +4122,8 @@
     },
     {
       "businessName": "Liquor store — Sherwood Park",
-      "category": "Retail / liquor store",
+      "category": "Retail",
+      "categoryDetail": "Retail / liquor store",
       "summary": "Operating ~1,920–1,950 sq ft liquor store in Sherwood Park commercial area with residential traffic. Shelving, coolers, fixtures, POS and supplier relationships in place. Inventory and final structure negotiable.",
       "createdDate": "2026-09-28",
       "updatedDate": "2026-11-09",
@@ -4068,7 +4164,8 @@
     },
     {
       "businessName": "MSP client & vendor onboarding software (proof of concept) — Edmonton",
-      "category": "Technology / software asset",
+      "category": "Technology & Online",
+      "categoryDetail": "Technology / software asset",
       "summary": "Proof-of-concept onboarding app for managed service providers: onboarding templates, workflow automation, document management and collaboration. Sold as a software asset for a buyer to develop further. No operating revenue indicated.",
       "createdDate": "2026-10-26",
       "updatedDate": "2026-10-26",
@@ -4109,7 +4206,8 @@
     },
     {
       "businessName": "Southside Edmonton restaurant — 2,600 sq ft, 90+ seats",
-      "category": "Food / restaurant",
+      "category": "Food",
+      "categoryDetail": "Food / restaurant",
       "summary": "Well-established, fully equipped Southside restaurant: 2,600+ sq ft, 90+ seats. Price includes all kitchen fixtures/equipment (hood, walk-in cooler and freezer, woks, dishwasher, fryers, grills, tables, chairs).",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-11-09",
@@ -4150,7 +4248,8 @@
     },
     {
       "businessName": "Edmonton liquor store — business only",
-      "category": "Retail / liquor store",
+      "category": "Retail",
+      "categoryDetail": "Retail / liquor store",
       "summary": "Liquor store business-only opportunity at $155,000 + inventory.",
       "createdDate": "2026-09-20",
       "updatedDate": "2026-10-03",
@@ -4191,7 +4290,8 @@
     },
     {
       "businessName": "Window blinds & shutters franchise — Edmonton territory (startup)",
-      "category": "Home services / window coverings franchise",
+      "category": "Home & Property Services",
+      "categoryDetail": "Home services / window coverings franchise",
       "summary": "ABC-recruited startup franchise opportunity for blinds, shades, shutters, window film, curtains and draperies with protected exclusive territory. Not a resale of an existing operating business. Distinct from the Bridge-listed established paint & home blinds business (i=64).",
       "createdDate": "2026-10-19",
       "updatedDate": "2026-10-19",
@@ -4232,7 +4332,8 @@
     },
     {
       "businessName": "Window blinds & shutters franchise — Spruce Grove territory (startup)",
-      "category": "Home services / window coverings franchise",
+      "category": "Home & Property Services",
+      "categoryDetail": "Home services / window coverings franchise",
       "summary": "Home-based window coverings franchise territory (blinds, shades, shutters, film, draperies) marketed for Spruce Grove. Same franchisor ad template as the Edmonton-territory listing (i=83); no design experience needed; low overhead, no inventory.",
       "createdDate": "2026-10-26",
       "updatedDate": "2026-10-26",
@@ -4273,7 +4374,8 @@
     },
     {
       "businessName": "Vietnamese restaurant (vegetarian menu) — Jasper Avenue downtown",
-      "category": "Food / Vietnamese restaurant",
+      "category": "Food",
+      "categoryDetail": "Food / Vietnamese restaurant",
       "summary": "Well-established Vietnamese restaurant with almost 10 years in operation in a high-visibility downtown Edmonton corner location on Jasper Avenue. Business and asset sale only (property not included). Ground-floor corner unit with street exposure; bright dining area currently seats about 40; full commercial kitchen with exhaust; licensed for liquor; active on all three major food delivery platforms; assignable lease including 4 rear parking stalls. Current menu is fully vegetarian; new owner can continue or expand the offering. Listing says walk-in and delivery traffic have been unaffected by ongoing LRT construction.",
       "createdDate": "2026-10-19",
       "updatedDate": "2026-10-19",
@@ -4318,7 +4420,8 @@
     },
     {
       "businessName": "Landscaping & snow removal",
-      "category": "Outdoor / landscaping & snow removal",
+      "category": "Home & Property Services",
+      "categoryDetail": "Outdoor / landscaping & snow removal",
       "summary": "Founded 2020. Residential and commercial landscaping plus snow removal with recurring contracts, including multi-site commercial. Turnkey with equipment, contracts, and systems; lean mobile model.",
       "createdDate": "2026-09-19",
       "updatedDate": "2026-10-26",
@@ -4362,7 +4465,8 @@
     },
     {
       "businessName": "Licensed 96-seat restaurant — downtown Leduc (17 years)",
-      "category": "Food / full-service restaurant",
+      "category": "Food",
+      "categoryDetail": "Food / full-service restaurant",
       "summary": "Well-known, highly visible restaurant in downtown Leduc, owner-operated for 17 years, with steady clientele. Liquor licence, 96 seats, about 2,300 sq. ft. Low rent. Fully equipped kitchen with many new items.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-10-05",
@@ -4403,7 +4507,8 @@
     },
     {
       "businessName": "Pizza & donair franchise — Leduc (business only)",
-      "category": "Restaurant / pizza & donair franchise",
+      "category": "Food",
+      "categoryDetail": "Restaurant / pizza & donair franchise",
       "summary": "Pizza and donair franchise business in a well-trafficked commercial plaza in Leduc, surrounded by residential neighbourhoods and established tenants. About 1,000 sq ft with strong visibility. It has a solid local following, steady sales and an attractive lease. Room to grow with longer hours, delivery or more menu items. Business only, no real estate.",
       "createdDate": "2026-10-26",
       "updatedDate": "2026-10-26",
@@ -4450,7 +4555,8 @@
     },
     {
       "businessName": "Business listing — 326 Saddleback Rd NW",
-      "category": "Business (verify type)",
+      "category": "Other",
+      "categoryDetail": "Business (verify type)",
       "summary": "Edmonton business listing at $175,000 via MaxWell Challenge Realty. Full category not confirmed.",
       "createdDate": "2026-09-20",
       "updatedDate": "2026-10-05",
@@ -4491,7 +4597,8 @@
     },
     {
       "businessName": "Pub & live-music venue with VLTs — Hermitage Rd, NE Edmonton",
-      "category": "Hospitality / bar, pub & restaurant",
+      "category": "Food",
+      "categoryDetail": "Hospitality / bar, pub & restaurant",
       "summary": "Established pub and live-music venue in operation since 2008 in NE Edmonton. 4,800 sq ft, 151 capacity inside plus a deck for 25-28 (the city is rebuilding the deck next spring). Stage, sound board and equipment, VLTs, kitchen with walk-in cooler, pizza oven, flat-top grill, flame-broil grill and deep fryer. Interior and washroom renovations 2021, exterior 2023.",
       "createdDate": "2026-10-19",
       "updatedDate": "2026-11-09",
@@ -4533,7 +4640,8 @@
     },
     {
       "businessName": "Restaurant space (bring your own concept) — Magrath Heights, SW Edmonton",
-      "category": "Food / restaurant asset sale",
+      "category": "Food",
+      "categoryDetail": "Food / restaurant asset sale",
       "summary": "Fully built-out restaurant in Magrath Heights, SW Edmonton, with a complete commercial kitchen, dining area, and leasehold improvements. Marketed for a buyer launching their own concept. The listing cites a certified appraisal of the assets at $429,000 ($138,000 equipment plus $291,000 leasehold improvements).",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-10-05",
@@ -4574,7 +4682,8 @@
     },
     {
       "businessName": "University coffee shop franchise — inside an Edmonton university",
-      "category": "Food & beverage / coffee shop franchise",
+      "category": "Food",
+      "categoryDetail": "Food & beverage / coffee shop franchise",
       "summary": "Franchise coffee shop located inside an Edmonton university, established 2023. Sales driven by students; summer can run with one staff. Lease is 15% of sales with ~1.5 years remaining plus a 5-year renewal option; offer can be conditional on lease extension. Owner-operator required for franchisor approval.",
       "createdDate": "2026-10-26",
       "updatedDate": "2026-10-26",
@@ -4615,7 +4724,8 @@
     },
     {
       "businessName": "Buster's Pizza franchise location — Edmonton",
-      "category": "Food / pizza franchise",
+      "category": "Food",
+      "categoryDetail": "Food / pizza franchise",
       "summary": "Buster's Pizza franchise location in a very busy Edmonton location with a good lease in place. Marketed as priced well below book value; $199,000 or best offer.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-10-26",
@@ -4656,7 +4766,8 @@
     },
     {
       "businessName": "Pizza Italian Restaurant — Downtown Edmonton",
-      "category": "Food / Italian restaurant",
+      "category": "Food",
+      "categoryDetail": "Food / Italian restaurant",
       "summary": "Italian pizza restaurant opportunity in downtown Edmonton.",
       "createdDate": "2026-09-21",
       "updatedDate": "2026-10-05",
@@ -4700,7 +4811,8 @@
     },
     {
       "businessName": "Drive-thru business (no franchise) — Edmonton T6T",
-      "category": "Food / drive-thru restaurant",
+      "category": "Food",
+      "categoryDetail": "Food / drive-thru restaurant",
       "summary": "Established business with a drive-thru in a desirable Edmonton location (southeast, T6T). Business sale only; no franchise name or rights included. Recent interior renovations. Equipment, fixtures, and furnishings may be included, subject to negotiation.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-11-16",
@@ -4741,7 +4853,8 @@
     },
     {
       "businessName": "Premium tattoo studio with booking systems — Greater Edmonton",
-      "category": "Personal services / tattoo studio",
+      "category": "Beauty",
+      "categoryDetail": "Personal services / tattoo studio",
       "summary": "Established (2018) tattoo studio in the Greater Edmonton area with active artist team, admin/client support, online booking/deposit/reminder systems and strong local-search presence. Gross tattoo revenue close to $500k/yr. ~3,000 sq ft leased studio; 9 employees; 7 days/week. Confidential asset sale.",
       "createdDate": "2026-10-26",
       "updatedDate": "2026-10-26",
@@ -4782,7 +4895,8 @@
     },
     {
       "businessName": "Tanning & lash studio franchise — central Edmonton",
-      "category": "Beauty / tanning & lash franchise",
+      "category": "Beauty",
+      "categoryDetail": "Beauty / tanning & lash franchise",
       "summary": "Tanning and lash studio franchise since ~2014/2019; SDE $59,749 for 8 months (full year higher). ~1,500 sq ft. Lease to June 2027 with renewal option.",
       "createdDate": "2026-09-20",
       "updatedDate": "2026-09-20",
@@ -4823,7 +4937,8 @@
     },
     {
       "businessName": "Turnkey digital advertising & marketing company — Edmonton (home-based)",
-      "category": "Marketing / advertising services",
+      "category": "Professional & Business Services",
+      "categoryDetail": "Marketing / advertising services",
       "summary": "Home-based digital advertising business with subscription-cycle advertisers, an equipment package and access to national accounts. Also offers social media, traditional advertising and SEO. Can be owner-operated or semi-passive.",
       "createdDate": "2026-11-02",
       "updatedDate": "2026-11-02",
@@ -4864,7 +4979,8 @@
     },
     {
       "businessName": "Pilates and fitness studio — Edmonton",
-      "category": "Fitness / Pilates studio",
+      "category": "Fitness",
+      "categoryDetail": "Fitness / Pilates studio",
       "summary": "25+ year Pilates and fitness business with high-end apparatus (Chairs, Reformers, Cadillacs, MOTR). Revenue model includes group classes, private rehabilitation, and a nationally recognized teacher training program. Loyal long-term client base; clinical and athletic Pilates reputation.",
       "createdDate": "2026-09-28",
       "updatedDate": "2026-10-19",
@@ -4905,7 +5021,8 @@
     },
     {
       "businessName": "Established & profitable pet store franchise — Edmonton",
-      "category": "Retail / pet store franchise",
+      "category": "Pet Services",
+      "categoryDetail": "Retail / pet store franchise",
       "summary": "Turnkey Edmonton pet-store franchise resale operating for more than seven years, with national franchise support and an owner-operator model.",
       "createdDate": "2026-09-21",
       "updatedDate": "2026-11-02",
@@ -4950,7 +5067,8 @@
     },
     {
       "businessName": "Established pizza & donair shop — south Edmonton (T6E 6C7)",
-      "category": "Food / pizza & donair",
+      "category": "Food",
+      "categoryDetail": "Food / pizza & donair",
       "summary": "Well-loved, turnkey pizza and donair shop in a high-foot-traffic area. About 1,200 sq. ft. with a fully equipped kitchen. All equipment and inventory are included.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-10-19",
@@ -4991,7 +5109,8 @@
     },
     {
       "businessName": "Motor sports parts & service business (since 1996) — Edmonton",
-      "category": "Automotive / powersports salvage parts & repair",
+      "category": "Automotive",
+      "categoryDetail": "Automotive / powersports salvage parts & repair",
       "summary": "Edmonton-based motor sports parts and service business with customers across North America, established in 1996. Specializes in used salvage parts, new aftermarket parts and repair. Sale includes hundreds of snowmobiles, ATVs and motorcycles in a half-acre yard, about 5,500 sq ft more of new and used parts, shop equipment (compressor, air-over-hydraulic tables, balancers, tire machine, parts washer) and racking.",
       "createdDate": "2026-10-19",
       "updatedDate": "2026-11-02",
@@ -5032,7 +5151,8 @@
     },
     {
       "businessName": "Bar Burrito franchise — Premium Outlet Collection Edmonton International Airport",
-      "category": "Food / quick-service franchise",
+      "category": "Food",
+      "categoryDetail": "Food / quick-service franchise",
       "summary": "Bar Burrito franchise inside the Premium Outlet Collection at Edmonton International Airport, built in 2018. Serves customizable burritos, bowls, tacos, and quesadillas. The listing cites strong shopper and visitor traffic.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-10-05",
@@ -5073,7 +5193,8 @@
     },
     {
       "businessName": "Donair & poutine restaurant (Halal Mediterranean) — Ellerslie SW",
-      "category": "Food / donair & Mediterranean QSR",
+      "category": "Food",
+      "categoryDetail": "Food / donair & Mediterranean QSR",
       "summary": "Fully equipped Halal Mediterranean fast-food restaurant in Ellerslie, South Edmonton: beef donair, chicken shawarma, halal burgers, wings, salads, poutine. Dine-in and takeout; delivery across Ellerslie, Summerside, Charlesworth and Walker. Marketed as well below replacement cost.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-10-19",
@@ -5114,7 +5235,8 @@
     },
     {
       "businessName": "Gibbons Liquor Loft",
-      "category": "Retail / liquor store",
+      "category": "Retail",
+      "categoryDetail": "Retail / liquor store",
       "summary": "Turnkey 1,260 SF liquor store in downtown Gibbons strip plaza. Includes coolers, POS, security, shelving. Supplies adjacent pub and restaurant accounts. Asking price plus inventory.",
       "createdDate": "2026-09-20",
       "updatedDate": "2026-10-05",
@@ -5155,7 +5277,8 @@
     },
     {
       "businessName": "Modern Asian bistro (Hong Kong / Asian fusion) — downtown Edmonton",
-      "category": "Food / full-service restaurant",
+      "category": "Food",
+      "categoryDetail": "Food / full-service restaurant",
       "summary": "Renovated downtown restaurant (high-end interior finished about two years ago) operating as a modern Asian bistro with Hong Kong-inspired and fusion cuisine. About 2,800 sq. ft. with 65+ seats, a private dining room, free parking, and a fully equipped kitchen. The listing cites attractive lease terms and reasonable rent.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-10-05",
@@ -5196,7 +5319,8 @@
     },
     {
       "businessName": "Pizza restaurant space (assets only) — South Edmonton",
-      "category": "Food / pizza (assets / vacant concept)",
+      "category": "Food",
+      "categoryDetail": "Food / pizza (assets / vacant concept)",
       "summary": "Fully equipped pizza restaurant space in South Edmonton with functional kitchen and leasehold improvements in a busy commercial area with strong residential density. Sale includes equipment, fixtures, and leasehold improvements only — existing business and business name are not included. Opportunity to establish buyer’s own concept.",
       "createdDate": "2026-09-28",
       "updatedDate": "2026-11-02",
@@ -5237,7 +5361,8 @@
     },
     {
       "businessName": "Turnkey restaurant (~1,050 sq ft, 30 seats) — Edmonton",
-      "category": "Food / restaurant",
+      "category": "Food",
+      "categoryDetail": "Food / restaurant",
       "summary": "About 1,050 sq. ft. restaurant with 10 tables (30 seats) in a busy area with a large parking lot, low rent, and favourable lease terms. Fully equipped kitchen: 14-ft hood, make-up air, 6-burner range, griddle, char broiler, two fryers, a Rational combi oven, refrigeration, and a dishwasher. All appliances are under 1 year old. The business has operated about 7 months. The chef may stay, or training can be provided. NDA required.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-10-05",
@@ -5278,7 +5403,8 @@
     },
     {
       "businessName": "Macao Imperial Tea franchise — Edmonton strip mall",
-      "category": "Food / bubble tea & restaurant franchise",
+      "category": "Food",
+      "categoryDetail": "Food / bubble tea & restaurant franchise",
       "summary": "Established Macao Imperial Tea franchise in a vibrant neighbourhood strip mall. Fully operational with all equipment included. Attractive lease with a renewal option. 1,282 sq. ft.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-10-19",
@@ -5322,7 +5448,8 @@
     },
     {
       "businessName": "Quick-service restaurant location — Sherwood Park",
-      "category": "Food / quick-service restaurant",
+      "category": "Food",
+      "categoryDetail": "Food / quick-service restaurant",
       "summary": "Existing ~473 sq. ft. restaurant location in a well-established Greater Edmonton market (Sherwood Park) with an attractive monthly rent structure. Suits quick-service or fast-casual concepts. The buyer may continue the current concept (subject to approvals) or re-use the infrastructure, with landlord approval.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-10-05",
@@ -5363,7 +5490,8 @@
     },
     {
       "businessName": "Press'd Sandwich Kitchen franchise",
-      "category": "Food / sandwich franchise",
+      "category": "Food",
+      "categoryDetail": "Food / sandwich franchise",
       "summary": "Established Press’d Sandwich Kitchen franchise in North Edmonton near 127th Street. Equipment, furniture and fixtures included.",
       "createdDate": "2026-09-21",
       "updatedDate": "2026-10-03",
@@ -5404,7 +5532,8 @@
     },
     {
       "businessName": "Fast food restaurant — metro Edmonton (30+ years)",
-      "category": "Food / quick-service restaurant",
+      "category": "Food",
+      "categoryDetail": "Food / quick-service restaurant",
       "summary": "Profitable quick-service restaurant brand in metro Edmonton operating 30+ years. Strong lunch/clientele reputation; turnkey; food management experience required.",
       "createdDate": "2026-09-28",
       "updatedDate": "2026-11-09",
@@ -5451,7 +5580,8 @@
     },
     {
       "businessName": "Medical clinic business — Edmonton",
-      "category": "Health / medical clinic",
+      "category": "Health & Wellness",
+      "categoryDetail": "Health / medical clinic",
       "summary": "Well-established appointment-only medical clinic in Edmonton with a robust patient base and family atmosphere, managed by one GP for 30+ years. Open Monday–Friday; growth potential via walk-ins and weekend hours. Buyer must be a physician.",
       "createdDate": "2026-09-28",
       "updatedDate": "2026-09-28",
@@ -5492,7 +5622,8 @@
     },
     {
       "businessName": "Water treatment sales & service business — small-town Alberta (45+ years)",
-      "category": "Home & commercial services / water treatment",
+      "category": "Home & Property Services",
+      "categoryDetail": "Home & commercial services / water treatment",
       "summary": "Full-service residential/commercial/industrial water treatment business (since 1980) offering design, installation, after-sales service for all brands, and filter/parts/media stock. Mobile operation run from home with trailers and truck.",
       "createdDate": "2026-10-26",
       "updatedDate": "2026-10-26",
@@ -5533,7 +5664,8 @@
     },
     {
       "businessName": "Fast food franchise — Edmonton south central",
-      "category": "Food / fast food franchise",
+      "category": "Food",
+      "categoryDetail": "Food / fast food franchise",
       "summary": "Cash-flowing fast food franchise; sales $425,751; SDE $92,858. Rent ~$4,700/mo all-in. Brand disclosed after NDA. Est. 2021.",
       "createdDate": "2026-09-20",
       "updatedDate": "2026-10-05",
@@ -5575,7 +5707,8 @@
     },
     {
       "businessName": "High-volume liquor store — south Edmonton",
-      "category": "Retail / liquor store",
+      "category": "Retail",
+      "categoryDetail": "Retail / liquor store",
       "summary": "High-volume liquor store in a high-traffic south Edmonton location with an extra-large cooler and an established repeat clientele. Inventory is included in the asking price.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-11-02",
@@ -5616,7 +5749,8 @@
     },
     {
       "businessName": "Online retail gift basket company",
-      "category": "Online retail / gift baskets",
+      "category": "Retail",
+      "categoryDetail": "Online retail / gift baskets",
       "summary": "Online retail gift basket company serving the Edmonton market since 2013 (13 years at time of listing summary).",
       "createdDate": "2026-09-19",
       "updatedDate": "2026-10-03",
@@ -5657,7 +5791,8 @@
     },
     {
       "businessName": "barBURRITO franchise resale — Brintnell (167 Ave), NE Edmonton",
-      "category": "Restaurant / quick-service franchise",
+      "category": "Food",
+      "categoryDetail": "Restaurant / quick-service franchise",
       "summary": "Existing barBURRITO in a grocery-anchored plaza in Brintnell, NE Edmonton, on 167 Avenue near Manning Drive and Anthony Henday. 1,095 sq ft endcap unit; immediate possession. Cash requirement $85,000 with balance financed.",
       "createdDate": "2026-10-26",
       "updatedDate": "2026-11-16",
@@ -5698,7 +5833,8 @@
     },
     {
       "businessName": "Modern turnkey café — high-traffic retail corridor",
-      "category": "Food / café",
+      "category": "Food",
+      "categoryDetail": "Food / café",
       "summary": "Fully operational ~1,000 sq ft modern café with high-end buildout, prep kitchen (no hood fan required), branded equipment, and 3–4 trained staff. Immediate possession marketed. Summer farmers-market presence noted.",
       "createdDate": "2026-09-19",
       "updatedDate": "2026-09-28",
@@ -5742,7 +5878,8 @@
     },
     {
       "businessName": "Pet specialty franchise store — West Edmonton",
-      "category": "Retail / pet store (franchise)",
+      "category": "Pet Services",
+      "categoryDetail": "Retail / pet store (franchise)",
       "summary": "Established pet specialty franchise in growing West Edmonton community. 1,024 sq ft merchandised store offering premium pet food, treats, accessories. Asking $210,000 includes ~$80,000 wholesale inventory. Lease extends to March 2032. Franchisor approval and NDA required.",
       "createdDate": "2026-09-28",
       "updatedDate": "2026-10-05",
@@ -5783,7 +5920,8 @@
     },
     {
       "businessName": "Busy tattoo & piercing shop",
-      "category": "Beauty / tattoo & piercing",
+      "category": "Beauty",
+      "categoryDetail": "Beauty / tattoo & piercing",
       "summary": "Well-established tattoo and piercing parlor with loyal clientele, strong online presence, and experienced artists. Fully equipped; seller offers training and ongoing support.",
       "createdDate": "2026-09-20",
       "updatedDate": "2026-09-28",
@@ -5824,7 +5962,8 @@
     },
     {
       "businessName": "Quick-service Mexican franchise restaurant — Ellerslie Rd SW",
-      "category": "Food / Mexican QSR franchise",
+      "category": "Food",
+      "categoryDetail": "Food / Mexican QSR franchise",
       "summary": "Profitable quick-service Mexican-inspired restaurant under a recognizable franchise concept on Ellerslie Rd SW. Fully equipped and turnkey; growth via local marketing, catering, delivery platforms and community outreach. Financials on inquiry.",
       "createdDate": "2026-10-26",
       "updatedDate": "2026-10-26",
@@ -5868,7 +6007,8 @@
     },
     {
       "businessName": "Burrito franchise resale — West Edmonton",
-      "category": "Restaurant / quick-service franchise",
+      "category": "Food",
+      "categoryDetail": "Restaurant / quick-service franchise",
       "summary": "Low-cost-of-entry burrito franchise location in West Edmonton, opened 2023. Last year's sales $515,298 with $51,840 SDE; manager salary could be replaced by an owner-operator (required by franchisor). Long-term lease.",
       "createdDate": "2026-10-26",
       "updatedDate": "2026-10-26",
@@ -5909,7 +6049,8 @@
     },
     {
       "businessName": "Multi-business commercial — Strathcona Industrial Park",
-      "category": "Commercial / multi-business (restaurant, courier, U-Haul, lottery)",
+      "category": "Other",
+      "categoryDetail": "Commercial / multi-business (restaurant, courier, U-Haul, lottery)",
       "summary": "Corner commercial property with restaurant, courier, U-Haul dealership, lottery. ~2,012 sq ft; built 1990. MLS® E4440541.",
       "createdDate": "2026-09-20",
       "updatedDate": "2026-10-03",
@@ -5950,7 +6091,8 @@
     },
     {
       "businessName": "OPA! of Greece food court franchise — Edmonton mall",
-      "category": "Food / Greek QSR franchise",
+      "category": "Food",
+      "categoryDetail": "Food / Greek QSR franchise",
       "summary": "OPA! of Greece franchise in the food court of one of Edmonton’s busiest shopping malls. Turnkey, fully equipped; franchisor approval required. Seller reports gross sales ~CAD 970k (2023), ~CAD 1.03M (2024), ~CAD 930k (2025). Business assets only; no real property. Financials under NDA for qualified buyers. Do not approach staff.",
       "createdDate": "2026-09-28",
       "updatedDate": "2026-09-28",
@@ -5991,7 +6133,8 @@
     },
     {
       "businessName": "Newly established 44-seat restaurant — West Costco area",
-      "category": "Food / restaurant",
+      "category": "Food",
+      "categoryDetail": "Food / restaurant",
       "summary": "Newly established, 1,596 sq. ft. restaurant with 44 seats and brand-new full-size kitchen equipment in the West Costco area, near River Cree Casino, Granville, and the new rec centre. Quick sale. Base rent about $5,500/month; total about $8,384.90/month plus utilities.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-10-19",
@@ -6032,7 +6175,8 @@
     },
     {
       "businessName": "Wok Box franchise — Ellerslie Road SW",
-      "category": "Food / quick-service franchise",
+      "category": "Food",
+      "categoryDetail": "Food / quick-service franchise",
       "summary": "Turnkey Wok Box business in a high-traffic plaza; potential to add up to two ghost kitchens. Financial statements require NDA.",
       "createdDate": "2026-09-21",
       "updatedDate": "2026-10-03",
@@ -6073,7 +6217,8 @@
     },
     {
       "businessName": "CVIP-approved truck repair shop — South Edmonton",
-      "category": "Automotive / truck repair",
+      "category": "Automotive",
+      "categoryDetail": "Automotive / truck repair",
       "summary": "Profitable established CVIP-approved truck repair shop in South Edmonton (~5,500 sq ft), fully equipped with tools, parts/inventory and office furniture included. Operating below capacity due to owners' other ventures; growth potential for hands-on owner or fleet-account development. 2 employees (continued employment not guaranteed).",
       "createdDate": "2026-10-19",
       "updatedDate": "2026-10-26",
@@ -6114,7 +6259,8 @@
     },
     {
       "businessName": "Chinese restaurant & VLT lounge — Sherwood Park (Broadmoor Centre)",
-      "category": "Food / Chinese restaurant with lounge (VLTs)",
+      "category": "Food",
+      "categoryDetail": "Food / Chinese restaurant with lounge (VLTs)",
       "summary": "Operating Chinese restaurant with 8 VLTs in the lounge. Dining room seats 150+ plus a private party room. Full kitchen with walk-in cooler and freezer, plenty of parking. Reasonable rent to Aug 2029 plus a 5-year renewal option.",
       "createdDate": "2026-10-26",
       "updatedDate": "2026-10-26",
@@ -6155,7 +6301,8 @@
     },
     {
       "businessName": "Specialty pet retail franchise with grooming & self-wash — NW Edmonton",
-      "category": "Retail / pet store (franchise)",
+      "category": "Pet Services",
+      "categoryDetail": "Retail / pet store (franchise)",
       "summary": "Well-established specialty pet retail franchise in NW Edmonton, operating 10+ years, with a full-service grooming studio and an in-store self-wash. About 2,250 sq. ft. The ask includes about $150,000 of equipment, about $80,000 of inventory, training, and franchise licensing. Lease runs through 2043 with options. The franchisor requires $60k–$75k unencumbered funds. NDA required. Do not approach staff.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-10-05",
@@ -6196,7 +6343,8 @@
     },
     {
       "businessName": "Pizza store — North Edmonton shopping centre",
-      "category": "Food / pizza",
+      "category": "Food",
+      "categoryDetail": "Food / pizza",
       "summary": "Well-established pizza store in a busy North Edmonton shopping centre with strong anchor tenants; regular bulk orders from a nearby school and military in addition to regular customers.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-10-05",
@@ -6237,7 +6385,8 @@
     },
     {
       "businessName": "Turnkey Pizza/Cafe near WEM",
-      "category": "Food / pizza and cafe",
+      "category": "Food",
+      "categoryDetail": "Food / pizza and cafe",
       "summary": "Turnkey pizza/cafe near West Edmonton Mall with modern build-out.",
       "createdDate": "2026-09-21",
       "updatedDate": "2026-11-16",
@@ -6284,7 +6433,8 @@
     },
     {
       "businessName": "Oodle Noodle franchise — Southfort, Fort Saskatchewan",
-      "category": "Food / quick-service franchise (noodles)",
+      "category": "Food",
+      "categoryDetail": "Food / quick-service franchise (noodles)",
       "summary": "Well-established Oodle Noodle franchise in Fort Saskatchewan's Southfort retail district. Modern dining area, commercial kitchen, and dine-in, takeout, and third-party delivery. Leased premises. Financials and lease details come after an NDA. The sale is subject to landlord and franchisor approval. Do not approach staff.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-11-09",
@@ -6325,7 +6475,8 @@
     },
     {
       "businessName": "Home inspection franchise business",
-      "category": "Professional services / home inspection franchise",
+      "category": "Professional & Business Services",
+      "categoryDetail": "Professional services / home inspection franchise",
       "summary": "Established home-inspection franchise with Edmonton and surrounding-area territory, special inspection equipment, branded vehicles, website, franchisor training, and expansion potential.",
       "createdDate": "2026-09-21",
       "updatedDate": "2026-11-09",
@@ -6375,7 +6526,8 @@
     },
     {
       "businessName": "Coffee shop — 8278 175 St NW (near WEM)",
-      "category": "Business (verify type)",
+      "category": "Other",
+      "categoryDetail": "Business (verify type)",
       "summary": "Turnkey coffee shop near West Edmonton Mall with strong social media, loyal clientele, affordable lease, parking, and future LRT proximity. Equipped including draft beer taps; liquor license would need new-owner application. Modern trendy interior; operate as-is or rebrand.",
       "createdDate": "2026-09-20",
       "updatedDate": "2026-11-09",
@@ -6424,7 +6576,8 @@
     },
     {
       "businessName": "Medical aesthetics clinic",
-      "category": "Health / medical aesthetics",
+      "category": "Beauty",
+      "categoryDetail": "Health / medical aesthetics",
       "summary": "Operating 13+ years. Noninvasive treatments including laser hair removal, advanced skin therapies, RF microneedling, electrolysis, spider vein treatments. Loyal client base, medical-grade equipment, trained staff, strong online reviews. Long-term lease; turnkey with transition support.",
       "createdDate": "2026-09-20",
       "updatedDate": "2026-10-05",
@@ -6468,7 +6621,8 @@
     },
     {
       "businessName": "Distilling equipment and craft spirit brand",
-      "category": "Manufacturing / distillery assets",
+      "category": "Manufacturing",
+      "categoryDetail": "Manufacturing / distillery assets",
       "summary": "Opportunity to acquire distilling equipment plus an established liquor brand and exclusive recipes. Marketed as Edmonton-area distillery asset/brand package on DealStream.",
       "createdDate": "2026-09-20",
       "updatedDate": "2026-10-26",
@@ -6513,7 +6667,8 @@
     },
     {
       "businessName": "Kitchen & bath renovation business — Edmonton",
-      "category": "Construction / kitchen & bath renovation",
+      "category": "Construction & Trades",
+      "categoryDetail": "Construction / kitchen & bath renovation",
       "summary": "High-end residential and commercial kitchen and bath renovation business with in-house custom designs; typical projects $40K–$200K. Revenue $527K (2022) and $563K (2023); normalized EBIT nearly $125K (2023). Online marketing, high referral rate, experienced team (10+ yrs).",
       "createdDate": "2026-10-26",
       "updatedDate": "2026-10-26",
@@ -6554,7 +6709,8 @@
     },
     {
       "businessName": "Oxford Learning franchise — Edmonton",
-      "category": "Education / tutoring franchise",
+      "category": "Education & Childcare",
+      "categoryDetail": "Education / tutoring franchise",
       "summary": "Established Oxford Learning supplemental-education franchise in a busy family-oriented plaza on a high-traffic Edmonton corridor. Fully built out, with 6 part-time teachers (four French-speaking) covering six high school subjects. Absentee-run now, with growth room for an owner-operator (Little Readers, ESL). Seller financing available.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-11-02",
@@ -6595,7 +6751,8 @@
     },
     {
       "businessName": "Growing and profitable landscape business — Edmonton (Helix)",
-      "category": "Outdoor / landscaping",
+      "category": "Home & Property Services",
+      "categoryDetail": "Outdoor / landscaping",
       "summary": "Edmonton landscaping business established in 2013 with strong online presence (4.7 Google rating), proven systems, estimating/accounting software, and manuals. Seasonal sales historically in the CAD 400–450k range per marketing copy; published sales revenue CAD 307,333 and cash flow CAD 167,000. Home-based with equipment stored at a secure yard on the city outskirts. Owner training offered (about three months). Sellers reducing price as they pursue new ventures. Distinct from Bridge’s separate landscaping & snow-removal listing (founded 2020, ask CAD 167,000).",
       "createdDate": "2026-09-28",
       "updatedDate": "2026-09-28",
@@ -6636,7 +6793,8 @@
     },
     {
       "businessName": "Turnkey coffee shop — 10844 82 Avenue NW",
-      "category": "Food / coffee shop",
+      "category": "Food",
+      "categoryDetail": "Food / coffee shop",
       "summary": "Well-established turnkey coffee shop in a high-traffic area near the University of Alberta.",
       "createdDate": "2026-09-21",
       "updatedDate": "2026-11-02",
@@ -6680,7 +6838,8 @@
     },
     {
       "businessName": "Basha Donair & Shawarma franchise — St. Albert (opposite Costco)",
-      "category": "Food / quick-service franchise (Mediterranean)",
+      "category": "Food",
+      "categoryDetail": "Food / quick-service franchise (Mediterranean)",
       "summary": "Established Basha Donair & Shawarma franchise in a high-traffic St. Albert retail plaza opposite Costco. About 1,200 sq. ft., fully equipped, with franchise HQ support and a competitive lease.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-10-26",
@@ -6721,7 +6880,8 @@
     },
     {
       "businessName": "Established restaurant — 2912 Ellwood Dr SW (Ellerslie/Ellwood)",
-      "category": "Food / restaurant",
+      "category": "Food",
+      "categoryDetail": "Food / restaurant",
       "summary": "Turnkey restaurant in South Edmonton (Ellerslie/Ellwood) with strong brand recognition and loyal clientele. The business uses a fully equipped 1,416 sq. ft. main floor, with an optional 500 sq. ft. second floor for office use. Full financials available after an NDA.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-10-26",
@@ -6765,7 +6925,8 @@
     },
     {
       "businessName": "75-seat restaurant with party hall — Ellerslie, SW Edmonton",
-      "category": "Food / restaurant & party hall",
+      "category": "Food",
+      "categoryDetail": "Food / restaurant & party hall",
       "summary": "Spacious 75-seat dine-in restaurant with an additional party hall option in the Ellerslie area, South Edmonton. Fully equipped; cuisine can change with landlord approval. Price reduced $100,000 (from $349,000) for quick sale; motivated seller.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-11-09",
@@ -6806,7 +6967,8 @@
     },
     {
       "businessName": "Burger QSR asset sale — Edmonton (drive-thru)",
-      "category": "Food / burger QSR",
+      "category": "Food",
+      "categoryDetail": "Food / burger QSR",
       "summary": "High-quality turnkey burger QSR premises asset sale in Edmonton with drive-thru. Concept change possible with landlord approval.",
       "createdDate": "2026-09-28",
       "updatedDate": "2026-10-26",
@@ -6850,7 +7012,8 @@
     },
     {
       "businessName": "Edmonton-area HVAC service business",
-      "category": "HVAC / contracting",
+      "category": "Construction & Trades",
+      "categoryDetail": "HVAC / contracting",
       "summary": "Established HVAC service business serving residential and commercial customers, including new construction, renovations, basement suites and custom projects.",
       "createdDate": "2026-09-21",
       "updatedDate": "2026-11-16",
@@ -6896,7 +7059,8 @@
     },
     {
       "businessName": "Fabutan franchise tanning salon — Edmonton",
-      "category": "Beauty / tanning franchise",
+      "category": "Beauty",
+      "categoryDetail": "Beauty / tanning franchise",
       "summary": "Fabutan tanning salon (franchise since 1979) run 15 years by the current owner, who built 3 locations and is retiring. Sales were $242,936 in 2022, $250,975 in 2023 and $233,914 in 2024, with average 2022–2024 SDE of about $103,000 for an owner-operator. Can be run absentee with 1 FT manager and 2 PT staff. 998 sq ft; lease recently renewed with 4.5 yrs left. 4.2 stars from 237 Google reviews. Red light therapy offered.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-10-05",
@@ -6940,7 +7104,8 @@
     },
     {
       "businessName": "Near-new donair/pita restaurant — Windermere plaza",
-      "category": "Food / donair & pita QSR",
+      "category": "Food",
+      "categoryDetail": "Food / donair & pita QSR",
       "summary": "Almost brand-new restaurant in a high-traffic Windermere (South Edmonton) plaza near Canadian Tire, Carl's Jr., Papa Johns, Denny's, Popeyes. 15-seat dine-in; spacious commercial kitchen; currently donair, pitas, poutines. Cuisine change needs landlord approval.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-11-09",
@@ -6982,7 +7147,8 @@
     },
     {
       "businessName": "Quick-service restaurant — Spruce Grove",
-      "category": "Food / quick-service restaurant",
+      "category": "Food",
+      "categoryDetail": "Food / quick-service restaurant",
       "summary": "Turnkey 45-seat QSR in Spruce Grove with Highway 16A exposure. Well-equipped commercial kitchen; currently burgers, wraps and milkshakes; flexibility to change cuisine.",
       "createdDate": "2026-09-28",
       "updatedDate": "2026-10-05",
@@ -7023,7 +7189,8 @@
     },
     {
       "businessName": "Shawarma restaurant — Ad Astra Blvd area (T5E)",
-      "category": "Food / shawarma",
+      "category": "Food",
+      "categoryDetail": "Food / shawarma",
       "summary": "Turnkey shawarma business, 1,400+ sq. ft., fully equipped, in business 5+ years. Lease has 4.5 years left plus a 5-year option. Rent is $6,300/month including operating costs; utilities average about $1,200/month. The seller will train. Menu can stay or change.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-11-02",
@@ -7064,7 +7231,8 @@
     },
     {
       "businessName": "Ricky's All Day Grill — Kingsway Avenue NW, Edmonton (franchise resale)",
-      "category": "Restaurant / fast-food franchise resale",
+      "category": "Food",
+      "categoryDetail": "Restaurant / fast-food franchise resale",
       "summary": "Established turnkey commercial asset on Kingsway Avenue NW, Edmonton; ~2,938 sq. ft. Listing cites year-over-year gross sales increase of 7.1% in 2025, high net-to-gross efficiency (>97%), and 30,000+ guests in the year. Exact trade name not stated on the public Realtor.ca description.",
       "createdDate": "2026-09-28",
       "updatedDate": "2026-11-09",
@@ -7108,7 +7276,8 @@
     },
     {
       "businessName": "Upscale pub & kitchen — Southwest Edmonton (built 2023)",
-      "category": "Food / pub & kitchen",
+      "category": "Food",
+      "categoryDetail": "Food / pub & kitchen",
       "summary": "Modern upscale neighbourhood pub & kitchen in a fast-growing SW Edmonton community. Built new in 2023; ~100 seats plus patio; chef-designed menu; pool tables and large-screen TVs; modern leasehold improvements; turnkey.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-11-09",
@@ -7149,7 +7318,8 @@
     },
     {
       "businessName": "Take-out & delivery restaurant — Edgemont, SW Edmonton",
-      "category": "Food / take-out & delivery restaurant (Asian)",
+      "category": "Food",
+      "categoryDetail": "Food / take-out & delivery restaurant (Asian)",
       "summary": "Well-established, attractively decorated take-out and delivery restaurant in a high-traffic strip mall in Edgemont. Currently Asian cuisine; can convert to another concept with landlord approval. Sale includes all restaurant equipment, fixtures and improvements (seller estimates over $400,000 to build comparable).",
       "createdDate": "2026-10-19",
       "updatedDate": "2026-10-26",
@@ -7190,7 +7360,8 @@
     },
     {
       "businessName": "Commercial & residential construction company (GC + millwork) — West Edmonton",
-      "category": "Construction / general contracting & millwork",
+      "category": "Construction & Trades",
+      "categoryDetail": "Construction / general contracting & millwork",
       "summary": "25-year construction company focused on healthcare, hotels, restaurants and high-end residential. Asset sale of a general-contracting division and a millwork division, including the shop with all tools and equipment and some supplies. Buyer needs some industry experience; seller provides 6 months of management support.",
       "createdDate": "2026-10-19",
       "updatedDate": "2026-10-26",
@@ -7231,7 +7402,8 @@
     },
     {
       "businessName": "Fully fixtured sit-down restaurant — Downtown Edmonton (~1,297 sf)",
-      "category": "Food / sit-down restaurant",
+      "category": "Food",
+      "categoryDetail": "Food / sit-down restaurant",
       "summary": "Fully fixtured sit-down dining restaurant in downtown Edmonton, about 1,297 sq ft, with full-scale kitchen and improvements in place. Long-term lease, strong sales cited, ample parking. Photos are for discussion only.",
       "createdDate": "2026-10-26",
       "updatedDate": "2026-10-26",
@@ -7272,7 +7444,8 @@
     },
     {
       "businessName": "Japanese sushi & hot-rock grill restaurant — West Edmonton",
-      "category": "Restaurant / Japanese",
+      "category": "Food",
+      "categoryDetail": "Restaurant / Japanese",
       "summary": "Established West Edmonton Japanese restaurant known for fresh sushi and a signature hot-rock grilling experience, with an extensive menu, attractive décor and a loyal customer following.",
       "createdDate": "2026-11-02",
       "updatedDate": "2026-11-09",
@@ -7313,7 +7486,8 @@
     },
     {
       "businessName": "Liquor store with real property (two condo units) — Lamont County, 30 years",
-      "category": "Retail / liquor store",
+      "category": "Retail",
+      "categoryDetail": "Retail / liquor store",
       "summary": "Liquor store open ~30 years on prime highway frontage in a condo plaza beside a gas station in the Lamont County area. Sale includes real property (two condo units — could run two businesses). 2,000 sq ft; 2 employees; owner-operated; 10am–8pm. Quick Sale.",
       "createdDate": "2026-10-26",
       "updatedDate": "2026-10-26",
@@ -7354,7 +7528,8 @@
     },
     {
       "businessName": "Liquor store — Stony Plain",
-      "category": "Retail / liquor store",
+      "category": "Retail",
+      "categoryDetail": "Retail / liquor store",
       "summary": "20+ year liquor store in growing Stony Plain community. Do not approach staff. MLS® E4422467.",
       "createdDate": "2026-09-20",
       "updatedDate": "2026-10-03",
@@ -7395,7 +7570,8 @@
     },
     {
       "businessName": "Maintenance & repair / restoration services company — Edmonton",
-      "category": "Property maintenance / repair & restoration services",
+      "category": "Home & Property Services",
+      "categoryDetail": "Property maintenance / repair & restoration services",
       "summary": "Maintenance and repair company serving single- and multifamily properties, condos and apartment buildings; 10+ years of growth through condominium-company relationships. Staff take service vehicles home; month-to-month storage unit for restoration equipment, tools and materials.",
       "createdDate": "2026-10-26",
       "updatedDate": "2026-10-26",
@@ -7436,7 +7612,8 @@
     },
     {
       "businessName": "Massage therapy clinic — Edmonton",
-      "category": "Health / massage clinic",
+      "category": "Health & Wellness",
+      "categoryDetail": "Health / massage clinic",
       "summary": "Massage therapy clinic; asking ~$250,000 CAD; cash flow ~$43,195 CAD noted in search snippet.",
       "createdDate": "2026-09-20",
       "updatedDate": "2026-10-03",
@@ -7477,7 +7654,8 @@
     },
     {
       "businessName": "Pet Planet franchise resale",
-      "category": "Retail / pet store (franchise)",
+      "category": "Pet Services",
+      "categoryDetail": "Retail / pet store (franchise)",
       "summary": "Corporately owned Pet Planet location offered as franchise resale. Fixtures and inventory included. Buyer needs franchisor approval and liquid assets.",
       "createdDate": "2026-09-19",
       "updatedDate": "2026-11-16",
@@ -7521,7 +7699,8 @@
     },
     {
       "businessName": "West Edmonton Mall coffee shop franchise",
-      "category": "Food / coffee franchise",
+      "category": "Food",
+      "categoryDetail": "Food / coffee franchise",
       "summary": "Existing West Edmonton Mall coffee shop franchise resale. Asking ~$250,000.",
       "createdDate": "2026-09-20",
       "updatedDate": "2026-10-05",
@@ -7562,7 +7741,8 @@
     },
     {
       "businessName": "Wok Box franchise — 101, 392 St Albert Trail, St. Albert",
-      "category": "Restaurant / quick-service Asian franchise",
+      "category": "Food",
+      "categoryDetail": "Restaurant / quick-service Asian franchise",
       "summary": "Established quick-service Asian restaurant operating as Wok Box in a high-traffic St. Albert location. Turnkey, with a fully equipped commercial kitchen, leaseholds and FF&E. Franchise transfer and training are subject to franchisor approval.",
       "createdDate": "2026-11-02",
       "updatedDate": "2026-11-02",
@@ -7606,7 +7786,8 @@
     },
     {
       "businessName": "Pizza & fried chicken restaurant — Edmonton (broker ad)",
-      "category": "Food / pizza & fried chicken quick-service",
+      "category": "Food",
+      "categoryDetail": "Food / pizza & fried chicken quick-service",
       "summary": "Turnkey pizza and fried chicken restaurant in a busy, visible commercial location with a steady customer base and a fully equipped commercial kitchen. Keep the concept or convert. Training provided; immediate possession.",
       "createdDate": "2026-10-19",
       "updatedDate": "2026-10-19",
@@ -7647,7 +7828,8 @@
     },
     {
       "businessName": "Indian restaurant — West Edmonton plaza",
-      "category": "Food / Indian restaurant",
+      "category": "Food",
+      "categoryDetail": "Food / Indian restaurant",
       "summary": "Only Indian restaurant serving its West Edmonton community, in a busy plaza anchored by Tim Hortons and a gas station. Cuisine change possible with landlord approval.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-10-19",
@@ -7688,7 +7870,8 @@
     },
     {
       "businessName": "Turnkey pizza restaurant — South Central Edmonton",
-      "category": "Food / pizza restaurant",
+      "category": "Food",
+      "categoryDetail": "Food / pizza restaurant",
       "summary": "Turnkey pizza restaurant in South Central Edmonton along a busy commercial corridor with strong traffic and accessibility. Sale includes the existing business, equipment, and leasehold improvements. Marketed to owner-operators or restaurant groups. Civic address not published.",
       "createdDate": "2026-10-19",
       "updatedDate": "2026-10-26",
@@ -7736,7 +7919,8 @@
     },
     {
       "businessName": "Dry cleaning business — Edmonton (~976 SF)",
-      "category": "Services / dry cleaning",
+      "category": "Home & Property Services",
+      "categoryDetail": "Services / dry cleaning",
       "summary": "Turnkey dry cleaning shop (~976 SF) operating 10+ years with loyal clientele. Listing cites long remaining lease term, minimum overhead, positive cash flow/net profit, and rent about CAD 4,500/month including water. Equipment/setup included for day-one operation. Exact street address not published on Realtor.ca card.",
       "createdDate": "2026-09-28",
       "updatedDate": "2026-09-28",
@@ -7777,7 +7961,8 @@
     },
     {
       "businessName": "Mobile flooring sales & installation franchise — Edmonton (startup)",
-      "category": "Home services / flooring franchise",
+      "category": "Construction & Trades",
+      "categoryDetail": "Home services / flooring franchise",
       "summary": "ABC-recruited blue-chip international flooring franchise startup: home-office plus mobile showroom for carpet, tile, hardwood, laminate, area rugs and luxury vinyl. Not a resale of an existing store.",
       "createdDate": "2026-10-19",
       "updatedDate": "2026-10-19",
@@ -7818,7 +8003,8 @@
     },
     {
       "businessName": "Franchise pizza restaurant — 5011 Mullen Road NW (off Anthony Henday)",
-      "category": "Food / pizza franchise",
+      "category": "Food",
+      "categoryDetail": "Food / pizza franchise",
       "summary": "Fully built-out, equipped franchise pizza restaurant in high-traffic South Edmonton near high-end residential communities, just off Anthony Henday Drive. The sale includes the restaurant setup, commercial kitchen equipment, fixtures, and other business assets. The franchise brand is not named.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-10-05",
@@ -7860,7 +8046,8 @@
     },
     {
       "businessName": "Confidential high-volume pizza & donair restaurant with ghost kitchen — north Edmonton",
-      "category": "Food / pizza & donair",
+      "category": "Food",
+      "categoryDetail": "Food / pizza & donair",
       "summary": "Confidential sale of a profitable, high-volume pizza and donair restaurant with two kitchen concepts, including a dedicated ghost kitchen for online orders. Delivery runs through Uber Eats, SkipTheDishes, and DoorDash. Equipment includes a brand-new oven with a 5-year warranty, 3-door freezer and fridge, 3 gyro machines, pizza and donair prep stations, a 36-in grill, and 2 fryers. 6 tables.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-10-19",
@@ -7906,7 +8093,8 @@
     },
     {
       "businessName": "Indian restaurant — Tamarack, Edmonton",
-      "category": "Food / Indian restaurant",
+      "category": "Food",
+      "categoryDetail": "Food / Indian restaurant",
       "summary": "Newly built Indian restaurant in Tamarack (SE Edmonton): 25-seat dine-in plus takeout, fully equipped commercial kitchen, high visibility. Cuisine change possible with landlord approval.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-11-16",
@@ -7947,7 +8135,8 @@
     },
     {
       "businessName": "Downtown Edmonton donair shop",
-      "category": "Food / donair shop",
+      "category": "Food",
+      "categoryDetail": "Food / donair shop",
       "summary": "Turnkey donair shop with strong customer traffic, positive reviews, loyal clientele and growth potential.",
       "createdDate": "2026-09-21",
       "updatedDate": "2026-10-03",
@@ -7993,7 +8182,8 @@
     },
     {
       "businessName": "Fibrenew franchise (leather/vinyl/plastic restoration) — Edmonton",
-      "category": "Mobile restoration services franchise",
+      "category": "Home & Property Services",
+      "categoryDetail": "Mobile restoration services franchise",
       "summary": "Resale of the Fibrenew Edmonton franchise territory, a mobile leather, vinyl and plastic repair and restoration business, marketed as \"Built to Last: 20-Year-Strong\".",
       "createdDate": "2026-11-02",
       "updatedDate": "2026-11-02",
@@ -8037,7 +8227,8 @@
     },
     {
       "businessName": "Turnkey burrito shop — 11544 104 Ave NW (downtown)",
-      "category": "Food / quick-service (burritos)",
+      "category": "Food",
+      "categoryDetail": "Food / quick-service (burritos)",
       "summary": "Turnkey, fully equipped 1,089 sq. ft. burrito shop in downtown Edmonton with an affordable lease and an existing restaurant build-out. Business sale only.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-11-16",
@@ -8083,7 +8274,8 @@
     },
     {
       "businessName": "Liquor store — 15508 93a Avenue NW",
-      "category": "Retail / liquor store",
+      "category": "Retail",
+      "categoryDetail": "Retail / liquor store",
       "summary": "Fully set-up liquor store in high-traffic Edmonton location next to upcoming LRT. ~2,315 sq. ft. retail with transferable lease ~CAD 10,600/month. Sale includes business assets, fixtures, equipment, and store improvements; inventory sold separately. Lease transfer subject to landlord approval.",
       "createdDate": "2026-09-28",
       "updatedDate": "2026-10-05",
@@ -8128,7 +8320,8 @@
     },
     {
       "businessName": "Pet daycare — near West Edmonton Mall",
-      "category": "Pet services / daycare",
+      "category": "Pet Services",
+      "categoryDetail": "Pet services / daycare",
       "summary": "Fully licensed/insured pet daycare in leased commercial space. Listing cites 4.9-star rating, website/social presence, 6,000+ sq. ft. indoor/outdoor play space, climate control, fenced splash pools, 24/7 security. Minutes from West Edmonton Mall with access toward St. Albert/Spruce Grove. Transferable lease ~CAD 7,260/month; trained staff and assets included. Upside notes for retail/grooming add-ons.",
       "createdDate": "2026-09-28",
       "updatedDate": "2026-09-28",
@@ -8169,7 +8362,8 @@
     },
     {
       "businessName": "Smoked meats restaurant & catering — Stony Plain",
-      "category": "Food / BBQ smokehouse & catering",
+      "category": "Food",
+      "categoryDetail": "Food / BBQ smokehouse & catering",
       "summary": "Smokehouse restaurant with authentic log-smoked meats (brisket, pulled pork) and homemade sides, plus pick-up and delivery catering. The assistant manager may stay. 1,200 sq. ft. on a 10-year lease with two 5-year renewals. Base rent $25.50/sf (about $2,677.50/month plus GST) plus $8/sf CAM. Property tax share is about $3.84/sf. Open 11–7.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-10-05",
@@ -8210,7 +8404,8 @@
     },
     {
       "businessName": "The Flower Stop & Gift Shop — Morinville",
-      "category": "Retail / florist & gift shop",
+      "category": "Retail",
+      "categoryDetail": "Retail / florist & gift shop",
       "summary": "Established Morinville florist and gift shop with an online ordering platform. Revenue comes from everyday florals, weddings, sympathy work, giftware, and specialty products. About 1,442 sq. ft. with a showroom, design area, and walk-in cooler. The sale includes a 2025 Chevrolet Trailblazer delivery vehicle and substantial inventory and fixtures.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-11-16",
@@ -8254,7 +8449,8 @@
     },
     {
       "businessName": "Indian restaurant — Lessard area, SW/West Edmonton (DealStream)",
-      "category": "Food / Indian restaurant",
+      "category": "Food",
+      "categoryDetail": "Food / Indian restaurant",
       "summary": "Established Indian restaurant in the Lessard area of southwest/west Edmonton. Established brand, 4.8 stars from 500+ reviews. Revenue about $720K a year per listing.",
       "createdDate": "2026-10-26",
       "updatedDate": "2026-10-26",
@@ -8295,7 +8491,8 @@
     },
     {
       "businessName": "Medical clinic — Edmonton (physician practice)",
-      "category": "Health / medical clinic",
+      "category": "Health & Wellness",
+      "categoryDetail": "Health / medical clinic",
       "summary": "Appointment-only family medical clinic open Mon–Fri for 30+ years, currently managed by one GP with room for a second doctor. Growth via walk-ins/weekends possible. Buyer sought is a physician to take over the practice.",
       "createdDate": "2026-09-28",
       "updatedDate": "2026-11-09",
@@ -8342,7 +8539,8 @@
     },
     {
       "businessName": "Pizza business — Chappelle Way SW",
-      "category": "Food / pizza restaurant",
+      "category": "Food",
+      "categoryDetail": "Food / pizza restaurant",
       "summary": "Well-established pizza business in Chappelle (SW Edmonton), approximately 1,200 sq ft with a functional setup. Business only for sale. Listing asks not to approach staff; contact listing agent for details.",
       "createdDate": "2026-10-19",
       "updatedDate": "2026-11-16",
@@ -8385,7 +8583,8 @@
     },
     {
       "businessName": "Prestigio Bakery & café — Clearwater Plaza",
-      "category": "Food / bakery & café",
+      "category": "Food",
+      "categoryDetail": "Food / bakery & café",
       "summary": "Turnkey bakery & café; equipment included; lease assumable. Second location in Leduc also listed. MLS via RE/MAX River City.",
       "createdDate": "2026-09-20",
       "updatedDate": "2026-10-03",
@@ -8426,7 +8625,8 @@
     },
     {
       "businessName": "Award-winning Italian sit-down restaurant — Edmonton",
-      "category": "Food / Italian restaurant",
+      "category": "Food",
+      "categoryDetail": "Food / Italian restaurant",
       "summary": "Fully fixtured award-winning sit-down Italian restaurant in a high-traffic upscale area: full kitchen, improvements in place, favourable lease, strong sales, ample parking. Open to offers.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-10-26",
@@ -8467,7 +8667,8 @@
     },
     {
       "businessName": "BD-Mart Halal — 34 Avenue storefront",
-      "category": "Retail / halal grocery & food",
+      "category": "Retail",
+      "categoryDetail": "Retail / halal grocery & food",
       "summary": "Established BD-Mart Halal storefront on 34 Avenue, Edmonton; ready-to-use commercial space suited to restaurant, grocery, halal meat shop or café.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-10-05",
@@ -8508,7 +8709,8 @@
     },
     {
       "businessName": "Beauty, med-aesthetics & barbering business — Stony Plain (price reduced)",
-      "category": "Beauty / salon, spa & medical aesthetics",
+      "category": "Beauty",
+      "categoryDetail": "Beauty / salon, spa & medical aesthetics",
       "summary": "Fully equipped beauty & wellness business in a Stony Plain plaza: hair department (5+ stations, 4 wash stations), 5 medical-aesthetics treatment rooms with private showers, nails/pedicure area, makeup room. Avg monthly revenue ~ $28,000; 7 staff. Price reduced for quick sale because owners are moving out of province.",
       "createdDate": "2026-10-26",
       "updatedDate": "2026-10-26",
@@ -8549,7 +8751,8 @@
     },
     {
       "businessName": "Daycare business — Stony Plain",
-      "category": "Childcare / daycare",
+      "category": "Education & Childcare",
+      "categoryDetail": "Childcare / daycare",
       "summary": "Successful daycare business for sale in Stony Plain, Alberta. Serious enquiries only. Details from the agent.",
       "createdDate": "2026-10-26",
       "updatedDate": "2026-10-26",
@@ -8590,7 +8793,8 @@
     },
     {
       "businessName": "Dog grooming business — West Edmonton",
-      "category": "Pet services / dog grooming",
+      "category": "Pet Services",
+      "categoryDetail": "Pet services / dog grooming",
       "summary": "Turnkey dog grooming business in a good West Edmonton location with a long client list. Pitched to an ambitious groomer.",
       "createdDate": "2026-10-19",
       "updatedDate": "2026-10-19",
@@ -8631,7 +8835,8 @@
     },
     {
       "businessName": "Health & wellness day spa (massage / nails) — Keswick, SW Edmonton",
-      "category": "Beauty / day spa & wellness",
+      "category": "Beauty",
+      "categoryDetail": "Beauty / day spa & wellness",
       "summary": "Established spa/wellness salon in the Keswick neighbourhood. Two registered massage therapists and nail technicians rent space. Custom HVAC recirculation keeps nail fumes out of other areas. Room to add chiro, hair, naturopath or kinesiology (landlord approval).",
       "createdDate": "2026-10-26",
       "updatedDate": "2026-10-26",
@@ -8672,7 +8877,8 @@
     },
     {
       "businessName": "Herc's Nutrition — Edmonton",
-      "category": "Retail / nutrition & wellness",
+      "category": "Health & Wellness",
+      "categoryDetail": "Retail / nutrition & wellness",
       "summary": "Turnkey Herc Nutrition nutrition and wellness retail business in Edmonton. Established location pitched for owner-operator or investor in health/fitness retail; detailed asking price and financials not published on public card.",
       "createdDate": "2026-09-28",
       "updatedDate": "2026-11-09",
@@ -8713,7 +8919,8 @@
     },
     {
       "businessName": "Independent community pharmacy inside medical clinic — Edmonton",
-      "category": "Healthcare / pharmacy",
+      "category": "Health & Wellness",
+      "categoryDetail": "Healthcare / pharmacy",
       "summary": "Established independent community pharmacy offering prescription dispensing, medication management, vaccinations, compounding and pharmacist-led services. It sits inside a medical clinic anchored by two full-time physicians, which brings steady referrals and prescription activity. Loyal recurring customers, experienced staff and established systems. The owner will help with the transition.",
       "createdDate": "2026-10-26",
       "updatedDate": "2026-11-16",
@@ -8755,7 +8962,8 @@
     },
     {
       "businessName": "Licensed used car lot — SW Edmonton (5 years)",
-      "category": "Automotive / used car dealership",
+      "category": "Automotive",
+      "categoryDetail": "Automotive / used car dealership",
       "summary": "Established ~5-year licensed used-car dealership business and secure vehicle yard; website included; approximately 10 vehicles and trucks included. Turnkey.",
       "createdDate": "2026-10-05",
       "updatedDate": "2026-11-09",
@@ -8796,7 +9004,8 @@
     },
     {
       "businessName": "Liquor store — Northwest Edmonton (low rent, JamesHan)",
-      "category": "Retail / liquor store",
+      "category": "Retail",
+      "categoryDetail": "Retail / liquor store",
       "summary": "Established liquor store in a busy shopping plaza surrounded by an established residential community, in Northwest Edmonton. About 850 sq ft with low rent. Per the broker, financial statements show about $71,000 a year in positive cash flow, with potential for about $89,000 a year in owner/family-member compensation for a hands-on owner.",
       "createdDate": "2026-10-26",
       "updatedDate": "2026-11-09",
@@ -8840,7 +9049,8 @@
     },
     {
       "businessName": "Medical clinic with built-out pharmacy space — Edmonton",
-      "category": "Health / medical clinic",
+      "category": "Health & Wellness",
+      "categoryDetail": "Health / medical clinic",
       "summary": "Fully fixtured medical practice of 2,000+ sq ft: six exam rooms, three offices, minor surgery room, reception, kitchen, two washrooms and built-out pharmacy space. 3,000 active patients and about 70 visits a day. One full-time physician-owner and one part-time physician. Offered for sale (with real estate) or lease.",
       "createdDate": "2026-10-19",
       "updatedDate": "2026-10-26",
@@ -8884,7 +9094,8 @@
     },
     {
       "businessName": "Professional moving company (Edmonton & Calgary)",
-      "category": "Moving services",
+      "category": "Transportation & Logistics",
+      "categoryDetail": "Moving services",
       "summary": "Established moving company with ongoing contracts, experienced team and truck(s), serving Edmonton and Calgary. Sale includes a well-maintained truck.",
       "createdDate": "2026-10-26",
       "updatedDate": "2026-10-26",
@@ -8925,7 +9136,8 @@
     },
     {
       "businessName": "Property maintenance business (yard care & snow removal) — Edmonton",
-      "category": "Services / property maintenance, lawn care & snow removal",
+      "category": "Home & Property Services",
+      "categoryDetail": "Services / property maintenance, lawn care & snow removal",
       "summary": "Turnkey residential property maintenance business: spring and fall yard clean-up, summer lawn maintenance and snow removal. Many year-round customers, equipment and vehicles included. Seller prefers selling it whole but will negotiate equipment-only or customers-only.",
       "createdDate": "2026-10-19",
       "updatedDate": "2026-10-19",
@@ -8966,7 +9178,8 @@
     },
     {
       "businessName": "Starvin Marvin's event food trailer business — Edmonton / Sherwood Park",
-      "category": "Food / food trailer & event catering",
+      "category": "Food",
+      "categoryDetail": "Food / food trailer & event catering",
       "summary": "Complete food-trailer business after 8 seasons: 7 years of event contacts and a booked calendar, an AHS-certified trailer with a NIECO BroilVection charbroiler (120 burgers/hour), 2 FryMaster fryers, fridges and freezers, fire suppression, 2 Honda EU7000is generators, POS iPads, plus the proven menu, recipes, supplier contacts, website, social media and brand. Full training and transition. NDA and proof of funds required.",
       "createdDate": "2026-10-19",
       "updatedDate": "2026-10-19",
@@ -9007,7 +9220,8 @@
     },
     {
       "businessName": "Turnkey boutique café & bakery — Edmonton (T6C)",
-      "category": "Food / café & bakery",
+      "category": "Food",
+      "categoryDetail": "Food / café & bakery",
       "summary": "Established, fully turnkey café and bakery with a warm boutique look and a loyal neighbourhood following. Pitched to an owner-operator, baker or hospitality entrepreneur who wants to skip a build-out.",
       "createdDate": "2026-10-19",
       "updatedDate": "2026-10-19",
@@ -9048,7 +9262,8 @@
     },
     {
       "businessName": "West Edmonton massage parlour — 10 years",
-      "category": "Health / massage",
+      "category": "Health & Wellness",
+      "categoryDetail": "Health / massage",
       "summary": "West Edmonton massage parlour operating successfully for 10 years; seller claims steady earnings after takeover. Price not published — contact via text.",
       "createdDate": "2026-09-28",
       "updatedDate": "2026-09-28",
@@ -9089,7 +9304,8 @@
     },
     {
       "businessName": "Gift, household & hookah store — 132 Ave NW (Golden Rose), North Edmonton",
-      "category": "Retail / gifts & household goods",
+      "category": "Retail",
+      "categoryDetail": "Retail / gifts & household goods",
       "summary": "Large store in North Side (Golden Rose) selling accessories, household items and gifts incl. kitchenware, hookahs, fish tanks and decorations, pots, wall art and crystal items. Large additional inventory in a second storage room; security cameras throughout. Owner-posted Kijiji ad, asking $190,000.",
       "createdDate": "2026-11-09",
       "updatedDate": "2026-11-09",
@@ -9130,7 +9346,8 @@
     },
     {
       "businessName": "Auto detailing & exterior care business (mobile van + rental garage) — Edmonton",
-      "category": "Automotive services / mobile detailing",
+      "category": "Automotive",
+      "categoryDetail": "Automotive services / mobile detailing",
       "summary": "Turnkey auto detailing & exterior care business: mobile detailing van, access to a fully equipped rental garage, 500+ client records and repeat customers, ~ $35,000 of equipment, one contract-basis employee, licensed and insured; training offered. Advertised as a 'stress sale'.",
       "createdDate": "2026-11-09",
       "updatedDate": "2026-11-09",
@@ -9171,7 +9388,8 @@
     },
     {
       "businessName": "Turnkey tea café — 97 St NW, Edmonton (Texas Tea Cafe branding)",
-      "category": "Food & beverage / café",
+      "category": "Food",
+      "categoryDetail": "Food & beverage / café",
       "summary": "Owner-posted 'E-2 turnkey business for sale' ad: 'everything runs on auto', 4.8 stars on Google, established product/branding; seller negotiable. Ad links www.texasteacafe.com. Little else disclosed.",
       "createdDate": "2026-11-09",
       "updatedDate": "2026-11-09",
@@ -9212,7 +9430,8 @@
     },
     {
       "businessName": "BBQ restaurant sub-franchise — Galaxyland Food Court, West Edmonton Mall",
-      "category": "Restaurant / BBQ (franchise)",
+      "category": "Food",
+      "categoryDetail": "Restaurant / BBQ (franchise)",
       "summary": "Newly renovated BBQ restaurant in Galaxyland Food Court, West Edmonton Mall; all brand-new stainless equipment (Cookshack smoker, fryers, freezers, coolers). Sub-franchise with 6% royalty; can run Halal or non-Halal; ~4.5 years left on lease with renewal. Ask includes franchise fee and installed equipment.",
       "createdDate": "2026-11-09",
       "updatedDate": "2026-11-09",
@@ -9253,7 +9472,8 @@
     },
     {
       "businessName": "Convenience / Filipino & Oriental variety store (Jace-Jed) — 177 St NW, Edmonton",
-      "category": "Retail / convenience & specialty grocery",
+      "category": "Retail",
+      "categoryDetail": "Retail / convenience & specialty grocery",
       "summary": "Established Jace-Jed Filipino and Oriental variety store, described as turnkey with loyal customer base and good foot traffic. 'Rush sale'.",
       "createdDate": "2026-11-09",
       "updatedDate": "2026-11-09",
@@ -9294,7 +9514,8 @@
     },
     {
       "businessName": "Restaurant — Leduc (9 years operating, 50 seats)",
-      "category": "Restaurant",
+      "category": "Food",
+      "categoryDetail": "Restaurant",
       "summary": "Restaurant operating nine years in Leduc, 1,470 sq ft, 50 seats, full commercial kitchen with equipment in working order, lease $3,906/month incl. CAM, eligible to apply for a liquor licence; currently limited hours; may change cuisine except pizza.",
       "createdDate": "2026-11-09",
       "updatedDate": "2026-11-09",
@@ -9335,7 +9556,8 @@
     },
     {
       "businessName": "Turnkey barbershop (confidential) — Northeast Edmonton",
-      "category": "Personal services / barbershop",
+      "category": "Beauty",
+      "categoryDetail": "Personal services / barbershop",
       "summary": "Confidential asset sale of a turnkey barbershop in a fast-growing NE Edmonton community, built 2024 with high-end finish: 4 barber stations plus shampoo station, reception, retail wall, waiting area; sale includes furniture, fixtures, equipment and inventory. Leased ±994 SF; ~2 minutes to Anthony Henday. Name/location released under NDA.",
       "createdDate": "2026-11-09",
       "updatedDate": "2026-11-09",
@@ -9379,7 +9601,8 @@
     },
     {
       "businessName": "Naturopathic & IV therapy clinic — Edmonton (turnkey)",
-      "category": "Healthcare / naturopathic & IV clinic",
+      "category": "Health & Wellness",
+      "categoryDetail": "Healthcare / naturopathic & IV clinic",
       "summary": "Established naturopathic and integrative medicine clinic in Edmonton: four treatment offices, two IV therapy suites, 3 naturopathic doctors, 1 acupuncturist, nursing and admin staff; 7,000+ patient files; IV therapy is main income driver. Real estate available at $450,000, or business can be acquired alone with a lease in place.",
       "createdDate": "2026-11-09",
       "updatedDate": "2026-11-09",
@@ -9420,7 +9643,8 @@
     },
     {
       "businessName": "Seasonal toy / novelty confectionery product manufacturer — Edmonton",
-      "category": "Manufacturing / consumer products",
+      "category": "Manufacturing",
+      "categoryDetail": "Manufacturing / consumer products",
       "summary": "Manufacturer of a proprietary seasonal novelty confectionery impulse toy product sold to national distribution with several high-profile retail chains; trademark protection in place; suited for a roll-up buyer. Owner works ~40 hours/week.",
       "createdDate": "2026-11-09",
       "updatedDate": "2026-11-09",
@@ -9461,7 +9685,8 @@
     },
     {
       "businessName": "Small animal veterinary practice — Fort Saskatchewan (39 years)",
-      "category": "Veterinary / professional services",
+      "category": "Health & Wellness",
+      "categoryDetail": "Veterinary / professional services",
       "summary": "Busy, well-equipped small animal practice in city centre Fort Saskatchewan, est. 39 years, one-person practice that could grow to 1.5–2; 1,040 sq ft leased bay of a 3-bay strip mall; owner retiring and willing to provide transition/mentoring. 'Quick sale'.",
       "createdDate": "2026-11-09",
       "updatedDate": "2026-11-09",
@@ -9502,7 +9727,8 @@
     },
     {
       "businessName": "Sandwich shop — 142 Street NW (Edmonton)",
-      "category": "Restaurant / café",
+      "category": "Food",
+      "categoryDetail": "Restaurant / café",
       "summary": "Established sandwich shop with a strong social media following and customer base; open Monday to Friday 9 AM–3 PM, closed weekends and statutory holidays. Business sale only.",
       "createdDate": "2026-11-09",
       "updatedDate": "2026-11-09",
@@ -9543,7 +9769,8 @@
     },
     {
       "businessName": "Turkish restaurant — Whyte Avenue / U of A area (82 Avenue)",
-      "category": "Restaurant",
+      "category": "Food",
+      "categoryDetail": "Restaurant",
       "summary": "Turkey restaurant business on Whyte Ave in the U of A area; 2,840 sq ft high-visibility storefront with commercial kitchen equipment, fixtures and furnishings; mainly an asset sale.",
       "createdDate": "2026-11-09",
       "updatedDate": "2026-11-09",
@@ -9584,7 +9811,8 @@
     },
     {
       "businessName": "Franchise bubble tea business — Baseline Rd, Sherwood Park",
-      "category": "Food & beverage / bubble tea franchise",
+      "category": "Food",
+      "categoryDetail": "Food & beverage / bubble tea franchise",
       "summary": "Existing franchise bubble tea business in Sherwood Park; recently renovated premises; mainly an asset sale. Buyer may continue the franchise or operate a different business subject to landlord approval; seller offers free training if continuing.",
       "createdDate": "2026-11-09",
       "updatedDate": "2026-11-09",
@@ -9625,7 +9853,8 @@
     },
     {
       "businessName": "Turnkey restaurant — 104 Street, south Edmonton",
-      "category": "Restaurant",
+      "category": "Food",
+      "categoryDetail": "Restaurant",
       "summary": "Fully renovated turnkey restaurant (~1,248 sq ft, about 50 seats) in south Edmonton with commercial kitchen, hood fan and exhaust; mainly an asset sale; very affordable rent and free customer parking per listing.",
       "createdDate": "2026-11-09",
       "updatedDate": "2026-11-09",
@@ -9666,7 +9895,8 @@
     },
     {
       "businessName": "Beverage & café business — 127 Street NW (north Edmonton)",
-      "category": "Café / beverage (possible franchise)",
+      "category": "Food",
+      "categoryDetail": "Café / beverage (possible franchise)",
       "summary": "Turnkey beverage and café business in north Edmonton with claw machines included in assets; recently renovated; mainly an asset sale. Buyer may continue the existing franchise or operate a different business subject to landlord approval.",
       "createdDate": "2026-11-09",
       "updatedDate": "2026-11-09",
@@ -9707,7 +9937,8 @@
     },
     {
       "businessName": "Loaded Pierogi restaurant — 55 Avenue NW, SE Edmonton (Whitemud Dr & 50 St)",
-      "category": "Restaurant / quick-service",
+      "category": "Food",
+      "categoryDetail": "Restaurant / quick-service",
       "summary": "Existing restaurant ('Loaded Pierogi') near Whitemud Drive and 50 Street in southeast Edmonton with a comfort-food menu and multiple service options.",
       "createdDate": "2026-11-09",
       "updatedDate": "2026-11-09",
@@ -9754,7 +9985,8 @@
     },
     {
       "businessName": "Retail building with operating shop — 50 Avenue, Lamont (MLS 43694301)",
-      "category": "Retail / business with property",
+      "category": "Retail",
+      "categoryDetail": "Retail / business with property",
       "summary": "Business-with-property listing in the heart of Lamont: retail space with updated flooring, shelving and lighting, bathroom for staff/patrons, open upper level usable as retail/office/work area, rear parking and a single-car garage; across from a main street intersection. Listing says the current business is a thriving operation and the space suits an entrepreneur expanding into retail or continuing a legacy.",
       "createdDate": "2026-11-16",
       "updatedDate": "2026-11-16",
@@ -9798,7 +10030,8 @@
     },
     {
       "businessName": "Japanese restaurant with sushi bar — Whyte Avenue (10347 Whyte Ave NW), Old Strathcona",
-      "category": "Restaurant",
+      "category": "Food",
+      "categoryDetail": "Restaurant",
       "summary": "Well-established Japanese restaurant on Whyte Avenue: 1,550 sq ft, sushi bar, fully equipped commercial kitchen, max occupancy 25. Open six days a week 4 PM to 10 PM and run semi-absentee (owner works one day a week). Concept may be changed subject to landlord approval; seller provides training.",
       "createdDate": "2026-11-16",
       "updatedDate": "2026-11-16",
@@ -9842,7 +10075,8 @@
     },
     {
       "businessName": "Independent pharmacy for sale — Ellerslie area, Edmonton (inside medical centre)",
-      "category": "Healthcare / pharmacy",
+      "category": "Health & Wellness",
+      "categoryDetail": "Healthcare / pharmacy",
       "summary": "Well-established pharmacy operating almost 10 years, located within a medical centre building with many specialists and heavy residential surroundings in Edmonton.",
       "createdDate": "2026-11-16",
       "updatedDate": "2026-11-16",
@@ -9883,7 +10117,8 @@
     },
     {
       "businessName": "Alberta roofing company for sale — Edmonton (75 Street NW)",
-      "category": "Construction / roofing",
+      "category": "Construction & Trades",
+      "categoryDetail": "Construction / roofing",
       "summary": "Roofing company offered for $250,000; the Kijiji ad gives only the price and a website (AlbertaRoofingCompany.com) with no financials or description.",
       "createdDate": "2026-11-16",
       "updatedDate": "2026-11-16",
@@ -9924,7 +10159,8 @@
     },
     {
       "businessName": "Two operational daycares for sale — North Edmonton (74 + 50 capacity)",
-      "category": "Childcare / daycare",
+      "category": "Education & Childcare",
+      "categoryDetail": "Childcare / daycare",
       "summary": "Two operating daycares in northside Edmonton: Daycare 1 is 3,191 sq ft with capacity for 74 children; Daycare 2 is 2,173 sq ft with capacity for 50.",
       "createdDate": "2026-11-16",
       "updatedDate": "2026-11-16",
@@ -9965,7 +10201,8 @@
     },
     {
       "businessName": "Turnkey take-out restaurant (ready for new brand) — Larsen/Lessard area, Edmonton",
-      "category": "Restaurant / take-out",
+      "category": "Food",
+      "categoryDetail": "Restaurant / take-out",
       "summary": "About 1,100 sq ft fully equipped take-out restaurant with a full commercial kitchen, menu and POS systems in place; ad says it is ready for new signage and branding for a new or experienced operator. Vendor financing available.",
       "createdDate": "2026-11-16",
       "updatedDate": "2026-11-16",
@@ -10006,7 +10243,8 @@
     },
     {
       "businessName": "Beautiful high-end hair & beauty salon — Windermere Way SW, Edmonton",
-      "category": "Salon / beauty",
+      "category": "Beauty",
+      "categoryDetail": "Salon / beauty",
       "summary": "Turnkey hair and beauty salon of about 900 sq ft in southwest Edmonton: modern interior, fully equipped styling and beauty areas, opportunity for station/space rental income; business name and branding available. Two purchase options: complete business acquisition or salon setup/equipment only, subject to lease approval.",
       "createdDate": "2026-11-16",
       "updatedDate": "2026-11-16",
@@ -10047,7 +10285,8 @@
     },
     {
       "businessName": "Leviospa Beauty Lounge — established spa with rental income, Edmonton",
-      "category": "Spa / beauty & wellness",
+      "category": "Beauty",
+      "categoryDetail": "Spa / beauty & wellness",
       "summary": "Established 1,221 sq ft beauty and wellness spa (Leviospa Beauty Lounge): about $150,000 invested in leasehold improvements, multiple treatment rooms, spa equipment and furniture, about a year of skincare/lash/nail/spa supplies, existing staff, independent room renters generating rental income, brand/social media and training curriculums. Quick sale.",
       "createdDate": "2026-11-16",
       "updatedDate": "2026-11-16",
@@ -10088,7 +10327,8 @@
     },
     {
       "businessName": "Trucking brokerage with US DOT registration — Edmonton",
-      "category": "Transportation / trucking brokerage",
+      "category": "Transportation & Logistics",
+      "categoryDetail": "Transportation / trucking brokerage",
       "summary": "Trucking brokerage registered with US DOT and compliant for the last four years.",
       "createdDate": "2026-11-16",
       "updatedDate": "2026-11-16",
@@ -10129,7 +10369,8 @@
     },
     {
       "businessName": "Alberta Contractor Marketplace (Alba Connect) — online startup, Greater Edmonton Area",
-      "category": "Online marketplace / digital startup",
+      "category": "Technology & Online",
+      "categoryDetail": "Online marketplace / digital startup",
       "summary": "Newly launched, location-independent online marketplace (albaconnect.ca) connecting Alberta homeowners, contractors, property managers and businesses; intended revenue from paid listings, advertising, memberships and lead generation. Remote operation possible; no premises or inventory.",
       "createdDate": "2026-11-16",
       "updatedDate": "2026-11-16",
