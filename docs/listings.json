@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18 5:43 PM CST",
+  "generatedAt": "2026-11-18 9:38 PM CST",
   "capCAD": 301000,
   "businesses": [
     {
@@ -604,7 +604,7 @@
       "categoryDetail": "Beauty / tanning salon",
       "summary": "Tanning salon in Leduc listed on Kijiji ~$40,000.",
       "createdDate": "2026-09-20",
-      "updatedDate": "2026-11-09",
+      "updatedDate": "2026-11-18",
       "listingStatus": "Listed",
       "listingUrls": [
         "https://www.kijiji.ca/v-other-business-industrial/edmonton/tanning-salon-leduc-ab/1741899826",
@@ -638,7 +638,7 @@
       "saleType": "Asset sale",
       "propertyArrangement": null,
       "clientOrContractNotes": null,
-      "dataNotes": "Imported from site scan 2026-09-20T00:00:00-06:00; source site: Kijiji. | 2026-10-03 check: Kijiji ad URL returns 307 to a category search and no longer shows the ad. | Link check 2026-10-03: page gone/removed (Business Finder). | 2026-11-09: restored Listed — new Kijiji ad 1745817301 ACTIVE at $40,000 (Leduc T9E 6V4, asset sale, 6 tanning beds + VersaSpa Pro spray booth, annual revenue $120K+, islandglowtan.com); previous ad 1741899826 was gone",
+      "dataNotes": "Imported from site scan 2026-09-20T00:00:00-06:00; source site: Kijiji. | 2026-10-03 check: Kijiji ad URL returns 307 to a category search and no longer shows the ad. | Link check 2026-10-03: page gone/removed (Business Finder). | 2026-11-09: restored Listed — new Kijiji ad 1745817301 ACTIVE at $40,000 (Leduc T9E 6V4, asset sale, 6 tanning beds + VersaSpa Pro spray booth, annual revenue $120K+, islandglowtan.com); previous ad 1741899826 was gone 2026-11-18: older Kijiji ad 1741899826 returns 404; relist 1745817301 is live, so still Listed.",
       "sellingReason": "Owner is moving on after 6 years; life changed (per Kijiji ad)"
     },
     {
@@ -6530,7 +6530,7 @@
       "categoryDetail": "Business (verify type)",
       "summary": "Turnkey coffee shop near West Edmonton Mall with strong social media, loyal clientele, affordable lease, parking, and future LRT proximity. Equipped including draft beer taps; liquor license would need new-owner application. Modern trendy interior; operate as-is or rebrand.",
       "createdDate": "2026-09-20",
-      "updatedDate": "2026-11-09",
+      "updatedDate": "2026-11-18",
       "listingStatus": "Listed",
       "listingUrls": [
         "https://www.realtor.ca/ab/edmonton/businesses-for-sale",
@@ -6571,7 +6571,7 @@
       "saleType": "Business / leasehold sale",
       "propertyArrangement": "Listing type shows Business with Property; verify real-estate inclusion with agent",
       "clientOrContractNotes": null,
-      "dataNotes": "Imported from site scan 2026-09-20T00:00:00-06:00; source site: REALTOR.ca. | Previously untyped 'Business listing'; Kijiji/MLS detail confirms coffee shop. MLS® #44931307 referenced on Kijiji. | MLS® #44931307. Distinct from Whyte Ave coffee shop (MLS 45496455, CAD 239,900) already in index. No published revenue/SDE. Not in existing-index. | 2026-10-05: EREB MLS 44931307 still CAD 230k (David Nam, RE/MAX Excellence). A second Pillar 9 listing (MLS A2274224, same address and copy) shows CAD 260k, 1,848 sf, 303 days. Ask kept at CAD 230k (current EREB price). | 2026-10-19: 2026-10-19: MaxWell MLS 44931307 still Active at CAD 230,000; Realtor.ca 29787821 still live. | 2026-10-19: dead URL(s) https://www.kijiji.ca/v-commercial-office-space-for-sale/edmonton/8278-175-st-nw-edmonton-alberta/1735747053; still active elsewhere | 2026-10-26: dead URL(s) https://www.kijiji.ca/v-commercial-office-space-for-sale/edmonton/8278-175-st-nw-edmonton-alberta/1735747053; still active elsewhere | 2026-11-02: Kijiji ad removed; MaxWell MLS 44931307 Active $230,000 and Pillar 9 MLS A2274224 Active $260,000. | 2026-11-09: Kijiji ad 1735747053 redirected as removed; MaxWell IDX MLS 44931307 page still live — left Listed",
+      "dataNotes": "Imported from site scan 2026-09-20T00:00:00-06:00; source site: REALTOR.ca. | Previously untyped 'Business listing'; Kijiji/MLS detail confirms coffee shop. MLS® #44931307 referenced on Kijiji. | MLS® #44931307. Distinct from Whyte Ave coffee shop (MLS 45496455, CAD 239,900) already in index. No published revenue/SDE. Not in existing-index. | 2026-10-05: EREB MLS 44931307 still CAD 230k (David Nam, RE/MAX Excellence). A second Pillar 9 listing (MLS A2274224, same address and copy) shows CAD 260k, 1,848 sf, 303 days. Ask kept at CAD 230k (current EREB price). | 2026-10-19: 2026-10-19: MaxWell MLS 44931307 still Active at CAD 230,000; Realtor.ca 29787821 still live. | 2026-10-19: dead URL(s) https://www.kijiji.ca/v-commercial-office-space-for-sale/edmonton/8278-175-st-nw-edmonton-alberta/1735747053; still active elsewhere | 2026-10-26: dead URL(s) https://www.kijiji.ca/v-commercial-office-space-for-sale/edmonton/8278-175-st-nw-edmonton-alberta/1735747053; still active elsewhere | 2026-11-02: Kijiji ad removed; MaxWell MLS 44931307 Active $230,000 and Pillar 9 MLS A2274224 Active $260,000. | 2026-11-09: Kijiji ad 1735747053 redirected as removed; MaxWell IDX MLS 44931307 page still live — left Listed 2026-11-18: Kijiji ad 1735747053 returns 404; MaxWell MLS 44931307 page still up, so still Listed.",
       "sellingReason": null
     },
     {
@@ -9053,8 +9053,8 @@
       "categoryDetail": "Health / medical clinic",
       "summary": "Fully fixtured medical practice of 2,000+ sq ft: six exam rooms, three offices, minor surgery room, reception, kitchen, two washrooms and built-out pharmacy space. 3,000 active patients and about 70 visits a day. One full-time physician-owner and one part-time physician. Offered for sale (with real estate) or lease.",
       "createdDate": "2026-10-19",
-      "updatedDate": "2026-10-26",
-      "listingStatus": "Listed",
+      "updatedDate": "2026-11-18",
+      "listingStatus": "Delisted",
       "listingUrls": [
         "https://www.kijiji.ca/v-buy-sell-other/edmonton/for-sale-lease-:fully-fixtured-medical-clinic-with-pharmacy/1743642905",
         "https://dealstream.com/d/biz-sale/biz-service/jpfude"
@@ -9089,7 +9089,7 @@
       "saleType": "Business sale",
       "propertyArrangement": "Practice with real estate per ad; also offered for lease",
       "clientOrContractNotes": null,
-      "dataNotes": "Kijiji ad 1743642905 (posted 2026-09-18). No price. It includes real estate, so it may be over the $301k cap. Kept as an unpriced lead. | 2026-10-26: DealStream mirror (listed Jul 27, 2026): price not disclosed; real estate included; 2,000+ sf; six exam rooms; 900 active patients and 70 daily visits (Kijiji said 3,000 patients; conflict); 1 FT owner physician + 2 PT physicians + 7 PT staff; broker-represented. | 2026-10-26: DealStream mirror; adds staffing. Patient count conflicts with Kijiji. Price still undisclosed.",
+      "dataNotes": "Kijiji ad 1743642905 (posted 2026-09-18). No price. It includes real estate, so it may be over the $301k cap. Kept as an unpriced lead. | 2026-10-26: DealStream mirror (listed Jul 27, 2026): price not disclosed; real estate included; 2,000+ sf; six exam rooms; 900 active patients and 70 daily visits (Kijiji said 3,000 patients; conflict); 1 FT owner physician + 2 PT physicians + 7 PT staff; broker-represented. | 2026-10-26: DealStream mirror; adds staffing. Patient count conflicts with Kijiji. Price still undisclosed. 2026-11-18: Kijiji ad shows \"No Longer Available\" (page returns 200, so earlier checks missed it); set Delisted. DealStream mirror could not be checked (blocked).",
       "sellingReason": null
     },
     {
@@ -9266,8 +9266,8 @@
       "categoryDetail": "Health / massage",
       "summary": "West Edmonton massage parlour operating successfully for 10 years; seller claims steady earnings after takeover. Price not published — contact via text.",
       "createdDate": "2026-09-28",
-      "updatedDate": "2026-09-28",
-      "listingStatus": "Listed",
+      "updatedDate": "2026-11-18",
+      "listingStatus": "Delisted",
       "listingUrls": [
         "https://www.kijiji.ca/v-other-business-industrial/edmonton/massage-business-for-sale/1743703778"
       ],
@@ -9299,7 +9299,7 @@
       "saleType": "Business sale",
       "propertyArrangement": null,
       "clientOrContractNotes": null,
-      "dataNotes": "askingCAD null — price not listed publicly; include as plausible under-cap pending inquiry. Distinct from Camrose $120k massage clinic (out of metro scope) and DealStream massage listing.",
+      "dataNotes": "askingCAD null — price not listed publicly; include as plausible under-cap pending inquiry. Distinct from Camrose $120k massage clinic (out of metro scope) and DealStream massage listing. 2026-11-18: Kijiji ad shows \"No Longer Available\" (page returns 200, so earlier checks missed it); set Delisted.",
       "sellingReason": null
     },
     {
